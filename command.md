@@ -3,17 +3,30 @@
 ## bash
 
 ```shell
-$ code // 打开vscode
-$ google-chrome // 打开chrome浏览器
-$ netease-cloud-music // 打开网易云音乐
-$ ln -s src_addr link_addr // 创建文件夹快捷方式
-$ showkey -a // 输出按键的 ascii 码
-$ nautilus // 打开文件浏览器
-$ xrandr -o <left/right/inverted/normal> // 旋转屏幕
+code // 打开vscode
+google-chrome // 打开chrome浏览器
+netease-cloud-music // 打开网易云音乐
+ln -s src_addr link_addr // 创建文件夹快捷方式
+showkey -a // 输出按键的 ascii 码
+nautilus // 打开文件浏览器
+xrandr -o <left/right/inverted/normal> // 旋转屏幕
+
+// 系统设置：swap 分区和防火墙设置
+swapoff -a // 关闭 swap 分区
+swapon -a // 开启 swap 分区
+ufw status // 查看防火墙信息
+
+// apt 包管理
+apt-mark <auto/manual> <pkgname>
 
 // 将terminal显示的内容保存到txt
 $ script -a <filename>
 $ exit
+
+// 用户操作
+adduser <username> // 创建用户
+deluser --remove-all-files <username> // 删除用户
+su <username> // 切换用户
 
 // 某用户对一个应用添加sudo权限
 sudo groupadd <group-name>
