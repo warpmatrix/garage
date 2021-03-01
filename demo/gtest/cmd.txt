@@ -1,0 +1,1 @@
+g++ -o binfile *.o -lgtest -lpthread
