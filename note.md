@@ -4,6 +4,7 @@
 - [131. Palindrome Partitioning](#131-palindrome-partitioning)
 - [132. Palindrome Partitioning II](#132-palindrome-partitioning-ii)
 - [224 & 227. Basic Calculator](#224--227-basic-calculator)
+- [331. Verify Preorder Serialization of a Binary Tree](#331-verify-preorder-serialization-of-a-binary-tree)
 - [338. Counting Bits](#338-counting-bits)
 - [354. Russian Doll Envelopes](#354-russian-doll-envelopes)
 - [503. Next Greater Element II](#503-next-greater-element-ii)
@@ -27,6 +28,10 @@
 - 227 只有四则运算，没有括号可以使用栈，先计算乘除，加减号将操作数入栈
 
 显式后缀转中缀表达式，大量字符串操作容易超时，需要特别留意（尤其子字符串的传递），使用双栈（数字栈、符号栈）操作无需进行后缀转中缀的操作。
+
+## 331. Verify Preorder Serialization of a Binary Tree
+
+对空位进行计数，本质找规律，每增加一个节点增加两个子节点。
 
 ## 338. Counting Bits
 
