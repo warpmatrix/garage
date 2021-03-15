@@ -1,6 +1,7 @@
 <!-- omit in toc -->
 # Leetcode Note
 
+- [54. Spiral Matrix](#54-spiral-matrix)
 - [131. Palindrome Partitioning](#131-palindrome-partitioning)
 - [132. Palindrome Partitioning II](#132-palindrome-partitioning-ii)
 - [224 & 227. Basic Calculator](#224--227-basic-calculator)
@@ -9,6 +10,10 @@
 - [354. Russian Doll Envelopes](#354-russian-doll-envelopes)
 - [503. Next Greater Element II](#503-next-greater-element-ii)
 - [1047. Remove All Adjacent Duplicates In String](#1047-remove-all-adjacent-duplicates-in-string)
+
+## 54. Spiral Matrix
+
+按层遍历，可以使用四个变量定位矩形坐标
 
 ## 131. Palindrome Partitioning
 
