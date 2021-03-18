@@ -2,6 +2,7 @@
 # Leetcode Note
 
 - [54 & 59. Spiral Matrix](#54--59-spiral-matrix)
+- [115. Distinct Subsequences](#115-distinct-subsequences)
 - [131. Palindrome Partitioning](#131-palindrome-partitioning)
 - [132. Palindrome Partitioning II](#132-palindrome-partitioning-ii)
 - [224 & 227. Basic Calculator](#224--227-basic-calculator)
@@ -14,6 +15,12 @@
 ## 54 & 59. Spiral Matrix
 
 按层遍历，可以使用四个变量定位矩形坐标
+
+## 115. Distinct Subsequences
+
+动态规划，`dp[i][j]` 表示字符串 $s$ 下标 $i$ 开始和目标字符串 $t$ 下标 $j$ 开始的匹配数。若 `s[i] == t[j]`，`dp[i][j] = dp[i + 1][j + 1] + dp[i + 1][j]` 进行匹配或放弃当前匹配；若 `s[i] != t[j]` 只能放弃匹配，`dp[i][j] = dp[i + 1][j]`。时间复杂度 $O(nm)$。
+
+或者可以进行问题转换，先确定字符串 $t$ 中每个字符在 $s$ 中所在的位置，寻找递增序列的个数。`if (locs[t[i]][j] < locs[t[i+1]][k]) dp[i][j] += dp[i+1][k]`，`ans = sum(dp[0][i])`。时间复杂度 $O(n + m\frac{n}{|\Sigma|})$
 
 ## 131. Palindrome Partitioning
 
