@@ -1,0 +1,26 @@
+Script started on 2020-04-11 16:52:12+0800
+]0;warpmatrix@warpmatrix: ~/Documents[01;32mwarpmatrix@warpmatrix[00m:[01;34m~/Documents[00m$ showkey -a
+
+Press any keys - Ctrl-D will terminate this program
+
+^[[A 	 27 0033 0x1b
+ 	 91 0133 0x5b
+ 	 65 0101 0x41
+^[[B 	 27 0033 0x1b
+ 	 91 0133 0x5b
+ 	 66 0102 0x42
+^[[C 	 27 0033 0x1b
+ 	 91 0133 0x5b
+ 	 67 0103 0x43
+^[[D 	 27 0033 0x1b
+ 	 91 0133 0x5b
+ 	 68 0104 0x44
+^? 	127 0177 0x7f
+^H 	  8 0010 0x08
+^Z 	 26 0032 0x1a
+^C 	  3 0003 0x03
+^D 	  4 0004 0x04
+]0;warpmatrix@warpmatrix: ~/Documents[01;32mwarpmatrix@warpmatrix[00m:[01;34m~/Documents[00m$ exit
+exit
+
+Script done on 2020-04-11 16:52:43+0800
