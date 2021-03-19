@@ -2,6 +2,7 @@
 # Leetcode Note
 
 - [54 & 59. Spiral Matrix](#54--59-spiral-matrix)
+- [92. Reverse Linked List II](#92-reverse-linked-list-ii)
 - [115. Distinct Subsequences](#115-distinct-subsequences)
 - [131. Palindrome Partitioning](#131-palindrome-partitioning)
 - [132. Palindrome Partitioning II](#132-palindrome-partitioning-ii)
@@ -15,6 +16,10 @@
 ## 54 & 59. Spiral Matrix
 
 按层遍历，可以使用四个变量定位矩形坐标
+
+## 92. Reverse Linked List II
+
+记录反转链表的前驱、后继，一次遍历实现
 
 ## 115. Distinct Subsequences
 
