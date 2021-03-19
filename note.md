@@ -12,6 +12,7 @@
 - [354. Russian Doll Envelopes](#354-russian-doll-envelopes)
 - [503. Next Greater Element II](#503-next-greater-element-ii)
 - [1047. Remove All Adjacent Duplicates In String](#1047-remove-all-adjacent-duplicates-in-string)
+- [1603. Design Parking System](#1603-design-parking-system)
 
 ## 54 & 59. Spiral Matrix
 
@@ -76,3 +77,7 @@
 ## 1047. Remove All Adjacent Duplicates In String
 
 使用栈（string 也可以作为容器）记录移出相邻重复的字符。主要看清题意，每次移出两个字符。
+
+## 1603. Design Parking System
+
+简单模拟
