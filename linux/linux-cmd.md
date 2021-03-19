@@ -11,6 +11,9 @@ showkey -a // 输出按键的 ascii 码
 nautilus // 打开文件浏览器
 xrandr -o <left/right/inverted/normal> // 旋转屏幕
 
+// 不挂起后台执行指令，并且将标准输出和错误输出进行重定向
+nohup command > myout.file 2>&1 &
+
 // 系统设置：swap 分区和防火墙设置
 swapoff -a // 关闭 swap 分区
 swapon -a // 开启 swap 分区
