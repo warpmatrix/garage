@@ -6,6 +6,7 @@
 - [115. Distinct Subsequences](#115-distinct-subsequences)
 - [131. Palindrome Partitioning](#131-palindrome-partitioning)
 - [132. Palindrome Partitioning II](#132-palindrome-partitioning-ii)
+- [150. Evaluate Reverse Polish Notation](#150-evaluate-reverse-polish-notation)
 - [224 & 227. Basic Calculator](#224--227-basic-calculator)
 - [331. Verify Preorder Serialization of a Binary Tree](#331-verify-preorder-serialization-of-a-binary-tree)
 - [338. Counting Bits](#338-counting-bits)
@@ -39,6 +40,13 @@
 ## 132. Palindrome Partitioning II
 
 在 [131](#131-palindrome-partitioning) 的判断字串回文的基础上，使用动态规划。若字串 [i, j] 为回文串，则 $minCut[j] = \min(minCut[i] + 1)$。枚举所有可能的前缀 i，时间复杂度为 O(n^2)。
+
+## 150. Evaluate Reverse Polish Notation
+
+注意负号的存在，需要进行特别处理：
+
+- go 使用函数 `num, err := strconv.Atoi(str)`
+- cpp 使用字符串流 `std::stringstream ss; ss << str; ss >> num;`
 
 ## 224 & 227. Basic Calculator
 
