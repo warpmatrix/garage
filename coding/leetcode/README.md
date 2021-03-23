@@ -11,6 +11,7 @@
 - [224 & 227. Basic Calculator](#224--227-basic-calculator)
 - [331. Verify Preorder Serialization of a Binary Tree](#331-verify-preorder-serialization-of-a-binary-tree)
 - [338. Counting Bits](#338-counting-bits)
+- [341. Flatten Nested List Iterator](#341-flatten-nested-list-iterator)
 - [354. Russian Doll Envelopes](#354-russian-doll-envelopes)
 - [503. Next Greater Element II](#503-next-greater-element-ii)
 - [1047. Remove All Adjacent Duplicates In String](#1047-remove-all-adjacent-duplicates-in-string)
@@ -71,6 +72,10 @@
 - `bits[i] = bits[i − highBit] + 1`
 - `bits[x] = bits[x >> 1] + (x & 1)`
 - `bits[x] = bits[x & (x − 1)] + 1`
+
+## 341. Flatten Nested List Iterator
+
+递归实现嵌套扁平化
 
 ## 354. Russian Doll Envelopes
 
