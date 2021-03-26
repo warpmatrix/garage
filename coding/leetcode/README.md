@@ -2,6 +2,7 @@
 # Leetcode Note
 
 - [54 & 59. Spiral Matrix](#54--59-spiral-matrix)
+- [82 & 83. Remove Duplicates from Sorted List](#82--83-remove-duplicates-from-sorted-list)
 - [92. Reverse Linked List II](#92-reverse-linked-list-ii)
 - [115. Distinct Subsequences](#115-distinct-subsequences)
 - [131. Palindrome Partitioning](#131-palindrome-partitioning)
@@ -13,6 +14,7 @@
 - [338. Counting Bits](#338-counting-bits)
 - [341. Flatten Nested List Iterator](#341-flatten-nested-list-iterator)
 - [354. Russian Doll Envelopes](#354-russian-doll-envelopes)
+- [456. 132 Pattern](#456-132-pattern)
 - [503. Next Greater Element II](#503-next-greater-element-ii)
 - [1047. Remove All Adjacent Duplicates In String](#1047-remove-all-adjacent-duplicates-in-string)
 - [1603. Design Parking System](#1603-design-parking-system)
@@ -20,6 +22,12 @@
 ## 54 & 59. Spiral Matrix
 
 按层遍历，可以使用四个变量定位矩形坐标
+
+## 82 & 83. Remove Duplicates from Sorted List
+
+- 82: 使用区间删除，因为一个区间需要删除 $n+1$ 个元素，$n$ 为区间中相等关系数量。
+- 83: 一个相等的元素对应一个删除元素，对每个元素进行判断删除即可
+- 另外需要注意空指针，可以使用 dump 记录头节点的信息。
 
 ## 92. Reverse Linked List II
 
@@ -87,6 +95,12 @@
 - 拓展到 $d$ 维的情况，对前 (d-1) 维的数据进行升序排序，最后一维降序排序
   - 对于固定的 $i$，$\forall j$ 满足 $a_i < a_j$ 都排在 $i$ 前面
   - 时间复杂度 $O(n^2k)$，[CDQ 分治](https://oi-wiki.org/misc/cdq-divide/)可以降低时间复杂度
+
+## 456. 132 Pattern
+
+- 枚举 3：维护左区间最小值，维护右区间次小值，时间复杂度 $O(n\log n)$
+- 枚举 1：从右向左枚举，对于每一个右区间最大值 3，取区间次小值作为 2，使用单调递减栈维护右区间的可能最大值，时间复杂度 $O(n)$
+- 枚举 2：取左区间的尽可能小值作为 1，尽可能大值作为 3，其中 `&1 < &3`
 
 ## 503. Next Greater Element II
 
