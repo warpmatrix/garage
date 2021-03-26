@@ -11,6 +11,9 @@ showkey -a // 输出按键的 ascii 码
 nautilus // 打开文件浏览器
 xrandr -o <left/right/inverted/normal> // 旋转屏幕
 
+// 通过修改设备文件，控制硬件
+echo 593 | sudo tee /sys/class/backlight/intel_backlight/brightness
+
 // 不挂起后台执行指令，并且将标准输出和错误输出进行重定向
 nohup command > myout.file 2>&1 &
 
