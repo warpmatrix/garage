@@ -2,6 +2,7 @@
 # Leetcode Note
 
 - [54 & 59. Spiral Matrix](#54--59-spiral-matrix)
+- [61. Rotate List](#61-rotate-list)
 - [82 & 83. Remove Duplicates from Sorted List](#82--83-remove-duplicates-from-sorted-list)
 - [92. Reverse Linked List II](#92-reverse-linked-list-ii)
 - [115. Distinct Subsequences](#115-distinct-subsequences)
@@ -22,6 +23,12 @@
 ## 54 & 59. Spiral Matrix
 
 按层遍历，可以使用四个变量定位矩形坐标
+
+## 61. Rotate List
+
+新链表的最后一个节点为原链表的第 (n - 1) - (k mod n) 个节点（从 00 开始计数）
+
+最坏情况下，遍历链表两次，时间复杂度 $O(n)$
 
 ## 82 & 83. Remove Duplicates from Sorted List
 
