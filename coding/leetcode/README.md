@@ -9,6 +9,7 @@
 - [131. Palindrome Partitioning](#131-palindrome-partitioning)
 - [132. Palindrome Partitioning II](#132-palindrome-partitioning-ii)
 - [150. Evaluate Reverse Polish Notation](#150-evaluate-reverse-polish-notation)
+- [173. Binary Search Tree Iterator](#173-binary-search-tree-iterator)
 - [191. Number of 1 Bits](#191-number-of-1-bits)
 - [224 & 227. Basic Calculator](#224--227-basic-calculator)
 - [331. Verify Preorder Serialization of a Binary Tree](#331-verify-preorder-serialization-of-a-binary-tree)
@@ -64,6 +65,10 @@
 
 - go 使用函数 `num, err := strconv.Atoi(str)`
 - cpp 使用字符串流 `std::stringstream ss; ss << str; ss >> num;`
+
+## 173. Binary Search Tree Iterator
+
+迭代做法：使用栈和一个指针维护递归的信息
 
 ## 191. Number of 1 Bits
 
