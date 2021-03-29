@@ -10,6 +10,7 @@
 - [132. Palindrome Partitioning II](#132-palindrome-partitioning-ii)
 - [150. Evaluate Reverse Polish Notation](#150-evaluate-reverse-polish-notation)
 - [173. Binary Search Tree Iterator](#173-binary-search-tree-iterator)
+- [190. Reverse Bits](#190-reverse-bits)
 - [191. Number of 1 Bits](#191-number-of-1-bits)
 - [224 & 227. Basic Calculator](#224--227-basic-calculator)
 - [331. Verify Preorder Serialization of a Binary Tree](#331-verify-preorder-serialization-of-a-binary-tree)
@@ -69,6 +70,10 @@
 ## 173. Binary Search Tree Iterator
 
 迭代做法：使用栈和一个指针维护递归的信息
+
+## 190. Reverse Bits
+
+位分治算法：使用掩码对数字进行分组，按 2 的幂次进行分组交换得到数字的反转
 
 ## 191. Number of 1 Bits
 
