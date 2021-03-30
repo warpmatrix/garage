@@ -3,6 +3,7 @@
 
 - [54 & 59. Spiral Matrix](#54--59-spiral-matrix)
 - [61. Rotate List](#61-rotate-list)
+- [74. Search a 2D Matrix](#74-search-a-2d-matrix)
 - [82 & 83. Remove Duplicates from Sorted List](#82--83-remove-duplicates-from-sorted-list)
 - [92. Reverse Linked List II](#92-reverse-linked-list-ii)
 - [115. Distinct Subsequences](#115-distinct-subsequences)
@@ -13,12 +14,14 @@
 - [190. Reverse Bits](#190-reverse-bits)
 - [191. Number of 1 Bits](#191-number-of-1-bits)
 - [224 & 227. Basic Calculator](#224--227-basic-calculator)
+- [240. Search a 2D Matrix II](#240-search-a-2d-matrix-ii)
 - [331. Verify Preorder Serialization of a Binary Tree](#331-verify-preorder-serialization-of-a-binary-tree)
 - [338. Counting Bits](#338-counting-bits)
 - [341. Flatten Nested List Iterator](#341-flatten-nested-list-iterator)
 - [354. Russian Doll Envelopes](#354-russian-doll-envelopes)
 - [456. 132 Pattern](#456-132-pattern)
 - [503. Next Greater Element II](#503-next-greater-element-ii)
+- [525. Contiguous Array](#525-contiguous-array)
 - [1047. Remove All Adjacent Duplicates In String](#1047-remove-all-adjacent-duplicates-in-string)
 - [1603. Design Parking System](#1603-design-parking-system)
 
@@ -31,6 +34,12 @@
 新链表的最后一个节点为原链表的第 (n - 1) - (k mod n) 个节点（从 00 开始计数）
 
 最坏情况下，遍历链表两次，时间复杂度 $O(n)$
+
+## 74. Search a 2D Matrix
+
+将二维矩阵打散为一维数组，二分查找；使用一维下标映射到矩阵，二分查找。时间复杂度：$O(\log m + \log n)$
+
+- 区别：[240. Search a 2D Matrix II](#240-search-a-2d-matrix-ii)
 
 ## 82 & 83. Remove Duplicates from Sorted List
 
@@ -86,6 +95,10 @@
 
 显式后缀转中缀表达式，大量字符串操作容易超时，需要特别留意（尤其子字符串的传递），使用双栈（数字栈、符号栈）操作无需进行后缀转中缀的操作。
 
+## 240. Search a 2D Matrix II
+
+从左下角出发，或从右上角出发形成一棵二叉树，时间复杂度 $O(m+n)$
+
 ## 331. Verify Preorder Serialization of a Binary Tree
 
 对空位进行计数，本质找规律，每增加一个节点增加两个子节点。
@@ -100,7 +113,7 @@
 
 ## 341. Flatten Nested List Iterator
 
-递归实现嵌套扁平化
+递归实现嵌套扁平化；或者使用栈维护递归信息
 
 ## 354. Russian Doll Envelopes
 
@@ -122,6 +135,10 @@
 ## 503. Next Greater Element II
 
 单调栈维护序列的单调性，两个循环实现循环队列的需求，也可以在第一个循环增加循环长度下标取模实现
+
+## 525. Contiguous Array
+
+将 [0, 1] 映射到 [-1, 1]，使用前缀和统计 0 和 1 出现的次数。前缀和相同意味着区间内 0 和 1 的个数相等。使用哈希维护区间最大值和最小值，返回区间的最大值。
 
 ## 1047. Remove All Adjacent Duplicates In String
 
