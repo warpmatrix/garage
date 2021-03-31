@@ -22,6 +22,10 @@
   - [定义二进制数](#定义二进制数)
   - [字段位](#字段位)
   - [linux-fork 函数](#linux-fork-函数)
+  - [`malloc` 与 `free` 的行为定义](#malloc-与-free-的行为定义)
+  - [全局变量初始化](#全局变量初始化)
+  - [预定义](#预定义)
+  - [隐式转换优先级](#隐式转换优先级)
 - [C plusplus篇](#c-plusplus篇)
   - [引用的用法](#引用的用法)
   - [在函数中传递函数形参](#在函数中传递函数形参)
@@ -30,6 +34,7 @@
   - [delete不方便之处](#delete不方便之处)
   - [c++函数引用](#c函数引用)
   - [c++ 的变长数组](#c-的变长数组)
+  - [STL sort](#stl-sort)
 
 ## C语言篇
 
@@ -363,6 +368,49 @@ void *runner(void *param) {
 }
 ```
 
+### `malloc` 与 `free` 的行为定义
+
+- 针对 `malloc` 无法申请内存的 `NULL` 情况，`free` 无行为
+  - 写 `NULL` 操作导致 seg fault
+- `free` 接受的指针和 `malloc` 获得的内存指针必须相同，否则产生 RE
+- 避免动态内存遗漏回收
+
+### 全局变量初始化
+
+全局变量默认零值初始化，对全局变量进行初始化只能使用常量，哪怕是常量变量也不行
+
+```c
+const int num = 12;
+// compile error
+// int copy = num;
+```
+
+### 预定义
+
+输出对应的名称，通常用于 debug 等环境
+
+- `__func__`
+- `__FILE__`
+- `__LINE__`
+- `__DATE__`
+- `__TIME__`
+- `__STDC__`
+
+### 隐式转换优先级
+
+隐式转换：优先转换为无符号数字
+
+```c
+#include <stdio.h>
+
+int main(int argc, char const *argv[]) {
+    if (-1 > 0u) {
+        printf("surprise\n");
+    }
+    return 0;
+}
+```
+
 ## C plusplus篇
 
 ### 引用的用法
@@ -502,3 +550,7 @@ int main(int argc, char const *argv[]) {
     return 0;
 }
 ```
+
+### STL sort
+
+`std::sort` 封装了快排，不是一个稳定的排序，保证稳定性需要使用 `std::stable_sort`
