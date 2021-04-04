@@ -1,10 +1,13 @@
 <!-- omit in toc -->
 # Leetcode Note
 
+思考如何切题：先动笔，再打码
+
 - [54 & 59. Spiral Matrix](#54--59-spiral-matrix)
 - [61. Rotate List](#61-rotate-list)
 - [74. Search a 2D Matrix](#74-search-a-2d-matrix)
 - [82 & 83. Remove Duplicates from Sorted List](#82--83-remove-duplicates-from-sorted-list)
+- [90. Subsets II](#90-subsets-ii)
 - [92. Reverse Linked List II](#92-reverse-linked-list-ii)
 - [115. Distinct Subsequences](#115-distinct-subsequences)
 - [131. Palindrome Partitioning](#131-palindrome-partitioning)
@@ -22,8 +25,12 @@
 - [456. 132 Pattern](#456-132-pattern)
 - [503. Next Greater Element II](#503-next-greater-element-ii)
 - [525. Contiguous Array](#525-contiguous-array)
+- [781. Rabbits in Forest](#781-rabbits-in-forest)
+- [1006. Clumsy Factorial](#1006-clumsy-factorial)
 - [1047. Remove All Adjacent Duplicates In String](#1047-remove-all-adjacent-duplicates-in-string)
+- [1143. Longest Common Subsequence](#1143-longest-common-subsequence)
 - [1603. Design Parking System](#1603-design-parking-system)
+- [面试题 17.21. Volume of Histogram LCCI](#面试题-1721-volume-of-histogram-lcci)
 
 ## 54 & 59. Spiral Matrix
 
@@ -46,6 +53,15 @@
 - 82: 使用区间删除，因为一个区间需要删除 $n+1$ 个元素，$n$ 为区间中相等关系数量。
 - 83: 一个相等的元素对应一个删除元素，对每个元素进行判断删除即可
 - 另外需要注意空指针，可以使用 dump 记录头节点的信息。
+
+## 90. Subsets II
+
+dfs，可以统计数字出现次数，减少递归深度；也可以使用 bool 值记录是否使用了当前数字。
+
+需要注意 go 中的切片是指针赋值，进行赋值需要使用深复制
+
+- `ret = append(ret, append([]int(nil), cur...))`
+  - 区别 `ret = append(ret, cur)`
 
 ## 92. Reverse Linked List II
 
@@ -140,10 +156,40 @@
 
 将 [0, 1] 映射到 [-1, 1]，使用前缀和统计 0 和 1 出现的次数。前缀和相同意味着区间内 0 和 1 的个数相等。使用哈希维护区间最大值和最小值，返回区间的最大值。
 
+## 781. Rabbits in Forest
+
+贪心，使用 `answers[i] + 1` 对相同的 `answers[i]` 进行分组
+
+## 1006. Clumsy Factorial
+
+利用数学方法找规律，相邻项可以相互约掉：
+
+$N - 3 \approx \frac{(N-4)*(N-5)}{N-6}$
+
 ## 1047. Remove All Adjacent Duplicates In String
 
 使用栈（string 也可以作为容器）记录移出相邻重复的字符。主要看清题意，每次移出两个字符。
 
+## 1143. Longest Common Subsequence
+
+经典动态规划
+
+$$
+dp[i][j] = \begin{cases}
+  dp[i - 1][j - 1] + 1, & text1[i] == text2[j] \\
+  max(dp[i - 1][j], dp[i][j - 1]), & text1[i] != text2[j] \\
+\end{cases}
+$$
+
 ## 1603. Design Parking System
 
 简单模拟
+
+## 面试题 17.21. Volume of Histogram LCCI
+
+`ans[i] += min(lmax[i], rmax[i]) - h[i]`
+
+需要注意的点：
+
+- `lmax`/`rmax` 单调递增/递减
+- 若 `lmax[i] > rmax[j]` 则，$\exist nj < j, rmax[nj] \geq lmax[i]$，可以适用双指针
