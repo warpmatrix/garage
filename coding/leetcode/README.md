@@ -7,6 +7,7 @@
 - [61. Rotate List](#61-rotate-list)
 - [74. Search a 2D Matrix](#74-search-a-2d-matrix)
 - [82 & 83. Remove Duplicates from Sorted List](#82--83-remove-duplicates-from-sorted-list)
+- [88. Merge Sorted Array](#88-merge-sorted-array)
 - [90. Subsets II](#90-subsets-ii)
 - [92. Reverse Linked List II](#92-reverse-linked-list-ii)
 - [115. Distinct Subsequences](#115-distinct-subsequences)
@@ -53,6 +54,10 @@
 - 82: 使用区间删除，因为一个区间需要删除 $n+1$ 个元素，$n$ 为区间中相等关系数量。
 - 83: 一个相等的元素对应一个删除元素，对每个元素进行判断删除即可
 - 另外需要注意空指针，可以使用 dump 记录头节点的信息。
+
+## 88. Merge Sorted Array
+
+使用逆向指针实现 $O(1)$ 的空间复杂度
 
 ## 90. Subsets II
 
