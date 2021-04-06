@@ -6,6 +6,7 @@
 - [54 & 59. Spiral Matrix](#54--59-spiral-matrix)
 - [61. Rotate List](#61-rotate-list)
 - [74. Search a 2D Matrix](#74-search-a-2d-matrix)
+- [80. Remove Duplicates from Sorted Array II](#80-remove-duplicates-from-sorted-array-ii)
 - [82 & 83. Remove Duplicates from Sorted List](#82--83-remove-duplicates-from-sorted-list)
 - [88. Merge Sorted Array](#88-merge-sorted-array)
 - [90. Subsets II](#90-subsets-ii)
@@ -48,6 +49,10 @@
 将二维矩阵打散为一维数组，二分查找；使用一维下标映射到矩阵，二分查找。时间复杂度：$O(\log m + \log n)$
 
 - 区别：[240. Search a 2D Matrix II](#240-search-a-2d-matrix-ii)
+
+## 80. Remove Duplicates from Sorted Array II
+
+双指针简单模拟，`nums[slow - 2] != nums[fast]` 时，添加元素
 
 ## 82 & 83. Remove Duplicates from Sorted List
 
