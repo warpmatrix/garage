@@ -17,12 +17,12 @@ emit, elite:
 - emit v. 发射
 - elite n. 精英
 
-qualify, quantify：
+qualify, quantify:
 
 - qualify v. 具有资格
 - quantify v. 量化
 
-despise, despite：
+despise, despite:
 
 - despise v. 蔑视
 - despite prep. 尽管
@@ -604,13 +604,17 @@ scarce, scare, sacred:
 - scare adj. 害怕的
 - sacred adj. 神圣的，庄严的
 
-expire, death, perish:
+expire, decease, perish:
 
-
+- expire 委婉用词，断气
+- decease 正式用词，去世
+- perish 书面用语，灭亡，丧生
 
 stuck, stab, poke:
 
-
+- stuck 卡住，无法动弹
+- stab 刺戳，锐物穿透
+- poke 刺，捅
 
 violet, violent:
 
@@ -682,3 +686,20 @@ spine, spin:
 
 - spine n. 脊柱
 - spin v&n. 旋转 v. 织网
+
+shatter, scatter:
+
+- shatter v. 破碎
+- scatter v. 撒，分散
+
+overturn, overthrow:
+
+- overturn v. 倾覆，撤销
+- overthrow v. 推翻，颠覆
+
+furious, indignant, irritate:
+
+- furious 狂怒的
+- indignant 愤懑不平
+- irritate 失去耐心而发怒
+
