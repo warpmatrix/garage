@@ -7,6 +7,7 @@
 - [61. Rotate List](#61-rotate-list)
 - [74. Search a 2D Matrix](#74-search-a-2d-matrix)
 - [80. Remove Duplicates from Sorted Array II](#80-remove-duplicates-from-sorted-array-ii)
+- [81. Search in Rotated Sorted Array II](#81-search-in-rotated-sorted-array-ii)
 - [82 & 83. Remove Duplicates from Sorted List](#82--83-remove-duplicates-from-sorted-list)
 - [88. Merge Sorted Array](#88-merge-sorted-array)
 - [90. Subsets II](#90-subsets-ii)
@@ -15,6 +16,7 @@
 - [131. Palindrome Partitioning](#131-palindrome-partitioning)
 - [132. Palindrome Partitioning II](#132-palindrome-partitioning-ii)
 - [150. Evaluate Reverse Polish Notation](#150-evaluate-reverse-polish-notation)
+- [153. Find Minimum in Rotated Sorted Array](#153-find-minimum-in-rotated-sorted-array)
 - [173. Binary Search Tree Iterator](#173-binary-search-tree-iterator)
 - [190. Reverse Bits](#190-reverse-bits)
 - [191. Number of 1 Bits](#191-number-of-1-bits)
@@ -53,6 +55,12 @@
 ## 80. Remove Duplicates from Sorted Array II
 
 双指针简单模拟，`nums[slow - 2] != nums[fast]` 时，添加元素
+
+## 81. Search in Rotated Sorted Array II
+
+存在重复元素不能使用二分法找到旋转数组的旋转位置，只能线性寻找然后使用二分，倒不如直接线性寻找
+
+- 对比 [153 没有重复元素的情况](#153-find-minimum-in-rotated-sorted-array)
 
 ## 82 & 83. Remove Duplicates from Sorted List
 
@@ -101,6 +109,10 @@ dfs，可以统计数字出现次数，减少递归深度；也可以使用 bool
 
 - go 使用函数 `num, err := strconv.Atoi(str)`
 - cpp 使用字符串流 `std::stringstream ss; ss << str; ss >> num;`
+
+## 153. Find Minimum in Rotated Sorted Array
+
+旋转数组无重复元素可以直接二分查找旋转位置
 
 ## 173. Binary Search Tree Iterator
 
