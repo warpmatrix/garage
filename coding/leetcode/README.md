@@ -16,7 +16,7 @@
 - [131. Palindrome Partitioning](#131-palindrome-partitioning)
 - [132. Palindrome Partitioning II](#132-palindrome-partitioning-ii)
 - [150. Evaluate Reverse Polish Notation](#150-evaluate-reverse-polish-notation)
-- [153. Find Minimum in Rotated Sorted Array](#153-find-minimum-in-rotated-sorted-array)
+- [153 & 154. Find Minimum in Rotated Sorted Array](#153--154-find-minimum-in-rotated-sorted-array)
 - [173. Binary Search Tree Iterator](#173-binary-search-tree-iterator)
 - [190. Reverse Bits](#190-reverse-bits)
 - [191. Number of 1 Bits](#191-number-of-1-bits)
@@ -110,9 +110,11 @@ dfs，可以统计数字出现次数，减少递归深度；也可以使用 bool
 - go 使用函数 `num, err := strconv.Atoi(str)`
 - cpp 使用字符串流 `std::stringstream ss; ss << str; ss >> num;`
 
-## 153. Find Minimum in Rotated Sorted Array
+## 153 & 154. Find Minimum in Rotated Sorted Array
 
-旋转数组无重复元素可以直接二分查找旋转位置
+- 153：旋转数组无重复元素可以直接二分查找旋转位置
+- 154：左边数组的元素大于右边数组的元素，使用二分进行查找
+  - 最差情况 $O(n)$ 也可以使用线性搜索
 
 ## 173. Binary Search Tree Iterator
 
