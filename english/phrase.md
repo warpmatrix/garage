@@ -51,3 +51,6 @@
 - sput sb into action 鞭策..采取行动
 - check in 办理（登机、入住、挂号）手续
 - trust fund 信托基金
+- make every effort 尽一切努力
+- bread and butter 生计
+- step forward v. 前进
