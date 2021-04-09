@@ -447,12 +447,14 @@ trim, rim, fringe, verge, edge:
 - verge 
 - edge 
 
-stride, stripe, strive, thrive:
+stride, stripe, strive, thrive, strap, strip:
 
 - stride n. 步伐 v. 大步走
-- stripe n. 条纹
+- stripe n. 条纹，种类
 - strive v. 努力
 - thrive v. 繁荣
+- strap n. 带，皮带 v. 用带子扣住，包扎
+- strip n. 条，脱衣舞 v. 脱衣，剥夺
 
 latter, letter, litter:
 
@@ -529,11 +531,6 @@ census, censor:
 
 - census n. 人口普查
 - censor v. 审查
-
-strap, strip:
-
-- strap n. 带，皮带 v. 用带子扣住，包扎
-- strip n. 条，脱衣舞 v. 脱衣，剥夺
 
 patrol, petrol:
 
@@ -703,3 +700,7 @@ furious, indignant, irritate:
 - indignant 愤懑不平
 - irritate 失去耐心而发怒
 
+inherent, inherit:
+
+- inherent adj. 固有的，内在的
+- inherit v. 继承
