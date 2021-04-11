@@ -55,3 +55,17 @@
 - bread and butter 生计
 - step forward v. 前进
 - be in a good mood 心情好
+- be jealous of 对..嫉妒
+- put up 忍受，留宿，搭建，张贴，举起
+  - put up with their smoking
+  - put up at hotel
+- in (the direction)
+  - head in the wrong direction
+  - in the rear
+
+## Writing
+
+- be of one's opinion 同意..的看法
+- in favor of one's opinion 同意..的看法
+
+hardly 倒装句
