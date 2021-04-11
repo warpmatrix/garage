@@ -310,11 +310,12 @@ restrain, repress:
 - restrain v. 控制，抑制
 - repress v. 镇压，压抑
 
-coward, crowd, crow:
+coward, crowd, crow, crawl:
 
 - coward n. 懦夫
 - crowd n. 人群 v. 聚集
 - crow n. 乌鸦 v. 啼叫
+- crawl v&n. 匍匐，爬行
 
 tempt, attempt:
 
@@ -477,10 +478,12 @@ dissolve, resolve:
 - dissolve v. 溶解，解散，消失
 - resolve v. 决心，分解
 
-dedicate, delicate:
+dedicate, delicate, devote, denote:
 
 - dedicate v. 奉献
 - delicate adj. 精致的，脆弱的
+- devote v. 捐献
+- denote v. 表示
 
 critic, criticism:
 
@@ -654,10 +657,11 @@ summon, solemn:
 - summon v. 召唤，传唤
 - solemn adj. 庄严的，郑重的
 
-urban, urgent:
+urban, urgent, agent:
 
 - urban adj. 城市的
 - urgent adj. 紧急的
+- agent n. 中介，代理人，原动力
 
 ankle, elbow:
 
@@ -724,3 +728,67 @@ ready, forthcoming:
 
 - ready adj. 乐意的，手头现成的，准备就绪
 - forthcoming adj. 乐意帮助的，即将到来的
+
+guess, guest, ghost:
+
+- guess v&n. 猜测
+- guest n. 客人
+- ghost n. 鬼魂，痕迹，一点点
+
+premier, premise:
+
+- premier n. 总理，首相 adj. 首要的，最好的
+- premise n. 前提，假定
+
+chest, chess:
+
+- chest n. 胸，柜子
+- chess n. 棋
+
+shelf, shield:
+
+- shelf n. 架子，搁板
+- shield n. 盾，防护罩 v. 防护
+
+object, objective, objection:
+
+- object n. 物体，目标，对象 v. 不同意，反对
+- objective adj. 客观的 n. 目标，目的
+- objection n. 反对（的理由）
+
+subject, subjective:
+
+- subject n. 主题，科目，课程 adj&v. 受..影响，服从于
+- subjective adj. 主观的，主格
+
+campus, canteen:
+
+- campus n. 校园
+- canteen n. 食堂，小卖部，水壶
+
+tuck, tub:
+
+- tuck v. 塞进 n. 褶皱
+- tub n. 浴缸，盆桶，饭盒
+
+disease, disaster:
+
+- disease n. 疾病，不健全，弊端
+- disaster n. 灾难
+
+pine, pie:
+
+- pine n. 松（树） v. 难过，憔悴，思念
+- pie n. 馅饼
+
+rug, carpet:
+
+- rug n. 小地毯，围毯
+- blanket n. 毛毯（棉被）
+- carpet n. 地毯
+
+feast, feasible, fist:
+
+- feast n. 宴会，节日 v. 尽情享用
+- feasible adj. 可行的，可能的，可用的
+- fist n. 拳头
