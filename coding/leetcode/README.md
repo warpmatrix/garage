@@ -23,6 +23,7 @@
 - [224 & 227. Basic Calculator](#224--227-basic-calculator)
 - [240. Search a 2D Matrix II](#240-search-a-2d-matrix-ii)
 - [263. Ugly Number](#263-ugly-number)
+- [264. Ugly Number II](#264-ugly-number-ii)
 - [331. Verify Preorder Serialization of a Binary Tree](#331-verify-preorder-serialization-of-a-binary-tree)
 - [338. Counting Bits](#338-counting-bits)
 - [341. Flatten Nested List Iterator](#341-flatten-nested-list-iterator)
@@ -143,6 +144,16 @@ dfs，可以统计数字出现次数，减少递归深度；也可以使用 bool
 ## 263. Ugly Number
 
 简单模拟，使用循环去除因子，判断是否为 1
+
+## 264. Ugly Number II
+
+动态规划，当前最小的丑数由可能的三个丑数乘对应的因子得到
+
+```go
+p2, p3, p5 := 0, 0, 0
+uglyNums[i] = min(uglyNums[p2]*2, uglyNums[p3]*3, uglyNums[p5]*5)
+if uglyNums[i] == uglyNums[p] { p++ }
+```
 
 ## 331. Verify Preorder Serialization of a Binary Tree
 
