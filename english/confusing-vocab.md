@@ -704,3 +704,23 @@ inherent, inherit:
 
 - inherent adj. 固有的，内在的
 - inherit v. 继承
+
+fork, folk:
+
+- fork n. 叉子，分叉
+- folk adj. 民间的，民俗的 n. 亲属，人们
+
+typist, typewriter:
+
+- typist n. 打字员
+- typewriter n. 打字机
+
+denote, donate:
+
+- denote v. 表示
+- donate v. 捐赠
+
+ready, forthcoming:
+
+- ready adj. 乐意的，手头现成的，准备就绪
+- forthcoming adj. 乐意帮助的，即将到来的

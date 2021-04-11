@@ -54,3 +54,4 @@
 - make every effort 尽一切努力
 - bread and butter 生计
 - step forward v. 前进
+- be in a good mood 心情好
