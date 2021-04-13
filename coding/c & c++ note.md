@@ -44,7 +44,7 @@
 
 int main(int argc, char const *argv[]) {
     char str[MAXLEN];
-    scanf("%[^\n]", str);
+    scanf("%[^\n]%*c", str);
     printf("%s\n", str);
     return 0;
 }
