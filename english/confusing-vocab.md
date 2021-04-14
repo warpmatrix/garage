@@ -792,3 +792,29 @@ feast, feasible, fist:
 - feast n. 宴会，节日 v. 尽情享用
 - feasible adj. 可行的，可能的，可用的
 - fist n. 拳头
+
+resource, tactic:
+
+- tactic n. 谋略
+- resource n. 应对方法，谋略，资源
+
+smog, smuggle:
+
+- smog n. 烟雾
+- smuggle v. 走私，偷运
+
+press, depress:
+
+- press n. 报社，出版社 v. 按压（具体）
+- depress v. 沮丧，削弱，压低（抽象）
+
+counter, retort, resort:
+
+- counter n. 柜台，计数器 adv. 相反地 v. 反驳，抵消
+- retort v. 反驳
+- resort v&n. 诉诸 n. 常去之地
+
+reliance, alliance:
+
+- reliance n. 依靠，依赖
+- alliance n. 联盟，同盟
