@@ -18,8 +18,10 @@
 - [150. Evaluate Reverse Polish Notation](#150-evaluate-reverse-polish-notation)
 - [153 & 154. Find Minimum in Rotated Sorted Array](#153--154-find-minimum-in-rotated-sorted-array)
 - [173. Binary Search Tree Iterator](#173-binary-search-tree-iterator)
+- [179. Largest Number](#179-largest-number)
 - [190. Reverse Bits](#190-reverse-bits)
 - [191. Number of 1 Bits](#191-number-of-1-bits)
+- [208. Implement Trie (Prefix Tree)](#208-implement-trie-prefix-tree)
 - [224 & 227. Basic Calculator](#224--227-basic-calculator)
 - [240. Search a 2D Matrix II](#240-search-a-2d-matrix-ii)
 - [263. Ugly Number](#263-ugly-number)
@@ -32,6 +34,7 @@
 - [503. Next Greater Element II](#503-next-greater-element-ii)
 - [525. Contiguous Array](#525-contiguous-array)
 - [781. Rabbits in Forest](#781-rabbits-in-forest)
+  - [783. Minimum Distance Between BST Nodes](#783-minimum-distance-between-bst-nodes)
 - [1006. Clumsy Factorial](#1006-clumsy-factorial)
 - [1047. Remove All Adjacent Duplicates In String](#1047-remove-all-adjacent-duplicates-in-string)
 - [1143. Longest Common Subsequence](#1143-longest-common-subsequence)
@@ -122,6 +125,10 @@ dfs，可以统计数字出现次数，减少递归深度；也可以使用 bool
 
 迭代做法：使用栈和一个指针维护递归的信息
 
+## 179. Largest Number
+
+拼接数最大，使用两个 segment 进行拼接比较，算法课已经做过一次了 orz
+
 ## 190. Reverse Bits
 
 位分治算法：使用掩码对数字进行分组，按 2 的幂次进行分组交换得到数字的反转
@@ -129,6 +136,14 @@ dfs，可以统计数字出现次数，减少递归深度；也可以使用 bool
 ## 191. Number of 1 Bits
 
 相关题目：[338. Counting Bits](#338-counting-bits)
+
+## 208. Implement Trie (Prefix Tree)
+
+简单模拟：使用前缀和表示搜索词
+
+优化：使用循环表示递归，本题没有必要使用递归
+
+- 发现自己非递归实现树的算法是一个弱项
 
 ## 224 & 227. Basic Calculator
 
@@ -199,6 +214,14 @@ if uglyNums[i] == uglyNums[p] { p++ }
 ## 781. Rabbits in Forest
 
 贪心，使用 `answers[i] + 1` 对相同的 `answers[i]` 进行分组
+
+### 783. Minimum Distance Between BST Nodes
+
+中序遍历寻找相邻数字的最小差：
+
+- 实现过程：实现中序遍历、中序遍历完成相邻元素的比较（分开实现，各司其职），特别是用栈实现的方法
+- 使用值域以外的值区分第一次遍历
+- 使用栈完成中序遍历
 
 ## 1006. Clumsy Factorial
 
