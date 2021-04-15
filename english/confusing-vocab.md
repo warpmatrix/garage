@@ -448,7 +448,7 @@ trim, rim, fringe, verge, edge:
 - verge 
 - edge 
 
-stride, stripe, strive, thrive, strap, strip:
+stride, stripe, strive, thrive, strap, strip, stroke:
 
 - stride n. 步伐 v. 大步走
 - stripe n. 条纹，种类
@@ -456,6 +456,7 @@ stride, stripe, strive, thrive, strap, strip:
 - thrive v. 繁荣
 - strap n. 带，皮带 v. 用带子扣住，包扎
 - strip n. 条，脱衣舞 v. 脱衣，剥夺
+- stroke n. 中风，划桨，击，比划 n&v. 抚摸
 
 latter, letter, litter:
 
@@ -818,3 +819,19 @@ reliance, alliance:
 
 - reliance n. 依靠，依赖
 - alliance n. 联盟，同盟
+
+micro-, macro-:
+
+- micro- 微观前缀
+- macro- 宏观前缀
+
+depress, distress:
+
+- depress v. 沮丧，削弱，压低
+- distress v&n. 痛苦，忧虑，窘迫，危难
+
+relative, relation, relationship:
+
+- relative n. 亲戚 adj. 相关的
+- relation n. 关系，亲戚
+- relationship n. 关系，关联
