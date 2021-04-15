@@ -22,6 +22,7 @@
 - [190. Reverse Bits](#190-reverse-bits)
 - [191. Number of 1 Bits](#191-number-of-1-bits)
 - [208. Implement Trie (Prefix Tree)](#208-implement-trie-prefix-tree)
+- [213. House Robber II](#213-house-robber-ii)
 - [224 & 227. Basic Calculator](#224--227-basic-calculator)
 - [240. Search a 2D Matrix II](#240-search-a-2d-matrix-ii)
 - [263. Ugly Number](#263-ugly-number)
@@ -144,6 +145,13 @@ dfs，可以统计数字出现次数，减少递归深度；也可以使用 bool
 优化：使用循环表示递归，本题没有必要使用递归
 
 - 发现自己非递归实现树的算法是一个弱项
+
+## 213. House Robber II
+
+循环队列动态规划
+
+- 第一个元素和最后一个元素不能共存，分成两个区间进行讨论：$[0, len(nums) - 1], [1, len(nums)]$
+- 动态规划递推公式包含有限项元素，可以使用滚动数组
 
 ## 224 & 227. Basic Calculator
 
