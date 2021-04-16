@@ -1,11 +1,12 @@
 # 易混词单词
 
-custom, customs, customer, consumer:
+custom, customs, customer, consumer, costume:
 
 - custom n.风俗
 - customs n.海关
 - customer n. 顾客
 - consumer n. 消费者（买并使用）
+- costume n. 服饰
 
 resist, persist:
 
@@ -804,10 +805,11 @@ smog, smuggle:
 - smog n. 烟雾
 - smuggle v. 走私，偷运
 
-press, depress:
+press, depress, distress:
 
 - press n. 报社，出版社 v. 按压（具体）
 - depress v. 沮丧，削弱，压低（抽象）
+- distress v&n. 痛苦，忧虑，窘迫，危难
 
 counter, retort, resort:
 
@@ -825,13 +827,34 @@ micro-, macro-:
 - micro- 微观前缀
 - macro- 宏观前缀
 
-depress, distress:
-
-- depress v. 沮丧，削弱，压低
-- distress v&n. 痛苦，忧虑，窘迫，危难
-
 relative, relation, relationship:
 
 - relative n. 亲戚 adj. 相关的
 - relation n. 关系，亲戚
 - relationship n. 关系，关联
+
+purple, pupil:
+
+- purple adj&n. 紫色
+- pupil n. 瞳孔，小学生
+
+toil, toss:
+
+- toil n. 辛苦，劳工，网，圈套 v. 辛苦工作，过度劳累
+- toss v&n. 扔，掷色子，甩头
+
+infect, inject:
+
+- infect v. 感染
+- inject v. 注射
+
+ballet, ballot, bullet:
+
+- ballet n. 芭蕾舞（剧，团）
+- ballot v&n. 不记名投票
+- bullet n. 子弹
+
+helmet, comet:
+
+- helmet n. 头盔
+- comet n. 彗星
