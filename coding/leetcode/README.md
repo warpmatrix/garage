@@ -3,12 +3,16 @@
 
 思考如何切题：先动笔，再打码
 
+<!-- TODO: 以后再补吧，lay 了 -->
+可以留意的一些题目：87、213、240、264、338、456、525、783
+
 - [54 & 59. Spiral Matrix](#54--59-spiral-matrix)
 - [61. Rotate List](#61-rotate-list)
 - [74. Search a 2D Matrix](#74-search-a-2d-matrix)
 - [80. Remove Duplicates from Sorted Array II](#80-remove-duplicates-from-sorted-array-ii)
 - [81. Search in Rotated Sorted Array II](#81-search-in-rotated-sorted-array-ii)
 - [82 & 83. Remove Duplicates from Sorted List](#82--83-remove-duplicates-from-sorted-list)
+- [87. Scramble String](#87-scramble-string)
 - [88. Merge Sorted Array](#88-merge-sorted-array)
 - [90. Subsets II](#90-subsets-ii)
 - [92. Reverse Linked List II](#92-reverse-linked-list-ii)
@@ -23,6 +27,7 @@
 - [191. Number of 1 Bits](#191-number-of-1-bits)
 - [208. Implement Trie (Prefix Tree)](#208-implement-trie-prefix-tree)
 - [213. House Robber II](#213-house-robber-ii)
+- [220. Contains Duplicate III](#220-contains-duplicate-iii)
 - [224 & 227. Basic Calculator](#224--227-basic-calculator)
 - [240. Search a 2D Matrix II](#240-search-a-2d-matrix-ii)
 - [263. Ugly Number](#263-ugly-number)
@@ -73,6 +78,13 @@
 - 82: 使用区间删除，因为一个区间需要删除 $n+1$ 个元素，$n$ 为区间中相等关系数量。
 - 83: 一个相等的元素对应一个删除元素，对每个元素进行判断删除即可
 - 另外需要注意空指针，可以使用 dump 记录头节点的信息。
+
+## 87. Scramble String
+
+字符串划分区间后位置不再改变，原问题只和两个子问题相关，可以使用动态规划，记忆化搜索：
+
+- isScramble(s1, s2) = $\vee_{i=1}^{len-1}$ [isScramble($s1_l$, $s2_l$) $\wedge$ isScramble($s1_r$, $s2_r$)] $\vee$ [isScramble($s1_l$, $s2_r$) $\wedge$ isScramble($s1_r$, $s2_l$)]
+- 还需要注意 go 语言的**二维 map** 如何声明，如何进行初始化
 
 ## 88. Merge Sorted Array
 
@@ -151,7 +163,16 @@ dfs，可以统计数字出现次数，减少递归深度；也可以使用 bool
 循环队列动态规划
 
 - 第一个元素和最后一个元素不能共存，分成两个区间进行讨论：$[0, len(nums) - 1], [1, len(nums)]$
-- 动态规划递推公式包含有限项元素，可以使用滚动数组
+- 动态规划递推公式包含有限项元素，可以使用**滚动数组**
+
+## 220. Contains Duplicate III
+
+检查滑动窗口内两个元素的差小于阈值，使用集合和 `lower_bound` 完成：
+
+- 注意边界条件：`max(num[i] - t, INT_MIN)` -> `max(nums[i], INT_MIN + t) - t`
+- go 中没有实现有序集合需要自己完成
+- 也可以对每一个滑动窗口维护桶，每增加一个元素检查对应的区间是否有符合条件的元素
+  - 每一个桶的大小为 t + 1，桶的编号为 (x + 1) / w - 1
 
 ## 224 & 227. Basic Calculator
 
