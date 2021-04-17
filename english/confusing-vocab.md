@@ -497,11 +497,12 @@ opt, apt:
 - opt v. 选择
 - apt adj. 恰当的，易于
 
-clash, crash, clasp, crush, curst:
+clash, crash, clasp, crisp, crush, curst:
 
 - clash v&n. 冲突，不协调（抽象名词）
 - crash v&n. 坠落，碰撞（具体事物）
 - clasp v&n. 紧扣，扣住
+- crisp adj. 脆的，简明扼要的，空气清新的
 - crush v. 压碎 n. 拥挤，迷恋
 - curst n. 外壳，地壳
 
@@ -858,3 +859,30 @@ helmet, comet:
 
 - helmet n. 头盔
 - comet n. 彗星
+
+verbal, verbose:
+
+- verbal adj. 口头的，动词的，言语的
+- verbose adj. 冗长的
+
+applicable, feasible:
+
+- applicable adj. 适用的，可用的
+- feasible adj. 可行的，可能的，可用的
+
+aboard, abroad:
+
+- aboard prep&adv. 在（车船飞机）上
+- abroad adv. 在国外，流传
+- board n. 委员会，黑板 v. 搭伙，上（船飞机）
+- broad adj. 辽阔的，广泛的
+
+paddle, pedal:
+
+- paddle n. 桨 v. 用桨划
+- pedal n. 踏板 v. 踩踏板，骑自行车
+
+council, counsel:
+
+- counsel n. 律师 n&v. 忠告
+- council n. 理事会，委员会，地方议会，议会
