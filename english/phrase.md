@@ -62,6 +62,8 @@
 - in (the direction)
   - head in the wrong direction
   - in the rear
+- make sth feasible 使..可能
+- for the sack of sth 为了..
 
 ## Writing
 
