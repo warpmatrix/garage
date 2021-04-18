@@ -6,6 +6,7 @@
 <!-- TODO: 以后再补吧，lay 了 -->
 可以留意的一些题目：87、213、240、264、338、456、525、783
 
+- [26. Remove Duplicates from Sorted Array](#26-remove-duplicates-from-sorted-array)
 - [54 & 59. Spiral Matrix](#54--59-spiral-matrix)
 - [61. Rotate List](#61-rotate-list)
 - [74. Search a 2D Matrix](#74-search-a-2d-matrix)
@@ -46,6 +47,10 @@
 - [1143. Longest Common Subsequence](#1143-longest-common-subsequence)
 - [1603. Design Parking System](#1603-design-parking-system)
 - [面试题 17.21. Volume of Histogram LCCI](#面试题-1721-volume-of-histogram-lcci)
+
+## 26. Remove Duplicates from Sorted Array
+
+简单模拟，双指针，跳过重复的元素
 
 ## 54 & 59. Spiral Matrix
 
