@@ -64,6 +64,13 @@
   - in the rear
 - make sth feasible 使..可能
 - for the sack of sth 为了..
+- make no mention of sth 对..只字未提
+- eat one's word 收回前言，承认话语有失
+  - break one's word 食言
+  - a word 面谈，悄悄话
+  - have words 争吵，拌嘴
+  - in word and in deed 言行上
+- stand down 下台
 
 ## Writing
 

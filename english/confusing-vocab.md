@@ -445,9 +445,9 @@ trim, rim, fringe, verge, edge:
 
 - rim n. 边缘，框
 - trim v&n. 修剪，装饰 adj. 修长的，整齐的
-- fringe 
-- verge 
-- edge 
+- fringe n. 刘海，花边，人群的边缘
+- verge n. 广阔空间的边界
+- edge n. （窄）边缘
 
 stride, stripe, strive, thrive, strap, strip, stroke:
 
@@ -497,14 +497,14 @@ opt, apt:
 - opt v. 选择
 - apt adj. 恰当的，易于
 
-clash, crash, clasp, crisp, crush, curst:
+clash, crash, clasp, crisp, crush, crust:
 
 - clash v&n. 冲突，不协调（抽象名词）
 - crash v&n. 坠落，碰撞（具体事物）
 - clasp v&n. 紧扣，扣住
 - crisp adj. 脆的，简明扼要的，空气清新的
 - crush v. 压碎 n. 拥挤，迷恋
-- curst n. 外壳，地壳
+- crust n. 外壳，地壳
 
 liability, bond, bone:
 
@@ -886,3 +886,23 @@ council, counsel:
 
 - counsel n. 律师 n&v. 忠告
 - council n. 理事会，委员会，地方议会，议会
+
+disgust, disguise:
+
+- disgust n&v. 厌恶
+- disguise n&v. 伪装，掩饰
+
+brisk, crisp:
+
+- brisk adj. 轻快的，兴隆的，凉爽的，干脆利索的
+- crisp adj. 催的，易碎的，简明扼要的，清爽的
+
+embryo, embassy:
+
+- embryo n. 胚，胚芽，事物的初期
+- embassy n. 大使馆，使馆官员
+
+repertoire, reservoir:
+
+- repertoire n. 节目，技能
+- reservoir n. 水库，储藏，汇集
