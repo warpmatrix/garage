@@ -23,10 +23,11 @@ qualify, quantify:
 - qualify v. 具有资格
 - quantify v. 量化
 
-despise, despite:
+despise, despite, despair:
 
 - despise v. 蔑视
 - despite prep. 尽管
+- despair n&v. 绝望
 
 content, context, contempt, consent:
 
@@ -906,3 +907,18 @@ repertoire, reservoir:
 
 - repertoire n. 节目，技能
 - reservoir n. 水库，储藏，汇集
+
+worship, workshop:
+
+- worship v&n. 崇拜，信奉
+- workshop n. 车间，工厂，研讨会
+
+couch, cough:
+
+- couch n. 长沙发，长榻 v. 表达
+- cough v&n. 咳嗽
+
+ambiguous, arbitrary:
+
+- ambiguous adj. 模糊的
+- arbitrary adj. 任意的

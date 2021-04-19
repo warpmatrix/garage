@@ -71,6 +71,8 @@
   - have words 争吵，拌嘴
   - in word and in deed 言行上
 - stand down 下台
+- the writing on the wall 不祥之兆
+- suit one's own purpose 满足..的目的
 
 ## Writing
 
