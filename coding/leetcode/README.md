@@ -7,6 +7,7 @@
 可以留意的一些题目：87、213、240、264、338、456、525、783
 
 - [26. Remove Duplicates from Sorted Array](#26-remove-duplicates-from-sorted-array)
+- [27. Remove Element](#27-remove-element)
 - [54 & 59. Spiral Matrix](#54--59-spiral-matrix)
 - [61. Rotate List](#61-rotate-list)
 - [74. Search a 2D Matrix](#74-search-a-2d-matrix)
@@ -51,6 +52,10 @@
 ## 26. Remove Duplicates from Sorted Array
 
 简单模拟，双指针，跳过重复的元素
+
+## 27. Remove Element
+
+简单模拟，可以使用双指针优化一个变量
 
 ## 54 & 59. Spiral Matrix
 
