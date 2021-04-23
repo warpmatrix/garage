@@ -135,11 +135,13 @@ terror, territory:
 - terror n. 恐怖
 - territory n. 领土
 
-ripe, rape, rip:
+ripe, rape, rip, reap, ripe:
 
 - ripe adj. 成熟的
 - rape v&n. 强暴
 - rip v&n. 撕破
+- reap v. 收获
+- ripe adj. 成熟的
 
 employ, deploy:
 
@@ -749,10 +751,11 @@ chest, chess:
 - chest n. 胸，柜子
 - chess n. 棋
 
-shelf, shield:
+shelf, shield, shell:
 
 - shelf n. 架子，搁板
 - shield n. 盾，防护罩 v. 防护
+- shell n. 贝壳，外壳，炮弹 v. 剥壳，炮击
 
 object, objective, objection:
 
@@ -785,7 +788,7 @@ pine, pie:
 - pine n. 松（树） v. 难过，憔悴，思念
 - pie n. 馅饼
 
-rug, carpet:
+rug, blanket, carpet:
 
 - rug n. 小地毯，围毯
 - blanket n. 毛毯（棉被）
@@ -913,12 +916,24 @@ worship, workshop:
 - worship v&n. 崇拜，信奉
 - workshop n. 车间，工厂，研讨会
 
-couch, cough:
+couch, cough, coach:
 
 - couch n. 长沙发，长榻 v. 表达
 - cough v&n. 咳嗽
+- coach n. 教练，辅导员，长途汽车 v. 训练
 
 ambiguous, arbitrary:
 
 - ambiguous adj. 模糊的
 - arbitrary adj. 任意的
+
+burden, bury:
+
+- burden n&v. 负担
+- bury v. 埋葬
+
+conventional, convenient, controversial:
+
+- conventional adj. 惯例的
+- convenient adj. 方便的，实用的
+- controversial adj. 有争议的
