@@ -73,6 +73,9 @@
 - stand down 下台
 - the writing on the wall 不祥之兆
 - suit one's own purpose 满足..的目的
+- fit into 融入
+  - fit into the same genre 属于同一类别
+- beat one's breast and stamp one's feet 捶胸顿足
 
 ## Writing
 
