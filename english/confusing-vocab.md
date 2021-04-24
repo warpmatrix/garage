@@ -937,3 +937,18 @@ conventional, convenient, controversial:
 - conventional adj. 惯例的
 - convenient adj. 方便的，实用的
 - controversial adj. 有争议的
+
+canal, canoe:
+
+- canal n. 运河，渠，管道
+- canoe n. 独木舟 v. 划独木舟
+
+clip, chip:
+
+- clip n. 夹子，别针，弹夹，片段 v. 夹住，修剪
+- chip n. 芯片，切屑，薯片
+
+directory, dictionary:
+
+- directory n. 号码簿
+- dictionary n. 字典

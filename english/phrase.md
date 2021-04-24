@@ -76,6 +76,8 @@
 - fit into 融入
   - fit into the same genre 属于同一类别
 - beat one's breast and stamp one's feet 捶胸顿足
+- put forward 提出
+- park oneself 坐下来
 
 ## Writing
 
