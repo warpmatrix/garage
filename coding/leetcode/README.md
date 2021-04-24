@@ -4,10 +4,11 @@
 思考如何切题：先动笔，再打码
 
 <!-- TODO: 以后再补吧，lay 了 -->
-可以留意的一些题目：87、213、240、264、338、456、525、783
+可以留意的一些题目：28、87、213、240、264、338、456、525、783
 
 - [26. Remove Duplicates from Sorted Array](#26-remove-duplicates-from-sorted-array)
 - [27. Remove Element](#27-remove-element)
+- [28. Implement strStr()](#28-implement-strstr)
 - [54 & 59. Spiral Matrix](#54--59-spiral-matrix)
 - [61. Rotate List](#61-rotate-list)
 - [74. Search a 2D Matrix](#74-search-a-2d-matrix)
@@ -38,6 +39,7 @@
 - [338. Counting Bits](#338-counting-bits)
 - [341. Flatten Nested List Iterator](#341-flatten-nested-list-iterator)
 - [354. Russian Doll Envelopes](#354-russian-doll-envelopes)
+- [377. Combination Sum IV](#377-combination-sum-iv)
 - [456. 132 Pattern](#456-132-pattern)
 - [503. Next Greater Element II](#503-next-greater-element-ii)
 - [525. Contiguous Array](#525-contiguous-array)
@@ -56,6 +58,10 @@
 ## 27. Remove Element
 
 简单模拟，可以使用双指针优化一个变量
+
+## 28. Implement strStr()
+
+实现 KMP 算法，本质上求子串中前缀和后缀的公共子串长度
 
 ## 54 & 59. Spiral Matrix
 
@@ -235,6 +241,12 @@ if uglyNums[i] == uglyNums[p] { p++ }
 - 拓展到 $d$ 维的情况，对前 (d-1) 维的数据进行升序排序，最后一维降序排序
   - 对于固定的 $i$，$\forall j$ 满足 $a_i < a_j$ 都排在 $i$ 前面
   - 时间复杂度 $O(n^2k)$，[CDQ 分治](https://oi-wiki.org/misc/cdq-divide/)可以降低时间复杂度
+
+## 377. Combination Sum IV
+
+记忆化搜索，动态规划：$f(n) = \sum_i f(n - x_i)$
+
+- 进阶问题：若组合数中存在负数，考虑 $a, -b$，则可能出现无限长度排列 $ab - ba = 0$
 
 ## 456. 132 Pattern
 
