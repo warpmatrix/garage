@@ -452,7 +452,7 @@ trim, rim, fringe, verge, edge:
 - verge n. 广阔空间的边界
 - edge n. （窄）边缘
 
-stride, stripe, strive, thrive, strap, strip, stroke:
+stride, stripe, strive, thrive, strap, strip, stroke, strike:
 
 - stride n. 步伐 v. 大步走
 - stripe n. 条纹，种类
@@ -461,6 +461,7 @@ stride, stripe, strive, thrive, strap, strip, stroke:
 - strap n. 带，皮带 v. 用带子扣住，包扎
 - strip n. 条，脱衣舞 v. 脱衣，剥夺
 - stroke n. 中风，划桨，击，比划 n&v. 抚摸
+- strike v&n. 折磨，发现，敲响，罢工，袭击，打击 v. 迷住
 
 latter, letter, litter:
 
@@ -952,3 +953,30 @@ directory, dictionary:
 
 - directory n. 号码簿
 - dictionary n. 字典
+
+neural, neutral:
+
+- neural adj. 神经的，神经系统的
+- neutral adj. 中立的，中性的
+
+bouns, bounce:
+
+- bouns n. 红利，奖金，津贴
+- bounce v&n. 弹跳，颠跳
+
+rear, hip:
+
+- rear n. 臀部，后部 adj. 后面的 v. 饲养
+- hip n. 臀部
+
+stroke, pet, rear:
+
+- stroke v&n. 抚摸 n. 中风，划桨，笔划，击
+- pet v. 抚摸 adj. 宠爱的 n. 宠物
+- rear v. 抚养，饲养 n&adj. 后面（的） n. 臀部
+
+whistle, whisker, whisper:
+
+- whistle v&n. （吹）口哨，鸣笛 n. 哨子
+- whisker n. 髯，胡子，微小数量，一丝，一点
+- whisper n&v. 耳语，低语
