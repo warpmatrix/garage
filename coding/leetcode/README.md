@@ -44,7 +44,8 @@
 - [503. Next Greater Element II](#503-next-greater-element-ii)
 - [525. Contiguous Array](#525-contiguous-array)
 - [781. Rabbits in Forest](#781-rabbits-in-forest)
-  - [783. Minimum Distance Between BST Nodes](#783-minimum-distance-between-bst-nodes)
+- [783. Minimum Distance Between BST Nodes](#783-minimum-distance-between-bst-nodes)
+- [897. Increasing Order Search Tree](#897-increasing-order-search-tree)
 - [1006. Clumsy Factorial](#1006-clumsy-factorial)
 - [1047. Remove All Adjacent Duplicates In String](#1047-remove-all-adjacent-duplicates-in-string)
 - [1143. Longest Common Subsequence](#1143-longest-common-subsequence)
@@ -266,13 +267,20 @@ if uglyNums[i] == uglyNums[p] { p++ }
 
 贪心，使用 `answers[i] + 1` 对相同的 `answers[i]` 进行分组
 
-### 783. Minimum Distance Between BST Nodes
+## 783. Minimum Distance Between BST Nodes
 
 中序遍历寻找相邻数字的最小差：
 
 - 实现过程：实现中序遍历、中序遍历完成相邻元素的比较（分开实现，各司其职），特别是用栈实现的方法
 - 使用值域以外的值区分第一次遍历
 - 使用栈完成中序遍历
+
+## 897. Increasing Order Search Tree
+
+中序遍历直接改变指针的指向
+
+- 反问题：线性树 -> 平衡树
+- 可以考虑使用旋转解决，比较麻烦
 
 ## 1006. Clumsy Factorial
 
