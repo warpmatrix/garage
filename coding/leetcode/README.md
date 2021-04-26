@@ -47,6 +47,7 @@
 - [783. Minimum Distance Between BST Nodes](#783-minimum-distance-between-bst-nodes)
 - [897. Increasing Order Search Tree](#897-increasing-order-search-tree)
 - [1006. Clumsy Factorial](#1006-clumsy-factorial)
+- [1011. Capacity To Ship Packages Within D Days](#1011-capacity-to-ship-packages-within-d-days)
 - [1047. Remove All Adjacent Duplicates In String](#1047-remove-all-adjacent-duplicates-in-string)
 - [1143. Longest Common Subsequence](#1143-longest-common-subsequence)
 - [1603. Design Parking System](#1603-design-parking-system)
@@ -287,6 +288,13 @@ if uglyNums[i] == uglyNums[p] { p++ }
 利用数学方法找规律，相邻项可以相互约掉：
 
 $N - 3 \approx \frac{(N-4)*(N-5)}{N-6}$
+
+## 1011. Capacity To Ship Packages Within D Days
+
+整数规划问题无多项式时间解法，将整数规划问题转换为判断问题，使用二分查找运载能力，得到所需天数 $d$
+
+- 下界：运载能力为最重的物品（一般的（小数）规划问题中，最优装载量为物品重量的平均值，最大值比平均值要大）
+- 上界：无法确定 $d$ 的范围，只能假设 $d$ 最小的情况（$d=1$），装载量为所有物品重量的总和
 
 ## 1047. Remove All Adjacent Duplicates In String
 
