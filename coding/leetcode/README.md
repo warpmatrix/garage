@@ -46,6 +46,7 @@
 - [781. Rabbits in Forest](#781-rabbits-in-forest)
 - [783. Minimum Distance Between BST Nodes](#783-minimum-distance-between-bst-nodes)
 - [897. Increasing Order Search Tree](#897-increasing-order-search-tree)
+- [938. Range Sum of BST](#938-range-sum-of-bst)
 - [1006. Clumsy Factorial](#1006-clumsy-factorial)
 - [1011. Capacity To Ship Packages Within D Days](#1011-capacity-to-ship-packages-within-d-days)
 - [1047. Remove All Adjacent Duplicates In String](#1047-remove-all-adjacent-duplicates-in-string)
@@ -282,6 +283,12 @@ if uglyNums[i] == uglyNums[p] { p++ }
 
 - 反问题：线性树 -> 平衡树
 - 可以考虑使用旋转解决，比较麻烦
+
+## 938. Range Sum of BST
+
+简单递归，不必过度纠结中序遍历。发现自己会受别人的思路影响，神 tm jm 说了一句中序遍历...
+
+- 也可以使用其它遍历二叉树的方法
 
 ## 1006. Clumsy Factorial
 
