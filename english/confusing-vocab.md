@@ -153,11 +153,12 @@ invest, investigate:
 - invest v. 投资
 - investigate v. 调查
 
-transfer, transmit, transfer:
+transfer, transmit, transfer, convey:
 
 - transfer 侧重迁移（位置，状态）
 - transmit 侧重传送，传播（信号）
 - transfer 侧重运输
+- convey v. 传递，表达，运送
 
 clay, claw, clap:
 
@@ -1018,3 +1019,13 @@ obvious, oblivious:
 - obvious adj. 明显的
 - oblivious adj. 健忘的，没有注意到的
 
+feudal, federal:
+
+- feudal adj. 封建的
+- federal adj. 联邦的
+
+recruit, enroll, check in:
+
+- recruit v. 招收
+- enroll v. 招收，注册，入学，参军
+- check in 报到，登记，签到
