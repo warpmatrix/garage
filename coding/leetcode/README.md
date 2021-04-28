@@ -18,6 +18,7 @@
 - [87. Scramble String](#87-scramble-string)
 - [88. Merge Sorted Array](#88-merge-sorted-array)
 - [90. Subsets II](#90-subsets-ii)
+- [91. Decode Ways](#91-decode-ways)
 - [92. Reverse Linked List II](#92-reverse-linked-list-ii)
 - [115. Distinct Subsequences](#115-distinct-subsequences)
 - [131. Palindrome Partitioning](#131-palindrome-partitioning)
@@ -43,6 +44,7 @@
 - [456. 132 Pattern](#456-132-pattern)
 - [503. Next Greater Element II](#503-next-greater-element-ii)
 - [525. Contiguous Array](#525-contiguous-array)
+- [633. Sum of Square Numbers](#633-sum-of-square-numbers)
 - [781. Rabbits in Forest](#781-rabbits-in-forest)
 - [783. Minimum Distance Between BST Nodes](#783-minimum-distance-between-bst-nodes)
 - [897. Increasing Order Search Tree](#897-increasing-order-search-tree)
@@ -117,6 +119,13 @@ dfs，可以统计数字出现次数，减少递归深度；也可以使用 bool
 
 - `ret = append(ret, append([]int(nil), cur...))`
   - 区别 `ret = append(ret, cur)`
+
+## 91. Decode Ways
+
+简单动态规划
+
+- $f_i = f_{i-1} + f_{i-2}$，加 $f_{i-1}$ 和 $f_{i-2}$ 需要满足对应的条件
+- go 中使用 `strconv.Atoi` 必须使用两个变量接收返回值
 
 ## 92. Reverse Linked List II
 
@@ -264,6 +273,13 @@ if uglyNums[i] == uglyNums[p] { p++ }
 ## 525. Contiguous Array
 
 将 [0, 1] 映射到 [-1, 1]，使用前缀和统计 0 和 1 出现的次数。前缀和相同意味着区间内 0 和 1 的个数相等。使用哈希维护区间最大值和最小值，返回区间的最大值。
+
+## 633. Sum of Square Numbers
+
+暴力枚举挺方便的，但双指针是真的秀，可以应该可以降低时间复杂度的常数，时间复杂度为 $O(\sqrt{c})$：
+
+- $l^2 + r^2 < c \to l = l + 1$
+- $l^2 + r^2 > c \to r = r - 1$
 
 ## 781. Rabbits in Forest
 
