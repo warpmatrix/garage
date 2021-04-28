@@ -84,5 +84,7 @@
 
 - be of one's opinion 同意..的看法
 - in favor of one's opinion 同意..的看法
+- take advantage of 占便宜
+- have an advantage over sb. 比..有优势
 
 hardly 倒装句

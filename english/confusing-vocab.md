@@ -969,14 +969,52 @@ rear, hip:
 - rear n. 臀部，后部 adj. 后面的 v. 饲养
 - hip n. 臀部
 
-stroke, pet, rear:
+stroke, pet, rear, raise:
 
 - stroke v&n. 抚摸 n. 中风，划桨，笔划，击
 - pet v. 抚摸 adj. 宠爱的 n. 宠物
 - rear v. 抚养，饲养 n&adj. 后面（的） n. 臀部
+- raise v&n. 养育，筹集，引起，增加，举起
 
 whistle, whisker, whisper:
 
 - whistle v&n. （吹）口哨，鸣笛 n. 哨子
 - whisker n. 髯，胡子，微小数量，一丝，一点
 - whisper n&v. 耳语，低语
+
+towel, tower:
+
+- towel n. 毛巾 v. 用毛巾擦
+- tower n. 高塔 v. 高于
+
+ethnic, ethical:
+
+- ethnic adj. 民族的，部落的
+- ethical adj. 伦理的，道德的
+
+designate, dominate:
+
+- designate v. 指派，命名，表明
+- dominate v. 支配，统治，占据优势
+
+explicit, exploit, explore:
+
+- explicit adj. 详细的，露骨的
+- exploit v. 剥削，利用，开发，发挥 n. 业绩，功勋
+- explore v. 探索，研究，勘察
+
+railroad, railway:
+
+- railroad v. 迫使，捏造，铁路运输 n. 铁路，铁路公司
+- railway n. 铁路
+
+faint, faith:
+
+- faith n. 信仰，信心
+- faint adj. 微弱的 adj&n&v. 眩晕（的）
+
+obvious, oblivious:
+
+- obvious adj. 明显的
+- oblivious adj. 健忘的，没有注意到的
+
