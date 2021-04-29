@@ -818,11 +818,12 @@ press, depress, distress:
 - depress v. 沮丧，削弱，压低（抽象）
 - distress v&n. 痛苦，忧虑，窘迫，危难
 
-counter, retort, resort:
+counter, retort, resort, distort:
 
 - counter n. 柜台，计数器 adv. 相反地 v. 反驳，抵消
 - retort v. 反驳
 - resort v&n. 诉诸 n. 常去之地
+- distort v. 扭曲，变形
 
 reliance, alliance:
 
@@ -1029,3 +1030,35 @@ recruit, enroll, check in:
 - recruit v. 招收
 - enroll v. 招收，注册，入学，参军
 - check in 报到，登记，签到
+
+reception, deception:
+
+- reception n. 接待，招待会
+- deception n. 欺诈，骗局
+
+somewhat, somehow, somewhere:
+
+- somewhat adv. 稍微，有点
+- somehow adv. 以某种方式，不知怎么地
+- somewhere adv. 大概，在某处
+
+impair, impact:
+
+- impact v&n. 影响，冲击
+- impair v. 损伤，削弱，减少
+
+gasp, grasp:
+
+- gasp v&n. 气喘，喘息
+- grasp v&n. 抓紧，理解
+
+catholic, cathedral:
+
+- catholic adj. 广泛的 n&v. 天主教（徒）（的）
+- cathedral n. 大教堂
+
+physician, surgeon, physicist:
+
+- physician n. 内科医生
+- surgeon n. 外科医生
+- physicist n. 物理学家
