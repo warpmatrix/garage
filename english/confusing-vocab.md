@@ -1062,3 +1062,8 @@ physician, surgeon, physicist:
 - physician n. 内科医生
 - surgeon n. 外科医生
 - physicist n. 物理学家
+
+sketch, stretch:
+
+- sketch n. 草图，梗概 n&v. 素描，概述
+- stretch v&n. 伸展，拉长 n. 一段时间，一片
