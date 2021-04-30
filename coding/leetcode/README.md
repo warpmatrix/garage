@@ -23,6 +23,7 @@
 - [115. Distinct Subsequences](#115-distinct-subsequences)
 - [131. Palindrome Partitioning](#131-palindrome-partitioning)
 - [132. Palindrome Partitioning II](#132-palindrome-partitioning-ii)
+- [137. Single Number II](#137-single-number-ii)
 - [150. Evaluate Reverse Polish Notation](#150-evaluate-reverse-polish-notation)
 - [153 & 154. Find Minimum in Rotated Sorted Array](#153--154-find-minimum-in-rotated-sorted-array)
 - [173. Binary Search Tree Iterator](#173-binary-search-tree-iterator)
@@ -41,6 +42,7 @@
 - [341. Flatten Nested List Iterator](#341-flatten-nested-list-iterator)
 - [354. Russian Doll Envelopes](#354-russian-doll-envelopes)
 - [377. Combination Sum IV](#377-combination-sum-iv)
+- [403. Frog Jump](#403-frog-jump)
 - [456. 132 Pattern](#456-132-pattern)
 - [503. Next Greater Element II](#503-next-greater-element-ii)
 - [525. Contiguous Array](#525-contiguous-array)
@@ -148,6 +150,15 @@ dfs，可以统计数字出现次数，减少递归深度；也可以使用 bool
 ## 132. Palindrome Partitioning II
 
 在 [131](#131-palindrome-partitioning) 的判断字串回文的基础上，使用动态规划。若字串 [i, j] 为回文串，则 $minCut[j] = \min(minCut[i] + 1)$。枚举所有可能的前缀 i，时间复杂度为 O(n^2)。
+
+## 137. Single Number II
+
+简单做法：使用哈希完成，时间复杂度 $O(n)$，空间复杂度 $O(n)$
+
+使用性质求解可以节约空间，达到 $O(1)$ 的空间复杂度
+
+- 由于重复的数字，均出现三次，则重复数字对应的每一位数字求和得到的结果为 3 的倍数
+- 使用数字电路的方法（真值表进行状态转移），对每一位同时进行求和操作
 
 ## 150. Evaluate Reverse Polish Notation
 
@@ -259,6 +270,18 @@ if uglyNums[i] == uglyNums[p] { p++ }
 记忆化搜索，动态规划：$f(n) = \sum_i f(n - x_i)$
 
 - 进阶问题：若组合数中存在负数，考虑 $a, -b$，则可能出现无限长度排列 $ab - ba = 0$
+
+## 403. Frog Jump
+
+如果青蛙可以两边跳，需要使用类似于图的遍历方式，需要进行标记。
+
+状态转移方程：`dp[loc][speed] = dp[ploc][speed - 1] || dp[ploc][speed] || dp[ploc][speed + 1]`
+
+题目给定的要求为单边跳，上式也同样成立，可以结合性质，考虑使用动态规划：
+
+- $speed < t$、$loc(t) > t$
+
+由于只是沿一个方向前进，可以考虑对数组进行差分，相邻数据可以求和合并，使得新数组相邻数据大小相差 1，开头数据为 1。
 
 ## 456. 132 Pattern
 
