@@ -46,7 +46,9 @@
 - [456. 132 Pattern](#456-132-pattern)
 - [503. Next Greater Element II](#503-next-greater-element-ii)
 - [525. Contiguous Array](#525-contiguous-array)
+- [554. Brick Wall](#554-brick-wall)
 - [633. Sum of Square Numbers](#633-sum-of-square-numbers)
+- [690. Employee Importance](#690-employee-importance)
 - [781. Rabbits in Forest](#781-rabbits-in-forest)
 - [783. Minimum Distance Between BST Nodes](#783-minimum-distance-between-bst-nodes)
 - [897. Increasing Order Search Tree](#897-increasing-order-search-tree)
@@ -297,12 +299,20 @@ if uglyNums[i] == uglyNums[p] { p++ }
 
 将 [0, 1] 映射到 [-1, 1]，使用前缀和统计 0 和 1 出现的次数。前缀和相同意味着区间内 0 和 1 的个数相等。使用哈希维护区间最大值和最小值，返回区间的最大值。
 
+## 554. Brick Wall
+
+简单题，确定每一行砖块边界的位置，统计哪一个位置边界最多
+
 ## 633. Sum of Square Numbers
 
 暴力枚举挺方便的，但双指针是真的秀，可以应该可以降低时间复杂度的常数，时间复杂度为 $O(\sqrt{c})$：
 
 - $l^2 + r^2 < c \to l = l + 1$
 - $l^2 + r^2 > c \to r = r - 1$
+
+## 690. Employee Importance
+
+简单遍历，广度优先或深度优先
 
 ## 781. Rabbits in Forest
 
