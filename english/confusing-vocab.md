@@ -971,12 +971,13 @@ rear, hip:
 - rear n. 臀部，后部 adj. 后面的 v. 饲养
 - hip n. 臀部
 
-stroke, pet, rear, raise:
+stroke, pet, rear, raise, nourish:
 
 - stroke v&n. 抚摸 n. 中风，划桨，笔划，击
 - pet v. 抚摸 adj. 宠爱的 n. 宠物
 - rear v. 抚养，饲养 n&adj. 后面（的） n. 臀部
 - raise v&n. 养育，筹集，引起，增加，举起
+- nourish v. 滋养，养育
 
 whistle, whisker, whisper:
 
@@ -1063,7 +1064,20 @@ physician, surgeon, physicist:
 - surgeon n. 外科医生
 - physicist n. 物理学家
 
-sketch, stretch:
+sketch, stretch, scratch, scrape:
 
 - sketch n. 草图，梗概 n&v. 素描，概述
 - stretch v&n. 伸展，拉长 n. 一段时间，一片
+- scratch v&n. 搔，挠
+- scrape v&n. 擦伤 v. 勉强获得
+
+receipt, reception, recipient:
+
+- receipt n. 发票，收据，收入，受到
+- reception n. 接待，招待会
+- recipient adj. 接受的 n. 接收者，容器
+
+sneeze, queeze:
+
+- sneeze v&n. 喷嚏
+- squeeze v&n. 挤，榨取，握（手），拮据
