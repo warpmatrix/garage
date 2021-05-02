@@ -80,6 +80,9 @@
 - park oneself 坐下来
 - image worship 偶像崇拜
 - give sb. a lift 让..搭顺风车
+- make out 理解，填写，亲热
+  - make out a recipt 开收据
+- not hesitate to contact us 随时和我们联系
 
 ## Writing
 
