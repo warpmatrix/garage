@@ -6,6 +6,7 @@
 <!-- TODO: 以后再补吧，lay 了 -->
 可以留意的一些题目：28、87、213、240、264、338、456、525、783
 
+- [7. Reverse Integer](#7-reverse-integer)
 - [26. Remove Duplicates from Sorted Array](#26-remove-duplicates-from-sorted-array)
 - [27. Remove Element](#27-remove-element)
 - [28. Implement strStr()](#28-implement-strstr)
@@ -59,6 +60,10 @@
 - [1143. Longest Common Subsequence](#1143-longest-common-subsequence)
 - [1603. Design Parking System](#1603-design-parking-system)
 - [面试题 17.21. Volume of Histogram LCCI](#面试题-1721-volume-of-histogram-lcci)
+
+## 7. Reverse Integer
+
+简单题。与数学的定义不同，求余的结果可以是负数，有负数也可以直接进行反转；另外题目要求超过表示范围的数，返回零需要自己额外处理
 
 ## 26. Remove Duplicates from Sorted Array
 
