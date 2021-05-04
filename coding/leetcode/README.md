@@ -4,7 +4,7 @@
 思考如何切题：先动笔，再打码
 
 <!-- TODO: 以后再补吧，lay 了 -->
-可以留意的一些题目：28、87、213、240、264、338、456、525、783
+可以留意的一些题目：28、87、213、240、264、338、456、525、783、1473
 
 - [7. Reverse Integer](#7-reverse-integer)
 - [26. Remove Duplicates from Sorted Array](#26-remove-duplicates-from-sorted-array)
@@ -58,6 +58,7 @@
 - [1011. Capacity To Ship Packages Within D Days](#1011-capacity-to-ship-packages-within-d-days)
 - [1047. Remove All Adjacent Duplicates In String](#1047-remove-all-adjacent-duplicates-in-string)
 - [1143. Longest Common Subsequence](#1143-longest-common-subsequence)
+- [1473. Paint House III](#1473-paint-house-iii)
 - [1603. Design Parking System](#1603-design-parking-system)
 - [面试题 17.21. Volume of Histogram LCCI](#面试题-1721-volume-of-histogram-lcci)
 
@@ -371,6 +372,20 @@ dp[i][j] = \begin{cases}
   max(dp[i - 1][j], dp[i][j - 1]), & text1[i] != text2[j] \\
 \end{cases}
 $$
+
+## 1473. Paint House III
+
+困难动态规划，其实也不是很难，三维动态规划：
+
+- 考虑和第 i-1 间房子进行比较
+  - 若 $c_i = c_{i-1} = c$，则 $dp[i][c][neiNum] = dp[i-1][c][neiNum]$
+  - 若 $c_i \neq c_{i-1}$，则 $dp[i][c_i][neiNum] = dp[i-1][c_{i-1}][neiNum - 1]$
+- 未涂色，加 `cost[i][c]`
+
+注意初始化：`i == 0` 和 `neiNum == 0` 的情况
+
+- 可以使用滚动数组节省空间
+<!-- TODO: 更高级的做法，日后再看看 -->
 
 ## 1603. Design Parking System
 
