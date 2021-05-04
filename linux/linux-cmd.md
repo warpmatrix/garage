@@ -6,9 +6,11 @@
 code // 打开vscode
 google-chrome // 打开chrome浏览器
 netease-cloud-music // 打开网易云音乐
+nautilus // 打开文件浏览器
+evince // 打开 document viewer
+
 ln -s src_addr link_addr // 创建文件夹快捷方式
 showkey -a // 输出按键的 ascii 码
-nautilus // 打开文件浏览器
 xrandr -o <left/right/inverted/normal> // 旋转屏幕
 
 // 通过修改设备文件，控制硬件
