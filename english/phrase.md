@@ -84,6 +84,7 @@
   - make out a recipt 开收据
 - not hesitate to contact us 随时和我们联系
 - carry out 实施
+- be green with envy 嫉妒（绿色代表嫉妒）
 
 ## Writing
 
