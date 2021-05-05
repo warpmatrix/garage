@@ -50,6 +50,7 @@
 - [554. Brick Wall](#554-brick-wall)
 - [633. Sum of Square Numbers](#633-sum-of-square-numbers)
 - [690. Employee Importance](#690-employee-importance)
+- [740. Delete and Earn](#740-delete-and-earn)
 - [781. Rabbits in Forest](#781-rabbits-in-forest)
 - [783. Minimum Distance Between BST Nodes](#783-minimum-distance-between-bst-nodes)
 - [897. Increasing Order Search Tree](#897-increasing-order-search-tree)
@@ -319,6 +320,10 @@ if uglyNums[i] == uglyNums[p] { p++ }
 ## 690. Employee Importance
 
 简单遍历，广度优先或深度优先
+
+## 740. Delete and Earn
+
+简单题：排序，统计每一个数字出现的次数（方便查看对应的数字是什么，可以计算其前缀和），使用动态规划处理，转换为类似于 [213](#213-house-robber-ii) 的题目。
 
 ## 781. Rabbits in Forest
 
