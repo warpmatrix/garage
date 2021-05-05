@@ -1081,3 +1081,13 @@ sneeze, queeze:
 
 - sneeze v&n. 喷嚏
 - squeeze v&n. 挤，榨取，握（手），拮据
+
+warp, wrap:
+
+- warp v. 扭曲，使..不合理 n. （织布机的）经线
+- wrap n. 披风，围巾 v. 包，裹
+
+leap, leak:
+
+- leap v. 跳跃，激增
+- leak v&n. 泄漏
