@@ -61,6 +61,7 @@
 - [1143. Longest Common Subsequence](#1143-longest-common-subsequence)
 - [1473. Paint House III](#1473-paint-house-iii)
 - [1603. Design Parking System](#1603-design-parking-system)
+- [1720. Decode XORed Array](#1720-decode-xored-array)
 - [面试题 17.21. Volume of Histogram LCCI](#面试题-1721-volume-of-histogram-lcci)
 
 ## 7. Reverse Integer
@@ -395,6 +396,13 @@ $$
 ## 1603. Design Parking System
 
 简单模拟
+
+## 1720. Decode XORed Array
+
+简单题，利用两条性质完成：异或满足交换律，两次异或得到原来的操作数
+
+- `encoded[i] = arr[i] xor arr[i + 1]`
+- `arr[i + 1] = encoded[i] xor arr[i]`
 
 ## 面试题 17.21. Volume of Histogram LCCI
 
