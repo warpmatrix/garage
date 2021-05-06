@@ -1091,3 +1091,13 @@ leap, leak:
 
 - leap v. 跳跃，激增
 - leak v&n. 泄漏
+
+only, first:
+
+- only adv. 只是 conj. 可是 adj. 最好的，唯一的
+- first adv. 宁可，首先 num&adj. 第一
+
+trip, trap:
+
+- trip v. 绊倒 n. 旅行
+- trap v&n. 陷阱，（陷入）困境
