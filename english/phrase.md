@@ -85,6 +85,12 @@
 - not hesitate to contact us 随时和我们联系
 - carry out 实施
 - be green with envy 嫉妒（绿色代表嫉妒）
+- be drawn to 吸引
+- free from 没有，远离
+- stick in one's ways 固执己见
+- go out of one's way to do 不嫌麻烦去做
+- tell it as it is 实话实说
+- as though 就像
 
 ## Writing
 

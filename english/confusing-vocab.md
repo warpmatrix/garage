@@ -1101,3 +1101,19 @@ trip, trap:
 
 - trip v. 绊倒 n. 旅行
 - trap v&n. 陷阱，（陷入）困境
+
+crew, crow, chew:
+
+- crew n. 全体员工，工作人员 v. 当船员
+- crow n. 乌鸦 v&n. 啼叫
+- chew v&n. 咀嚼 v. 回味，思量
+
+migrate, emigrate:
+
+- migrate v. 迁移，迁徙，转移
+- emigrate v. 移民
+
+rate, vote:
+
+- rate n. 费用，进度，速度，比率 v. 估价，评级
+- vote v&n. 投票，选举，表决 v. 认为
