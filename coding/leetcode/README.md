@@ -4,7 +4,7 @@
 思考如何切题：先动笔，再打码
 
 <!-- TODO: 以后再补吧，lay 了 -->
-可以留意的一些题目：28、87、213、240、264、338、456、525、783、1473
+可以留意的一些题目：28、87、213、240、264、338、456、525、783、1473、1486
 
 - [7. Reverse Integer](#7-reverse-integer)
 - [26. Remove Duplicates from Sorted Array](#26-remove-duplicates-from-sorted-array)
@@ -60,6 +60,7 @@
 - [1047. Remove All Adjacent Duplicates In String](#1047-remove-all-adjacent-duplicates-in-string)
 - [1143. Longest Common Subsequence](#1143-longest-common-subsequence)
 - [1473. Paint House III](#1473-paint-house-iii)
+- [1486. XOR Operation in an Array](#1486-xor-operation-in-an-array)
 - [1603. Design Parking System](#1603-design-parking-system)
 - [1720. Decode XORed Array](#1720-decode-xored-array)
 - [面试题 17.21. Volume of Histogram LCCI](#面试题-1721-volume-of-histogram-lcci)
@@ -392,6 +393,15 @@ $$
 
 - 可以使用滚动数组节省空间
 <!-- TODO: 更高级的做法，日后再看看 -->
+
+## 1486. XOR Operation in an Array
+
+简单模拟，初始值可以设为 0（`0 ^ num = num`）
+
+看这种出题方法也可以估计出存在 $O(1)$ 时间复杂度的解法，利用异或的性质：
+
+- 连续数字进行异或可以使用的性质：$4i \oplus (4i+1) \oplus (4i+2) \oplus (4i+3) = 0$
+- 对于线性变化的数字，若倍数是 2 次幂可以对低位数字提出来特别讨论
 
 ## 1603. Design Parking System
 
