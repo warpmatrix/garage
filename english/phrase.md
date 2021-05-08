@@ -91,6 +91,8 @@
 - go out of one's way to do 不嫌麻烦去做
 - tell it as it is 实话实说
 - as though 就像
+- years elapse like a shuttle 岁月如梭
+- a mere fable 无稽之谈
 
 ## Writing
 
