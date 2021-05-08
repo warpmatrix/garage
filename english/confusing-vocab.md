@@ -1117,3 +1117,19 @@ rate, vote:
 
 - rate n. 费用，进度，速度，比率 v. 估价，评级
 - vote v&n. 投票，选举，表决 v. 认为
+
+elapse, collapse:
+
+- collapse v. 坍塌，晕倒，崩溃，突然失败
+- elapse v. （时间）消逝
+
+castle, cattle:
+
+- castle n. 城堡
+- cattle n. 牛
+
+fiction, friction, fraction, :
+
+- fiction n. 虚构，小说
+- friction n. 不和，摩擦
+- fraction n. 碎片，部分，分数
