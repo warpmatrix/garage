@@ -63,6 +63,7 @@
 - [1486. XOR Operation in an Array](#1486-xor-operation-in-an-array)
 - [1603. Design Parking System](#1603-design-parking-system)
 - [1720. Decode XORed Array](#1720-decode-xored-array)
+- [1723. Find Minimum Time to Finish All Jobs](#1723-find-minimum-time-to-finish-all-jobs)
 - [面试题 17.21. Volume of Histogram LCCI](#面试题-1721-volume-of-histogram-lcci)
 
 ## 7. Reverse Integer
@@ -413,6 +414,16 @@ $$
 
 - `encoded[i] = arr[i] xor arr[i + 1]`
 - `arr[i + 1] = encoded[i] xor arr[i]`
+
+## 1723. Find Minimum Time to Finish All Jobs
+
+ref: [1011](#1011-capacity-to-ship-packages-within-d-days) 给定顺序进行规划？
+
+1723：需要自己设定顺序
+
+<!-- TODO: 有空看看二分的做法 -->
+
+可以考虑动态规划与状态压缩：`dp[wNum][jobs] = min(max(dp[wNum-1][jobs-subJobs], sum(calcTime(subJobs))))`
 
 ## 面试题 17.21. Volume of Histogram LCCI
 
