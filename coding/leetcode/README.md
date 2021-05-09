@@ -60,6 +60,7 @@
 - [1047. Remove All Adjacent Duplicates In String](#1047-remove-all-adjacent-duplicates-in-string)
 - [1143. Longest Common Subsequence](#1143-longest-common-subsequence)
 - [1473. Paint House III](#1473-paint-house-iii)
+- [1482. Minimum Number of Days to Make m Bouquets](#1482-minimum-number-of-days-to-make-m-bouquets)
 - [1486. XOR Operation in an Array](#1486-xor-operation-in-an-array)
 - [1603. Design Parking System](#1603-design-parking-system)
 - [1720. Decode XORed Array](#1720-decode-xored-array)
@@ -394,6 +395,12 @@ $$
 
 - 可以使用滚动数组节省空间
 <!-- TODO: 更高级的做法，日后再看看 -->
+
+## 1482. Minimum Number of Days to Make m Bouquets
+
+- 求解问题转换为判断问题，使用二分法进行求解
+- go 中可以使用 `sort.Search` 函数实现二分查找
+- 一些性能优化：排序后进行二分查找，时间复杂度减小，但仍不能弥补排序的开销，只能说数据出的...
 
 ## 1486. XOR Operation in an Array
 
