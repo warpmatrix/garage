@@ -93,6 +93,10 @@
 - as though 就像
 - years elapse like a shuttle 岁月如梭
 - a mere fable 无稽之谈
+- won't keep you long 不会耽搁你很久
+- not go that far 达不到那种程度
+- fat pay packet 丰厚收入
+- inevitable adj. 不可避免的
 
 ## Writing
 
@@ -100,5 +104,6 @@
 - in favor of one's opinion 同意..的看法
 - take advantage of 占便宜
 - have an advantage over sb. 比..有优势
+- be used to 习惯于
 
 hardly 倒装句

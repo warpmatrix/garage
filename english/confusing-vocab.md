@@ -1133,3 +1133,34 @@ fiction, friction, fraction, :
 - fiction n. 虚构，小说
 - friction n. 不和，摩擦
 - fraction n. 碎片，部分，分数
+
+tortle, torture:
+
+- tortle n. 乌龟
+- torture v&n. 拷打，折磨
+
+concurrency, currency:
+
+- concurrency n. 并行，一致性，共同权利
+- currency n. 通货，流通
+
+steam, stream:
+
+- steam n. 蒸汽 v. 蒸发，蒸汽驱动
+- stream v. 涌流 n. 小溪，流
+
+clam, claim:
+
+- clam v&n. 平静 adj. 镇静的，风平浪静的
+- claim n. 所有权 v&n. 索赔，声称，主张
+
+drift, draft, shaft:
+
+- drift v. 漂流 n. 流动，趋势，雪堆，主旨
+- draft n. 草稿，汇票，征兵 v. 起草，征募
+- shaft v. 蒙骗，欺骗 n. 垂直通道，通风井，轴杆，一束光
+
+leisure, luxury:
+
+- leisure n. 休闲
+- luxury n. 奢华，奢侈品
