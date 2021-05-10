@@ -97,6 +97,7 @@
 - not go that far 达不到那种程度
 - fat pay packet 丰厚收入
 - inevitable adj. 不可避免的
+- dump out 将..（里的东西）倒出
 
 ## Writing
 
