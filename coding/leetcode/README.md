@@ -53,6 +53,7 @@
 - [740. Delete and Earn](#740-delete-and-earn)
 - [781. Rabbits in Forest](#781-rabbits-in-forest)
 - [783. Minimum Distance Between BST Nodes](#783-minimum-distance-between-bst-nodes)
+- [872. Leaf-Similar Trees](#872-leaf-similar-trees)
 - [897. Increasing Order Search Tree](#897-increasing-order-search-tree)
 - [938. Range Sum of BST](#938-range-sum-of-bst)
 - [1006. Clumsy Factorial](#1006-clumsy-factorial)
@@ -340,6 +341,12 @@ if uglyNums[i] == uglyNums[p] { p++ }
 - 实现过程：实现中序遍历、中序遍历完成相邻元素的比较（分开实现，各司其职），特别是用栈实现的方法
 - 使用值域以外的值区分第一次遍历
 - 使用栈完成中序遍历
+
+## 872. Leaf-Similar Trees
+
+遍历二叉树的叶子节点进行比较：两棵树同时 dfs 得到叶子节点进行比较
+
+- 关于中序遍历的又一深入理解（有状态的中序遍历）
 
 ## 897. Increasing Order Search Tree
 
