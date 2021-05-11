@@ -1164,3 +1164,14 @@ leisure, luxury:
 
 - leisure n. 休闲
 - luxury n. 奢华，奢侈品
+
+porcelain, protein:
+
+- porcelain n. 瓷器
+- protrin n. 蛋白质
+
+dessert, desert, deserve:
+
+- dessert n. 甜品
+- desert n. 沙漠
+- deserve v. 值得，应得
