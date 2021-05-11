@@ -66,6 +66,7 @@
 - [1603. Design Parking System](#1603-design-parking-system)
 - [1720. Decode XORed Array](#1720-decode-xored-array)
 - [1723. Find Minimum Time to Finish All Jobs](#1723-find-minimum-time-to-finish-all-jobs)
+- [1734. Decode XORed Permutation](#1734-decode-xored-permutation)
 - [面试题 17.21. Volume of Histogram LCCI](#面试题-1721-volume-of-histogram-lcci)
 
 ## 7. Reverse Integer
@@ -438,6 +439,14 @@ ref: [1011](#1011-capacity-to-ship-packages-within-d-days) 给定顺序进行规
 <!-- TODO: 有空看看二分的做法 -->
 
 可以考虑动态规划与状态压缩：`dp[wNum][jobs] = min(max(dp[wNum-1][jobs-subJobs], sum(calcTime(subJobs))))`
+
+## 1734. Decode XORed Permutation
+
+留意到和 [1720](#1720-decode-xored-array) 的类似情景，考虑构造出 $p[0] = (\oplus_{i=1}^np[i]) \oplus (\oplus_{i=0}^np[i])$，可以有两种方式构造出来：
+
+- $\oplus_{i=0}^{j-1}(p[i] \oplus p[i+1]) = p[0] \oplus p[j]$
+  - $\oplus_{i=1}^{2n+1}(p[0] \oplus p[i]) = \oplus_{i=1}^{2n+1}p[i]$
+- $\oplus_{i=2k+1}(p[i] \oplus p[i+1]) = \oplus_{i=1}^{2n+1}p[i],\ (k = 0, 1, 2, \cdots)$
 
 ## 面试题 17.21. Volume of Histogram LCCI
 
