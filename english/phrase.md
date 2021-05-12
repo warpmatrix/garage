@@ -98,6 +98,8 @@
 - fat pay packet 丰厚收入
 - inevitable adj. 不可避免的
 - dump out 将..（里的东西）倒出
+- cannot judge a horse by the harness 人不可貌相
+- at fault 出错的，有责任的
 
 ## Writing
 
