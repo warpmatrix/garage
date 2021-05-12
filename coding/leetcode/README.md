@@ -4,7 +4,7 @@
 思考如何切题：先动笔，再打码
 
 <!-- TODO: 以后再补吧，lay 了 -->
-可以留意的一些题目：28、87、213、240、264、338、456、525、783、1473、1486
+可以留意的一些题目：28、87、213、240、264、338、456、525、783、1473、1486、1310
 
 - [7. Reverse Integer](#7-reverse-integer)
 - [26. Remove Duplicates from Sorted Array](#26-remove-duplicates-from-sorted-array)
@@ -60,6 +60,7 @@
 - [1011. Capacity To Ship Packages Within D Days](#1011-capacity-to-ship-packages-within-d-days)
 - [1047. Remove All Adjacent Duplicates In String](#1047-remove-all-adjacent-duplicates-in-string)
 - [1143. Longest Common Subsequence](#1143-longest-common-subsequence)
+- [1310. XOR Queries of a Subarray](#1310-xor-queries-of-a-subarray)
 - [1473. Paint House III](#1473-paint-house-iii)
 - [1482. Minimum Number of Days to Make m Bouquets](#1482-minimum-number-of-days-to-make-m-bouquets)
 - [1486. XOR Operation in an Array](#1486-xor-operation-in-an-array)
@@ -389,6 +390,10 @@ dp[i][j] = \begin{cases}
   max(dp[i - 1][j], dp[i][j - 1]), & text1[i] != text2[j] \\
 \end{cases}
 $$
+
+## 1310. XOR Queries of a Subarray
+
+类比为区间和的问题：可以使用前缀异或数组求解
 
 ## 1473. Paint House III
 
