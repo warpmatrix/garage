@@ -1175,3 +1175,8 @@ dessert, desert, deserve:
 - dessert n. 甜品
 - desert n. 沙漠
 - deserve v. 值得，应得
+
+grave, cemetery:
+
+- grave adj. 严重的，严肃的 n. 坟墓
+- cemetery n. 墓地
