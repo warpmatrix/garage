@@ -1,7 +1,7 @@
 <!-- omit in toc -->
 # Leetcode Note
 
-思考如何切题：先动笔，再打码
+思考如何切题：先动笔，再打码！leetcode 难度分级不科学，困难其实是中等难度
 
 <!-- TODO: 以后再补吧，lay 了 -->
 可以留意的一些题目：28、87、213、240、264、338、456、525、783、1473、1486、1310
@@ -60,6 +60,7 @@
 - [1011. Capacity To Ship Packages Within D Days](#1011-capacity-to-ship-packages-within-d-days)
 - [1047. Remove All Adjacent Duplicates In String](#1047-remove-all-adjacent-duplicates-in-string)
 - [1143. Longest Common Subsequence](#1143-longest-common-subsequence)
+- [1269. Number of Ways to Stay in the Same Place After Some Steps](#1269-number-of-ways-to-stay-in-the-same-place-after-some-steps)
 - [1310. XOR Queries of a Subarray](#1310-xor-queries-of-a-subarray)
 - [1473. Paint House III](#1473-paint-house-iii)
 - [1482. Minimum Number of Days to Make m Bouquets](#1482-minimum-number-of-days-to-make-m-bouquets)
@@ -390,6 +391,10 @@ dp[i][j] = \begin{cases}
   max(dp[i - 1][j], dp[i][j - 1]), & text1[i] != text2[j] \\
 \end{cases}
 $$
+
+## 1269. Number of Ways to Stay in the Same Place After Some Steps
+
+动态规划：`dp[step][loc] = dp[step - 1][loc - 1] + dp[step - 1][loc] + dp[step - 1][loc + 1]`
 
 ## 1310. XOR Queries of a Subarray
 
