@@ -1180,3 +1180,28 @@ grave, cemetery:
 
 - grave adj. 严重的，严肃的 n. 坟墓
 - cemetery n. 墓地
+
+century, center:
+
+- century n. 世纪，百年
+- center v. 集中于 n. 中心，圆心
+
+geometry, geography:
+
+- geometry n. 几何
+- geography n. 地理
+
+garage, garbage:
+
+- garage n. 车库，汽车修理厂
+- garbage n. 无用的资料，废话，垃圾
+
+nuisance, nuance:
+
+- nuisance n. 讨厌的人，麻烦事，妨碍行为
+- nuance n. 细微差别
+
+halloween, hollow:
+
+- halloween n. 万圣节前夜
+- hollow adj. 空的，沉闷的，虚伪的，变为空洞 n. 洼地，洞，穴
