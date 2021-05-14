@@ -101,6 +101,10 @@
 - cannot judge a horse by the harness 人不可貌相
 - at fault 出错的，有责任的
 - make a fuss 发牢骚
+- break down in tears 失声痛哭
+  - break down 失败，放弃，崩溃
+  - break out into laughter 突然大笑
+  - break out 爆发
 
 ## Writing
 
