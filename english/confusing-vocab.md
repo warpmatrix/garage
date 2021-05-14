@@ -1191,10 +1191,11 @@ geometry, geography:
 - geometry n. 几何
 - geography n. 地理
 
-garage, garbage:
+garage, garbage, garment:
 
 - garage n. 车库，汽车修理厂
 - garbage n. 无用的资料，废话，垃圾
+- garment n. 一件衣服
 
 nuisance, nuance:
 
@@ -1205,3 +1206,13 @@ halloween, hollow:
 
 - halloween n. 万圣节前夜
 - hollow adj. 空的，沉闷的，虚伪的，变为空洞 n. 洼地，洞，穴
+
+avenue, revenue:
+
+- avenue n. 大街，林荫道，途径
+- revenue n. 收入，财政收入
+
+routine, route:
+
+- routine adj. 常规的，例行的 n. 常规，惯例
+- route n. 路线，途径，常规线路 v. 按线路发送
