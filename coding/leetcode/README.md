@@ -7,6 +7,7 @@
 可以留意的一些题目：28、87、213、240、264、338、456、525、783、1473、1486、1310
 
 - [7. Reverse Integer](#7-reverse-integer)
+- [12. Integer to Roman](#12-integer-to-roman)
 - [26. Remove Duplicates from Sorted Array](#26-remove-duplicates-from-sorted-array)
 - [27. Remove Element](#27-remove-element)
 - [28. Implement strStr()](#28-implement-strstr)
@@ -74,6 +75,11 @@
 ## 7. Reverse Integer
 
 简单题。与数学的定义不同，求余的结果可以是负数，有负数也可以直接进行反转；另外题目要求超过表示范围的数，返回零需要自己额外处理
+
+## 12. Integer to Roman
+
+- 模拟，类似于词法解析，关键从低位开始解析
+- 数据量较小时，硬编码枚举所有的情况，计算速度更快
 
 ## 26. Remove Duplicates from Sorted Array
 
