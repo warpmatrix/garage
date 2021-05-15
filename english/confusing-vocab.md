@@ -1216,3 +1216,14 @@ routine, route:
 
 - routine adj. 常规的，例行的 n. 常规，惯例
 - route n. 路线，途径，常规线路 v. 按线路发送
+
+obscure, obstruct, obstacle:
+
+- obscure adj. 含义模糊的，晦涩难懂的，鲜为人知的 v. 遮掩，费解
+- obstruct v. 阻塞
+- obstacle n. 障碍，妨碍
+
+floor, flour:
+
+- floor n. 发言权，底线，楼层，地面
+- flour n. 面粉
