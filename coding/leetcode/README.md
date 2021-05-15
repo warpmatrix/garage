@@ -8,6 +8,7 @@
 
 - [7. Reverse Integer](#7-reverse-integer)
 - [12. Integer to Roman](#12-integer-to-roman)
+- [13. Roman to Integer](#13-roman-to-integer)
 - [26. Remove Duplicates from Sorted Array](#26-remove-duplicates-from-sorted-array)
 - [27. Remove Element](#27-remove-element)
 - [28. Implement strStr()](#28-implement-strstr)
@@ -80,6 +81,12 @@
 
 - 模拟，类似于词法解析，关键从低位开始解析
 - 数据量较小时，硬编码枚举所有的情况，计算速度更快
+
+## 13. Roman to Integer
+
+简单模拟：将每个罗马字符看作一个数字，依据其位置加减对应的值
+
+- go 中没有 char 类型，字符使用 byte 表示
 
 ## 26. Remove Duplicates from Sorted Array
 
