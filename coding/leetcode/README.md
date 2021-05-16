@@ -4,7 +4,7 @@
 思考如何切题：先动笔，再打码！leetcode 难度分级不科学，困难其实是中等难度
 
 <!-- TODO: 以后再补吧，lay 了 -->
-可以留意的一些题目：28、87、213、240、264、338、456、525、783、1473、1486、1310
+可以留意的一些题目：28、87、213、240、264、338、421、456、525、783、1473、1486、1310
 
 - [7. Reverse Integer](#7-reverse-integer)
 - [12. Integer to Roman](#12-integer-to-roman)
@@ -46,6 +46,7 @@
 - [354. Russian Doll Envelopes](#354-russian-doll-envelopes)
 - [377. Combination Sum IV](#377-combination-sum-iv)
 - [403. Frog Jump](#403-frog-jump)
+- [421. Maximum XOR of Two Numbers in an Array](#421-maximum-xor-of-two-numbers-in-an-array)
 - [456. 132 Pattern](#456-132-pattern)
 - [503. Next Greater Element II](#503-next-greater-element-ii)
 - [525. Contiguous Array](#525-contiguous-array)
@@ -312,6 +313,15 @@ if uglyNums[i] == uglyNums[p] { p++ }
 - $speed < t$、$loc(t) > t$
 
 由于只是沿一个方向前进，可以考虑对数组进行差分，相邻数据可以求和合并，使得新数组相邻数据大小相差 1，开头数据为 1。
+
+## 421. Maximum XOR of Two Numbers in an Array
+
+求值问题转换为判断问题，二分法枚举最大的 $x$ 使得 $x = x_i \oplus x_j$，问题转换为对于 $a_i$ 数组中是否存在元素 $a_j = x \oplus a_i$
+
+本质上，提前将数的前缀保存起来，避免枚举
+
+- 可以使用哈希表，保存数组中的元素前 $k$ 位是什么数
+- 可以使用字典树，保存数组中的元素对应前 $k$ 位的数字
 
 ## 456. 132 Pattern
 
