@@ -113,5 +113,7 @@
 - take advantage of 占便宜
 - have an advantage over sb. 比..有优势
 - be used to 习惯于
+- on the contrary 正相反
+- be contrary to all expectation 出乎意料
 
 hardly 倒装句
