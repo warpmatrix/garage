@@ -1227,3 +1227,14 @@ floor, flour:
 
 - floor n. 发言权，底线，楼层，地面
 - flour n. 面粉
+
+spider. spy:
+
+- spider n. 蜘蛛
+- spu n. 间谍
+
+clerk, personnel, crew:
+
+- clerk n. 店员，办事员
+- personnel n. 全体人员，全体职员，人事部门
+- crew n. 全体员工，工作人员 v. 当船员
