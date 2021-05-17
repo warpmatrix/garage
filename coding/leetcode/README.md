@@ -59,6 +59,7 @@
 - [872. Leaf-Similar Trees](#872-leaf-similar-trees)
 - [897. Increasing Order Search Tree](#897-increasing-order-search-tree)
 - [938. Range Sum of BST](#938-range-sum-of-bst)
+- [993. Cousins in Binary Tree](#993-cousins-in-binary-tree)
 - [1006. Clumsy Factorial](#1006-clumsy-factorial)
 - [1011. Capacity To Ship Packages Within D Days](#1011-capacity-to-ship-packages-within-d-days)
 - [1047. Remove All Adjacent Duplicates In String](#1047-remove-all-adjacent-duplicates-in-string)
@@ -386,6 +387,13 @@ if uglyNums[i] == uglyNums[p] { p++ }
 简单递归，不必过度纠结中序遍历。发现自己会受别人的思路影响，神 tm jm 说了一句中序遍历...
 
 - 也可以使用其它遍历二叉树的方法
+
+## 993. Cousins in Binary Tree
+
+判断堂兄节点，需要记录深度信息和父节点信息
+
+- 使用 dfs 进行遍历，比较好写，但需要找到两个节点
+- 使用 bfs 进行遍历，可以提前退出
 
 ## 1006. Clumsy Factorial
 
