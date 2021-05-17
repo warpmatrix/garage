@@ -1238,3 +1238,8 @@ clerk, personnel, crew:
 - clerk n. 店员，办事员
 - personnel n. 全体人员，全体职员，人事部门
 - crew n. 全体员工，工作人员 v. 当船员
+
+annual, aural:
+
+- annual adj. 年度的 n. 年刊，年鉴，一年生植物
+- aural adj. 听觉的
