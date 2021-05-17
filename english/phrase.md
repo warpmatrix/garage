@@ -105,6 +105,8 @@
   - break down 失败，放弃，崩溃
   - break out into laughter 突然大笑
   - break out 爆发
+- the late comers surpass the early starters 后来居上
+- click into place 步入正轨，进入轨道
 
 ## Writing
 
