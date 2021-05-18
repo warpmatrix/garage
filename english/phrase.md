@@ -107,6 +107,9 @@
   - break out 爆发
 - the late comers surpass the early starters 后来居上
 - click into place 步入正轨，进入轨道
+- be engage in 从事于
+- go off 停止运转，（爆炸，走火，发出巨响），变劣，发生
+- weigh down 压弯，压倒
 
 ## Writing
 

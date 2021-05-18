@@ -1243,3 +1243,50 @@ annual, aural:
 
 - annual adj. 年度的 n. 年刊，年鉴，一年生植物
 - aural adj. 听觉的
+
+pebble, peddle:
+
+- pebble n. 卵石，小圆石
+- peddle v. 叫卖，宣传，散播
+
+comprehensive, comprehensible:
+
+- comprehensive adj. 全面的，详尽的，综合的
+- comprehensible adj. 可理解的
+
+engage, emerge:
+
+- engage v. 吸引，占用，聘，订婚，从事
+- emerge v. 浮现，暴露，兴起，幸存，摆脱
+
+scorn, scold:
+
+- scorn v&n. 蔑视
+- scold v. 责骂，训斥
+
+lame, cripple:
+
+- cripple n. 跛子，伤残人 v. 严重削弱，使残疾
+- lame adj. 没有说服力的，站不住脚的，跛脚的
+
+luggage, lodge:
+
+- luggage n. 行李
+- lodge n. 乡间小屋，旅舍，传达室 v. 暂住，租住
+
+blouse, bruise:
+
+- blouse n. 女衬衫，短上衣，罩衫
+- bruise n. 淤青，伤痕 v. 挫伤
+
+sheer, shear:
+
+- sheer adj. 完全的，纯粹的（强调） adj&adv. 陡峭 v. 偏航
+- shear v. 剪切，折断 n. 大剪刀
+
+jet, wrench, wrest, wreck:
+
+- jet n. 喷气式飞机，喷嘴，喷射 v. 乘飞机
+- wrench v. 扭伤，挣脱 n. 痛苦
+- wrest v. 攫取，夺取
+- wreck v. 毁坏，遇难 n. 残骸
