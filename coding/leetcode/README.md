@@ -66,6 +66,7 @@
 - [1143. Longest Common Subsequence](#1143-longest-common-subsequence)
 - [1269. Number of Ways to Stay in the Same Place After Some Steps](#1269-number-of-ways-to-stay-in-the-same-place-after-some-steps)
 - [1310. XOR Queries of a Subarray](#1310-xor-queries-of-a-subarray)
+- [1442. Count Triplets That Can Form Two Arrays of Equal XOR](#1442-count-triplets-that-can-form-two-arrays-of-equal-xor)
 - [1473. Paint House III](#1473-paint-house-iii)
 - [1482. Minimum Number of Days to Make m Bouquets](#1482-minimum-number-of-days-to-make-m-bouquets)
 - [1486. XOR Operation in an Array](#1486-xor-operation-in-an-array)
@@ -430,6 +431,17 @@ $$
 ## 1310. XOR Queries of a Subarray
 
 类比为区间和的问题：可以使用前缀异或数组求解
+
+## 1442. Count Triplets That Can Form Two Arrays of Equal XOR
+
+区间问题转换为前缀问题，通过下面的性质进行问题转换使用二重循环可以解决：
+
+- $\oplus_{idx=i}^{j-1} arr[idx] = \oplus_{idx=j}^{k}arr[idx]$
+- $\oplus_{idx=i}^k arr[idx] = 0$
+- $\oplus_{idx=0}^{i-1} arr[idx] = \oplus_{idx=0}^k arr[idx]$
+  - 考虑构造 `preXors[i] = ^arr[0..i-1]`
+  - 可以使用哈希进行加速，一重循环解决
+  - `ret += cnt[preXor] * idx + sumIdx[preXor]`
 
 ## 1473. Paint House III
 
