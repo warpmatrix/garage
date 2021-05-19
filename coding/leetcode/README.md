@@ -35,6 +35,7 @@
 - [191. Number of 1 Bits](#191-number-of-1-bits)
 - [208. Implement Trie (Prefix Tree)](#208-implement-trie-prefix-tree)
 - [213. House Robber II](#213-house-robber-ii)
+- [215. Kth Largest Element in an Array](#215-kth-largest-element-in-an-array)
 - [220. Contains Duplicate III](#220-contains-duplicate-iii)
 - [224 & 227. Basic Calculator](#224--227-basic-calculator)
 - [240. Search a 2D Matrix II](#240-search-a-2d-matrix-ii)
@@ -74,6 +75,7 @@
 - [1720. Decode XORed Array](#1720-decode-xored-array)
 - [1723. Find Minimum Time to Finish All Jobs](#1723-find-minimum-time-to-finish-all-jobs)
 - [1734. Decode XORed Permutation](#1734-decode-xored-permutation)
+- [1738. Find Kth Largest XOR Coordinate Value](#1738-find-kth-largest-xor-coordinate-value)
 - [面试题 17.21. Volume of Histogram LCCI](#面试题-1721-volume-of-histogram-lcci)
 
 ## 7. Reverse Integer
@@ -236,6 +238,10 @@ dfs，可以统计数字出现次数，减少递归深度；也可以使用 bool
 
 - 第一个元素和最后一个元素不能共存，分成两个区间进行讨论：$[0, len(nums) - 1], [1, len(nums)]$
 - 动态规划递推公式包含有限项元素，可以使用**滚动数组**
+
+## 215. Kth Largest Element in an Array
+
+使用快排的思路寻找元素，快速选择的模板
 
 ## 220. Contains Duplicate III
 
@@ -500,6 +506,13 @@ ref: [1011](#1011-capacity-to-ship-packages-within-d-days) 给定顺序进行规
 - $\oplus_{i=0}^{j-1}(p[i] \oplus p[i+1]) = p[0] \oplus p[j]$
   - $\oplus_{i=1}^{2n+1}(p[0] \oplus p[i]) = \oplus_{i=1}^{2n+1}p[i]$
 - $\oplus_{i=2k+1}(p[i] \oplus p[i+1]) = \oplus_{i=1}^{2n+1}p[i],\ (k = 0, 1, 2, \cdots)$
+
+## 1738. Find Kth Largest XOR Coordinate Value
+
+二维前缀异或 + 快速选择，二维前缀的构造类比二维前缀和
+
+- go 里面传递数组好像是写时复制？递归传递数组比较消耗时间
+- 尽量将递归改成循环
 
 ## 面试题 17.21. Volume of Histogram LCCI
 
