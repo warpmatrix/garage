@@ -889,10 +889,12 @@ paddle, pedal:
 - paddle n. 桨 v. 用桨划
 - pedal n. 踏板 v. 踩踏板，骑自行车
 
-council, counsel:
+council, counsel, committee, commission:
 
 - counsel n. 律师 n&v. 忠告
 - council n. 理事会，委员会，地方议会，议会
+- committee n. 委员会，全体委员
+- commission n. 委员会，委任，佣金，手续费 v. 委任，委托
 
 disgust, disguise:
 
@@ -1290,3 +1292,33 @@ jet, wrench, wrest, wreck:
 - wrench v. 扭伤，挣脱 n. 痛苦
 - wrest v. 攫取，夺取
 - wreck v. 毁坏，遇难 n. 残骸
+
+saddle, harness:
+
+- saddle n. 鞍，座 v. 承担任务
+- harness n. 马具，背带，保护带 v. 治理，利用，上挽具
+
+intensive, potential:
+
+- intensive adj. 加强的，深入的，集约的，集中的
+- protential adj. 潜在的
+
+fundamental, essential:
+
+- fundamental n. 基本原则，基本原理 adj. 基础的，基本的
+- essential adj. 基本的，本质的，必要的 n. 要素，必需品
+
+pamphlet, prophet:
+
+- pamphlet n. 小册子
+- prophet n. 先知，预言家，提倡者
+
+sweat, wheet:
+
+- sweat v. 出汗 n. 汗
+- wheat n. 小麦
+
+puppet, puppy:
+
+- puppet n. 木偶，傀儡
+- puppy n. 傲慢青年，小狗
