@@ -110,8 +110,9 @@
 - be engage in 从事于
 - go off 停止运转，（爆炸，走火，发出巨响），变劣，发生
 - weigh down 压弯，压倒
+- a chance lost cannot be redeemed 机不可失，时不再来
 
-## Writing
+## 作文积累
 
 - be of one's opinion 同意..的看法
 - in favor of one's opinion 同意..的看法
@@ -122,3 +123,8 @@
 - be contrary to all expectation 出乎意料
 
 hardly 倒装句
+
+- adj. 显著的：salient, notable, remarkable, dramatic
+- adj. 极好的：fabulous, fantastic
+- adj. 极其的：supreme, ultimate, exceeding
+- adj. 巨大的：enormous, drmatic, whopping, gigantic, fearsome

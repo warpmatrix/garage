@@ -640,10 +640,11 @@ numb, thumb:
 - numb adj. 麻木的 v. 麻木
 - thumb n. 拇指，示意乘车，捋
 
-statue, status:
+statue, status, statute:
 
 - statue n. 雕像
 - status n. 地位
+- statute n. 法令，章规，规则
 
 entail, retail:
 
@@ -1322,3 +1323,18 @@ puppet, puppy:
 
 - puppet n. 木偶，傀儡
 - puppy n. 傲慢青年，小狗
+
+linen, liner:
+
+- linen n. 亚麻布
+- liner n. 邮轮，班机，衬里
+
+possess, process:
+
+- possess v. 拥有，支配，控制
+- process v. 前进，加工，处理，审核 n. 过程，进程，工序
+
+fantasy, fascinate:
+
+- fantasy v&n. 幻想
+- fascinate v. 迷住，强烈吸引
