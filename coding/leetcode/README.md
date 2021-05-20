@@ -54,6 +54,7 @@
 - [554. Brick Wall](#554-brick-wall)
 - [633. Sum of Square Numbers](#633-sum-of-square-numbers)
 - [690. Employee Importance](#690-employee-importance)
+- [692. Top K Frequent Words](#692-top-k-frequent-words)
 - [740. Delete and Earn](#740-delete-and-earn)
 - [781. Rabbits in Forest](#781-rabbits-in-forest)
 - [783. Minimum Distance Between BST Nodes](#783-minimum-distance-between-bst-nodes)
@@ -359,6 +360,11 @@ if uglyNums[i] == uglyNums[p] { p++ }
 ## 690. Employee Importance
 
 简单遍历，广度优先或深度优先
+
+## 692. Top K Frequent Words
+
+- 哈希统计单词次数，排序或者堆排序得到前 k 个频率最高的单词
+- go 中需要自己实现堆排序，直接使用排序可能写起来比较方便
 
 ## 740. Delete and Earn
 
