@@ -111,6 +111,7 @@
 - go off 停止运转，（爆炸，走火，发出巨响），变劣，发生
 - weigh down 压弯，压倒
 - a chance lost cannot be redeemed 机不可失，时不再来
+- permanent commission 常务委员会
 
 ## 作文积累
 
@@ -125,6 +126,19 @@
 hardly 倒装句
 
 - adj. 显著的：salient, notable, remarkable, dramatic
-- adj. 极好的：fabulous, fantastic
+- adj. 极好的：fabulous, fantastic, divine
 - adj. 极其的：supreme, ultimate, exceeding
 - adj. 巨大的：enormous, drmatic, whopping, gigantic, fearsome
+
+连接词与副词：
+
+- whereas conj. 然而，但是，尽管
+- lest conj. 以免，唯恐
+- thereafter adv. 此后
+- whatsoever adv. 任何
+- hitherto adv. 迄今为止
+- nevertheless adv. 然而，尽管
+- notwithstanding prep&adv. 尽管
+- thereafter adv. 此后
+- whatsoever adv. 任何
+- henceforth adv. 今后
