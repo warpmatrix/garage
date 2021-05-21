@@ -64,6 +64,7 @@
 - [993. Cousins in Binary Tree](#993-cousins-in-binary-tree)
 - [1006. Clumsy Factorial](#1006-clumsy-factorial)
 - [1011. Capacity To Ship Packages Within D Days](#1011-capacity-to-ship-packages-within-d-days)
+- [1035. Uncrossed Lines](#1035-uncrossed-lines)
 - [1047. Remove All Adjacent Duplicates In String](#1047-remove-all-adjacent-duplicates-in-string)
 - [1143. Longest Common Subsequence](#1143-longest-common-subsequence)
 - [1269. Number of Ways to Stay in the Same Place After Some Steps](#1269-number-of-ways-to-stay-in-the-same-place-after-some-steps)
@@ -420,6 +421,10 @@ $N - 3 \approx \frac{(N-4)*(N-5)}{N-6}$
 
 - 下界：运载能力为最重的物品（一般的（小数）规划问题中，最优装载量为物品重量的平均值，最大值比平均值要大）
 - 上界：无法确定 $d$ 的范围，只能假设 $d$ 最小的情况（$d=1$），装载量为所有物品重量的总和
+
+## 1035. Uncrossed Lines
+
+动态规划，最长相同子序列
 
 ## 1047. Remove All Adjacent Duplicates In String
 
