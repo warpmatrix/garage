@@ -1262,10 +1262,11 @@ engage, emerge:
 - engage v. 吸引，占用，聘，订婚，从事
 - emerge v. 浮现，暴露，兴起，幸存，摆脱
 
-scorn, scold:
+scorn, scold, scout:
 
 - scorn v&n. 蔑视
 - scold v. 责骂，训斥
+- scout n. 侦查员，侦察机，童子军 v. 搜索，侦察
 
 lame, cripple:
 
@@ -1338,3 +1339,18 @@ fantasy, fascinate:
 
 - fantasy v&n. 幻想
 - fascinate v. 迷住，强烈吸引
+
+converge, coverage:
+
+- converge v. 汇聚，会合，趋近
+- coverage n. 范围，总额，保险金，新闻报道
+
+maiden, virgin:
+
+- maiden n. 少女，处女，未婚女子 adj. 首次的，初次的，未婚的
+- virgin n. 处女，新手 adj. 处女的，纯洁的，原始的，未经开发的
+
+torrent, tolerant:
+
+- torrent n. 激流，洪流，迸发，连发
+- tolerant adj. 容忍的，宽容的
