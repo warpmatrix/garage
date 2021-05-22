@@ -6,6 +6,11 @@
 <!-- TODO: 以后再补吧，lay 了 -->
 可以留意的一些题目：28、87、213、240、264、338、421、456、525、783、1473、1486、1310
 
+- 思维训练的题：810
+
+<!-- omit in toc -->
+## Table of Contents
+
 - [7. Reverse Integer](#7-reverse-integer)
 - [12. Integer to Roman](#12-integer-to-roman)
 - [13. Roman to Integer](#13-roman-to-integer)
@@ -58,6 +63,7 @@
 - [740. Delete and Earn](#740-delete-and-earn)
 - [781. Rabbits in Forest](#781-rabbits-in-forest)
 - [783. Minimum Distance Between BST Nodes](#783-minimum-distance-between-bst-nodes)
+- [810. Chalkboard XOR Game](#810-chalkboard-xor-game)
 - [872. Leaf-Similar Trees](#872-leaf-similar-trees)
 - [897. Increasing Order Search Tree](#897-increasing-order-search-tree)
 - [938. Range Sum of BST](#938-range-sum-of-bst)
@@ -337,7 +343,7 @@ if uglyNums[i] == uglyNums[p] { p++ }
 
 - 枚举 3：维护左区间最小值，维护右区间次小值，时间复杂度 $O(n\log n)$
 - 枚举 1：从右向左枚举，对于每一个右区间最大值 3，取区间次小值作为 2，使用单调递减栈维护右区间的可能最大值，时间复杂度 $O(n)$
-- 枚举 2：取左区间的尽可能小值作为 1，尽可能大值作为 3，其中 `&1 < &3`
+- 枚举 2：取左区间的尽可能小值作为 1，尽可能大值作为 3，其中 `&1 ( &3`
 
 ## 503. Next Greater Element II
 
@@ -382,6 +388,16 @@ if uglyNums[i] == uglyNums[p] { p++ }
 - 实现过程：实现中序遍历、中序遍历完成相邻元素的比较（分开实现，各司其职），特别是用栈实现的方法
 - 使用值域以外的值区分第一次遍历
 - 使用栈完成中序遍历
+
+## 810. Chalkboard XOR Game
+
+需要分成数组长度的奇偶性进行讨论：
+
+- $S = \oplus_{i=0}^{n-1} nums[i], S_i = S \oplus nums[i]$
+- 若失败，则 $\forall i, S_i = 0$
+  - $t = \oplus_{i=0}^{n-1} S_i = \oplus_{i=0}^{n} S = 0$
+  - 若 $n$ 为偶数，$t = S = 0$ 与 $S \neq 0$ 矛盾，不会失败
+  - A 先手为偶数不会输，B 后手为偶数不会输
 
 ## 872. Leaf-Similar Trees
 
