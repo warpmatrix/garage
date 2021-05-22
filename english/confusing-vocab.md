@@ -1354,3 +1354,29 @@ torrent, tolerant:
 
 - torrent n. 激流，洪流，迸发，连发
 - tolerant adj. 容忍的，宽容的
+
+tan, tank:
+
+- tan v&n. 晒黑，（晒成）棕褐色（的皮肤） adj. 棕褐色的
+- tank n. 槽，坦克 v. 失败，倒闭，输比赛
+
+dissipate, discrepancy:
+
+- dissipate v. 消散，驱散，浪费，挥霍
+- discrepancy n. 差异，不一致，不符合
+
+bacterium, bureaucrat:
+
+- bacterium n. 细菌
+  - bacteria pl. 细菌
+- bureaucrat n. 官僚
+
+cemetery, ceremony:
+
+- cemetery n. 墓地
+- ceremony n. 典礼，礼节
+
+pharmacy, pamphlet:
+
+- pharmacy n. 药店，药剂学，制药业
+- pamphlet n. 小册子

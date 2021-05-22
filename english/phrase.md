@@ -112,6 +112,8 @@
 - weigh down 压弯，压倒
 - a chance lost cannot be redeemed 机不可失，时不再来
 - permanent commission 常务委员会
+- in default on the loan 拖欠借款
+- serve as a precedent 作为先例
 
 ## 作文积累
 
