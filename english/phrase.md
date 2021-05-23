@@ -114,6 +114,7 @@
 - permanent commission 常务委员会
 - in default on the loan 拖欠借款
 - serve as a precedent 作为先例
+- pickup of confidence 重获信心
 
 ## 作文积累
 

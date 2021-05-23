@@ -305,10 +305,11 @@ enclosure, closure:
 - enclosure n. 圈地，附件
 - closure n. 倒闭 v. 使结束
 
-hostility, hospitality:
+hostility, hospitality, hostage:
 
 - hostility n. 敌意
 - hospitality n. 好客
+- hostage n. 人质
 
 restrain, repress:
 
@@ -1360,10 +1361,11 @@ tan, tank:
 - tan v&n. 晒黑，（晒成）棕褐色（的皮肤） adj. 棕褐色的
 - tank n. 槽，坦克 v. 失败，倒闭，输比赛
 
-dissipate, discrepancy:
+dissipate, discrepancy, dispatch:
 
 - dissipate v. 消散，驱散，浪费，挥霍
 - discrepancy n. 差异，不一致，不符合
+- despatch (dispatch) v&n. 派遣，发送
 
 bacterium, bureaucrat:
 
@@ -1380,3 +1382,28 @@ pharmacy, pamphlet:
 
 - pharmacy n. 药店，药剂学，制药业
 - pamphlet n. 小册子
+
+inherent, intrinsic:
+
+- inherent adj. 固有的，内在的
+- intrinsic adj. 内在的，固有的，本质的
+
+hierarchical, hysterical:
+
+- hierarchical adj. 层次的，等级的
+- hysterical adj. 歇斯底里的
+
+redundant, aboundant:
+
+- redundant adj. 多余的，过剩的，被裁剪的
+- aboundant adj. 充裕的，大量的
+
+fabricate, fabric:
+
+- fabricate v. 捏造，编造，建造
+- fabric n. 织物，布，构造，结构，组织
+
+deviate, derive:
+
+- deviate v. 偏离
+- derive v. 获得，起源
