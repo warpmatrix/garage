@@ -80,6 +80,7 @@
 - [1482. Minimum Number of Days to Make m Bouquets](#1482-minimum-number-of-days-to-make-m-bouquets)
 - [1486. XOR Operation in an Array](#1486-xor-operation-in-an-array)
 - [1603. Design Parking System](#1603-design-parking-system)
+- [1707. Maximum XOR With an Element From Array](#1707-maximum-xor-with-an-element-from-array)
 - [1720. Decode XORed Array](#1720-decode-xored-array)
 - [1723. Find Minimum Time to Finish All Jobs](#1723-find-minimum-time-to-finish-all-jobs)
 - [1734. Decode XORed Permutation](#1734-decode-xored-permutation)
@@ -508,6 +509,12 @@ $$
 ## 1603. Design Parking System
 
 简单模拟
+
+## 1707. Maximum XOR With an Element From Array
+
+通过前缀树记录数组元素的每一位，寻找最大的异或值
+
+- 对于每一个节点，记录子树对应的最小值，确保可以进行转换
 
 ## 1720. Decode XORed Array
 
