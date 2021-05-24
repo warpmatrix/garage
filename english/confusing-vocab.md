@@ -714,10 +714,11 @@ furious, indignant, irritate:
 - indignant 愤懑不平
 - irritate 失去耐心而发怒
 
-inherent, inherit:
+inherent, inherit, intrinsic:
 
 - inherent adj. 固有的，内在的
 - inherit v. 继承
+- intrinsic adj. 内在的，固有的，本质的
 
 fork, folk:
 
@@ -1383,11 +1384,6 @@ pharmacy, pamphlet:
 - pharmacy n. 药店，药剂学，制药业
 - pamphlet n. 小册子
 
-inherent, intrinsic:
-
-- inherent adj. 固有的，内在的
-- intrinsic adj. 内在的，固有的，本质的
-
 hierarchical, hysterical:
 
 - hierarchical adj. 层次的，等级的
@@ -1407,3 +1403,13 @@ deviate, derive:
 
 - deviate v. 偏离
 - derive v. 获得，起源
+
+petition, appetite:
+
+- petition n. 请愿书，申请书 v. 请愿，请求
+- appetite n. 食欲，欲望，爱好，要求
+
+augment, argument:
+
+- augment v. 增加，扩大
+- argument n. 争论
