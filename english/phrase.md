@@ -115,6 +115,8 @@
 - in default on the loan 拖欠借款
 - serve as a precedent 作为先例
 - pickup of confidence 重获信心
+- remains a mystery hitherto 至今仍是一个谜
+- see through the appearance to perceive the essence 透过现象看本质
 
 ## 作文积累
 
