@@ -58,6 +58,7 @@
 - [525. Contiguous Array](#525-contiguous-array)
 - [554. Brick Wall](#554-brick-wall)
 - [633. Sum of Square Numbers](#633-sum-of-square-numbers)
+- [664. Strange Printer](#664-strange-printer)
 - [690. Employee Importance](#690-employee-importance)
 - [692. Top K Frequent Words](#692-top-k-frequent-words)
 - [740. Delete and Earn](#740-delete-and-earn)
@@ -364,6 +365,11 @@ if uglyNums[i] == uglyNums[p] { p++ }
 
 - $l^2 + r^2 < c \to l = l + 1$
 - $l^2 + r^2 > c \to r = r - 1$
+
+## 664. Strange Printer
+
+- 左边字符和右边字符相等，右边字符不影响：$f[i][j] = f[i][j - 1]$
+- 左边字符和右边字符不相等，分段讨论最大值：$min(f[i][k] + f[k+1][j])$
 
 ## 690. Employee Importance
 
