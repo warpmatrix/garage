@@ -117,6 +117,9 @@
 - pickup of confidence 重获信心
 - remains a mystery hitherto 至今仍是一个谜
 - see through the appearance to perceive the essence 透过现象看本质
+- make up 弥补，和解，化妆，组成，补齐，编造，铺床
+- not up to standard 未达标
+- make a fuss 大惊小怪
 
 ## 作文积累
 
@@ -133,7 +136,7 @@ hardly 倒装句
 - adj. 显著的：salient, notable, remarkable, dramatic
 - adj. 极好的：fabulous, fantastic, divine
 - adj. 极其的：supreme, ultimate, exceeding
-- adj. 巨大的：enormous, drmatic, whopping, gigantic, fearsome
+- adj. 巨大的：enormous, drmatic, whopping, gigantic, fearsome, immense
 
 连接词与副词：
 
@@ -147,3 +150,4 @@ hardly 倒装句
 - thereafter adv. 此后
 - whatsoever adv. 任何
 - henceforth adv. 今后
+- incidentally adv. 偶然地，顺带地
