@@ -828,10 +828,11 @@ counter, retort, resort, distort:
 - resort v&n. 诉诸 n. 常去之地
 - distort v. 扭曲，变形
 
-reliance, alliance:
+reliance, alliance, allegiance:
 
 - reliance n. 依靠，依赖
 - alliance n. 联盟，同盟
+- allegiance n. 忠诚
 
 micro-, macro-:
 
@@ -1082,10 +1083,11 @@ receipt, reception, recipient:
 - reception n. 接待，招待会
 - recipient adj. 接受的 n. 接收者，容器
 
-sneeze, queeze:
+sneeze, queeze， creak:
 
 - sneeze v&n. 喷嚏
 - squeeze v&n. 挤，榨取，握（手），拮据
+- creak v&n. 嘎吱作响
 
 warp, wrap:
 
@@ -1312,11 +1314,6 @@ fundamental, essential:
 - fundamental n. 基本原则，基本原理 adj. 基础的，基本的
 - essential adj. 基本的，本质的，必要的 n. 要素，必需品
 
-pamphlet, prophet:
-
-- pamphlet n. 小册子
-- prophet n. 先知，预言家，提倡者
-
 sweat, wheet:
 
 - sweat v. 出汗 n. 汗
@@ -1379,10 +1376,11 @@ cemetery, ceremony:
 - cemetery n. 墓地
 - ceremony n. 典礼，礼节
 
-pharmacy, pamphlet:
+pharmacy, pamphlet, prophet:
 
 - pharmacy n. 药店，药剂学，制药业
 - pamphlet n. 小册子
+- prophet n. 先知，预言家，提倡者
 
 hierarchical, hysterical:
 
@@ -1413,3 +1411,38 @@ augment, argument:
 
 - augment v. 增加，扩大
 - argument n. 争论
+
+incidence, incident:
+
+- incidence n. 发生（率）
+- incident n. 事件
+
+fabricate, fluctuate:
+
+- fabricate v. 捏造，编造，建造
+- fluctuate v. 波动
+
+contemplate, contaminate:
+
+- contemplate v. 思量，考虑，注释，凝视
+- contaminate v. 污染，玷污，毒害，腐蚀
+
+provoke, evoke:
+
+- provoke v. 挑衅，激起，引起
+- evoke v. 唤起，引起（回忆）
+
+invert, revert:
+
+- invert v. 颠倒，倒转
+- revert v. 恢复原状
+
+corrode, corrupt:
+
+- corrode v. 腐蚀，侵蚀
+- corrupt v. 腐败，破坏，引起错误
+
+merchandise, commodity:
+
+- merchandise n. 商品，货物
+- commodity n. 商品，日用品，有用之物
