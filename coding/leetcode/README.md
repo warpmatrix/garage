@@ -4,9 +4,9 @@
 思考如何切题：先动笔，再打码！leetcode 难度分级不科学，困难其实是中等难度
 
 <!-- TODO: 以后再补吧，lay 了 -->
-可以留意的一些题目：28、87、213、240、264、338、421、456、525、783、1473、1486、1310
+可以留意的一些题目：28、87、213、240、264、338、421、456、525、783、1473、1486、1310、1787
 
-- 思维训练的题：810
+- 思维训练的题：810、1787
 
 <!-- omit in toc -->
 ## Table of Contents
@@ -74,6 +74,7 @@
 - [1035. Uncrossed Lines](#1035-uncrossed-lines)
 - [1047. Remove All Adjacent Duplicates In String](#1047-remove-all-adjacent-duplicates-in-string)
 - [1143. Longest Common Subsequence](#1143-longest-common-subsequence)
+- [1190. Reverse Substrings Between Each Pair of Parentheses](#1190-reverse-substrings-between-each-pair-of-parentheses)
 - [1269. Number of Ways to Stay in the Same Place After Some Steps](#1269-number-of-ways-to-stay-in-the-same-place-after-some-steps)
 - [1310. XOR Queries of a Subarray](#1310-xor-queries-of-a-subarray)
 - [1442. Count Triplets That Can Form Two Arrays of Equal XOR](#1442-count-triplets-that-can-form-two-arrays-of-equal-xor)
@@ -86,6 +87,7 @@
 - [1723. Find Minimum Time to Finish All Jobs](#1723-find-minimum-time-to-finish-all-jobs)
 - [1734. Decode XORed Permutation](#1734-decode-xored-permutation)
 - [1738. Find Kth Largest XOR Coordinate Value](#1738-find-kth-largest-xor-coordinate-value)
+- [1787. Make the XOR of All Segments Equal to Zero](#1787-make-the-xor-of-all-segments-equal-to-zero)
 - [面试题 17.21. Volume of Histogram LCCI](#面试题-1721-volume-of-histogram-lcci)
 
 ## 7. Reverse Integer
@@ -464,6 +466,10 @@ dp[i][j] = \begin{cases}
 \end{cases}
 $$
 
+## 1190. Reverse Substrings Between Each Pair of Parentheses
+
+遇到括号，逆序遍历，注意括号可能是嵌套的也可能是非嵌套的（题目给的样例是特地的吧 orz...
+
 ## 1269. Number of Ways to Stay in the Same Place After Some Steps
 
 动态规划：`dp[step][loc] = dp[step - 1][loc - 1] + dp[step - 1][loc] + dp[step - 1][loc + 1]`
@@ -553,6 +559,20 @@ ref: [1011](#1011-capacity-to-ship-packages-within-d-days) 给定顺序进行规
 
 - go 里面传递数组好像是写时复制？递归传递数组比较消耗时间
 - 尽量将递归改成循环
+
+## 1787. Make the XOR of All Segments Equal to Zero
+
+对于每一个长度为 $k$ 的区间异或为 $0$，则 $nums[i] == nums[i+k]$。因此，数组满足的性质为：
+
+- 数组以 $k$ 为周期
+- 数组的前 $k$ 个数的异或为 0
+
+将数组分成 k 组，考虑不同的异或前缀路径，将 k 个数异或结果变为 0
+
+- $dp[mask] = min(prev[mask \oplus num] - cnts[num], min(prev))$
+- 主要需要遍历每一组的数据需要变成哪一个数字，分成两类进行讨论：
+  - 将所有数字变成没有出现过的数字
+  - 将所有数字变成一组中的一个，变化的次数为 `size - cnts[num]`
 
 ## 面试题 17.21. Volume of Histogram LCCI
 
