@@ -120,6 +120,11 @@
 - make up 弥补，和解，化妆，组成，补齐，编造，铺床
 - not up to standard 未达标
 - make a fuss 大惊小怪
+- name after 命名
+- stamp out 根绝
+- No longer. 情况不再
+- rest with 归属于，依据，取决于
+- stem from 基于，出于
 
 ## 作文积累
 

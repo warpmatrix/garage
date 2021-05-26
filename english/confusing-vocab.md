@@ -592,8 +592,10 @@ religious, rigorous, vigorous:
 - rigorous adj. 严密的
 - vigorous adj. 健壮的
   
-deduce, deduct:
+reduce, induce, deduce, deduct:
 
+- reduce v. 迫使，降级，减少
+- induce v. 诱使，劝说，导致
 - deduce v. 演绎，推理
 - deduct v. 扣除
 
@@ -1049,10 +1051,11 @@ somewhat, somehow, somewhere:
 - somehow adv. 以某种方式，不知怎么地
 - somewhere adv. 大概，在某处
 
-impair, impact:
+impair, impact, compact:
 
 - impact v&n. 影响，冲击
 - impair v. 损伤，削弱，减少
+- compact v&adj. （使）紧凑，袖珍（的） n. 协议，契约
 
 gasp, grasp:
 
@@ -1261,10 +1264,11 @@ comprehensive, comprehensible:
 - comprehensive adj. 全面的，详尽的，综合的
 - comprehensible adj. 可理解的
 
-engage, emerge:
+engage, emerge, emergency:
 
 - engage v. 吸引，占用，聘，订婚，从事
 - emerge v. 浮现，暴露，兴起，幸存，摆脱
+- emergency n. 紧急
 
 scorn, scold, scout:
 
@@ -1446,3 +1450,36 @@ merchandise, commodity:
 
 - merchandise n. 商品，货物
 - commodity n. 商品，日用品，有用之物
+
+patriotic, patron, pistol:
+
+- patriotic adj. 爱国的
+- patron n. 赞助者，老顾客
+- pistol n. 手枪
+
+parasite, pesticide, paradise, merchandise:
+
+- parasite n. 寄生虫
+- pesticide n. 杀虫剂，农药
+- paradise n. 天堂
+- merchandise n. 商品，货物
+
+inhibit, inhabit:
+
+- inhibit v. 阻止，抑制
+- inhabit v. 居住
+
+conscience, conscientious:
+
+- conscience n. 良心
+- conscientious adj. 认真的，勤恳的，小心的
+
+feminine, masculine:
+
+- feminine adj. 女性的，娇柔的，阴性的
+- masculine adj. 男子气概的，男性的，阳性的
+
+coherent, cohesive:
+
+- coherent adj. 连贯的，协调的，条理清楚的
+- cohesive adj. 凝聚的，紧密结合的
