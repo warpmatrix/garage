@@ -54,6 +54,7 @@
 - [403. Frog Jump](#403-frog-jump)
 - [421. Maximum XOR of Two Numbers in an Array](#421-maximum-xor-of-two-numbers-in-an-array)
 - [456. 132 Pattern](#456-132-pattern)
+- [461. Hamming Distance](#461-hamming-distance)
 - [503. Next Greater Element II](#503-next-greater-element-ii)
 - [525. Contiguous Array](#525-contiguous-array)
 - [554. Brick Wall](#554-brick-wall)
@@ -348,6 +349,12 @@ if uglyNums[i] == uglyNums[p] { p++ }
 - 枚举 3：维护左区间最小值，维护右区间次小值，时间复杂度 $O(n\log n)$
 - 枚举 1：从右向左枚举，对于每一个右区间最大值 3，取区间次小值作为 2，使用单调递减栈维护右区间的可能最大值，时间复杂度 $O(n)$
 - 枚举 2：取左区间的尽可能小值作为 1，尽可能大值作为 3，其中 `&1 ( &3`
+
+## 461. Hamming Distance
+
+异或得到不同的位为 1，再计算海明权重
+
+- go 中海明距离可以使用 `bits.OnesCount` 函数
 
 ## 503. Next Greater Element II
 
