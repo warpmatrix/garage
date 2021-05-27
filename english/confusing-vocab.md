@@ -1396,10 +1396,11 @@ redundant, aboundant:
 - redundant adj. 多余的，过剩的，被裁剪的
 - aboundant adj. 充裕的，大量的
 
-fabricate, fabric:
+fabricate, fabric, fiber:
 
 - fabricate v. 捏造，编造，建造
 - fabric n. 织物，布，构造，结构，组织
+- fiber n. 纤维，纤维质
 
 deviate, derive:
 
@@ -1483,3 +1484,34 @@ coherent, cohesive:
 
 - coherent adj. 连贯的，协调的，条理清楚的
 - cohesive adj. 凝聚的，紧密结合的
+
+strife, strive, contrive:
+
+- strife n. 冲突，斗争
+- strive v. 努力，奋斗
+- contrive v. 策划，谋划，设法做到
+
+massacre, slaughter:
+
+- massacre n. 大屠杀，惨败 v. 屠杀，使惨败
+- slaughter v&n. 屠杀
+
+homogeneous, hypothesis:
+
+- homogeneous adj. 同种类的，同性质的
+- hypothesis n. 假说，假设，前提
+
+plague, pledge:
+
+- plague n. 瘟疫，灾害，苦恼 v. 折磨，使苦恼
+- pledge n. 誓约，保证 v. 发誓，保证
+
+feminine, famine:
+
+- feminine adj. 女性的，娇柔的，阴性的
+- famine n. 饥荒
+
+rumor, tumour:
+
+- rumor n&v. 谣言
+- tumour (tumor) n. 肿瘤，肿块
