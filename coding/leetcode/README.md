@@ -55,6 +55,7 @@
 - [421. Maximum XOR of Two Numbers in an Array](#421-maximum-xor-of-two-numbers-in-an-array)
 - [456. 132 Pattern](#456-132-pattern)
 - [461. Hamming Distance](#461-hamming-distance)
+- [477. Total Hamming Distance](#477-total-hamming-distance)
 - [503. Next Greater Element II](#503-next-greater-element-ii)
 - [525. Contiguous Array](#525-contiguous-array)
 - [554. Brick Wall](#554-brick-wall)
@@ -355,6 +356,13 @@ if uglyNums[i] == uglyNums[p] { p++ }
 异或得到不同的位为 1，再计算海明权重
 
 - go 中海明距离可以使用 `bits.OnesCount` 函数
+
+## 477. Total Hamming Distance
+
+计算所有数字不同的位数（海明距离），按位计算：
+
+- 统计所有数字每一位上的零或一的出现的次数
+- 海明距离等于出现的零一次数相乘（零一相加为数组长度）
 
 ## 503. Next Greater Element II
 
