@@ -125,6 +125,15 @@
 - No longer. 情况不再
 - rest with 归属于，依据，取决于
 - stem from 基于，出于
+- drive a valve stem 带动阀门的把手
+- make one's debut as a (role) 首次担任..角色
+- do so 这样做，做到了
+  - he did so, albeit this one isn't final
+- petty favours 小恩小惠
+- do away with 消除，终止，杀死，自杀
+  - do away with superstition 破除迷信
+- open up land 开垦荒地
+- ... of international prestige 享有国际声誉的...
 
 ## 作文积累
 
@@ -156,3 +165,4 @@ hardly 倒装句
 - whatsoever adv. 任何
 - henceforth adv. 今后
 - incidentally adv. 偶然地，顺带地
+- albeit conj. 虽然，即使

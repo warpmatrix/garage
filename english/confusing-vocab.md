@@ -544,10 +544,13 @@ census, censor:
 - census n. 人口普查
 - censor v. 审查
 
-patrol, petrol:
+patrol, petrol, patriotic, patron, pistol:
 
 - patrol v&n. 巡逻
 - petrol n. 汽油
+- patriotic adj. 爱国的
+- patron n. 赞助者，老顾客
+- pistol n. 手枪
 
 invade, intrude:
 
@@ -1452,12 +1455,6 @@ merchandise, commodity:
 - merchandise n. 商品，货物
 - commodity n. 商品，日用品，有用之物
 
-patriotic, patron, pistol:
-
-- patriotic adj. 爱国的
-- patron n. 赞助者，老顾客
-- pistol n. 手枪
-
 parasite, pesticide, paradise, merchandise:
 
 - parasite n. 寄生虫
@@ -1515,3 +1512,48 @@ rumor, tumour:
 
 - rumor n&v. 谣言
 - tumour (tumor) n. 肿瘤，肿块
+
+aggregate, aggressive:
+
+- aggregate n&v&adj. 总数（的）
+- aggressive adj. 有进取心的，侵略的，声势浩大的
+
+aggregate, cumulative:
+
+- aggregate n&v&adj. 总数（的）
+- cumulative adj. 累积的，渐增的
+
+virgin, vicinity, outskirts, suburb:
+
+- virgin adj. 原始的，未经开发的，纯洁的，处女的 n. 新手，处女
+- vicinity n. 临近，附近
+- outskirts n. 市郊，边缘地带
+- suburb n. 市郊
+
+furnace, menace, commence:
+
+- furnace n. 火炉，熔炉
+- menace n. 威胁，烦人的（人，物） v. 威胁
+- commence v. 开始，获得学位
+
+demographic, domestic:
+
+- demographic adj. 人口统计（学）的
+- domestic adj. 国内的
+
+aerial, aviation:
+
+- aerial n. 天线 adj. 空中的，航空的
+- aviation n. 航空，飞机制造业
+
+degenerate, deteriorate:
+
+- degenerate v&n&adj. 退化，恶化，堕落（的，者）
+- deteriorate v. 恶化，变坏
+
+curb, deter, inhibit, restrain:
+
+- curb v. 制止，抑制 n. 路边，场外证券交易公司
+- deter v. 组织，制止，使踌躇
+- inhibit v. 阻止，抑制
+- restrain v. 抑制，控制
