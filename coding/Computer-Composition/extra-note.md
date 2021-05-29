@@ -1,19 +1,23 @@
 # 各种缩写
 
-- MAR (memory address register)
-- MDR (memory data register)
-- ALU (arithmetic and logical unit)
-- PSW (program state word)
-- PC (program counter)
-- IR (instruction register)
-- CU (control unit)
-- GPR (general propose register)
-- ROM (read only memory)
-- ACC (Accumulator)
+- MAR (Memory Address Register)
+- MDR (Memory Data Register)
+- ALU (Arithmetic and Logical Unit)
+- PSW (Program State Word) 程序状态字，程序状态寄存器
+- PC (Program Counter)
+- IR (Instruction Register)
+- CU (Control Unit)
+- GPR (General Propose Register)
+- ROM (Read Only Memory)
+- ACC (ACCumulator)
 - MQ (Multiple—Quotient Register)
 - X 操作数寄存器
-- IX 变址寄存器
-- BR (base register)
+- IX (IndeX register) 变址寄存器
+- BR (Base Register)
+- BCD (Binary-Coded Decimal)
+- FA (Full Adder)
+- CLA (Carry Lookahead Adder)
+- BCLA (Block Carry Lookahead Adder) 成组先行进位电路
 
 ## 容易混淆的概念
 
@@ -29,8 +33,3 @@
 - 机器字长：直接处理的二进制数据的位数
 - 指令字长：指令中二进制代码的位数
 - 存储字长：存储单元中二进制代码的位数
-
-## 一些 CSAPP 上的补充
-
-- 现代 64 位的计算机，一般只有 47 位可用的内存空间大小
-- 使用虚拟内存进行管理，逻辑实现 64 位的内存
