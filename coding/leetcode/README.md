@@ -59,6 +59,7 @@
 - [503. Next Greater Element II](#503-next-greater-element-ii)
 - [525. Contiguous Array](#525-contiguous-array)
 - [554. Brick Wall](#554-brick-wall)
+- [560. Subarray Sum Equals K](#560-subarray-sum-equals-k)
 - [633. Sum of Square Numbers](#633-sum-of-square-numbers)
 - [664. Strange Printer](#664-strange-printer)
 - [690. Employee Importance](#690-employee-importance)
@@ -75,6 +76,7 @@
 - [1011. Capacity To Ship Packages Within D Days](#1011-capacity-to-ship-packages-within-d-days)
 - [1035. Uncrossed Lines](#1035-uncrossed-lines)
 - [1047. Remove All Adjacent Duplicates In String](#1047-remove-all-adjacent-duplicates-in-string)
+- [1074. Number of Submatrices That Sum to Target](#1074-number-of-submatrices-that-sum-to-target)
 - [1143. Longest Common Subsequence](#1143-longest-common-subsequence)
 - [1190. Reverse Substrings Between Each Pair of Parentheses](#1190-reverse-substrings-between-each-pair-of-parentheses)
 - [1269. Number of Ways to Stay in the Same Place After Some Steps](#1269-number-of-ways-to-stay-in-the-same-place-after-some-steps)
@@ -376,6 +378,12 @@ if uglyNums[i] == uglyNums[p] { p++ }
 
 简单题，确定每一行砖块边界的位置，统计哪一个位置边界最多
 
+## 560. Subarray Sum Equals K
+
+一维前缀和 + 哈希表（判定所需要的前缀和出现的次数）
+
+- 哈希表用于加速检索元素的有无
+
 ## 633. Sum of Square Numbers
 
 暴力枚举挺方便的，但双指针是真的秀，可以应该可以降低时间复杂度的常数，时间复杂度为 $O(\sqrt{c})$：
@@ -469,6 +477,14 @@ $N - 3 \approx \frac{(N-4)*(N-5)}{N-6}$
 ## 1047. Remove All Adjacent Duplicates In String
 
 使用栈（string 也可以作为容器）记录移出相邻重复的字符。主要看清题意，每次移出两个字符。
+
+## 1074. Number of Submatrices That Sum to Target
+
+可以将列（行）进行压缩，枚举行（列）的上界和下界，将问题转换为[一维序列的区间和为 k 的问题](#560-subarray-sum-equals-k)
+
+其它类似的问题：363. Max Sum of Rectangle No Larger Than K
+
+<!-- TODO: 考虑做法？二维前缀和 + 哈希表 -->
 
 ## 1143. Longest Common Subsequence
 
