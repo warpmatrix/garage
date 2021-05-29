@@ -134,6 +134,7 @@
   - do away with superstition 破除迷信
 - open up land 开垦荒地
 - ... of international prestige 享有国际声誉的...
+- industrial dispute 劳资纠纷
 
 ## 作文积累
 

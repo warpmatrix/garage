@@ -1557,3 +1557,31 @@ curb, deter, inhibit, restrain:
 - deter v. 组织，制止，使踌躇
 - inhibit v. 阻止，抑制
 - restrain v. 抑制，控制
+
+corrode, erode:
+
+- corrode v. 腐蚀，侵蚀
+- erode v. 腐蚀，削弱
+
+preside, prestige:
+
+- preside v. 主持会议，担任主席
+- prestige n. 威信，威望，声望
+
+medical, mediate, middle, meddle, medium:
+
+- medical adj. 医疗的，伤病的，内科的 n. 体格检查
+- mediate v. 调节，斡旋
+- middle n. 中间，中心，腰部 adj. 中间的，居中的，正中的
+- meddle v. 干涉，管闲事，瞎搞
+- medium n. 媒介，工具，方法，材料 adj. 中等的
+
+proximate, approximate:
+
+- proximate adj. 最接近的，最邻近的
+- approximate adj. 近似的
+
+venue, avenue:
+
+- venue n. 场所，比赛场地，审判地，犯罪地点，集合地点，会场
+- avenue n. 大街，林荫道，途径
