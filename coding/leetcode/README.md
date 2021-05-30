@@ -43,6 +43,7 @@
 - [215. Kth Largest Element in an Array](#215-kth-largest-element-in-an-array)
 - [220. Contains Duplicate III](#220-contains-duplicate-iii)
 - [224 & 227. Basic Calculator](#224--227-basic-calculator)
+- [231. Power of Two](#231-power-of-two)
 - [240. Search a 2D Matrix II](#240-search-a-2d-matrix-ii)
 - [263. Ugly Number](#263-ugly-number)
 - [264. Ugly Number II](#264-ugly-number-ii)
@@ -274,6 +275,12 @@ dfs，可以统计数字出现次数，减少递归深度；也可以使用 bool
 - 227 只有四则运算，没有括号可以使用栈，先计算乘除，加减号将操作数入栈
 
 显式后缀转中缀表达式，大量字符串操作容易超时，需要特别留意（尤其子字符串的传递），使用双栈（数字栈、符号栈）操作无需进行后缀转中缀的操作。
+
+## 231. Power of Two
+
+判断最低位的 1 是否是最高位的 1 -> 将最低位的 1 修改位 0 后数字是否为 0
+
+- 需要注意处理非正数的情况
 
 ## 240. Search a 2D Matrix II
 

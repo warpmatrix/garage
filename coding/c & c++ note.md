@@ -397,6 +397,15 @@ for (int i = 10; i >= 0u; i--) {
 // never reach
 ```
 
+count down with unsigned int:
+
+```c
+for (unsigned i = cnt - 1; i < cnt; i--) {
+    // loop execution
+}
+// normal exit
+```
+
 ## C plusplus篇
 
 ### 引用的用法
