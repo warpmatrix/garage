@@ -135,6 +135,13 @@
 - open up land 开垦荒地
 - ... of international prestige 享有国际声誉的...
 - industrial dispute 劳资纠纷
+- take inventory every day 每日盘点
+- thesis defense 论文答辩
+- file a lawsuit 提起诉讼
+- keep out of 置身事外，不做..，不进入里面
+- name badge 名牌
+- tangle up 乱成一团糟
+- civil strive 内乱
 
 ## 作文积累
 

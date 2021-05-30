@@ -1585,3 +1585,39 @@ venue, avenue:
 
 - venue n. 场所，比赛场地，审判地，犯罪地点，集合地点，会场
 - avenue n. 大街，林荫道，途径
+
+discrepancy, variance:
+
+- discrepancy n. 差异，不一致，不符合
+- variance n. 不一致，分歧，方差，变异，变动
+
+wary, discreet, discrete:
+
+- wary adj. 谨慎的，机警的，唯恐的，考虑周到的
+- discreet adj. 谨慎的，考虑周到的
+- discrete adj. 离散的，不相关的，分离的
+
+chorus, orchard:
+
+- chorus n. 合唱团 v. 合唱
+- orchard n. 果园
+
+dean, deem:
+
+- dean n. 系主任，学院院长，教长，主持牧师
+- deem v. 认为，相信
+
+precedent, paradigm:
+
+- precedent n. 先例，范例，惯例
+- paradigm n. 典范，范例，示例
+
+deteriotate, superiority:
+
+- deteriorate v. 恶化，变坏
+- superiority n. 优势，优越性，高傲
+
+hinder, hinge:
+
+- hinder v. 妨碍 adj. 后面的
+- hinge n. 合页，铰链 v. 装铰链，依..而定
