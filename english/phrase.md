@@ -142,6 +142,9 @@
 - name badge 名牌
 - tangle up 乱成一团糟
 - civil strive 内乱
+- drone on 喋喋不休
+- inflict on sb sth 使..遭受..
+- embark on sth 着手做..
 
 ## 作文积累
 

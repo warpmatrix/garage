@@ -1518,10 +1518,12 @@ aggregate, aggressive:
 - aggregate n&v&adj. 总数（的）
 - aggressive adj. 有进取心的，侵略的，声势浩大的
 
-aggregate, cumulative:
+aggregate, cumulative, accumulate, culminate:
 
 - aggregate n&v&adj. 总数（的）
 - cumulative adj. 累积的，渐增的
+- accumulate v. 积聚
+- culminate v. 告终，结束
 
 virgin, vicinity, outskirts, suburb:
 
@@ -1607,10 +1609,11 @@ dean, deem:
 - dean n. 系主任，学院院长，教长，主持牧师
 - deem v. 认为，相信
 
-precedent, paradigm:
+precedent, paradigm, plagiarism:
 
 - precedent n. 先例，范例，惯例
 - paradigm n. 典范，范例，示例
+- plagiarism n. 剽窃（物），抄袭（物）
 
 deteriotate, superiority:
 
@@ -1621,3 +1624,34 @@ hinder, hinge:
 
 - hinder v. 妨碍 adj. 后面的
 - hinge n. 合页，铰链 v. 装铰链，依..而定
+
+bolt, belt:
+
+- bolt v&n. 闩 v. 拴住，关闭（窗户），逃跑 n. 螺栓
+- belt n. 腰带，皮带，地区
+
+lubricate, lucrative:
+
+- lubricate v. 润滑
+- lucrative adj. 获利丰厚的，赚大钱的
+
+imminent, remnant:
+
+- imminent adj. 即将发生的，临近的
+- remnant n. 剩余物，零料，遗迹 adj. 剩余的，残留的
+
+bolster, pickup:
+
+- bolster v. 改善，增强，支撑 n. 长枕
+- pickup n. 好转，接取，轻型货车
+
+interim, transition:
+
+- interim n. 过渡时期 adj. 临时的，过渡的
+- transition n. 过渡，转变，变迁
+
+copy, replicate, duplicate:
+
+- copy v. 复印，抄写，复制
+- replicate v. 复制，复现，同步（可以进行调整）
+- duplicate v. 复制，重复（冗余）
