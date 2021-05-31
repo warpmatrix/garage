@@ -50,6 +50,7 @@
 - [331. Verify Preorder Serialization of a Binary Tree](#331-verify-preorder-serialization-of-a-binary-tree)
 - [338. Counting Bits](#338-counting-bits)
 - [341. Flatten Nested List Iterator](#341-flatten-nested-list-iterator)
+- [342. Power of Four](#342-power-of-four)
 - [354. Russian Doll Envelopes](#354-russian-doll-envelopes)
 - [377. Combination Sum IV](#377-combination-sum-iv)
 - [403. Frog Jump](#403-frog-jump)
@@ -315,6 +316,16 @@ if uglyNums[i] == uglyNums[p] { p++ }
 ## 341. Flatten Nested List Iterator
 
 递归实现嵌套扁平化；或者使用栈维护递归信息
+
+## 342. Power of Four
+
+4 的幂：1 只出现 1 次，并且出现的位置在偶数位置上
+
+- 对比：[231. Power of Two](#231-power-of-two)
+- 使用掩码进行处理可以避免一个 32 次的循环
+- 或者在判断 2 的幂的基础上，使用取模运算进行判断
+  - $(4^n) \% 3 = 1$
+  - $(2 \times 4^n) \% 3 = 2$
 
 ## 354. Russian Doll Envelopes
 
