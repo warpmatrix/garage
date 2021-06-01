@@ -145,6 +145,8 @@
 - drone on 喋喋不休
 - inflict on sb sth 使..遭受..
 - embark on sth 着手做..
+- a temporal and spatial context 时间和空间背景
+- hard-line stance 强硬的立场
 
 ## 作文积累
 
@@ -177,3 +179,5 @@ hardly 倒装句
 - henceforth adv. 今后
 - incidentally adv. 偶然地，顺带地
 - albeit conj. 虽然，即使
+- at length 最后，终于，详细地
+- in general 总之，通常，一般而言

@@ -1430,10 +1430,11 @@ fabricate, fluctuate:
 - fabricate v. 捏造，编造，建造
 - fluctuate v. 波动
 
-contemplate, contaminate:
+contemplate, contaminate, culminate:
 
 - contemplate v. 思量，考虑，注释，凝视
 - contaminate v. 污染，玷污，毒害，腐蚀
+- culminate v. 告终，结束
 
 provoke, evoke:
 
@@ -1604,10 +1605,11 @@ chorus, orchard:
 - chorus n. 合唱团 v. 合唱
 - orchard n. 果园
 
-dean, deem:
+dean, deem, redeem:
 
 - dean n. 系主任，学院院长，教长，主持牧师
 - deem v. 认为，相信
+- redeem v. 挽回，补救，救赎，兑换，履行
 
 precedent, paradigm, plagiarism:
 
