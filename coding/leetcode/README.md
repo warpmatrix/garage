@@ -93,6 +93,7 @@
 - [1723. Find Minimum Time to Finish All Jobs](#1723-find-minimum-time-to-finish-all-jobs)
 - [1734. Decode XORed Permutation](#1734-decode-xored-permutation)
 - [1738. Find Kth Largest XOR Coordinate Value](#1738-find-kth-largest-xor-coordinate-value)
+- [1744. Can You Eat Your Favorite Candy on Your Favorite Day?](#1744-can-you-eat-your-favorite-candy-on-your-favorite-day)
 - [1787. Make the XOR of All Segments Equal to Zero](#1787-make-the-xor-of-all-segments-equal-to-zero)
 - [面试题 17.21. Volume of Histogram LCCI](#面试题-1721-volume-of-histogram-lcci)
 
@@ -608,6 +609,12 @@ ref: [1011](#1011-capacity-to-ship-packages-within-d-days) 给定顺序进行规
 
 - go 里面传递数组好像是写时复制？递归传递数组比较消耗时间
 - 尽量将递归改成循环
+
+## 1744. Can You Eat Your Favorite Candy on Your Favorite Day?
+
+前缀和，确定吃到特定种类的糖，需要吃多少颗糖
+
+- 判断特定天数能否的吃糖区间是否满足条件
 
 ## 1787. Make the XOR of All Segments Equal to Zero
 
