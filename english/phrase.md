@@ -147,6 +147,7 @@
 - embark on sth 着手做..
 - a temporal and spatial context 时间和空间背景
 - hard-line stance 强硬的立场
+- in imminent danger 即将面临危险
 
 ## 作文积累
 

@@ -967,10 +967,11 @@ directory, dictionary:
 - directory n. 号码簿
 - dictionary n. 字典
 
-neural, neutral:
+neural, neutral, natural:
 
 - neural adj. 神经的，神经系统的
 - neutral adj. 中立的，中性的
+- natural adj. 自然的
 
 bouns, bounce:
 
@@ -1657,3 +1658,11 @@ copy, replicate, duplicate:
 - copy v. 复印，抄写，复制
 - replicate v. 复制，复现，同步（可以进行调整）
 - duplicate v. 复制，重复（冗余）
+
+## 易混淆词组
+
+look 的一系列词组：
+
+- look out 当心，小心
+- look into 调查，研究，浏览
+- look up 仰望，查阅，尊敬，拜访
