@@ -59,6 +59,7 @@
 - [461. Hamming Distance](#461-hamming-distance)
 - [477. Total Hamming Distance](#477-total-hamming-distance)
 - [503. Next Greater Element II](#503-next-greater-element-ii)
+- [523. Continuous Subarray Sum](#523-continuous-subarray-sum)
 - [525. Contiguous Array](#525-contiguous-array)
 - [554. Brick Wall](#554-brick-wall)
 - [560. Subarray Sum Equals K](#560-subarray-sum-equals-k)
@@ -388,6 +389,14 @@ if uglyNums[i] == uglyNums[p] { p++ }
 ## 503. Next Greater Element II
 
 单调栈维护序列的单调性，两个循环实现循环队列的需求，也可以在第一个循环增加循环长度下标取模实现
+
+## 523. Continuous Subarray Sum
+
+区间问题：判断区间和为 k 的倍数
+
+- 区间问题转化为前缀和的余数问题
+- 并且使用线性表或者哈希表记录之前是否存在余数为 $k_1$ 的情况
+  - k 较大时使用线性表消耗的空间较大
 
 ## 525. Contiguous Array
 
