@@ -1300,12 +1300,13 @@ sheer, shear:
 - sheer adj. 完全的，纯粹的（强调） adj&adv. 陡峭 v. 偏航
 - shear v. 剪切，折断 n. 大剪刀
 
-jet, wrench, wrest, wreck:
+jet, wrench, wrest, wreck, crack:
 
 - jet n. 喷气式飞机，喷嘴，喷射 v. 乘飞机
 - wrench v. 扭伤，挣脱 n. 痛苦
 - wrest v. 攫取，夺取
 - wreck v. 毁坏，遇难 n. 残骸
+- crack n. 裂缝，猛击，爆裂 v. 砸开，破裂
 
 saddle, harness:
 
@@ -1659,6 +1660,11 @@ copy, replicate, duplicate:
 - replicate v. 复制，复现，同步（可以进行调整）
 - duplicate v. 复制，重复（冗余）
 
+tangle, tangible:
+
+- tangle v. 缠结，乱作一团，争执 n. 混乱，纠纷
+- tangible adj. 可触摸的，有形的，切实的 n. 有形资产
+
 ## 易混淆词组
 
 look 的一系列词组：
@@ -1666,3 +1672,8 @@ look 的一系列词组：
 - look out 当心，小心
 - look into 调查，研究，浏览
 - look up 仰望，查阅，尊敬，拜访
+
+take out, take off:
+
+- take out 办理，得到，(on)发泄，去除，取出，带..出去
+- take off 起飞，腾飞，离开，拿开
