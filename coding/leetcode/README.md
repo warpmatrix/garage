@@ -4,7 +4,7 @@
 思考如何切题：先动笔，再打码！leetcode 难度分级不科学，困难其实是中等难度
 
 <!-- TODO: 以后再补吧，lay 了 -->
-可以留意的一些题目：28、87、213、240、264、338、421、456、525、783、1473、1486、1310、1787
+可以留意的一些题目：28、87、160、213、240、264、338、421、456、525、783、1473、1486、1310、1787
 
 - 思维训练的题：810、1787
 
@@ -34,6 +34,7 @@
 - [137. Single Number II](#137-single-number-ii)
 - [150. Evaluate Reverse Polish Notation](#150-evaluate-reverse-polish-notation)
 - [153 & 154. Find Minimum in Rotated Sorted Array](#153--154-find-minimum-in-rotated-sorted-array)
+- [160. Intersection of Two Linked Lists](#160-intersection-of-two-linked-lists)
 - [173. Binary Search Tree Iterator](#173-binary-search-tree-iterator)
 - [179. Largest Number](#179-largest-number)
 - [190. Reverse Bits](#190-reverse-bits)
@@ -227,6 +228,15 @@ dfs，可以统计数字出现次数，减少递归深度；也可以使用 bool
 - 153：旋转数组无重复元素可以直接二分查找旋转位置
 - 154：左边数组的元素大于右边数组的元素，使用二分进行查找
   - 最差情况 $O(n)$ 也可以使用线性搜索
+
+## 160. Intersection of Two Linked Lists
+
+寻找链表相交节点，可以使用哈希进行遍历，时间和空间复杂度均为 $O(n)$
+
+居然还可以使用双指针解决，时间复杂度 $O(n)$，空间复杂度 $O(1)$
+
+- 两个指针将两个链表的路都走一次可以确保两个指针最终会走到一起
+- 共同节点或 `null`
 
 ## 173. Binary Search Tree Iterator
 
