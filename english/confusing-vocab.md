@@ -1677,3 +1677,8 @@ take out, take off:
 
 - take out 办理，得到，(on)发泄，去除，取出，带..出去
 - take off 起飞，腾飞，离开，拿开
+
+all over, get over:
+
+- all over 全部结束，到处，浑身
+- get over 讲清楚，克服
