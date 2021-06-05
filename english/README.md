@@ -65,3 +65,35 @@ but 表递进：对前文程度部分否定，程度更深，即表递进的意�
 阅读养成动笔的习惯：进行语段的划分，对作者的情感色彩进行标注，对一个段落的大意进行总结
 
 题目和文章的顺序一般保持一致
+
+## 作文积累
+
+- be of one's opinion 同意..的看法
+- in favor of one's opinion 同意..的看法
+- take advantage of 占便宜
+- have an advantage over sb. 比..有优势
+- be used to 习惯于
+- on the contrary 正相反
+- be contrary to all expectation 出乎意料
+
+hardly 倒装句
+
+- adj. 显著的：salient, notable, remarkable, dramatic
+- adj. 极好的：fabulous, fantastic, divine
+- adj. 极其的：supreme, ultimate, exceeding
+- adj. 巨大的：enormous, drmatic, whopping, gigantic, fearsome, immense
+
+连接词与副词：
+
+- whereas conj. 然而，但是，尽管
+- lest conj. 以免，唯恐
+- thereafter adv. 此后
+- whatsoever adv. 任何
+- hitherto adv. 迄今为止
+- nevertheless adv. 然而，尽管
+- notwithstanding prep&adv. 尽管
+- henceforth adv. 今后
+- incidentally adv. 偶然地，顺带地
+- albeit conj. 虽然，即使
+- at length 最后，终于，详细地
+- in general 总之，通常，一般而言
