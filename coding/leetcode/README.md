@@ -39,6 +39,7 @@
 - [179. Largest Number](#179-largest-number)
 - [190. Reverse Bits](#190-reverse-bits)
 - [191. Number of 1 Bits](#191-number-of-1-bits)
+- [203. Remove Linked List Elements](#203-remove-linked-list-elements)
 - [208. Implement Trie (Prefix Tree)](#208-implement-trie-prefix-tree)
 - [213. House Robber II](#213-house-robber-ii)
 - [215. Kth Largest Element in an Array](#215-kth-largest-element-in-an-array)
@@ -253,6 +254,10 @@ dfs，可以统计数字出现次数，减少递归深度；也可以使用 bool
 ## 191. Number of 1 Bits
 
 相关题目：[338. Counting Bits](#338-counting-bits)
+
+## 203. Remove Linked List Elements
+
+去除链表相同取值的元素：使用虚拟头节点和两个指针节点实现
 
 ## 208. Implement Trie (Prefix Tree)
 
