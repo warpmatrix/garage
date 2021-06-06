@@ -59,6 +59,7 @@
 - [421. Maximum XOR of Two Numbers in an Array](#421-maximum-xor-of-two-numbers-in-an-array)
 - [456. 132 Pattern](#456-132-pattern)
 - [461. Hamming Distance](#461-hamming-distance)
+- [474. Ones and Zeroes](#474-ones-and-zeroes)
 - [477. Total Hamming Distance](#477-total-hamming-distance)
 - [503. Next Greater Element II](#503-next-greater-element-ii)
 - [523. Continuous Subarray Sum](#523-continuous-subarray-sum)
@@ -393,6 +394,10 @@ if uglyNums[i] == uglyNums[p] { p++ }
 异或得到不同的位为 1，再计算海明权重
 
 - go 中海明距离可以使用 `bits.OnesCount` 函数
+
+## 474. Ones and Zeroes
+
+二维容量的背包问题：动态规划，时间复杂度：$O(mnl)$
 
 ## 477. Total Hamming Distance
 
