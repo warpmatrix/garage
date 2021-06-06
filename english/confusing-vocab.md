@@ -1682,3 +1682,13 @@ all over, get over:
 
 - all over 全部结束，到处，浑身
 - get over 讲清楚，克服
+
+bring 的一些词组：
+
+- bring about 导致，引起
+- bring back 归还，回想
+
+in front of, in the front of:
+
+- in front of 在..前面
+- in the front of 在..（内部）的前面
