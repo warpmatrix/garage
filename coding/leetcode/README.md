@@ -61,6 +61,7 @@
 - [461. Hamming Distance](#461-hamming-distance)
 - [474. Ones and Zeroes](#474-ones-and-zeroes)
 - [477. Total Hamming Distance](#477-total-hamming-distance)
+- [494. Target Sum](#494-target-sum)
 - [503. Next Greater Element II](#503-next-greater-element-ii)
 - [523. Continuous Subarray Sum](#523-continuous-subarray-sum)
 - [525. Contiguous Array](#525-contiguous-array)
@@ -405,6 +406,18 @@ if uglyNums[i] == uglyNums[p] { p++ }
 
 - 统计所有数字每一位上的零或一的出现的次数
 - 海明距离等于出现的零一次数相乘（零一相加为数组长度）
+
+## 494. Target Sum
+
+> 可以直接使用动态规划枚举前面的数可以构成的表达式和，时间复杂度和空间复杂度较高
+
+问题转换：枚举选 $i$ 个数看能否达到题目要求的负数和（$neg = \frac{sum - target}{2}$）
+
+- 要求 $sum - target$ 为非负偶数
+- $dp[i][j] = \begin{cases}
+  dp[i - 1][j], & j < nums[i] \\
+  dp[i - 1][j] + dp[i - 1][j - nums[i]], & j \geq nums[i] \\
+\end{cases}$
 
 ## 503. Next Greater Element II
 
