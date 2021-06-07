@@ -1687,6 +1687,7 @@ bring 的一些词组：
 
 - bring about 导致，引起
 - bring back 归还，回想
+- bring into 使..进入..状态，使建立..关系
 
 in front of, in the front of:
 
