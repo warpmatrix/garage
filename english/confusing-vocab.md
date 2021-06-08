@@ -1693,3 +1693,28 @@ in front of, in the front of:
 
 - in front of 在..前面
 - in the front of 在..（内部）的前面
+
+liable 的词组：
+
+- be liable to 易于
+- be liable for 对..负责任
+
+consistent, consist:
+
+- consist of 组成
+- consistent with 与..一致
+
+concern 的词组：
+
+- be concerned with 涉及，与..有关
+- concern about 担心
+
+boast 的词组：
+
+- boast about 自夸，吹嘘
+- boast of 吹牛，自夸
+
+attribute, contribute:
+
+- attribute to 将..归功于
+- contribute to 捐献，投稿，有助于
