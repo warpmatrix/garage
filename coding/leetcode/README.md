@@ -83,6 +83,7 @@
 - [1011. Capacity To Ship Packages Within D Days](#1011-capacity-to-ship-packages-within-d-days)
 - [1035. Uncrossed Lines](#1035-uncrossed-lines)
 - [1047. Remove All Adjacent Duplicates In String](#1047-remove-all-adjacent-duplicates-in-string)
+- [1049. Last Stone Weight II](#1049-last-stone-weight-ii)
 - [1074. Number of Submatrices That Sum to Target](#1074-number-of-submatrices-that-sum-to-target)
 - [1143. Longest Common Subsequence](#1143-longest-common-subsequence)
 - [1190. Reverse Substrings Between Each Pair of Parentheses](#1190-reverse-substrings-between-each-pair-of-parentheses)
@@ -538,6 +539,12 @@ $N - 3 \approx \frac{(N-4)*(N-5)}{N-6}$
 ## 1047. Remove All Adjacent Duplicates In String
 
 使用栈（string 也可以作为容器）记录移出相邻重复的字符。主要看清题意，每次移出两个字符。
+
+## 1049. Last Stone Weight II
+
+问题转换：两个数相消 -> 对每一个取正负号求和
+
+- 动态规划：背包问题，负数集的和尽可能接近总数的一半
 
 ## 1074. Number of Submatrices That Sum to Target
 
