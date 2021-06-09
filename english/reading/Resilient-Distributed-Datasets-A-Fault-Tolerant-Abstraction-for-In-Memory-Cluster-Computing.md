@@ -1,0 +1,15 @@
+# Resilient Distributed Datasets: A Fault-Tolerant Abstraction for In-Memory Cluster Computing
+
+- an order of magnitude 一个数量级
+- resilient adj. 有弹性的
+- benchmark n. 基准
+- numerous adj. 众多的
+- compelling adj. 令人信服的
+- ad-hoc 为了这个目的（拉丁文）
+- replication n. 复制
+- dominate v. 影响
+- manipulate v. 操纵
+- mutable adj. 可变的
+- lineage n. 世代
+- accommodate v. 容纳
+- materialize v. 具体化，物化

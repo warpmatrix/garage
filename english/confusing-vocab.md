@@ -1718,3 +1718,53 @@ attribute, contribute:
 
 - attribute to 将..归功于
 - contribute to 捐献，投稿，有助于
+
+submit, subject:
+
+- submit to 呈交，屈服于
+- be subject to 受..支配，遭受
+
+back 的词组：
+
+- back off 后退，放弃
+- back down 放弃，让步
+
+go by/through:
+
+- go by 遵循，依据，经过，（时间）流逝
+- go through 通过，批准，经历，检查
+
+no more than, not more than:
+
+- no more than 仅仅，只有，相当于only
+- not more than 至多，不超过
+
+not a little, not a bit:
+
+- not a little 非常
+- not a bit 一点也不
+
+by day, by the day:
+
+- by day 白天
+- by the day 按天计算
+
+in office, in the office:
+
+- in office 在职的
+- in the office 在办公室里
+
+in charge of, in the charge of:
+
+- in charge of 管理，负责照料
+- in the charge of 由..照料
+
+out of question, out of the question:
+
+- out of question 毫无疑问的
+- out of the question 不可能的
+
+a second, the second:
+
+- a second 又一，再一
+- the second 第二
