@@ -76,6 +76,7 @@
 - [783. Minimum Distance Between BST Nodes](#783-minimum-distance-between-bst-nodes)
 - [810. Chalkboard XOR Game](#810-chalkboard-xor-game)
 - [872. Leaf-Similar Trees](#872-leaf-similar-trees)
+- [879. Profitable Schemes](#879-profitable-schemes)
 - [897. Increasing Order Search Tree](#897-increasing-order-search-tree)
 - [938. Range Sum of BST](#938-range-sum-of-bst)
 - [993. Cousins in Binary Tree](#993-cousins-in-binary-tree)
@@ -498,6 +499,15 @@ if uglyNums[i] == uglyNums[p] { p++ }
 遍历二叉树的叶子节点进行比较：两棵树同时 dfs 得到叶子节点进行比较
 
 - 关于中序遍历的又一深入理解（有状态的中序遍历）
+
+## 879. Profitable Schemes
+
+给定任务序列，求在一定的 cost 内达到最小 goal 的方法数。
+
+使用动态规划，转换为背包问题（二维容量）：
+
+- `dp[task][cost][goal] = dp[i-1][cost][goal] + dp[i-1][cost - cost[i]][max(0, goal - goal[i])]`
+- 注意上面的式子的种类数为成本正好为 cost 的情况，在一定的 cost 内，需要求 $\sum_c$`dp[n][c][goal]`
 
 ## 897. Increasing Order Search Tree
 
