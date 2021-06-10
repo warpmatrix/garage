@@ -13,3 +13,8 @@
 - lineage n. 世代
 - accommodate v. 容纳
 - materialize v. 具体化，物化
+- straggler n. 落伍者，掉队者
+- mitigation n. 减轻，减缓
+- degrade v. 退化
+- conciseness n. 简洁
+- in a nutshell 简而言之

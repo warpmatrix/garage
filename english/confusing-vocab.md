@@ -1768,3 +1768,13 @@ a second, the second:
 
 - a second 又一，再一
 - the second 第二
+
+dedicate to, devote to:
+
+- dedicate to 献身，用于
+- devote to 致力于，献身于
+
+by contrast, in contrast to:
+
+- by contrast 相比之下
+- in contrast to 与..相反
