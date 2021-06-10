@@ -4,7 +4,7 @@
 思考如何切题：先动笔，再打码！leetcode 难度分级不科学，困难其实是中等难度
 
 <!-- TODO: 以后再补吧，lay 了 -->
-可以留意的一些题目：28、87、160、213、240、264、338、421、456、525、783、1473、1486、1310、1787
+可以留意的一些题目：28、87、160、213、240、264、338、421、456、518、525、783、1473、1486、1310、1787
 
 - 思维训练的题：810、1787
 
@@ -63,6 +63,7 @@
 - [477. Total Hamming Distance](#477-total-hamming-distance)
 - [494. Target Sum](#494-target-sum)
 - [503. Next Greater Element II](#503-next-greater-element-ii)
+- [518. Coin Change 2](#518-coin-change-2)
 - [523. Continuous Subarray Sum](#523-continuous-subarray-sum)
 - [525. Contiguous Array](#525-contiguous-array)
 - [554. Brick Wall](#554-brick-wall)
@@ -424,6 +425,14 @@ if uglyNums[i] == uglyNums[p] { p++ }
 ## 503. Next Greater Element II
 
 单调栈维护序列的单调性，两个循环实现循环队列的需求，也可以在第一个循环增加循环长度下标取模实现
+
+## 518. Coin Change 2
+
+零钱兑换问题（背包问题）：硬币的种类不定，注意到答案只和不同种类的硬币相关
+
+- 区别跳台阶问题，动态规划要特别注意循环的内外层关系
+  - 不同的嵌套关系，对应不同的子问题
+  - 或者引入硬币的种类状态，时间复杂度会增加
 
 ## 523. Continuous Subarray Sum
 
