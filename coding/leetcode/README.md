@@ -49,6 +49,7 @@
 - [240. Search a 2D Matrix II](#240-search-a-2d-matrix-ii)
 - [263. Ugly Number](#263-ugly-number)
 - [264. Ugly Number II](#264-ugly-number-ii)
+- [279. Perfect Squares](#279-perfect-squares)
 - [331. Verify Preorder Serialization of a Binary Tree](#331-verify-preorder-serialization-of-a-binary-tree)
 - [338. Counting Bits](#338-counting-bits)
 - [341. Flatten Nested List Iterator](#341-flatten-nested-list-iterator)
@@ -322,6 +323,15 @@ p2, p3, p5 := 0, 0, 0
 uglyNums[i] = min(uglyNums[p2]*2, uglyNums[p3]*3, uglyNums[p5]*5)
 if uglyNums[i] == uglyNums[p] { p++ }
 ```
+
+## 279. Perfect Squares
+
+求解一个数最少可以分解为多少个完全平方数的和
+
+- 可以使用动态规划，枚举 square 进行求解：`dp[n] = min(dp[n], dp[n - square] + 1)`
+- 数学定理的求解方式（四平方和定理）：每一个整数至多被四个正整数的平方和表示
+  - 当 $n = 4^k(8m + 7)$ 时，$n$ 只能表示为四个正整数的平方和
+  - 特判答案为 1 或答案为 2 的情况
 
 ## 331. Verify Preorder Serialization of a Binary Tree
 
