@@ -18,3 +18,4 @@
 - degrade v. 退化
 - conciseness n. 简洁
 - in a nutshell 简而言之
+- shortcircuit 短路
