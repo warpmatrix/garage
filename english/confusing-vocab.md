@@ -1774,7 +1774,19 @@ dedicate to, devote to:
 - dedicate to 献身，用于
 - devote to 致力于，献身于
 
-by contrast, in contrast to:
+contrast 的词组：
 
 - by contrast 相比之下
 - in contrast to 与..相反
+- in contrast with 与..形成对比
+
+lay 的词组：
+
+- lay off 解雇，停止做
+- lay down 放下，交出，规定
+
+学校的说法：
+
+- elementary school 小学
+- junior high school 初中
+- senior high school 高中
