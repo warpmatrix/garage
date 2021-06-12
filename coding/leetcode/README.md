@@ -93,6 +93,7 @@
 - [1269. Number of Ways to Stay in the Same Place After Some Steps](#1269-number-of-ways-to-stay-in-the-same-place-after-some-steps)
 - [1310. XOR Queries of a Subarray](#1310-xor-queries-of-a-subarray)
 - [1442. Count Triplets That Can Form Two Arrays of Equal XOR](#1442-count-triplets-that-can-form-two-arrays-of-equal-xor)
+- [1449. Form Largest Integer With Digits That Add up to Target](#1449-form-largest-integer-with-digits-that-add-up-to-target)
 - [1473. Paint House III](#1473-paint-house-iii)
 - [1482. Minimum Number of Days to Make m Bouquets](#1482-minimum-number-of-days-to-make-m-bouquets)
 - [1486. XOR Operation in an Array](#1486-xor-operation-in-an-array)
@@ -616,6 +617,15 @@ $$
   - 考虑构造 `preXors[i] = ^arr[0..i-1]`
   - 可以使用哈希进行加速，一重循环解决
   - `ret += cnt[preXor] * idx + sumIdx[preXor]`
+
+## 1449. Form Largest Integer With Digits That Add up to Target
+
+完全背包问题：不同的数字对应各自的 `cost`，求总 `cost` 为 `target` 时，最大的数
+
+- 注意到固定的 cost 对应的是每一个数字选取的个数固定
+- 为了避免对字符串修改要使用循环进行增量修改，可以提前计算好各个数字的位数
+  - 而非传统完全背包问题，直接枚举不同数字的位数
+- 即最大的数字可以让所有数字按从大到小依次排列对应的次数
 
 ## 1473. Paint House III
 
