@@ -2,10 +2,12 @@
 
 ## bash
 
-```shell
-code // 打开vscode
-google-chrome // 打开chrome浏览器
+```term
+code // 打开 vscode
+google-chrome // 打开 chrome 浏览器
+chromium // 打开 chromium 浏览器
 netease-cloud-music // 打开网易云音乐
+
 ln -s src_addr link_addr // 创建文件夹快捷方式
 showkey -a // 输出按键的 ascii 码
 nautilus // 打开文件浏览器
@@ -40,6 +42,11 @@ sudo chgrp <group-name> /usr/bin/<app-name>
 sudo chmod 4755 /usr/bin/<app-name>
 // -rwxr-xr-x -> -rwsr-xr-x
 sudo gpasswd -a <user> <group-name>
+
+echo !# // 获得上一个命令名
+echo !$ // 获得上一个指令的最后一个参数
+echo !:n // 获得上一个指令的第 n 个参数
+!! // 执行上一条指令
 ```
 
 ## gdb

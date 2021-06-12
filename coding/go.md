@@ -2,7 +2,7 @@
 
 [关于 golang 的初始化过程](https://blog.csdn.net/benben_2015/article/details/79486077)
 
-![go-init](go-init.png)
+![go-init](imgs/go-init.png)
 
 [go 语言中省略号的用法](https://blog.csdn.net/qq_31930499/article/details/98353008)：
 
