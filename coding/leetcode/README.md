@@ -49,6 +49,7 @@
 - [240. Search a 2D Matrix II](#240-search-a-2d-matrix-ii)
 - [263. Ugly Number](#263-ugly-number)
 - [264. Ugly Number II](#264-ugly-number-ii)
+- [278. First Bad Version](#278-first-bad-version)
 - [279. Perfect Squares](#279-perfect-squares)
 - [331. Verify Preorder Serialization of a Binary Tree](#331-verify-preorder-serialization-of-a-binary-tree)
 - [338. Counting Bits](#338-counting-bits)
@@ -324,6 +325,10 @@ p2, p3, p5 := 0, 0, 0
 uglyNums[i] = min(uglyNums[p2]*2, uglyNums[p3]*3, uglyNums[p5]*5)
 if uglyNums[i] == uglyNums[p] { p++ }
 ```
+
+## 278. First Bad Version
+
+二分算法，可以使用 go 的标准库 `sort.Search`，注意标准库对应下标从零开始
 
 ## 279. Perfect Squares
 
