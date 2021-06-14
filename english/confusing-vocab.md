@@ -454,12 +454,11 @@ trim, rim, fringe, verge, edge:
 - verge n. 广阔空间的边界
 - edge n. （窄）边缘
 
-stride, stripe, strive, thrive, strap, strip, stroke, strike:
+stride, stripe, strive, strap, strip, stroke, strike:
 
 - stride n. 步伐 v. 大步走
 - stripe n. 条纹，种类
 - strive v. 努力
-- thrive v. 繁荣
 - strap n. 带，皮带 v. 用带子扣住，包扎
 - strip n. 条，脱衣舞 v. 脱衣，剥夺
 - stroke n. 中风，划桨，击，比划 n&v. 抚摸
@@ -1485,11 +1484,12 @@ coherent, cohesive:
 - coherent adj. 连贯的，协调的，条理清楚的
 - cohesive adj. 凝聚的，紧密结合的
 
-strife, strive, contrive:
+strife, strive, contrive, thrive:
 
 - strife n. 冲突，斗争
 - strive v. 努力，奋斗
 - contrive v. 策划，谋划，设法做到
+- thrive v. 繁荣
 
 massacre, slaughter:
 
@@ -1665,6 +1665,17 @@ tangle, tangible:
 - tangle v. 缠结，乱作一团，争执 n. 混乱，纠纷
 - tangible adj. 可触摸的，有形的，切实的 n. 有形资产
 
+progress, process:
+
+- progress v&n. 进步，发展
+- process n. 过程，流程 v. 加工，审核，前进
+
+plunge, prune, plough:
+
+- plunge v. 猛冲，骤降，陷入，插入
+- prune v. 删除，修建 n. 傻瓜，深红色，李子干
+- plough v&n. 犁 v. 耕
+
 ## 易混淆词组
 
 look 的一系列词组：
@@ -1754,6 +1765,11 @@ in office, in the office:
 - in office 在职的
 - in the office 在办公室里
 
+in words, in a word:
+
+- in words 口头上
+- in a word 简而言之
+
 in charge of, in the charge of:
 
 - in charge of 管理，负责照料
@@ -1790,3 +1806,8 @@ lay 的词组：
 - elementary school 小学
 - junior high school 初中
 - senior high school 高中
+
+far off, by far:
+
+- far off 遥远
+- by far 明显地，非常
