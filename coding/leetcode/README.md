@@ -56,6 +56,7 @@
 - [341. Flatten Nested List Iterator](#341-flatten-nested-list-iterator)
 - [342. Power of Four](#342-power-of-four)
 - [354. Russian Doll Envelopes](#354-russian-doll-envelopes)
+- [374. Guess Number Higher or Lower](#374-guess-number-higher-or-lower)
 - [377. Combination Sum IV](#377-combination-sum-iv)
 - [403. Frog Jump](#403-frog-jump)
 - [421. Maximum XOR of Two Numbers in an Array](#421-maximum-xor-of-two-numbers-in-an-array)
@@ -375,6 +376,10 @@ if uglyNums[i] == uglyNums[p] { p++ }
 - 拓展到 $d$ 维的情况，对前 (d-1) 维的数据进行升序排序，最后一维降序排序
   - 对于固定的 $i$，$\forall j$ 满足 $a_i < a_j$ 都排在 $i$ 前面
   - 时间复杂度 $O(n^2k)$，[CDQ 分治](https://oi-wiki.org/misc/cdq-divide/)可以降低时间复杂度
+
+## 374. Guess Number Higher or Lower
+
+二分搜索，类似题目：[278. First Bad Version](#278-first-bad-version)
 
 ## 377. Combination Sum IV
 
