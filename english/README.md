@@ -81,6 +81,8 @@ but 表递进：对前文程度部分否定，程度更深，即表递进的意�
 - be contrary to all expectation 出乎意料
 - I will be much obliged to you for an early reply 尽早赐复，不胜感激
 - be alien to (from) 与..相异
+- be capable of 能够，可以
+- in a position to 能够，可以
 
 hardly 倒装句
 

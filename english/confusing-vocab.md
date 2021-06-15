@@ -1676,6 +1676,11 @@ plunge, prune, plough:
 - prune v. 删除，修建 n. 傻瓜，深红色，李子干
 - plough v&n. 犁 v. 耕
 
+bid, bill:
+
+- bid v. 命令，告诉 v&n. 投标，出价，努力
+- bill n. 议案，海报，钞票，账单 v. 开账单
+
 ## 易混淆词组
 
 look 的一系列词组：
