@@ -8,6 +8,11 @@
 
 - 思维训练的题：810、1787
 
+题目 tag：
+
+- 二分搜索：278、374、852
+- 异或性质：1787
+
 <!-- omit in toc -->
 ## Table of Contents
 
@@ -79,6 +84,7 @@
 - [781. Rabbits in Forest](#781-rabbits-in-forest)
 - [783. Minimum Distance Between BST Nodes](#783-minimum-distance-between-bst-nodes)
 - [810. Chalkboard XOR Game](#810-chalkboard-xor-game)
+- [852. Peak Index in a Mountain Array](#852-peak-index-in-a-mountain-array)
 - [872. Leaf-Similar Trees](#872-leaf-similar-trees)
 - [879. Profitable Schemes](#879-profitable-schemes)
 - [897. Increasing Order Search Tree](#897-increasing-order-search-tree)
@@ -523,6 +529,13 @@ if uglyNums[i] == uglyNums[p] { p++ }
   - $t = \oplus_{i=0}^{n-1} S_i = \oplus_{i=0}^{n} S = 0$
   - 若 $n$ 为偶数，$t = S = 0$ 与 $S \neq 0$ 矛盾，不会失败
   - A 先手为偶数不会输，B 后手为偶数不会输
+
+## 852. Peak Index in a Mountain Array
+
+二分搜索，数组中寻找唯一的峰值。类似题目：
+
+- [278. First Bad Version](#278-first-bad-version)
+- [374. Guess Number Higher or Lower](#374-guess-number-higher-or-lower)
 
 ## 872. Leaf-Similar Trees
 

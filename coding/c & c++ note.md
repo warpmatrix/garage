@@ -26,6 +26,7 @@
   - [全局变量初始化](#全局变量初始化)
   - [预定义](#预定义)
   - [隐式转换的优先级](#隐式转换的优先级)
+  - [`while` 的两种汇编方式](#while-的两种汇编方式)
 - [C plusplus篇](#c-plusplus篇)
   - [引用的用法](#引用的用法)
   - [在函数中传递函数形参](#在函数中传递函数形参)
@@ -404,6 +405,21 @@ for (unsigned i = cnt - 1; i < cnt; i--) {
     // loop execution
 }
 // normal exit
+```
+
+### `while` 的两种汇编方式
+
+```c
+    goto test;
+loop: // body
+test: if (cond) goto loop;
+```
+
+```c
+if (!cond) goto done;
+loop: // body
+test: if (cond) goto loop;
+done:
 ```
 
 ## C plusplus篇
