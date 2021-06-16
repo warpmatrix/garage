@@ -1816,3 +1816,18 @@ far off, by far:
 
 - far off 遥远
 - by far 明显地，非常
+
+conform to, confine to:
+
+- conform to 遵循，遵照
+- confine to 局限于，限制
+
+in matter of, a matter of:
+
+- in matter of 与..有关
+- a matter of 大约，关于..的问题
+
+relieve of, retreat from:
+
+- relieve .. of 解除..的职务，抢劫，替..拿，使..免于
+- retreat from 从..撤退，逃避
