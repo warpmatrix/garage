@@ -86,6 +86,7 @@
 - [810. Chalkboard XOR Game](#810-chalkboard-xor-game)
 - [852. Peak Index in a Mountain Array](#852-peak-index-in-a-mountain-array)
 - [872. Leaf-Similar Trees](#872-leaf-similar-trees)
+- [877. Stone Game](#877-stone-game)
 - [879. Profitable Schemes](#879-profitable-schemes)
 - [897. Increasing Order Search Tree](#897-increasing-order-search-tree)
 - [938. Range Sum of BST](#938-range-sum-of-bst)
@@ -542,6 +543,14 @@ if uglyNums[i] == uglyNums[p] { p++ }
 遍历二叉树的叶子节点进行比较：两棵树同时 dfs 得到叶子节点进行比较
 
 - 关于中序遍历的又一深入理解（有状态的中序遍历）
+
+## 877. Stone Game
+
+两个博弈者轮流在数组首尾选择数字，数字大的人获胜：
+
+- 先手拥有必胜策略，对数组进行奇偶分组，选择奇数组或偶数组
+- 如果要求最多能胜出多少分使用动态规划：`dp[i][j] = max(arr[i] - dp[i+1][j], arr[j] - dp[i][j-1])`
+  - 可以进行空间优化
 
 ## 879. Profitable Schemes
 
