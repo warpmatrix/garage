@@ -24,6 +24,7 @@
 - [28. Implement strStr()](#28-implement-strstr)
 - [54 & 59. Spiral Matrix](#54--59-spiral-matrix)
 - [61. Rotate List](#61-rotate-list)
+- [65. Valid Number](#65-valid-number)
 - [74. Search a 2D Matrix](#74-search-a-2d-matrix)
 - [80. Remove Duplicates from Sorted Array II](#80-remove-duplicates-from-sorted-array-ii)
 - [81. Search in Rotated Sorted Array II](#81-search-in-rotated-sorted-array-ii)
@@ -152,6 +153,13 @@
 新链表的最后一个节点为原链表的第 (n - 1) - (k mod n) 个节点（从 00 开始计数）
 
 最坏情况下，遍历链表两次，时间复杂度 $O(n)$
+
+## 65. Valid Number
+
+判断有效数字，考虑使用正则表达式？（本质上构造一个自动状态机）
+
+- go 的正则表达式的性能也太拉了吧，编译器就不能顺便优化一波？
+- 实际过程可能需要自己构造自动状态机
 
 ## 74. Search a 2D Matrix
 
