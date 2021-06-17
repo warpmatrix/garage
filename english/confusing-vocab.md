@@ -1795,11 +1795,12 @@ dedicate to, devote to:
 - dedicate to 献身，用于
 - devote to 致力于，献身于
 
-contrast 的词组：
+contrast 与 contrary 的词组：
 
 - by contrast 相比之下
 - in contrast to 与..相反
 - in contrast with 与..形成对比
+- be contrary to 与..违反
 
 lay 的词组：
 
@@ -1831,3 +1832,25 @@ relieve of, retreat from:
 
 - relieve .. of 解除..的职务，抢劫，替..拿，使..免于
 - retreat from 从..撤退，逃避
+
+for the sake of, in the wake of:
+
+- for the sake of 为了..起见
+- in the wake of 紧随而来，作为..的结果
+
+go into, take to:
+
+- go into 调查，研究，开始从事，进入
+- take to 喜欢，走向，开始从事
+
+in blinding flash, flash on:
+
+- in blinding flash 在灵光一闪中
+- flash on 突然亮起来，顿悟
+
+in operation, in effect, in the pipeline, in hand:
+
+- in operation 运转中，生效
+- in effect 实际上，实质上，生效中
+- in the pipeline 在运输中，在准备中，在进行中
+- in hand 在进行中，代办，在控制中
