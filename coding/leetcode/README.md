@@ -6,7 +6,7 @@
 <!-- TODO: 以后再补吧，lay 了 -->
 可以留意的一些题目：28、87、160、213、240、264、338、421、456、518、525、783、1473、1486、1310、1787
 
-- 思维训练的题：810、1787
+- 思维训练的题：810、1787、483
 
 题目 tag：
 
@@ -70,6 +70,7 @@
 - [461. Hamming Distance](#461-hamming-distance)
 - [474. Ones and Zeroes](#474-ones-and-zeroes)
 - [477. Total Hamming Distance](#477-total-hamming-distance)
+- [483. Smallest Good Base](#483-smallest-good-base)
 - [494. Target Sum](#494-target-sum)
 - [503. Next Greater Element II](#503-next-greater-element-ii)
 - [518. Coin Change 2](#518-coin-change-2)
@@ -445,6 +446,14 @@ if uglyNums[i] == uglyNums[p] { p++ }
 
 - 统计所有数字每一位上的零或一的出现的次数
 - 海明距离等于出现的零一次数相乘（零一相加为数组长度）
+
+## 483. Smallest Good Base
+
+已知等比数列的和，求等比数列最小的底：$n = \sum_{i=0}^m b^i$
+
+- m 和 b 呈负相关，可以从大到小枚举 m，求出对应的 b 是否符合条件
+- b 可以通过二分求出，也可以通过数学方式得到
+- 计算乘方避免引入精度误差，不使用 pow 函数
 
 ## 494. Target Sum
 
