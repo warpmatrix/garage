@@ -74,6 +74,8 @@ but 表递进：对前文程度部分否定，程度更深，即表递进的意�
 - be of one's opinion 同意..的看法
 - in favor of one's opinion 同意..的看法
 - in sympathy with 赞同，与..一致
+- argue for 支持，赞成，为..争辩
+- side with 支持，站在..一边
 - take advantage of 占便宜
 - have an advantage over sb. 比..有优势
 - be used to 习惯于
@@ -83,6 +85,7 @@ but 表递进：对前文程度部分否定，程度更深，即表递进的意�
 - be alien to (from) 与..相异
 - be capable of 能够，可以
 - in a position to 能够，可以
+- place a high value on 重视
 
 hardly 倒装句
 

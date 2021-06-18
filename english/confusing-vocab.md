@@ -1854,3 +1854,24 @@ in operation, in effect, in the pipeline, in hand:
 - in effect 实际上，实质上，生效中
 - in the pipeline 在运输中，在准备中，在进行中
 - in hand 在进行中，代办，在控制中
+
+a period of, a spell of:
+
+- a period of 一段时间
+- a spell of 一段时间
+
+in ample supply, in short supply:
+
+- in ample supply 供应充足
+- in short supply 供应不足
+
+compose, composite, compound:
+
+- compose v. 创作，使平静，组成，构成
+- composite adj. 合成的，复合的 n. 合成物，混合物，复合材料
+- compound n. 复合物 adj. 混合的 v. 合成
+
+long 的词组：
+
+- for long 长久地
+- so long as 只要
