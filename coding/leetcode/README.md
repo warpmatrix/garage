@@ -101,6 +101,7 @@
 - [1074. Number of Submatrices That Sum to Target](#1074-number-of-submatrices-that-sum-to-target)
 - [1143. Longest Common Subsequence](#1143-longest-common-subsequence)
 - [1190. Reverse Substrings Between Each Pair of Parentheses](#1190-reverse-substrings-between-each-pair-of-parentheses)
+- [1239. Maximum Length of a Concatenated String with Unique Characters](#1239-maximum-length-of-a-concatenated-string-with-unique-characters)
 - [1269. Number of Ways to Stay in the Same Place After Some Steps](#1269-number-of-ways-to-stay-in-the-same-place-after-some-steps)
 - [1310. XOR Queries of a Subarray](#1310-xor-queries-of-a-subarray)
 - [1442. Count Triplets That Can Form Two Arrays of Equal XOR](#1442-count-triplets-that-can-form-two-arrays-of-equal-xor)
@@ -647,6 +648,12 @@ $$
 ## 1190. Reverse Substrings Between Each Pair of Parentheses
 
 遇到括号，逆序遍历，注意括号可能是嵌套的也可能是非嵌套的（题目给的样例是特地的吧 orz...
+
+## 1239. Maximum Length of a Concatenated String with Unique Characters
+
+- 总共只有 26 个字母，可以使用一个 32 位的整数进行状态压缩
+- 使用哈希进行枚举，一次循环动态规划求解问题
+- 由于哈希表只需记录有或无，go 中的哈希表可以使用 `struct{}{}` 以节约空间
 
 ## 1269. Number of Ways to Stay in the Same Place After Some Steps
 
