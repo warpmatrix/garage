@@ -1681,6 +1681,16 @@ bid, bill:
 - bid v. 命令，告诉 v&n. 投标，出价，努力
 - bill n. 议案，海报，钞票，账单 v. 开账单
 
+corporation, cooperation:
+
+- corporation n. 公司，法人，市政委员会
+- cooperation n. 合作，配合
+
+monopoly, monetary:
+
+- monopoly n. 垄断，垄断企业，专卖，专利权
+- monetary adj. 金融的，货币的
+
 ## 易混淆词组
 
 look 的一系列词组：
@@ -1875,3 +1885,30 @@ long 的词组：
 
 - for long 长久地
 - so long as 只要
+
+yet 的词组:
+
+- and yet 可是，然而
+- as yet 迄今为止（否定句）
+
+bid 的词组：
+
+- bid for 投标，申办
+- bid up 出高价，抬价
+- make a bid to do 努力去做
+
+root 的词组；
+
+- root in 来源于，起因于
+- put down roots 生根，定居
+- lay the root for 为..打下基础
+
+face 的词组：
+
+- in the face of 在..面前，尽管
+- in face of 面对，面临
+
+nature 的词组：
+
+- by nature 天生
+- in nature 本质上
