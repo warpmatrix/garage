@@ -1912,3 +1912,14 @@ nature 的词组：
 
 - by nature 天生
 - in nature 本质上
+
+view 的词组：
+
+- from one's point of view 从..的角度看来
+- in view of 考虑到，鉴于
+
+break 的词组：
+
+- break up 终止，驱散，打碎
+- break down 发生故障，放弃，失败，毁掉，分解
+- break out 爆发
