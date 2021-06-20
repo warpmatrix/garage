@@ -109,6 +109,7 @@
 - [1473. Paint House III](#1473-paint-house-iii)
 - [1482. Minimum Number of Days to Make m Bouquets](#1482-minimum-number-of-days-to-make-m-bouquets)
 - [1486. XOR Operation in an Array](#1486-xor-operation-in-an-array)
+- [1600. Throne Inheritance](#1600-throne-inheritance)
 - [1603. Design Parking System](#1603-design-parking-system)
 - [1707. Maximum XOR With an Element From Array](#1707-maximum-xor-with-an-element-from-array)
 - [1720. Decode XORed Array](#1720-decode-xored-array)
@@ -711,6 +712,10 @@ $$
 
 - 连续数字进行异或可以使用的性质：$4i \oplus (4i+1) \oplus (4i+2) \oplus (4i+3) = 0$
 - 对于线性变化的数字，若倍数是 2 次幂可以对低位数字提出来特别讨论
+
+## 1600. Throne Inheritance
+
+简单模拟，多叉树的前序遍历
 
 ## 1603. Design Parking System
 
