@@ -64,6 +64,7 @@
 - [354. Russian Doll Envelopes](#354-russian-doll-envelopes)
 - [374. Guess Number Higher or Lower](#374-guess-number-higher-or-lower)
 - [377. Combination Sum IV](#377-combination-sum-iv)
+- [401. Binary Watch](#401-binary-watch)
 - [403. Frog Jump](#403-frog-jump)
 - [421. Maximum XOR of Two Numbers in an Array](#421-maximum-xor-of-two-numbers-in-an-array)
 - [456. 132 Pattern](#456-132-pattern)
@@ -404,6 +405,12 @@ if uglyNums[i] == uglyNums[p] { p++ }
 记忆化搜索，动态规划：$f(n) = \sum_i f(n - x_i)$
 
 - 进阶问题：若组合数中存在负数，考虑 $a, -b$，则可能出现无限长度排列 $ab - ba = 0$
+
+## 401. Binary Watch
+
+固定海明权重的简单题，可以使用暴力搜索
+
+- TODO: 高级一点的做法，考虑如何枚举固定海明权重的数字
 
 ## 403. Frog Jump
 
