@@ -1136,10 +1136,11 @@ elapse, collapse:
 - collapse v. 坍塌，晕倒，崩溃，突然失败
 - elapse v. （时间）消逝
 
-castle, cattle:
+castle, cattle, kettle:
 
 - castle n. 城堡
 - cattle n. 牛
+- kettle n. 水壶
 
 fiction, friction, fraction:
 
@@ -1573,13 +1574,14 @@ preside, prestige:
 - preside v. 主持会议，担任主席
 - prestige n. 威信，威望，声望
 
-medical, mediate, middle, meddle, medium:
+medical, mediate, middle, meddle, medium, medieval:
 
 - medical adj. 医疗的，伤病的，内科的 n. 体格检查
 - mediate v. 调节，斡旋
 - middle n. 中间，中心，腰部 adj. 中间的，居中的，正中的
 - meddle v. 干涉，管闲事，瞎搞
 - medium n. 媒介，工具，方法，材料 adj. 中等的
+- medieval adj. 中世纪的，老式的，原始的
 
 proximate, approximate:
 
@@ -1690,6 +1692,12 @@ monopoly, monetary:
 
 - monopoly n. 垄断，垄断企业，专卖，专利权
 - monetary adj. 金融的，货币的
+
+amid, aid, aim:
+
+- amid prep. 在..中间，被..围绕
+- aid n&v. 援助
+- aim v. 目标
 
 ## 易混淆词组
 
