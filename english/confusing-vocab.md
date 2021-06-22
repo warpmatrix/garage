@@ -1076,10 +1076,11 @@ physician, surgeon, physicist:
 - surgeon n. 外科医生
 - physicist n. 物理学家
 
-sketch, stretch, scratch, scrape:
+sketch, stretch, snatch, scratch, scrape:
 
 - sketch n. 草图，梗概 n&v. 素描，概述
 - stretch v&n. 伸展，拉长 n. 一段时间，一片
+- snatch v&n. 抢夺，攫取
 - scratch v&n. 搔，挠
 - scrape v&n. 擦伤 v. 勉强获得
 
@@ -1333,10 +1334,11 @@ puppet, puppy:
 - puppet n. 木偶，傀儡
 - puppy n. 傲慢青年，小狗
 
-linen, liner:
+linen, liner, linear:
 
 - linen n. 亚麻布
 - liner n. 邮轮，班机，衬里
+- linear adj. 线性的，长度的
 
 possess, process:
 
@@ -1698,6 +1700,55 @@ amid, aid, aim:
 - amid prep. 在..中间，被..围绕
 - aid n&v. 援助
 - aim v. 目标
+
+numerous, numerical:
+
+- numerous adj. 许多的
+- numerical adj. 数字的
+- numberical adj. 数字的，数值的
+
+bribe, bride, tribe:
+
+- bribe v&n. 贿赂
+- bride n. 新娘
+- tribe n. 部落，族
+
+flesh, fresh, flush:
+
+- flesh v. 使..充实 n. 肉，果肉
+- fresh adj. 淡水的，新鲜的，精力充沛的
+- flush adj. 齐平的，富裕的 v&n. 脸红 v. 冲洗，使..流
+
+upgrade, update:
+
+- upgrade v. 升级
+- update v. 更新
+
+counterpart, counterbalance:
+
+- counterpart n. 职位，对应的人
+- counterbalance v&n. 抵消
+
+resemble, assemble:
+
+- resemble v. 像，类似于
+- assemble v. 集合，收集，装配
+
+waist, wrist, twist:
+
+- waist n. 腰
+- wrist n. 手腕
+- twist v. 蜿蜒，缠绕 n. 曲折出，转折
+
+barrel, barrier:
+
+- barrel n. 桶，炮管 v. 高速前进，把..装桶
+- barrier n. 障碍，分界，屏障
+
+steep, steer:
+
+- steep adj. 陡峭的，急剧的 v. 浸泡
+- steer v. 驾驶，掌舵，引导
 
 ## 易混淆词组
 
