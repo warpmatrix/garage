@@ -22,6 +22,7 @@
 - [26. Remove Duplicates from Sorted Array](#26-remove-duplicates-from-sorted-array)
 - [27. Remove Element](#27-remove-element)
 - [28. Implement strStr()](#28-implement-strstr)
+- [31. Next Permutation](#31-next-permutation)
 - [54 & 59. Spiral Matrix](#54--59-spiral-matrix)
 - [61. Rotate List](#61-rotate-list)
 - [65. Valid Number](#65-valid-number)
@@ -119,6 +120,7 @@
 - [1738. Find Kth Largest XOR Coordinate Value](#1738-find-kth-largest-xor-coordinate-value)
 - [1744. Can You Eat Your Favorite Candy on Your Favorite Day?](#1744-can-you-eat-your-favorite-candy-on-your-favorite-day)
 - [1787. Make the XOR of All Segments Equal to Zero](#1787-make-the-xor-of-all-segments-equal-to-zero)
+- [剑指 Offer 38. 字符串的排列](#剑指-offer-38-字符串的排列)
 - [面试题 17.21. Volume of Histogram LCCI](#面试题-1721-volume-of-histogram-lcci)
 
 ## 7. Reverse Integer
@@ -147,6 +149,13 @@
 ## 28. Implement strStr()
 
 实现 KMP 算法，本质上求子串中前缀和后缀的公共子串长度
+
+## 31. Next Permutation
+
+获得排列的下一个排列，时间复杂度 $O(n)$
+
+- 将数组中的低位非递减排列变为递增序列 e.g. [3, **1, 4, 2**] -> [3, 2, **1, 4**]
+- 注意题目中记录排列的是数组，数组的低位元素对应排列的高位
 
 ## 54 & 59. Spiral Matrix
 
@@ -785,6 +794,12 @@ ref: [1011](#1011-capacity-to-ship-packages-within-d-days) 给定顺序进行规
 - 主要需要遍历每一组的数据需要变成哪一个数字，分成两类进行讨论：
   - 将所有数字变成没有出现过的数字
   - 将所有数字变成一组中的一个，变化的次数为 `size - cnts[num]`
+
+## 剑指 Offer 38. 字符串的排列
+
+获得所有的排列组合，获得最小的排列，然后依次遍历增加下一个递增的排列
+
+- [31. Next Permutation](#31-next-permutation)
 
 ## 面试题 17.21. Volume of Histogram LCCI
 
