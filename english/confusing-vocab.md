@@ -415,10 +415,11 @@ slice, slide:
 - slice n. 薄片 v. 切成薄片
 - slide n&v. 滑动 n. 幻灯片
 
-guide, guild, glide:
+guide, guild, guilt, glide:
 
 - guide v&n. 指导
 - guild n. 协会
+- guilt n. 内疚，罪行
 - glide v&n. 滑行
 
 force, compel, oblige, constrain:
@@ -1576,7 +1577,7 @@ preside, prestige:
 - preside v. 主持会议，担任主席
 - prestige n. 威信，威望，声望
 
-medical, mediate, middle, meddle, medium, medieval:
+medical, mediate, middle, meddle, medium, medieval, intermediate:
 
 - medical adj. 医疗的，伤病的，内科的 n. 体格检查
 - mediate v. 调节，斡旋
@@ -1584,6 +1585,7 @@ medical, mediate, middle, meddle, medium, medieval:
 - meddle v. 干涉，管闲事，瞎搞
 - medium n. 媒介，工具，方法，材料 adj. 中等的
 - medieval adj. 中世纪的，老式的，原始的
+- intermediate adj. 中间的，中级的 n. 中级生
 
 proximate, approximate:
 
@@ -1695,11 +1697,12 @@ monopoly, monetary:
 - monopoly n. 垄断，垄断企业，专卖，专利权
 - monetary adj. 金融的，货币的
 
-amid, aid, aim:
+amid, aid, aim, dim:
 
 - amid prep. 在..中间，被..围绕
 - aid n&v. 援助
 - aim v. 目标
+- dim adj. 模糊的，暗淡的 v. 使..模糊，使..暗淡
 
 numerous, numerical:
 
@@ -1749,6 +1752,34 @@ steep, steer:
 
 - steep adj. 陡峭的，急剧的 v. 浸泡
 - steer v. 驾驶，掌舵，引导
+
+bowl, bow, bowel:
+
+- bowl n. 碗
+- bow n. 蝴蝶结 n&v. 鞠躬，点头
+- bowel n. 肠，内部
+
+circle, circuit, circus:
+
+- circle n. 圈，界，阶级 v. 围着，盘旋
+- circuit n. 电路，环路，巡回
+- circus n. 马戏团
+
+jolly, jelly:
+
+- jolly adj. 愉悦的 adv. 非常 v. 怂恿 n. 旅游
+- jelly n. 果冻，胶状物
+
+repetition, reputation, petition:
+
+- repetition n. 重复，反复
+- reputation n. 名声，名望
+- petition n. 请愿书 v. 申请
+
+booth, brush:
+
+- booth n. 公用电话亭，货摊，小房间，岗亭
+- brush n. 刷子，轻碰，小冲突，灌木丛 v. 刷，触到
 
 ## 易混淆词组
 

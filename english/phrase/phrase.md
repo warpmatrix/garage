@@ -146,3 +146,4 @@
 - hard-line stance 强硬的立场
 - in imminent danger 即将面临危险
 - point of view 观点
+- crack a whip 甩响鞭
