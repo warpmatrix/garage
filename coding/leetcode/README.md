@@ -120,6 +120,7 @@
 - [1738. Find Kth Largest XOR Coordinate Value](#1738-find-kth-largest-xor-coordinate-value)
 - [1744. Can You Eat Your Favorite Candy on Your Favorite Day?](#1744-can-you-eat-your-favorite-candy-on-your-favorite-day)
 - [1787. Make the XOR of All Segments Equal to Zero](#1787-make-the-xor-of-all-segments-equal-to-zero)
+- [剑指 Offer 15. 二进制中1的个数](#剑指-offer-15-二进制中1的个数)
 - [剑指 Offer 38. 字符串的排列](#剑指-offer-38-字符串的排列)
 - [面试题 17.21. Volume of Histogram LCCI](#面试题-1721-volume-of-histogram-lcci)
 
@@ -794,6 +795,13 @@ ref: [1011](#1011-capacity-to-ship-packages-within-d-days) 给定顺序进行规
 - 主要需要遍历每一组的数据需要变成哪一个数字，分成两类进行讨论：
   - 将所有数字变成没有出现过的数字
   - 将所有数字变成一组中的一个，变化的次数为 `size - cnts[num]`
+
+## 剑指 Offer 15. 二进制中1的个数
+
+计算海明距离，go 使用 `bits.OnesCount` 函数
+
+- [461. Hamming Distance](#461-hamming-distance)
+- [477. Total Hamming Distance](#477-total-hamming-distance)
 
 ## 剑指 Offer 38. 字符串的排列
 
