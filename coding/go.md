@@ -15,3 +15,10 @@
 - 变长函数参数：相当于传递数组的语法糖
 
 [go 中 slice 的复制机制](https://studygolang.com/articles/19913?fr=sidebar)
+
+go 中的 `log` 标准库，只提供三种默认的 log 方式：
+
+- `Fatal` 会保存日志并终止程序
+- `Panic` 会保存日志并丢出异常终止程序
+- `Print` 会保存日志但是程序继续
+- 使用其它 log 方式可以自己构造 logger 或使用第三方库。一些链接：[logger](https://www.jianshu.com/p/73ae6dc4d16a)、[基本的 log](https://blog.csdn.net/fwhezfwhez/article/details/79203590)
