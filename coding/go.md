@@ -20,3 +20,10 @@ go 中元素转为 []byte 的一些理解：
 
 - [具体实现](https://cloud.tencent.com/developer/article/1067976)
 - [低层原理](https://blog.csdn.net/weixin_39698255/article/details/111581070)
+
+go 中的 `log` 标准库，只提供三种默认的 log 方式：
+
+- `Fatal` 会保存日志并终止程序
+- `Panic` 会保存日志并丢出异常终止程序
+- `Print` 会保存日志但是程序继续
+- 使用其它 log 方式可以自己构造 logger 或使用第三方库。一些链接：[logger](https://www.jianshu.com/p/73ae6dc4d16a)、[基本的 log](https://blog.csdn.net/fwhezfwhez/article/details/79203590)
