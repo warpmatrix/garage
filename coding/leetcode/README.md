@@ -6,7 +6,7 @@
 <!-- TODO: 以后再补吧，lay 了 -->
 可以留意的一些题目：28、87、160、213、240、264、338、421、456、518、525、783、1473、1486、1310、1787
 
-- 思维训练的题：810、1787、483
+- 思维训练的题：149、483、810、1787
 
 题目 tag：
 
@@ -39,6 +39,7 @@
 - [131. Palindrome Partitioning](#131-palindrome-partitioning)
 - [132. Palindrome Partitioning II](#132-palindrome-partitioning-ii)
 - [137. Single Number II](#137-single-number-ii)
+- [149. Max Points on a Line](#149-max-points-on-a-line)
 - [150. Evaluate Reverse Polish Notation](#150-evaluate-reverse-polish-notation)
 - [153 & 154. Find Minimum in Rotated Sorted Array](#153--154-find-minimum-in-rotated-sorted-array)
 - [160. Intersection of Two Linked Lists](#160-intersection-of-two-linked-lists)
@@ -254,6 +255,17 @@ dfs，可以统计数字出现次数，减少递归深度；也可以使用 bool
 
 - 由于重复的数字，均出现三次，则重复数字对应的每一位数字求和得到的结果为 3 的倍数
 - 使用数字电路的方法（真值表进行状态转移），对每一位同时进行求和操作
+
+## 149. Max Points on a Line
+
+求一条直线能通过点集的最大数量：枚举直线经过的第一个点，计算后面的点有多少个和起始点的斜率相等
+
+- 使用浮点数计算斜率可能精度达不到题目的要求
+  - 最小斜率为 $0.5*10^{-4}$，最大斜率为 $2*10^4$
+- 优化的一些思路：
+  - 当枚举到下标为 $i$ 的点，此时最多可以找到共线的点数为 $n - i$，当前最优解更优时，可以提前退出
+  - 找到共线的点超过半数，可以提前退出
+  - 根据数据范围可以将二维的哈希表映射到一维上，进一步节约空间
 
 ## 150. Evaluate Reverse Polish Notation
 
