@@ -1781,6 +1781,48 @@ booth, brush:
 - booth n. 公用电话亭，货摊，小房间，岗亭
 - brush n. 刷子，轻碰，小冲突，灌木丛 v. 刷，触到
 
+mechanism, mechanic, mechanical:
+
+- mechanic n. 机修工，力学，运作方式
+- mechanical adj. 机械的
+- mechanism n. 机构，方法，途径，机制，机械装置
+
+deposit, dispose:
+
+- deposit n. 存款，订金，押金，矿藏，沉淀物 v. 沉淀，付押金，储蓄
+- dispose v. 处理，清除，排列，倾向于
+
+live, living:
+
+- live adj. 直播的，活的 adv. 在现场直播 v. 难忘，居住，活着
+- living adj. 生活的，现行的 n. 生计
+
+irrespective, disrespectful:
+
+- irrespective (of) adj. 不考虑的，不顾的
+- disrespectful adj. 不尊敬的，无礼的
+
+literacy, literary, literal:
+
+- litercy n. 读写能力，识字，有文化
+- literary adj. 书面的，文学的，精通文学的
+
+exclaim, proclaim, acclaim:
+
+- exclaim v. 呼喊，大叫
+- proclaim v. 宣布，声明，显示
+- acclaim v. 喝彩，称赞 n. 称誉，高度评价
+
+principal, principle:
+
+- principal n. 校长，资金，主角 adj. 最重要的
+- principle n. 原则，信条
+
+howl, owl:
+
+- howl v&n. 嚎叫
+- owl n. 猫头鹰
+
 ## 易混淆词组
 
 look 的一系列词组：

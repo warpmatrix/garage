@@ -147,3 +147,4 @@
 - in imminent danger 即将面临危险
 - point of view 观点
 - crack a whip 甩响鞭
+- be dying for 渴望
