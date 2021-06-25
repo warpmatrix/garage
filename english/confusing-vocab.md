@@ -1823,6 +1823,45 @@ howl, owl:
 - howl v&n. 嚎叫
 - owl n. 猫头鹰
 
+marry, merry:
+
+- marry v. 和..结婚，主持婚礼
+- merry adj. 欢乐的，愉快的
+
+flee, fleet:
+
+- flee v. 逃走，逃避
+- fleet n. 舰队
+
+repel, rebel:
+
+- repel v. 击退，驱逐，排斥，使..厌恶
+- rebel n. 反叛者 v. 反叛
+
+mean, means, meaning:
+
+- mean v. 意思是，特意 adj. 吝啬的，平均的
+- means n. 方法，手段，财富
+- meaning n. 意思，含义，目的，重要性
+
+sole, solo:
+
+- sole n. 脚底 adj. 唯一的
+- solo adj. 单独的，独唱的 adv. 单独地 n. 独奏，独唱，独舞
+
+erupt, abrupt, disrupt, corrupt:
+
+- erupt v. 爆发，突然发生
+- abrupt adj. 突然的，意外的，唐突的，不连贯的
+- disrupt v. 扰乱，使..分解，使..混乱
+- corrupt v. 腐败，破坏，引起错误
+
+baggage, luggage:
+
+- baggage n. 行李（大袋小袋）
+- luggage n. 行李（拉箱）
+- lounge n. 休息室
+
 ## 易混淆词组
 
 look 的一系列词组：
