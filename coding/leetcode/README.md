@@ -86,6 +86,7 @@
 - [690. Employee Importance](#690-employee-importance)
 - [692. Top K Frequent Words](#692-top-k-frequent-words)
 - [740. Delete and Earn](#740-delete-and-earn)
+- [752. Open the Lock](#752-open-the-lock)
 - [781. Rabbits in Forest](#781-rabbits-in-forest)
 - [783. Minimum Distance Between BST Nodes](#783-minimum-distance-between-bst-nodes)
 - [810. Chalkboard XOR Game](#810-chalkboard-xor-game)
@@ -556,6 +557,15 @@ if uglyNums[i] == uglyNums[p] { p++ }
 ## 740. Delete and Earn
 
 简单题：排序，统计每一个数字出现的次数（方便查看对应的数字是什么，可以计算其前缀和），使用动态规划处理，转换为类似于 [213](#213-house-robber-ii) 的题目。
+
+## 752. Open the Lock
+
+打开转盘锁，类似于八数码问题，考虑搜索的方法：
+
+- 生成邻居时特别注意 `(ch - '0' + 9) % 10 + '0'` 的情况
+- 广度优先搜索
+- 双向广度优先搜索：需要特别注意初始化的地方
+- TODO: 启发式搜索
 
 ## 781. Rabbits in Forest
 
