@@ -1862,6 +1862,21 @@ baggage, luggage:
 - luggage n. 行李（拉箱）
 - lounge n. 休息室
 
+scream, cream:
+
+- scream v&n. 尖叫（声）
+- cream n. 奶油，乳霜 adj. 奶油色的
+
+historic, historical:
+
+- historic adj. 有历史意义的，著名的
+- historical adj. 历史的，史上的
+
+suite, suit:
+
+- suit v. 适合 n. 诉讼，恳求，套装
+- suite n. 套间，套房，套组
+
 ## 易混淆词组
 
 look 的一系列词组：
