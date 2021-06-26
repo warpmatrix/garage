@@ -87,6 +87,7 @@
 - [692. Top K Frequent Words](#692-top-k-frequent-words)
 - [740. Delete and Earn](#740-delete-and-earn)
 - [752. Open the Lock](#752-open-the-lock)
+- [773. Sliding Puzzle](#773-sliding-puzzle)
 - [781. Rabbits in Forest](#781-rabbits-in-forest)
 - [783. Minimum Distance Between BST Nodes](#783-minimum-distance-between-bst-nodes)
 - [810. Chalkboard XOR Game](#810-chalkboard-xor-game)
@@ -566,6 +567,15 @@ if uglyNums[i] == uglyNums[p] { p++ }
 - 广度优先搜索
 - 双向广度优先搜索：需要特别注意初始化的地方
 - TODO: 启发式搜索
+
+## 773. Sliding Puzzle
+
+八数码问题，棋盘大小为 $2*3$：广度优先搜索或 A* 算法
+
+- 记录切片的信息可以考虑使用 `string`，直接使用切片实在是太麻烦了，特别还要考虑切片的复制机制..
+- map 无法映射切片...
+
+<!-- FIXME: 重构中 -->
 
 ## 781. Rabbits in Forest
 
