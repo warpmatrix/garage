@@ -1325,10 +1325,12 @@ fundamental, essential:
 - fundamental n. 基本原则，基本原理 adj. 基础的，基本的
 - essential adj. 基本的，本质的，必要的 n. 要素，必需品
 
-sweat, wheet:
+sweat, wheet, sweater, sweet:
 
 - sweat v. 出汗 n. 汗
 - wheat n. 小麦
+- sweater n. 毛衣
+- sweet adj. 芳香的，亲切的，悦耳的，甜的 n. 芳香，乐趣，糖果，宝贝
 
 puppet, puppy:
 
@@ -1876,6 +1878,36 @@ suite, suit:
 
 - suit v. 适合 n. 诉讼，恳求，套装
 - suite n. 套间，套房，套组
+
+blend, bleed:
+
+- blend v. 混合 n. 混合物
+- bleed v. 榨取（钱财），流血
+
+texture, textile:
+
+- texture n. 质地，纹理，结构
+- textile n. 纺织品
+
+vocation, vacation:
+
+- vocation n. 职业，使命感，圣召
+- vacation n. 假期
+
+isolate, insulate:
+
+- isolate v. 使..孤立，使..隔绝
+- insulate v. 隔离，孤立，使..隔绝
+
+alumni, aluminum:
+
+- aluminum n. 铝
+- alumni n. 毕业生，校友
+
+consensus, censor:
+
+- consensus n. 共识，一致意见
+- censor v. 审查
 
 ## 易混淆词组
 
