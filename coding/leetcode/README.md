@@ -96,6 +96,7 @@
 - [877. Stone Game](#877-stone-game)
 - [879. Profitable Schemes](#879-profitable-schemes)
 - [897. Increasing Order Search Tree](#897-increasing-order-search-tree)
+- [909. Snakes and Ladders](#909-snakes-and-ladders)
 - [938. Range Sum of BST](#938-range-sum-of-bst)
 - [993. Cousins in Binary Tree](#993-cousins-in-binary-tree)
 - [1006. Clumsy Factorial](#1006-clumsy-factorial)
@@ -635,6 +636,13 @@ if uglyNums[i] == uglyNums[p] { p++ }
 
 - 反问题：线性树 -> 平衡树
 - 可以考虑使用旋转解决，比较麻烦
+
+## 909. Snakes and Ladders
+
+走带有传送门的迷宫，广度优先搜索，主要处理迷宫之字形的问题
+
+- 提前将二维转一维处理应该好一些
+- 写转换函数也可以
 
 ## 938. Range Sum of BST
 
