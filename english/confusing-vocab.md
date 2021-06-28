@@ -1761,11 +1761,12 @@ bowl, bow, bowel:
 - bow n. 蝴蝶结 n&v. 鞠躬，点头
 - bowel n. 肠，内部
 
-circle, circuit, circus:
+circle, circuit, circus, circular:
 
 - circle n. 圈，界，阶级 v. 围着，盘旋
 - circuit n. 电路，环路，巡回
 - circus n. 马戏团
+- circular n. 通告，通报 adj. 循环的，圆形的，环形的
 
 jolly, jelly:
 
@@ -1783,11 +1784,12 @@ booth, brush:
 - booth n. 公用电话亭，货摊，小房间，岗亭
 - brush n. 刷子，轻碰，小冲突，灌木丛 v. 刷，触到
 
-mechanism, mechanic, mechanical:
+mechanism, mechanic, mechanical, mechinery:
 
 - mechanic n. 机修工，力学，运作方式
 - mechanical adj. 机械的
 - mechanism n. 机构，方法，途径，机制，机械装置
+- mechinery n. 机器，机制
 
 deposit, dispose:
 
@@ -1908,6 +1910,57 @@ consensus, censor:
 
 - consensus n. 共识，一致意见
 - censor v. 审查
+
+immune, immense:
+
+- immune adj. 免疫的，免除..的影响
+- immense adj. 巨大的
+
+speculate, spectator, spectacle:
+
+- speculate v. 投机，推测
+- spectator n. 观众，旁观者
+- spectacle n. 景象，场面，眼睛
+
+interfere, intervene:
+
+- interfere v. 干涉（贬义）
+- intervene v. 介入，调停，插画，阻挠（褒义）
+
+boom, bloom:
+
+- boom n. 吊杆 n&v. 繁荣，激增，（发出）隆隆声
+- bloom n&v. 开花（期） n. 青春焕发
+
+section, sector:
+
+- section n. 截面，部门，章节
+- sector n. 行业，领域，部门，扇形，防御区域
+
+diploma, dilemma:
+
+- diploma n. 毕业文凭，学位证书
+- dilemma n. 进退两难
+
+comply, compile:
+
+- comply v. 服从，答应
+- compile v. 编译，编写
+
+fund, fond:
+
+- fund n. 基金，储备 v. 拨款
+- fond adj. 喜爱的
+
+palm, pale:
+
+- palm n. 手掌，棕榈树 v. 藏在手中
+- pale adj. 苍白的 v. 变苍白
+
+soap, soup:
+
+- soap n. 肥皂
+- soup n. 汤
 
 ## 易混淆词组
 
