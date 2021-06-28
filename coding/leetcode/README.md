@@ -12,6 +12,7 @@
 
 - 二分搜索：278、374、852
 - 异或性质：1787
+- 搜索：752、773、815、909
 
 <!-- omit in toc -->
 ## Table of Contents
@@ -91,6 +92,7 @@
 - [781. Rabbits in Forest](#781-rabbits-in-forest)
 - [783. Minimum Distance Between BST Nodes](#783-minimum-distance-between-bst-nodes)
 - [810. Chalkboard XOR Game](#810-chalkboard-xor-game)
+- [815. Bus Routes](#815-bus-routes)
 - [852. Peak Index in a Mountain Array](#852-peak-index-in-a-mountain-array)
 - [872. Leaf-Similar Trees](#872-leaf-similar-trees)
 - [877. Stone Game](#877-stone-game)
@@ -599,6 +601,16 @@ if uglyNums[i] == uglyNums[p] { p++ }
   - $t = \oplus_{i=0}^{n-1} S_i = \oplus_{i=0}^{n} S = 0$
   - 若 $n$ 为偶数，$t = S = 0$ 与 $S \neq 0$ 矛盾，不会失败
   - A 先手为偶数不会输，B 后手为偶数不会输
+
+## 815. Bus Routes
+
+给定图的邻接关系，求节点之间的最短距离：
+
+- 巴士路线决定了一个等价类，类内成员相互邻接
+- 类内成员数据规模较大，主要需要设计数据结构记录邻接信息
+  - 考虑存储节点和路线的对应信息，记录路径和路径之间是否相连
+  - 使用路线信息进行枚举
+  - 使用点进行枚举，需要对最大数据规模的样例进行特判
 
 ## 852. Peak Index in a Mountain Array
 
