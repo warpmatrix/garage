@@ -1779,10 +1779,12 @@ repetition, reputation, petition:
 - reputation n. 名声，名望
 - petition n. 请愿书 v. 申请
 
-booth, brush:
+booth, brush, blush, flush:
 
 - booth n. 公用电话亭，货摊，小房间，岗亭
 - brush n. 刷子，轻碰，小冲突，灌木丛 v. 刷，触到
+- blush n&v. 脸红
+- flush v. 冲洗 v&n. 脸红 adj. 齐平的，富裕的
 
 mechanism, mechanic, mechanical, mechinery:
 
@@ -1896,10 +1898,11 @@ vocation, vacation:
 - vocation n. 职业，使命感，圣召
 - vacation n. 假期
 
-isolate, insulate:
+isolate, insulate, segregate:
 
 - isolate v. 使..孤立，使..隔绝
 - insulate v. 隔离，孤立，使..隔绝
+- segregate v. 隔离，分开
 
 alumni, aluminum:
 
@@ -1961,6 +1964,16 @@ soap, soup:
 
 - soap n. 肥皂
 - soup n. 汤
+
+adapt, adopt:
+
+- adapt v. 使..适应，改编
+- adopt v. 采纳，批准，收养
+
+discern, consern:
+
+- discern v. 察觉，了解，识别
+- consern v. 担忧
 
 ## 易混淆词组
 
