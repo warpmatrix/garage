@@ -47,6 +47,12 @@ echo !# // 获得上一个命令名
 echo !$ // 获得上一个指令的最后一个参数
 echo !:n // 获得上一个指令的第 n 个参数
 !! // 执行上一条指令
+
+whatis // 查看命令用途
+// 设置默认的编辑器
+sudo update-alternatives --config editor
+iwconfig // 配置无线网络接口
+ifconfig // 配置网络接口
 ```
 
 ## gdb
