@@ -1,12 +1,14 @@
 <!-- omit in toc -->
 # Leetcode Note
 
-思考如何切题：先动笔，再打码！leetcode 难度分级不科学，困难其实是中等难度
+思考如何切题：先思考，再动笔，最后打码！leetcode 难度分级不科学，困难其实是中等难度
+
+- 说不定带薪上洗手间就可以思路就出来了
 
 <!-- TODO: 以后再补吧，lay 了 -->
 可以留意的一些题目：28、87、160、213、240、264、338、421、456、518、525、783、1473、1486、1310、1787
 
-- 思维训练的题：149、483、810、1787
+- 思维训练的题：149、168、483、810、1787
 
 题目 tag：
 
@@ -44,6 +46,7 @@
 - [150. Evaluate Reverse Polish Notation](#150-evaluate-reverse-polish-notation)
 - [153 & 154. Find Minimum in Rotated Sorted Array](#153--154-find-minimum-in-rotated-sorted-array)
 - [160. Intersection of Two Linked Lists](#160-intersection-of-two-linked-lists)
+- [168. Excel Sheet Column Title](#168-excel-sheet-column-title)
 - [173. Binary Search Tree Iterator](#173-binary-search-tree-iterator)
 - [179. Largest Number](#179-largest-number)
 - [190. Reverse Bits](#190-reverse-bits)
@@ -293,6 +296,14 @@ dfs，可以统计数字出现次数，减少递归深度；也可以使用 bool
 
 - 两个指针将两个链表的路都走一次可以确保两个指针最终会走到一起
 - 共同节点或 `null`
+
+## 168. Excel Sheet Column Title
+
+数值转换的变种，核心在于将权重从 1-26 映射到 0-25
+
+- 可以将每次求得的权重重新进行映射
+- `wei = num % 26 - 1`
+  - if wei == -1 {wei, num = 25, num / 26 - 1}
 
 ## 173. Binary Search Tree Iterator
 
