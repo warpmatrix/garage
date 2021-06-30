@@ -63,6 +63,7 @@
 - [264. Ugly Number II](#264-ugly-number-ii)
 - [278. First Bad Version](#278-first-bad-version)
 - [279. Perfect Squares](#279-perfect-squares)
+- [297. Serialize and Deserialize Binary Tree](#297-serialize-and-deserialize-binary-tree)
 - [331. Verify Preorder Serialization of a Binary Tree](#331-verify-preorder-serialization-of-a-binary-tree)
 - [338. Counting Bits](#338-counting-bits)
 - [341. Flatten Nested List Iterator](#341-flatten-nested-list-iterator)
@@ -130,6 +131,7 @@
 - [1744. Can You Eat Your Favorite Candy on Your Favorite Day?](#1744-can-you-eat-your-favorite-candy-on-your-favorite-day)
 - [1787. Make the XOR of All Segments Equal to Zero](#1787-make-the-xor-of-all-segments-equal-to-zero)
 - [剑指 Offer 15. 二进制中1的个数](#剑指-offer-15-二进制中1的个数)
+- [剑指 Offer 37. 序列化二叉树](#剑指-offer-37-序列化二叉树)
 - [剑指 Offer 38. 字符串的排列](#剑指-offer-38-字符串的排列)
 - [面试题 17.21. Volume of Histogram LCCI](#面试题-1721-volume-of-histogram-lcci)
 
@@ -396,6 +398,13 @@ if uglyNums[i] == uglyNums[p] { p++ }
 - 数学定理的求解方式（四平方和定理）：每一个整数至多被四个正整数的平方和表示
   - 当 $n = 4^k(8m + 7)$ 时，$n$ 只能表示为四个正整数的平方和
   - 特判答案为 1 或答案为 2 的情况
+
+## 297. Serialize and Deserialize Binary Tree
+
+将二叉树进行序列化和反序列化：
+
+- 序列化：考虑对二叉树进行先序遍历
+  - 一个 int 转成四个 byte，nil 考虑转为在区间以外的数字？
 
 ## 331. Verify Preorder Serialization of a Binary Tree
 
@@ -865,6 +874,10 @@ ref: [1011](#1011-capacity-to-ship-packages-within-d-days) 给定顺序进行规
 
 - [461. Hamming Distance](#461-hamming-distance)
 - [477. Total Hamming Distance](#477-total-hamming-distance)
+
+## 剑指 Offer 37. 序列化二叉树
+
+相同的题目：[297. Serialize and Deserialize Binary Tree](#297-serialize-and-deserialize-binary-tree)
 
 ## 剑指 Offer 38. 字符串的排列
 

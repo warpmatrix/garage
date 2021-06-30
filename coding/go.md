@@ -15,3 +15,8 @@
 - 变长函数参数：相当于传递数组的语法糖
 
 [go 中 slice 的复制机制](https://studygolang.com/articles/19913?fr=sidebar)
+
+go 中元素转为 []byte 的一些理解：
+
+- [具体实现](https://cloud.tencent.com/developer/article/1067976)
+- [低层原理](https://blog.csdn.net/weixin_39698255/article/details/111581070)
