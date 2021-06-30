@@ -1862,6 +1862,11 @@ erupt, abrupt, disrupt, corrupt:
 - disrupt v. 扰乱，使..分解，使..混乱
 - corrupt v. 腐败，破坏，引起错误
 
+disrupt, distract:
+
+- disrupt v. 扰乱，使..分解，使..混乱
+- distract v. 分心，分散，打扰
+
 baggage, luggage:
 
 - baggage n. 行李（大袋小袋）
@@ -1974,6 +1979,21 @@ discern, consern:
 
 - discern v. 察觉，了解，识别
 - consern v. 担忧
+
+municipal, magistrate:
+
+- municipal adj. 地方的，地方自治的
+- magistrate n. 地方法官，治安官
+
+hesitate, haste:
+
+- hesitate v. 犹豫，不情愿
+- haste n. 匆忙，草率
+
+cordial, cardinal:
+
+- cordial adj. 热情友好的，热忱的 n. 甜果汁饮料，镇静药，兴奋剂
+- cardinal adj. 最重要的，基本的 n. 红衣主教，基数词
 
 ## 易混淆词组
 
