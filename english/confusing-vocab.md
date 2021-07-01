@@ -1995,6 +1995,21 @@ cordial, cardinal:
 - cordial adj. 热情友好的，热忱的 n. 甜果汁饮料，镇静药，兴奋剂
 - cardinal adj. 最重要的，基本的 n. 红衣主教，基数词
 
+lever, level:
+
+- lever n. 杠杆 v. 撬动
+- level v. 便平坦 n&adj. 水平（面/的）
+
+opponent, component:
+
+- opponent n. 对手，敌手
+- component adj. 组成的 n. 组成部分，部件
+
+captive, captital:
+
+- captive adj. 被俘获的 n. 俘虏
+- capital n. 首都，省会，资金，大写字母，资本家 adj. 首都的，重要的，大写的
+
 ## 易混淆词组
 
 look 的一系列词组：
