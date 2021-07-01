@@ -134,6 +134,7 @@
 - [剑指 Offer 37. 序列化二叉树](#剑指-offer-37-序列化二叉树)
 - [剑指 Offer 38. 字符串的排列](#剑指-offer-38-字符串的排列)
 - [面试题 17.21. Volume of Histogram LCCI](#面试题-1721-volume-of-histogram-lcci)
+- [LCP 07. 传递信息](#lcp-07-传递信息)
 
 ## 7. Reverse Integer
 
@@ -893,3 +894,9 @@ ref: [1011](#1011-capacity-to-ship-packages-within-d-days) 给定顺序进行规
 
 - `lmax`/`rmax` 单调递增/递减
 - 若 `lmax[i] > rmax[j]` 则，$\exist nj < j, rmax[nj] \geq lmax[i]$，可以适用双指针
+
+## LCP 07. 传递信息
+
+给定有向图，求经过 k 条边，从起点到终点的方案数
+
+- 简单动态规划：`newdp[dest] += dp[src]`，时间复杂度 $O(kn)$
