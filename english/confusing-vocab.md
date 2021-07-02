@@ -18,10 +18,14 @@ emit, elite:
 - emit v. 发射
 - elite n. 精英
 
-qualify, quantify:
+qualify, quantify, quality, quantity, qualitative, quantitative:
 
-- qualify v. 具有资格
+- qualify v. 具有资格，符合，限定
 - quantify v. 量化
+- quality n. 质量，性质 adj. 优质的
+- quantity n. 量，数额
+- qualitative adj. 定性的
+- quantitative adj. 定量的
 
 despise, despite, despair:
 
@@ -83,11 +87,6 @@ habit, habitat, hobby, rabbit:
 - habitat n. 栖息地
 - hobby n. 爱好
 - rabbit n. 兔子
-
-quantitative, qualitative:
-
-- quantitative adj. 定量的
-- qualitative adj. 定性的
 
 consequent, consecutive:
 
@@ -1589,10 +1588,11 @@ medical, mediate, middle, meddle, medium, medieval, intermediate:
 - medieval adj. 中世纪的，老式的，原始的
 - intermediate adj. 中间的，中级的 n. 中级生
 
-proximate, approximate:
+proximate, approximate, appropriate:
 
 - proximate adj. 最接近的，最邻近的
 - approximate adj. 近似的
+- appropriate adj. (to) 适当的 v. 侵吞
 
 venue, avenue:
 
@@ -2009,6 +2009,28 @@ captive, captital:
 
 - captive adj. 被俘获的 n. 俘虏
 - capital n. 首都，省会，资金，大写字母，资本家 adj. 首都的，重要的，大写的
+
+resident, resistant, resilient:
+
+- resident adj. 居住的 n. 居民，住院医生
+- resistant adj. 有抵抗力的，耐..的
+- resilient adj. 有弹性的
+
+symphony, sympathy:
+
+- symphony n. 交响乐
+- sympathy n. 支持，同情
+
+irrigate, irritate, agitate:
+
+- irrigate v. 浇灌，冲洗
+- irritate v. 使..烦恼（失去耐心而发怒），刺激
+- agitate v. 煽动，鼓励，搅动，使..不安
+
+compassion, passion:
+
+- passion n. 激怒，酷爱，热情
+- compassion n. 同情，怜悯
 
 ## 易混淆词组
 
