@@ -130,6 +130,7 @@
 - [1738. Find Kth Largest XOR Coordinate Value](#1738-find-kth-largest-xor-coordinate-value)
 - [1744. Can You Eat Your Favorite Candy on Your Favorite Day?](#1744-can-you-eat-your-favorite-candy-on-your-favorite-day)
 - [1787. Make the XOR of All Segments Equal to Zero](#1787-make-the-xor-of-all-segments-equal-to-zero)
+- [1833. Maximum Ice Cream Bars](#1833-maximum-ice-cream-bars)
 - [剑指 Offer 15. 二进制中1的个数](#剑指-offer-15-二进制中1的个数)
 - [剑指 Offer 37. 序列化二叉树](#剑指-offer-37-序列化二叉树)
 - [剑指 Offer 38. 字符串的排列](#剑指-offer-38-字符串的排列)
@@ -868,6 +869,12 @@ ref: [1011](#1011-capacity-to-ship-packages-within-d-days) 给定顺序进行规
 - 主要需要遍历每一组的数据需要变成哪一个数字，分成两类进行讨论：
   - 将所有数字变成没有出现过的数字
   - 将所有数字变成一组中的一个，变化的次数为 `size - cnts[num]`
+
+## 1833. Maximum Ice Cream Bars
+
+简单题，给定预算和物品的成本、数量，求可以得到的最大物品数量：排序贪心，时间复杂度 $O(n \log n)$
+
+- 可以使用堆进行优化，堆化的时间复杂度为 $O(n)$
 
 ## 剑指 Offer 15. 二进制中1的个数
 
