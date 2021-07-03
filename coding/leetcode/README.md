@@ -3,6 +3,7 @@
 
 思考如何切题：先思考，再动笔，最后打码！leetcode 难度分级不科学，困难其实是中等难度
 
+- leetcode 的难度好像崩坏了..中等也有可能只是简单题
 - 说不定带薪上洗手间就可以思路就出来了
 
 <!-- TODO: 以后再补吧，lay 了 -->
@@ -74,6 +75,7 @@
 - [401. Binary Watch](#401-binary-watch)
 - [403. Frog Jump](#403-frog-jump)
 - [421. Maximum XOR of Two Numbers in an Array](#421-maximum-xor-of-two-numbers-in-an-array)
+- [451. Sort Characters By Frequency](#451-sort-characters-by-frequency)
 - [456. 132 Pattern](#456-132-pattern)
 - [461. Hamming Distance](#461-hamming-distance)
 - [474. Ones and Zeroes](#474-ones-and-zeroes)
@@ -481,6 +483,13 @@ if uglyNums[i] == uglyNums[p] { p++ }
 
 - 可以使用哈希表，保存数组中的元素前 $k$ 位是什么数
 - 可以使用字典树，保存数组中的元素对应前 $k$ 位的数字
+
+## 451. Sort Characters By Frequency
+
+统计字符出现次数，倒序输出字符
+
+- 使用桶进行记录（按照字符出现的次记录信息）
+- go 中构建重复的字符串可以使用 `bytes.Repeat` 接口
 
 ## 456. 132 Pattern
 
