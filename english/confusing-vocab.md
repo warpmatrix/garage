@@ -2032,6 +2032,21 @@ compassion, passion:
 - passion n. 激怒，酷爱，热情
 - compassion n. 同情，怜悯
 
+scene, scent:
+
+- scene n. 场景，地点，镜头
+- scent n. 气味，嗅到
+
+native, naive:
+
+- native adj. 当地的，出生地的 n. 当地人，土生土长人
+- naive adj. 幼稚的，天真的
+
+generous, general:
+
+- generous adj. 慷慨的，大量的
+- general adj. 全体的，通常的，概括的，笼统的 n. 将军，上将
+
 ## 易混淆词组
 
 look 的一系列词组：
