@@ -89,6 +89,7 @@
 - [554. Brick Wall](#554-brick-wall)
 - [560. Subarray Sum Equals K](#560-subarray-sum-equals-k)
 - [633. Sum of Square Numbers](#633-sum-of-square-numbers)
+- [645. Set Mismatch](#645-set-mismatch)
 - [664. Strange Printer](#664-strange-printer)
 - [690. Employee Importance](#690-employee-importance)
 - [692. Top K Frequent Words](#692-top-k-frequent-words)
@@ -574,6 +575,14 @@ if uglyNums[i] == uglyNums[p] { p++ }
 
 - $l^2 + r^2 < c \to l = l + 1$
 - $l^2 + r^2 > c \to r = r - 1$
+
+## 645. Set Mismatch
+
+在数集中找到重复和缺失的数字，简单题目，时间复杂度和空间复杂度分别可以达到 $O(n)$ 和 $O(1)$
+
+- 简单想法可以使用数组记录数字是否出现过
+  - 还可以使用取相反数的方法，使用取值为负的另外一半空间，实现 $O(1)$ 的空间复杂度
+- 另外可以使用异或的方法求出重复和缺失的数据，空间复杂度可以达到 $O(1)$
 
 ## 664. Strange Printer
 

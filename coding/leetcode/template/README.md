@@ -21,10 +21,13 @@
 - 遍历子集的方法：
   - 从大到小：`for subSet = set; subSet > 0; subSet = (subSet-1) & set`
 - 从小到大遍历压缩状态的方法：
+- 最低位 1 的位置：`bit = num & (-num)`
+  - 末尾的 0 取反加 1 后，变回 0，按位取与仍为 0
+  - 高于最低位 1 的数位，数位相反，取与结果为 0
 
   ```go
   for i := 0; i < set; i++ {
-      // 最低位的 1 的位置
+      // 最低位的 1 的位置：i & (-i)
       x := bits.TrailingZeros(uint(i))
       // 除去最低位的子集
       y := i ^ 1 << x
