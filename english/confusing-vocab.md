@@ -2047,6 +2047,16 @@ generous, general:
 - generous adj. 慷慨的，大量的
 - general adj. 全体的，通常的，概括的，笼统的 n. 将军，上将
 
+policy, politics:
+
+- policy n. 保险单，方针
+- politics n. 政见，政纲，政治
+
+restrict, strict:
+
+- restrict v. 限制，约束
+- strict adj. 完全的，严谨的，严格的
+
 ## 易混淆词组
 
 look 的一系列词组：

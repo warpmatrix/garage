@@ -90,6 +90,7 @@ but 表递进：对前文程度部分否定，程度更深，即表递进的意�
 - be capable of 能够，可以
 - in a position to 能够，可以
 - place a high value on 重视
+- a resume is enclosed with the letter 一份随信附上的简历
 
 hardly 倒装句
 
