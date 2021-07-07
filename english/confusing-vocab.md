@@ -79,7 +79,7 @@ imaginary, imaginative:
 precede, concede:
 
 - precede v. 先于，在...之前
-- concede v. 承认，让步
+- concede v. 认输，让步，承认，给予
 
 habit, habitat, hobby, rabbit:
 
