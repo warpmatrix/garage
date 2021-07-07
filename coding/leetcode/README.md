@@ -120,6 +120,7 @@
 - [1239. Maximum Length of a Concatenated String with Unique Characters](#1239-maximum-length-of-a-concatenated-string-with-unique-characters)
 - [1269. Number of Ways to Stay in the Same Place After Some Steps](#1269-number-of-ways-to-stay-in-the-same-place-after-some-steps)
 - [1310. XOR Queries of a Subarray](#1310-xor-queries-of-a-subarray)
+- [1418. Display Table of Food Orders in a Restaurant](#1418-display-table-of-food-orders-in-a-restaurant)
 - [1442. Count Triplets That Can Form Two Arrays of Equal XOR](#1442-count-triplets-that-can-form-two-arrays-of-equal-xor)
 - [1449. Form Largest Integer With Digits That Add up to Target](#1449-form-largest-integer-with-digits-that-add-up-to-target)
 - [1473. Paint House III](#1473-paint-house-iii)
@@ -779,6 +780,10 @@ $$
 ## 1310. XOR Queries of a Subarray
 
 类比为区间和的问题：可以使用前缀异或数组求解
+
+## 1418. Display Table of Food Orders in a Restaurant
+
+简单题 ims，使用哈希表进行计数，最后格式化输出
 
 ## 1442. Count Triplets That Can Form Two Arrays of Equal XOR
 
