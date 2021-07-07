@@ -1032,10 +1032,11 @@ obvious, oblivious:
 - obvious adj. 明显的
 - oblivious adj. 健忘的，没有注意到的
 
-feudal, federal:
+feudal, federal, funeral:
 
 - feudal adj. 封建的
 - federal adj. 联邦的
+- funeral n. 丧礼，葬礼
 
 recruit, enroll, check in:
 
@@ -1768,10 +1769,11 @@ circle, circuit, circus, circular:
 - circus n. 马戏团
 - circular n. 通告，通报 adj. 循环的，圆形的，环形的
 
-jolly, jelly:
+jolly, jelly, rejoice:
 
 - jolly adj. 愉悦的 adv. 非常 v. 怂恿 n. 旅游
 - jelly n. 果冻，胶状物
+- rejoice v. 欣喜
 
 repetition, reputation, petition:
 
