@@ -107,6 +107,7 @@
 - [879. Profitable Schemes](#879-profitable-schemes)
 - [897. Increasing Order Search Tree](#897-increasing-order-search-tree)
 - [909. Snakes and Ladders](#909-snakes-and-ladders)
+- [930. Binary Subarrays With Sum](#930-binary-subarrays-with-sum)
 - [938. Range Sum of BST](#938-range-sum-of-bst)
 - [993. Cousins in Binary Tree](#993-cousins-in-binary-tree)
 - [1006. Clumsy Factorial](#1006-clumsy-factorial)
@@ -704,6 +705,13 @@ if uglyNums[i] == uglyNums[p] { p++ }
 
 - 提前将二维转一维处理应该好一些
 - 写转换函数也可以
+
+## 930. Binary Subarrays With Sum
+
+计算二进制数组中和为定值的子串数量，对于一个满足条件的局部子串，同样模式的子串数量与首尾的 1 和它们各自的相邻 1 的距离相关：
+
+- `ret += (oneLocs[head] - oneLocs[head - 1]) * (oneLocs[tail + 1] - oneLocs[tail])`
+- 需要特别处理 `goal == 0` 的情况：`ret += tmp * (tmp - 1) / 2`
 
 ## 938. Range Sum of BST
 
