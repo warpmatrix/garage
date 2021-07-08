@@ -2059,6 +2059,22 @@ restrict, strict:
 - restrict v. 限制，约束
 - strict adj. 完全的，严谨的，严格的
 
+lumber, timber:
+
+- lumber v. 缓慢移动，使..担负 n. 木材，木料
+- timber n. 木材，原木
+
+ache, acre:
+
+- ache v. 渴望 v&n. 疼痛
+- acre n. 大量，英亩
+
+resent, recent, repent:
+
+- resent v. 愤恨，厌恶
+- recent adj. 新近的
+- repent v. 懊悔
+
 ## 易混淆词组
 
 look 的一系列词组：
