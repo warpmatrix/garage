@@ -114,6 +114,11 @@ amuse, entertain, divert:
 - entertain v. 招待，款待
 - divert v. 消遣（转移注意力），转移
 
+diverse, divert:
+
+- divert v. 消遣（转移注意力），转移
+- diverse adj. 多种的，不同的
+
 precision, accuracy:
 
 - precision n. 精确度
@@ -1992,10 +1997,11 @@ hesitate, haste:
 - hesitate v. 犹豫，不情愿
 - haste n. 匆忙，草率
 
-cordial, cardinal:
+cordial, cardinal, coordinate:
 
 - cordial adj. 热情友好的，热忱的 n. 甜果汁饮料，镇静药，兴奋剂
 - cardinal adj. 最重要的，基本的 n. 红衣主教，基数词
+- coordinate v. 协调，搭配 n. 坐标 adj. 同等的
 
 lever, level:
 
@@ -2074,6 +2080,11 @@ resent, recent, repent:
 - resent v. 愤恨，厌恶
 - recent adj. 新近的
 - repent v. 懊悔
+
+mystery, misery:
+
+- mystery n. 神秘
+- misery n. 不幸
 
 ## 易混淆词组
 
