@@ -109,6 +109,7 @@
 - [909. Snakes and Ladders](#909-snakes-and-ladders)
 - [930. Binary Subarrays With Sum](#930-binary-subarrays-with-sum)
 - [938. Range Sum of BST](#938-range-sum-of-bst)
+- [981. Time Based Key-Value Store](#981-time-based-key-value-store)
 - [993. Cousins in Binary Tree](#993-cousins-in-binary-tree)
 - [1006. Clumsy Factorial](#1006-clumsy-factorial)
 - [1011. Capacity To Ship Packages Within D Days](#1011-capacity-to-ship-packages-within-d-days)
@@ -718,6 +719,13 @@ if uglyNums[i] == uglyNums[p] { p++ }
 简单递归，不必过度纠结中序遍历。发现自己会受别人的思路影响，神 tm jm 说了一句中序遍历...
 
 - 也可以使用其它遍历二叉树的方法
+
+## 981. Time Based Key-Value Store
+
+基于时间戳查找对应的键值对，使用二分查找的方法查询
+
+- 注意题目要求找到不大于特定时间戳的最大时间戳对应的键值对，而标准库模板为满足给定函数情况的最小下标
+- 使用时间戳大于给定时间戳的函数求下标，然后减 1，需要注意边界
 
 ## 993. Cousins in Binary Tree
 
