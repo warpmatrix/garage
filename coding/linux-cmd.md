@@ -57,11 +57,11 @@ ifconfig // 配置网络接口
 
 ## gdb
 
-```gdb
-// 执行 gdb 的脚本文件
-// 亦可在 shell 环境下使用 -x <file> 参数
-source <file>
-```
+执行 gdb 的脚本文件：可以在 gdb 环境下执行 `source <file>`，也可以在 shell 环境下执行 `gdb -x <file>`
+
+使用 gdb 的窗口调试界面：shell 环境下执行 `gdb -tui <bin>`
+
+[调试技巧](https://blog.csdn.net/robinblog/article/details/17652541)：设置断点可以引入断点条件，如：`b fun if i == 2`
 
 ## curl
 

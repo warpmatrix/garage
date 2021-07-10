@@ -27,3 +27,12 @@ go 中的 `log` 标准库，只提供三种默认的 log 方式：
 - `Panic` 会保存日志并丢出异常终止程序
 - `Print` 会保存日志但是程序继续
 - 使用其它 log 方式可以自己构造 logger 或使用第三方库。一些链接：[logger](https://www.jianshu.com/p/73ae6dc4d16a)、[基本的 log](https://blog.csdn.net/fwhezfwhez/article/details/79203590)
+
+使用 gdb 进行调试：
+
+- 获得 go 运行时的相关支持，如：`goroutines` 等信息
+  - 在 `.gdbinit` 中增加 `add-auto-load-safe-path /usr/local/go/src/runtime/runtime-gdb.py`
+- 构建可执行文件使用：`go build -gcflags "-N -l" <src>` 关闭内联优化，方便调试
+- 删除调试符号：`go build -ldflags "-s -w"`
+- 对函数设置断点时，要加上包名如：`b main.main`
+- 一些参考博客：[使用 gdb 对 go 进行调试](https://www.cnblogs.com/wongbingming/p/13063629.html)
