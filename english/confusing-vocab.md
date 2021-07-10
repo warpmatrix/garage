@@ -2086,6 +2086,11 @@ mystery, misery:
 - mystery n. 神秘
 - misery n. 不幸
 
+prospective, perspective:
+
+- prospective adj. 预期的，即将发生的
+- perspective adj. 观点，远景，透视
+
 ## 易混淆词组
 
 look 的一系列词组：
