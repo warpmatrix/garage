@@ -12,10 +12,16 @@ image 文件生成的容器实例，本身也是一个文件，称为容器文�
 
 创建 docker 涉及到的文件：`.dockerignore`、`Dockerfile`
 
-## dockerfile
+## dockerfile & docker-compose
 
 docker 中不同的指令：
 
 - FROM：定制镜像的基镜像
 - RUN：构建定制镜像所提前运行的指令
 - CMD：镜像运行时执行的指令
+
+docker-compose 后台执行 bash 需要加入 `tty` 和 `stdin_true` 字段
+
+## 镜像的操作方法
+
+`ctrl P + ctrl Q` detach 容器而不删除容器
