@@ -9,7 +9,7 @@
 <!-- TODO: 以后再补吧，lay 了 -->
 可以留意的一些题目：28、87、160、213、240、264、338、421、456、518、525、783、1473、1486、1310、1787
 
-- 思维训练的题：149、168、483、810、1787
+- 思维训练的题：149、168、483、810、1787、面试题 17.10
 
 题目 tag：
 
@@ -142,6 +142,7 @@
 - [剑指 Offer 15. 二进制中1的个数](#剑指-offer-15-二进制中1的个数)
 - [剑指 Offer 37. 序列化二叉树](#剑指-offer-37-序列化二叉树)
 - [剑指 Offer 38. 字符串的排列](#剑指-offer-38-字符串的排列)
+- [面试题 17.10. Find Majority Element LCCI](#面试题-1710-find-majority-element-lcci)
 - [面试题 17.21. Volume of Histogram LCCI](#面试题-1721-volume-of-histogram-lcci)
 - [LCP 07. 传递信息](#lcp-07-传递信息)
 
@@ -945,6 +946,13 @@ ref: [1011](#1011-capacity-to-ship-packages-within-d-days) 给定顺序进行规
 获得所有的排列组合，获得最小的排列，然后依次遍历增加下一个递增的排列
 
 - [31. Next Permutation](#31-next-permutation)
+
+## 面试题 17.10. Find Majority Element LCCI
+
+思维训练简单题，寻找数组中的元素个数大于数组元素个数一半的元素
+
+- 即 `cnt(num) > len(nums) - cnt(num)`
+- 可以使用两个变量，一个变量记录当前认为的主要元素，另一个变量记录主要元素被部分其他元素抵消后出现的次数
 
 ## 面试题 17.21. Volume of Histogram LCCI
 
