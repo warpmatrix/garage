@@ -224,10 +224,11 @@ grain, gain:
 - grain n. 谷物，少量
 - gain n. 增益 v. 增加
 
-ecology, economy:
+ecology, economy, economic:
 
 - ecology n. 生态，生态学
 - economy n. 经济 adj. 节约的
+- economic adj. 可盈利的，经济学的
 
 dawn, dusk, dust:
 
@@ -242,7 +243,7 @@ asset, assert:
 
 fare, fair:
 
-- fare n. 费用 v. 经营
+- fare n. 费用 v. 经营，进展，遭遇，过活
 - fair n. 游乐场，集市 adj. 美丽的，公平的
 
 evolve, revolute, revolve:
@@ -1796,7 +1797,7 @@ booth, brush, blush, flush:
 mechanism, mechanic, mechanical, mechinery:
 
 - mechanic n. 机修工，力学，运作方式
-- mechanical adj. 机械的
+- mechanical adj. 机械的，呆板的
 - mechanism n. 机构，方法，途径，机制，机械装置
 - mechinery n. 机器，机制
 
@@ -2090,6 +2091,21 @@ prospective, perspective:
 
 - prospective adj. 预期的，即将发生的
 - perspective adj. 观点，远景，透视
+
+preceding, proceeding:
+
+- preceding adj. 在先的
+- proceeding adj. 学报，会议录，行动
+
+ventilate, versatile:
+
+- ventilate v. 通风
+- versatile adj. 多才多艺的，多功能的
+
+preserve, reserve:
+
+- preserve n. 保护区，专门领域，加工食品 v. 腌制，保护，维持
+- reserve n. 矜持，谨慎，自然保护区，储备 v. 预订，保留
 
 ## 易混淆词组
 
