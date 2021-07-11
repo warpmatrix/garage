@@ -62,6 +62,7 @@
 - [240. Search a 2D Matrix II](#240-search-a-2d-matrix-ii)
 - [263. Ugly Number](#263-ugly-number)
 - [264. Ugly Number II](#264-ugly-number-ii)
+- [274. H-Index](#274-h-index)
 - [278. First Bad Version](#278-first-bad-version)
 - [279. Perfect Squares](#279-perfect-squares)
 - [297. Serialize and Deserialize Binary Tree](#297-serialize-and-deserialize-binary-tree)
@@ -396,6 +397,13 @@ p2, p3, p5 := 0, 0, 0
 uglyNums[i] = min(uglyNums[p2]*2, uglyNums[p3]*3, uglyNums[p5]*5)
 if uglyNums[i] == uglyNums[p] { p++ }
 ```
+
+## 274. H-Index
+
+简单题，求最大的 $h$ 满足 $cnt(num \geq h) \geq h$
+
+- 构造 `cnt` 数组：`cnt[i]` 为数组中元素大于 `i` 的个数，时间复杂度为 $O(n)$
+- 也可以对数组进行排序，时间复杂度为 $O(n \log n)$
 
 ## 278. First Bad Version
 
