@@ -63,6 +63,7 @@
 - [263. Ugly Number](#263-ugly-number)
 - [264. Ugly Number II](#264-ugly-number-ii)
 - [274. H-Index](#274-h-index)
+- [275. H-Index II](#275-h-index-ii)
 - [278. First Bad Version](#278-first-bad-version)
 - [279. Perfect Squares](#279-perfect-squares)
 - [297. Serialize and Deserialize Binary Tree](#297-serialize-and-deserialize-binary-tree)
@@ -404,6 +405,12 @@ if uglyNums[i] == uglyNums[p] { p++ }
 
 - 构造 `cnt` 数组：`cnt[i]` 为数组中元素大于 `i` 的个数，时间复杂度为 $O(n)$
 - 也可以对数组进行排序，时间复杂度为 $O(n \log n)$
+
+## 275. H-Index II
+
+数组升序的情况下，直接使用二分进行查找，时间复杂度 $O(\log n)$
+
+- [274. H-Index](#274-h-index)
 
 ## 278. First Bad Version
 
