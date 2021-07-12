@@ -2107,6 +2107,36 @@ preserve, reserve:
 - preserve n. 保护区，专门领域，加工食品 v. 腌制，保护，维持
 - reserve n. 矜持，谨慎，自然保护区，储备 v. 预订，保留
 
+insulate, insult:
+
+- insulate v. 隔离，孤立，使..隔绝
+- insult v&n. 辱骂
+
+lid, lip:
+
+- lid n. 盖子
+- lip n. 嘴唇
+
+articulate, speculate:
+
+- articulate v&adj. 表达清晰（的）
+- speculate v. 推测，投机
+
+rely, relay:
+
+- rely v. 信赖，依靠
+- relay n. 接力（比赛/人员） v. 转发，转播
+
+idiom, idiot:
+
+- idiom n. 风格，习语
+- idiot n. 白痴
+
+diversion, division:
+
+- diversion n. 转向，消遣，临时绕行
+- division n. 分配，分裂，部门，除法
+
 ## 易混淆词组
 
 look 的一系列词组：
