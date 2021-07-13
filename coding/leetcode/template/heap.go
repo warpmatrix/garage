@@ -1,18 +1,23 @@
-type T struct {
-    num int
+type st struct {
+    key int
 }
 
-type priQueue []T
-func (pq priQueue) Len() int { return len(pq) }
-func (pq priQueue) Less(lhs, rhs int) bool {
-    p1, p2 := pq[lhs], pq[rhs]
-    return p1.num >= p2.num
+type hp []st
+func (h hp) Len() int {
+    return len(h)
 }
-func (pq priQueue) Swap(lhs, rhs int) { pq[lhs], pq[rhs] = pq[rhs], pq[lhs] }
-func (pq *priQueue) Push(v interface{}) { *pq = append(*pq, v.(T)) }
-func (pq *priQueue) Pop() interface{} {
-    a := *pq
+func (h hp) Less(idx1, idx2 int) bool {
+    return h[idx1].key > h[idx2].key
+}
+func (h hp) Swap(idx1, idx2 int) {
+    h[idx1], h[idx2] = h[idx2], h[idx1]
+}
+func (h *hp) Push(v interface{}) {
+    *h = append(*h, v.(st))
+}
+func (h *hp) Pop() interface{} {
+    a := *h
     v := a[len(a)-1]
-    *pq = a[:len(a)-1]
+    *h = a[:len(a)-1]
     return v
 }

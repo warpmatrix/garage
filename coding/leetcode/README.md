@@ -56,6 +56,7 @@
 - [208. Implement Trie (Prefix Tree)](#208-implement-trie-prefix-tree)
 - [213. House Robber II](#213-house-robber-ii)
 - [215. Kth Largest Element in an Array](#215-kth-largest-element-in-an-array)
+- [218. The Skyline Problem](#218-the-skyline-problem)
 - [220. Contains Duplicate III](#220-contains-duplicate-iii)
 - [224 & 227. Basic Calculator](#224--227-basic-calculator)
 - [231. Power of Two](#231-power-of-two)
@@ -358,6 +359,15 @@ dfs，可以统计数字出现次数，减少递归深度；也可以使用 bool
 ## 215. Kth Largest Element in an Array
 
 使用快排的思路寻找元素，快速选择的模板
+
+## 218. The Skyline Problem
+
+中等题目，给定多条线段（每条线段有对应的权重），求边界上（任意一点）最大的权重
+
+- 只需考察边界上的信息，在同一个位置权重由包含这一位置的线段的权重决定
+  - 可以动态维护一个大顶堆，确定在一个位置中最大的权重，时间复杂度 $O(n \log n)$
+- go 使用 `heap` 确实比较麻烦需要多练练
+- TODO: 思考是否可能使用线段树完成
 
 ## 220. Contains Duplicate III
 
