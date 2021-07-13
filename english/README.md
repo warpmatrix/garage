@@ -97,7 +97,7 @@ hardly 倒装句
 形容词：
 
 - adj. 显著的：salient, notable, remarkable, dramatic
-- adj. 极好的：fabulous, fantastic, divine, magnificent
+- adj. 极好的：fabulous, fantastic, divine, magnificent, gorgeous
 - adj. 极其的：supreme, ultimate, exceeding
 - adj. 巨大的：enormous, drmatic, whopping, gigantic, fearsome, immense
 

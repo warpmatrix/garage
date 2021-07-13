@@ -2137,6 +2137,16 @@ diversion, division:
 - diversion n. 转向，消遣，临时绕行
 - division n. 分配，分裂，部门，除法
 
+injury, jury:
+
+- injury n. 伤害
+- jury n. 陪审团，评委会
+
+limb, limp:
+
+- limb n. 枝，肢 v. 肢解
+- limp v&n. 蹒跚 adj. 柔软的，无力的
+
 ## 易混淆词组
 
 look 的一系列词组：
