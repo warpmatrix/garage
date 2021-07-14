@@ -141,6 +141,7 @@
 - [1738. Find Kth Largest XOR Coordinate Value](#1738-find-kth-largest-xor-coordinate-value)
 - [1744. Can You Eat Your Favorite Candy on Your Favorite Day?](#1744-can-you-eat-your-favorite-candy-on-your-favorite-day)
 - [1787. Make the XOR of All Segments Equal to Zero](#1787-make-the-xor-of-all-segments-equal-to-zero)
+- [1818. Minimum Absolute Sum Difference](#1818-minimum-absolute-sum-difference)
 - [1833. Maximum Ice Cream Bars](#1833-maximum-ice-cream-bars)
 - [剑指 Offer 15. 二进制中1的个数](#剑指-offer-15-二进制中1的个数)
 - [剑指 Offer 37. 序列化二叉树](#剑指-offer-37-序列化二叉树)
@@ -948,6 +949,12 @@ ref: [1011](#1011-capacity-to-ship-packages-within-d-days) 给定顺序进行规
 - 主要需要遍历每一组的数据需要变成哪一个数字，分成两类进行讨论：
   - 将所有数字变成没有出现过的数字
   - 将所有数字变成一组中的一个，变化的次数为 `size - cnts[num]`
+
+## 1818. Minimum Absolute Sum Difference
+
+使用数组中的一个数字替换另一个数字，使得该数组的一范数尽可能接近另一个数组
+
+- 使用二分法进行枚举，时间复杂度 $O(n \log n)$
 
 ## 1833. Maximum Ice Cream Bars
 
