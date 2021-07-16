@@ -27,6 +27,7 @@
 - [27. Remove Element](#27-remove-element)
 - [28. Implement strStr()](#28-implement-strstr)
 - [31. Next Permutation](#31-next-permutation)
+- [34. Find First and Last Position of Element in Sorted Array](#34-find-first-and-last-position-of-element-in-sorted-array)
 - [54 & 59. Spiral Matrix](#54--59-spiral-matrix)
 - [61. Rotate List](#61-rotate-list)
 - [65. Valid Number](#65-valid-number)
@@ -147,6 +148,7 @@
 - [剑指 Offer 15. 二进制中1的个数](#剑指-offer-15-二进制中1的个数)
 - [剑指 Offer 37. 序列化二叉树](#剑指-offer-37-序列化二叉树)
 - [剑指 Offer 38. 字符串的排列](#剑指-offer-38-字符串的排列)
+- [剑指 Offer 53 - I. 在排序数组中查找数字 I](#剑指-offer-53---i-在排序数组中查找数字-i)
 - [面试题 17.10. Find Majority Element LCCI](#面试题-1710-find-majority-element-lcci)
 - [面试题 17.21. Volume of Histogram LCCI](#面试题-1721-volume-of-histogram-lcci)
 - [LCP 07. 传递信息](#lcp-07-传递信息)
@@ -184,6 +186,10 @@
 
 - 将数组中的低位非递减排列变为递增序列 e.g. [3, **1, 4, 2**] -> [3, 2, **1, 4**]
 - 注意题目中记录排列的是数组，数组的低位元素对应排列的高位
+
+## 34. Find First and Last Position of Element in Sorted Array
+
+简单题，在数组中找到目标数字出现的区间，使用二分
 
 ## 54 & 59. Spiral Matrix
 
@@ -983,6 +989,10 @@ ref: [1011](#1011-capacity-to-ship-packages-within-d-days) 给定顺序进行规
 获得所有的排列组合，获得最小的排列，然后依次遍历增加下一个递增的排列
 
 - [31. Next Permutation](#31-next-permutation)
+
+## 剑指 Offer 53 - I. 在排序数组中查找数字 I
+
+- [34. Find First and Last Position of Element in Sorted Array](#34-find-first-and-last-position-of-element-in-sorted-array)
 
 ## 面试题 17.10. Find Majority Element LCCI
 
