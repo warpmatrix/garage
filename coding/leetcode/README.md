@@ -143,6 +143,7 @@
 - [1787. Make the XOR of All Segments Equal to Zero](#1787-make-the-xor-of-all-segments-equal-to-zero)
 - [1818. Minimum Absolute Sum Difference](#1818-minimum-absolute-sum-difference)
 - [1833. Maximum Ice Cream Bars](#1833-maximum-ice-cream-bars)
+- [1846. Maximum Element After Decreasing and Rearranging](#1846-maximum-element-after-decreasing-and-rearranging)
 - [剑指 Offer 15. 二进制中1的个数](#剑指-offer-15-二进制中1的个数)
 - [剑指 Offer 37. 序列化二叉树](#剑指-offer-37-序列化二叉树)
 - [剑指 Offer 38. 字符串的排列](#剑指-offer-38-字符串的排列)
@@ -961,6 +962,10 @@ ref: [1011](#1011-capacity-to-ship-packages-within-d-days) 给定顺序进行规
 简单题，给定预算和物品的成本、数量，求可以得到的最大物品数量：排序贪心，时间复杂度 $O(n \log n)$
 
 - 可以使用堆进行优化，堆化的时间复杂度为 $O(n)$
+
+## 1846. Maximum Element After Decreasing and Rearranging
+
+不知怎么描述，反正就简单题
 
 ## 剑指 Offer 15. 二进制中1的个数
 
