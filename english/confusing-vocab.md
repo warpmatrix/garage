@@ -66,10 +66,12 @@ native, naive:
 - native n&adj. 本地的
 - naive adj. 缺乏经验的
 
-propose, purpose:
+propose, purpose, prosper, proper:
 
-- propose v. 建议
+- propose v. 打算，求婚，建议
 - purpose n. 意图，打算
+- prosper v. 繁荣，成功
+- proper adj. 严格意义上的，固有的，适合的
 
 imaginary, imaginative:
 
@@ -564,10 +566,11 @@ invade, intrude:
 - invade v. 侵略，侵犯（国家病毒，侵权、带有敌意）
 - intrude v. 闯入，干涉（闯入私人空间）
 
-facility, faculty:
+facility, faculty, fault:
 
 - facility n. 设备，天赋，便利条件
 - faculty n. 教师，天赋，学院
+- fault n. 错误 v. 指责
 
 snack, snake:
 
@@ -2153,6 +2156,16 @@ pork, poke:
 
 - poke v. 刺，捅
 - pork n. 猪肉
+
+sprinkle, sparkle:
+
+- sprinkle v. 撒 n. 少量
+- sparkle n&v. 闪烁 n. 活力
+
+religion, religon:
+
+- religion n. 宗教
+- religon n. 地区
 
 ## 易混淆词组
 

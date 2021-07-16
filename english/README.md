@@ -1,12 +1,5 @@
 # 常见考点
 
-instead 表递进
-
-- 不做前述的事情，而做后面的事情，对于前文的进一步阐述
-- instead of 表转折
-
-but 表递进：对前文程度部分否定，程度更深，即表递进的意思
-
 否定词 + 比较词 -> 最高级
 
 - but there are few places where clients have more grounds for complaint than America
@@ -16,6 +9,9 @@ but 表递进：对前文程度部分否定，程度更深，即表递进的意�
 
 - cement 停滞不前，加固
 - myth 神话，荒诞的说法
+- but 表递进：对前文程度部分否定，程度更深，即表递进的意思
+- instead 表递进，instead of 表转折
+  - instead 不做前述的事情，而做后面的事情，对于前文的进一步阐述
 
 一些在考试中容易混淆的词语：
 
