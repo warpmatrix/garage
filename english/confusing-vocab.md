@@ -103,10 +103,11 @@ immediate, intermediate:
 - immediate adj. 立即的
 - intermediate adj. 中间的
 
-imitate, intimate:
+imitate, intimate, intimidate:
 
 - imitate v. 模仿
 - intimate v. 透露 n. 密友 adj. 亲密的
+- intimidate v. 恐吓，威胁
 
 amuse, entertain, divert:
 
@@ -114,10 +115,11 @@ amuse, entertain, divert:
 - entertain v. 招待，款待
 - divert v. 消遣（转移注意力），转移
 
-diverse, divert:
+diverse, divert, avert:
 
 - divert v. 消遣（转移注意力），转移
 - diverse adj. 多种的，不同的
+- avert v. 避免，转移
 
 precision, accuracy:
 
@@ -2146,6 +2148,11 @@ limb, limp:
 
 - limb n. 枝，肢 v. 肢解
 - limp v&n. 蹒跚 adj. 柔软的，无力的
+
+pork, poke:
+
+- poke v. 刺，捅
+- pork n. 猪肉
 
 ## 易混淆词组
 
