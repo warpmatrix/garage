@@ -594,10 +594,11 @@ midst, mist:
 - midst n. 中间，中部
 - mist n. 薄雾 v. 模糊
 
-elaborate, elevate:
+elaborate, elevate, evapotate:
 
 - elaborate adj. 详细的 v. 详细描述
 - elevate v. 提升
+- evaporate v. 蒸发消失
 
 religious, rigorous, vigorous:
 
