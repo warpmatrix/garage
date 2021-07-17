@@ -28,6 +28,7 @@
 - [28. Implement strStr()](#28-implement-strstr)
 - [31. Next Permutation](#31-next-permutation)
 - [34. Find First and Last Position of Element in Sorted Array](#34-find-first-and-last-position-of-element-in-sorted-array)
+- [53. Maximum Subarray](#53-maximum-subarray)
 - [54 & 59. Spiral Matrix](#54--59-spiral-matrix)
 - [61. Rotate List](#61-rotate-list)
 - [65. Valid Number](#65-valid-number)
@@ -148,6 +149,7 @@
 - [剑指 Offer 15. 二进制中1的个数](#剑指-offer-15-二进制中1的个数)
 - [剑指 Offer 37. 序列化二叉树](#剑指-offer-37-序列化二叉树)
 - [剑指 Offer 38. 字符串的排列](#剑指-offer-38-字符串的排列)
+- [剑指 Offer 42. 连续子数组的最大和](#剑指-offer-42-连续子数组的最大和)
 - [剑指 Offer 53 - I. 在排序数组中查找数字 I](#剑指-offer-53---i-在排序数组中查找数字-i)
 - [面试题 17.10. Find Majority Element LCCI](#面试题-1710-find-majority-element-lcci)
 - [面试题 17.21. Volume of Histogram LCCI](#面试题-1721-volume-of-histogram-lcci)
@@ -190,6 +192,12 @@
 ## 34. Find First and Last Position of Element in Sorted Array
 
 简单题，在数组中找到目标数字出现的区间，使用二分
+
+## 53. Maximum Subarray
+
+简单题，返回数组中的最大子序和
+
+- 使用前缀和完成，注意子序的长度至少为 1
 
 ## 54 & 59. Spiral Matrix
 
@@ -989,6 +997,10 @@ ref: [1011](#1011-capacity-to-ship-packages-within-d-days) 给定顺序进行规
 获得所有的排列组合，获得最小的排列，然后依次遍历增加下一个递增的排列
 
 - [31. Next Permutation](#31-next-permutation)
+
+## 剑指 Offer 42. 连续子数组的最大和
+
+- [53. Maximum Subarray](#53-maximum-subarray)
 
 ## 剑指 Offer 53 - I. 在排序数组中查找数字 I
 
