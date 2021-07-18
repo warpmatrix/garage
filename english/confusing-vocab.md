@@ -618,10 +618,11 @@ prosecute, persecute:
 - prosecute v. 起诉
 - persecute v. 迫害，骚扰
 
-vein, vain:
+vein, vain, rein:
 
 - vein n. 血管，纹路，方式
 - vain adj. 徒劳的，自负的
+- rein n. 缰绳 n&v. 控制 v. 停马
 
 scarce, scare, sacred:
 
@@ -2167,6 +2168,21 @@ religion, religon:
 
 - religion n. 宗教
 - religon n. 地区
+
+proch, torch:
+
+- proch n. 门廊
+- torch n. 火把，手电
+
+trait, trail:
+
+- trait n. 特征
+- trail v. 拖拉，失败，追踪 n. 痕迹，小道，路径
+
+alternate, alternative:
+
+- alternate v&adj. 交替，轮流（的）
+- alternative adj. 可选的
 
 ## 易混淆词组
 
