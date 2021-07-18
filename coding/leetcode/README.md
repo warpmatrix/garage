@@ -151,6 +151,7 @@
 - [剑指 Offer 38. 字符串的排列](#剑指-offer-38-字符串的排列)
 - [剑指 Offer 42. 连续子数组的最大和](#剑指-offer-42-连续子数组的最大和)
 - [剑指 Offer 53 - I. 在排序数组中查找数字 I](#剑指-offer-53---i-在排序数组中查找数字-i)
+- [面试题 10.02. Group Anagrams LCCI](#面试题-1002-group-anagrams-lcci)
 - [面试题 17.10. Find Majority Element LCCI](#面试题-1710-find-majority-element-lcci)
 - [面试题 17.21. Volume of Histogram LCCI](#面试题-1721-volume-of-histogram-lcci)
 - [LCP 07. 传递信息](#lcp-07-传递信息)
@@ -1005,6 +1006,10 @@ ref: [1011](#1011-capacity-to-ship-packages-within-d-days) 给定顺序进行规
 ## 剑指 Offer 53 - I. 在排序数组中查找数字 I
 
 - [34. Find First and Last Position of Element in Sorted Array](#34-find-first-and-last-position-of-element-in-sorted-array)
+
+## 面试题 10.02. Group Anagrams LCCI
+
+简单题，使用字母出现的次数进行哈希，go 中哈希表只能通过数组进行映射，不能通过切片映射？
 
 ## 面试题 17.10. Find Majority Element LCCI
 
