@@ -147,6 +147,7 @@
 - [1833. Maximum Ice Cream Bars](#1833-maximum-ice-cream-bars)
 - [1838. Frequency of the Most Frequent Element](#1838-frequency-of-the-most-frequent-element)
 - [1846. Maximum Element After Decreasing and Rearranging](#1846-maximum-element-after-decreasing-and-rearranging)
+- [1877. Minimize Maximum Pair Sum in Array](#1877-minimize-maximum-pair-sum-in-array)
 - [剑指 Offer 15. 二进制中1的个数](#剑指-offer-15-二进制中1的个数)
 - [剑指 Offer 37. 序列化二叉树](#剑指-offer-37-序列化二叉树)
 - [剑指 Offer 38. 字符串的排列](#剑指-offer-38-字符串的排列)
@@ -989,6 +990,10 @@ ref: [1011](#1011-capacity-to-ship-packages-within-d-days) 给定顺序进行规
 ## 1846. Maximum Element After Decreasing and Rearranging
 
 不知怎么描述，反正就简单题
+
+## 1877. Minimize Maximum Pair Sum in Array
+
+简单题，求数组中最小的最大数对和
 
 ## 剑指 Offer 15. 二进制中1的个数
 
