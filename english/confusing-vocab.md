@@ -268,10 +268,11 @@ loyal, royal:
 - loyal adj. 忠心的
 - royal adj. 皇家的
 
-blanket, bracket:
+blanket, bracket, brace:
 
 - blanket n. 毯子
 - bracket n. 支架，方括号，范围 v. 归为一类
+- brace n. 支架 v. 支撑，绷紧，防护
 
 via, visa:
 
@@ -449,8 +450,9 @@ channel, tunnel:
 - channel n. 频道，渠道 v. 传送
 - tunnel v&n. （开）隧道
 
-lip, sip, rip, dip:
+lid, lip, sip, rip, dip:
 
+- lid n. 盖子
 - lip n. 嘴唇
 - sip n. 一小口
 - rip v. 撕开
@@ -773,11 +775,12 @@ chest, chess:
 - chest n. 胸，柜子
 - chess n. 棋
 
-shelf, shield, shell:
+shelf, shell, shield, shelter:
 
 - shelf n. 架子，搁板
-- shield n. 盾，防护罩 v. 防护
 - shell n. 贝壳，外壳，炮弹 v. 剥壳，炮击
+- shield n. 盾，防护罩 v. 防护
+- shelter n&v. 庇护，掩蔽
 
 object, objective, objection:
 
@@ -2119,11 +2122,6 @@ insulate, insult:
 - insulate v. 隔离，孤立，使..隔绝
 - insult v&n. 辱骂
 
-lid, lip:
-
-- lid n. 盖子
-- lip n. 嘴唇
-
 articulate, speculate:
 
 - articulate v&adj. 表达清晰（的）
@@ -2183,6 +2181,11 @@ alternate, alternative:
 
 - alternate v&adj. 交替，轮流（的）
 - alternative adj. 可选的
+
+esteem, estimate:
+
+- esteem n&v. 尊重
+- estimate v&n. 估计，评价
 
 ## 易混淆词组
 
