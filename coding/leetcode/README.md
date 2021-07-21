@@ -152,6 +152,7 @@
 - [剑指 Offer 37. 序列化二叉树](#剑指-offer-37-序列化二叉树)
 - [剑指 Offer 38. 字符串的排列](#剑指-offer-38-字符串的排列)
 - [剑指 Offer 42. 连续子数组的最大和](#剑指-offer-42-连续子数组的最大和)
+- [剑指 Offer 52. 两个链表的第一个公共节点](#剑指-offer-52-两个链表的第一个公共节点)
 - [剑指 Offer 53 - I. 在排序数组中查找数字 I](#剑指-offer-53---i-在排序数组中查找数字-i)
 - [面试题 10.02. Group Anagrams LCCI](#面试题-1002-group-anagrams-lcci)
 - [面试题 17.10. Find Majority Element LCCI](#面试题-1710-find-majority-element-lcci)
@@ -1015,6 +1016,10 @@ ref: [1011](#1011-capacity-to-ship-packages-within-d-days) 给定顺序进行规
 ## 剑指 Offer 42. 连续子数组的最大和
 
 - [53. Maximum Subarray](#53-maximum-subarray)
+
+## 剑指 Offer 52. 两个链表的第一个公共节点
+
+- [160. Intersection of Two Linked Lists](#160-intersection-of-two-linked-lists)
 
 ## 剑指 Offer 53 - I. 在排序数组中查找数字 I
 
