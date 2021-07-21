@@ -338,10 +338,11 @@ tempt, attempt:
 - tempt v. 诱惑
 - attempt v&n. 尝试，努力
 
-surround, surrender:
+surround, surrender, render:
 
 - surround v, 包围
 - surrender v. 屈服，放弃
+- render v. 使得，提供，导致，翻译
 
 physiology, psychology:
 
@@ -2186,6 +2187,31 @@ esteem, estimate:
 
 - esteem n&v. 尊重
 - estimate v&n. 估计，评价
+
+graze, gaze:
+
+- graze v. 吃草，放牧 v&n. 擦伤
+- gaze v&n. 凝视
+
+preposition, propsition:
+
+- preposition n. 介词
+- proposition n. 主张，建议，陈述，命题
+
+blade, spade:
+
+- blade n. 刀片，叶片
+- spade n. 黑桃，铲子
+
+genuine, genius:
+
+- genuine adj. 名副其实的，真诚的
+- genius n. 天才
+
+bleed, breed:
+
+- bleed v. 榨取（钱财），流血
+- breed n. 种类 v. 繁殖
 
 ## 易混淆词组
 
