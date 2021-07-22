@@ -2213,6 +2213,21 @@ bleed, breed:
 - bleed v. 榨取（钱财），流血
 - breed n. 种类 v. 繁殖
 
+wrinkle, wink:
+
+- wrinkle n&v. （起）皱纹
+- wink v&n. 眨眼，闪烁
+
+pat, pad:
+
+- pat adj. 适时的 v&n. 轻拍
+- pad n. 垫 v. 填塞，走
+
+diplomatic, domestic:
+
+- diplomatic adj. 外交的，有策略的
+- domestic adj. 国内的，家庭的，操持家庭的
+
 ## 易混淆词组
 
 look 的一系列词组：
