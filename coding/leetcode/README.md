@@ -45,6 +45,7 @@
 - [131. Palindrome Partitioning](#131-palindrome-partitioning)
 - [132. Palindrome Partitioning II](#132-palindrome-partitioning-ii)
 - [137. Single Number II](#137-single-number-ii)
+- [138. Copy List with Random Pointer](#138-copy-list-with-random-pointer)
 - [149. Max Points on a Line](#149-max-points-on-a-line)
 - [150. Evaluate Reverse Polish Notation](#150-evaluate-reverse-polish-notation)
 - [153 & 154. Find Minimum in Rotated Sorted Array](#153--154-find-minimum-in-rotated-sorted-array)
@@ -299,6 +300,14 @@ dfs，可以统计数字出现次数，减少递归深度；也可以使用 bool
 
 - 由于重复的数字，均出现三次，则重复数字对应的每一位数字求和得到的结果为 3 的倍数
 - 使用数字电路的方法（真值表进行状态转移），对每一位同时进行求和操作
+
+## 138. Copy List with Random Pointer
+
+带有随机指针的链表深复制：
+
+- 可以使用哈希表记录原链表和新链表节点之间的映射关系，两次遍历可以实现
+- 也可以使用哈希表记录节点的创建情况，使用回溯实现
+- 还可以利用原链表的位置信息，避免哈希表的创建，再进行拆分，空间复杂度可以达到 $O(1)$
 
 ## 149. Max Points on a Line
 
