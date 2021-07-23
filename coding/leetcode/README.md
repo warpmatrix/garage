@@ -149,6 +149,7 @@
 - [1838. Frequency of the Most Frequent Element](#1838-frequency-of-the-most-frequent-element)
 - [1846. Maximum Element After Decreasing and Rearranging](#1846-maximum-element-after-decreasing-and-rearranging)
 - [1877. Minimize Maximum Pair Sum in Array](#1877-minimize-maximum-pair-sum-in-array)
+- [1893. Check if All the Integers in a Range Are Covered](#1893-check-if-all-the-integers-in-a-range-are-covered)
 - [剑指 Offer 15. 二进制中1的个数](#剑指-offer-15-二进制中1的个数)
 - [剑指 Offer 37. 序列化二叉树](#剑指-offer-37-序列化二叉树)
 - [剑指 Offer 38. 字符串的排列](#剑指-offer-38-字符串的排列)
@@ -1004,6 +1005,14 @@ ref: [1011](#1011-capacity-to-ship-packages-within-d-days) 给定顺序进行规
 ## 1877. Minimize Maximum Pair Sum in Array
 
 简单题，求数组中最小的最大数对和
+
+## 1893. Check if All the Integers in a Range Are Covered
+
+判断范围是否被线段覆盖：
+
+- 使用贪心的方法，对线段进行排序，更新左端点，时间复杂度 $O(n \log n)$
+- 差分的思想，记录覆盖的信息，使用前缀和可以得到覆盖的数量，时间复杂度 $O(n + l)$
+- 线段树的做法
 
 ## 剑指 Offer 15. 二进制中1的个数
 
