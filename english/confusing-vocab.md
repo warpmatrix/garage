@@ -1066,11 +1066,13 @@ reception, deception:
 - reception n. 接待，招待会
 - deception n. 欺诈，骗局
 
-somewhat, somehow, somewhere:
+somewhat, somehow, somewhere, sometime:
 
 - somewhat adv. 稍微，有点
 - somehow adv. 以某种方式，不知怎么地
 - somewhere adv. 大概，在某处
+- sometime adj&adv. 过去（的/地）
+- sometimes adv. 有时
 
 impair, impact, compact:
 
@@ -2227,6 +2229,13 @@ diplomatic, domestic:
 
 - diplomatic adj. 外交的，有策略的
 - domestic adj. 国内的，家庭的，操持家庭的
+
+vase, vast, vest, verse:
+
+- vase n. 花瓶
+- vast adj. 大量的，广阔的
+- vest v. 赠予 n. 背心，马甲
+- verse n. 诗，诗句
 
 ## 易混淆词组
 
