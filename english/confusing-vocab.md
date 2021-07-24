@@ -1566,10 +1566,12 @@ furnace, menace, commence:
 - menace n. 威胁，烦人的（人，物） v. 威胁
 - commence v. 开始，获得学位
 
-demographic, domestic:
+demographic, domestic, democratic, dormitory:
 
 - demographic adj. 人口统计（学）的
 - domestic adj. 国内的
+- democratic adj. 民主的
+- dormitory n. 宿舍
 
 aerial, aviation:
 
@@ -2236,6 +2238,11 @@ vase, vast, vest, verse:
 - vast adj. 大量的，广阔的
 - vest v. 赠予 n. 背心，马甲
 - verse n. 诗，诗句
+
+swollen, swallow:
+
+- swollen adj. 浮夸的，激动的，肿胀的
+- swallow v&n. 吞咽，吞并 n. 燕子
 
 ## 易混淆词组
 
