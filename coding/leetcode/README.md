@@ -141,6 +141,7 @@
 - [1720. Decode XORed Array](#1720-decode-xored-array)
 - [1723. Find Minimum Time to Finish All Jobs](#1723-find-minimum-time-to-finish-all-jobs)
 - [1734. Decode XORed Permutation](#1734-decode-xored-permutation)
+- [1736. Latest Time by Replacing Hidden Digits](#1736-latest-time-by-replacing-hidden-digits)
 - [1738. Find Kth Largest XOR Coordinate Value](#1738-find-kth-largest-xor-coordinate-value)
 - [1744. Can You Eat Your Favorite Candy on Your Favorite Day?](#1744-can-you-eat-your-favorite-candy-on-your-favorite-day)
 - [1787. Make the XOR of All Segments Equal to Zero](#1787-make-the-xor-of-all-segments-equal-to-zero)
@@ -951,6 +952,10 @@ ref: [1011](#1011-capacity-to-ship-packages-within-d-days) 给定顺序进行规
 - $\oplus_{i=0}^{j-1}(p[i] \oplus p[i+1]) = p[0] \oplus p[j]$
   - $\oplus_{i=1}^{2n+1}(p[0] \oplus p[i]) = \oplus_{i=1}^{2n+1}p[i]$
 - $\oplus_{i=2k+1}(p[i] \oplus p[i+1]) = \oplus_{i=1}^{2n+1}p[i],\ (k = 0, 1, 2, \cdots)$
+
+## 1736. Latest Time by Replacing Hidden Digits
+
+简单题，暴力打表
 
 ## 1738. Find Kth Largest XOR Coordinate Value
 
