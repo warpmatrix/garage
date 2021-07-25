@@ -143,6 +143,7 @@
 - [1734. Decode XORed Permutation](#1734-decode-xored-permutation)
 - [1736. Latest Time by Replacing Hidden Digits](#1736-latest-time-by-replacing-hidden-digits)
 - [1738. Find Kth Largest XOR Coordinate Value](#1738-find-kth-largest-xor-coordinate-value)
+- [1743. Restore the Array From Adjacent Pairs](#1743-restore-the-array-from-adjacent-pairs)
 - [1744. Can You Eat Your Favorite Candy on Your Favorite Day?](#1744-can-you-eat-your-favorite-candy-on-your-favorite-day)
 - [1787. Make the XOR of All Segments Equal to Zero](#1787-make-the-xor-of-all-segments-equal-to-zero)
 - [1818. Minimum Absolute Sum Difference](#1818-minimum-absolute-sum-difference)
@@ -963,6 +964,12 @@ ref: [1011](#1011-capacity-to-ship-packages-within-d-days) 给定顺序进行规
 
 - go 里面传递数组好像是写时复制？递归传递数组比较消耗时间
 - 尽量将递归改成循环
+
+## 1743. Restore the Array From Adjacent Pairs
+
+简单题，用邻接数对还原数组：抓头抓尾
+
+- 每个元素唯一比较简单；存在重复元素使用回溯的方法，双向遍历？
 
 ## 1744. Can You Eat Your Favorite Candy on Your Favorite Day?
 
