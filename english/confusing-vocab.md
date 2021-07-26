@@ -8,10 +8,11 @@ custom, customs, customer, consumer, costume:
 - consumer n. 消费者（买并使用）
 - costume n. 服饰
 
-resist, persist:
+resist, persist, persevere, preserve:
 
 - resist v. 抵抗
 - persist v. 坚持
+- persevere v. 坚持
 
 emit, elite:
 
