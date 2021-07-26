@@ -138,6 +138,7 @@
 - [1603. Design Parking System](#1603-design-parking-system)
 - [1707. Maximum XOR With an Element From Array](#1707-maximum-xor-with-an-element-from-array)
 - [1711. Count Good Meals](#1711-count-good-meals)
+- [1713. Minimum Operations to Make a Subsequence](#1713-minimum-operations-to-make-a-subsequence)
 - [1720. Decode XORed Array](#1720-decode-xored-array)
 - [1723. Find Minimum Time to Finish All Jobs](#1723-find-minimum-time-to-finish-all-jobs)
 - [1734. Decode XORed Permutation](#1734-decode-xored-permutation)
@@ -928,6 +929,12 @@ $$
 简单题目，给定数组挑选两个数，和为二的幂。枚举所有可能的幂 ($pow < \max num * 2$)，使用哈希表判断满足条件的数字个数
 
 - 判断二的幂：[231. Power of Two](#231-power-of-two)
+
+## 1713. Minimum Operations to Make a Subsequence
+
+求两个数组的最长公共序列长度，将数组的元素转换为下标，求最长递增子序列长度
+
+- 可以映射为目标数组的下标，也可以映射为原数组的下标
 
 ## 1720. Decode XORed Array
 
