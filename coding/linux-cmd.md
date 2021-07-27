@@ -69,3 +69,20 @@ ifconfig // 配置网络接口
 # -d 发送 POST 请求的数据体，-X 指定方法
 curl -d 'key1=value1&key2=value2' -X Post
 ```
+
+## ssh
+
+远程连接：`ssh user@address`
+
+- 缺省 `user@` 的情况下，默认使用和本地相同用户名作为登陆的用户
+- `ssh-copy-id user@address` 设置免密登陆
+- 在 `~/.ssh/config` 中可以配置 ssh 的别名
+
+    ```sshconfig
+    Host <alias-name>
+        HostName <host-name>
+        User <user>
+    ```
+
+- `-X` 参数可以使用桌面应用
+- ssh 可以直接接指令来执行
