@@ -67,12 +67,14 @@ native, naive:
 - native n&adj. 本地的
 - naive adj. 缺乏经验的
 
-propose, purpose, prosper, proper:
+propose, purpose, prosper, proper, propel, compel:
 
 - propose v. 打算，求婚，建议
 - purpose n. 意图，打算
 - prosper v. 繁荣，成功
 - proper adj. 严格意义上的，固有的，适合的
+- propel v. 推动，激励
+- compel v. 强迫
 
 imaginary, imaginative:
 
@@ -867,10 +869,11 @@ relative, relation, relationship:
 - relation n. 关系，亲戚
 - relationship n. 关系，关联
 
-purple, pupil:
+purple, pupil, purse:
 
 - purple adj&n. 紫色
 - pupil n. 瞳孔，小学生
+- purse n. 钱包，小提包
 
 toil, toss:
 
