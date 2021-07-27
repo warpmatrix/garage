@@ -97,6 +97,7 @@
 - [633. Sum of Square Numbers](#633-sum-of-square-numbers)
 - [645. Set Mismatch](#645-set-mismatch)
 - [664. Strange Printer](#664-strange-printer)
+- [671. Second Minimum Node In a Binary Tree](#671-second-minimum-node-in-a-binary-tree)
 - [690. Employee Importance](#690-employee-importance)
 - [692. Top K Frequent Words](#692-top-k-frequent-words)
 - [726. Number of Atoms](#726-number-of-atoms)
@@ -652,6 +653,10 @@ if uglyNums[i] == uglyNums[p] { p++ }
 
 - 左边字符和右边字符相等，右边字符不影响：$f[i][j] = f[i][j - 1]$
 - 左边字符和右边字符不相等，分段讨论最大值：$min(f[i][k] + f[k+1][j])$
+
+## 671. Second Minimum Node In a Binary Tree
+
+简单题，寻找类似小顶堆的二叉树的第二小节点，直接遍历适当剪枝
 
 ## 690. Employee Importance
 
