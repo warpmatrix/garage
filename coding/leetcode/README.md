@@ -109,6 +109,7 @@
 - [810. Chalkboard XOR Game](#810-chalkboard-xor-game)
 - [815. Bus Routes](#815-bus-routes)
 - [852. Peak Index in a Mountain Array](#852-peak-index-in-a-mountain-array)
+- [863. All Nodes Distance K in Binary Tree](#863-all-nodes-distance-k-in-binary-tree)
 - [872. Leaf-Similar Trees](#872-leaf-similar-trees)
 - [877. Stone Game](#877-stone-game)
 - [879. Profitable Schemes](#879-profitable-schemes)
@@ -733,6 +734,14 @@ if uglyNums[i] == uglyNums[p] { p++ }
 
 - [278. First Bad Version](#278-first-bad-version)
 - [374. Guess Number Higher or Lower](#374-guess-number-higher-or-lower)
+
+## 863. All Nodes Distance K in Binary Tree
+
+中等题，在二叉树中找到目标节点距离为 k 的节点：
+
+- 使用深度优先搜索，记录父亲节点；使用回溯的距离信息寻找相应距离的子孙结点
+- 注意不能走回头路，如果在左节点的方向找到目标节点，应在右节点的方向找距离为 k 的节点，还要特判当前节点是否距离为 k
+- 也可以先使用哈希表记录节点的信息
 
 ## 872. Leaf-Similar Trees
 
