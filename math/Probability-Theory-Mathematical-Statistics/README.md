@@ -18,3 +18,5 @@
 - $\int_{-\infty}^{+\infty} e^{-t^2}\mathrm{d}t = \sqrt{\pi}$
 - $\int_0^{+\infty} x^ne^{-x}\mathrm{d}x = n!$
   - 可以通过分步积分得到
+
+判断对错多考虑分布是否独立的情况
