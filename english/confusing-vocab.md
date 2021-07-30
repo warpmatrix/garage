@@ -2248,6 +2248,22 @@ swollen, swallow:
 - swollen adj. 浮夸的，激动的，肿胀的
 - swallow v&n. 吞咽，吞并 n. 燕子
 
+steal, steel:
+
+- steal n. 便宜货 v. 偷窃，悄悄地走
+- steel v. 使坚强 n. 钢
+
+conceive, perceive:
+
+- conceive v. 想象，怀孕，认为
+- perceive v. 感知，察觉，领悟
+
+coast, coarse, shore:
+
+- coast n. 海岸，海滨 v. 滑行，不费力达到
+- coarse adj. 粗糙的，粗劣的，粗俗的
+- shore n. 岸滨，国家 v. 支撑
+
 ## 易混淆词组
 
 look 的一系列词组：
