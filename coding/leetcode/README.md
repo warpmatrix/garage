@@ -132,6 +132,7 @@
 - [1239. Maximum Length of a Concatenated String with Unique Characters](#1239-maximum-length-of-a-concatenated-string-with-unique-characters)
 - [1269. Number of Ways to Stay in the Same Place After Some Steps](#1269-number-of-ways-to-stay-in-the-same-place-after-some-steps)
 - [1310. XOR Queries of a Subarray](#1310-xor-queries-of-a-subarray)
+- [1337. The K Weakest Rows in a Matrix](#1337-the-k-weakest-rows-in-a-matrix)
 - [1418. Display Table of Food Orders in a Restaurant](#1418-display-table-of-food-orders-in-a-restaurant)
 - [1442. Count Triplets That Can Form Two Arrays of Equal XOR](#1442-count-triplets-that-can-form-two-arrays-of-equal-xor)
 - [1449. Form Largest Integer With Digits That Add up to Target](#1449-form-largest-integer-with-digits-that-add-up-to-target)
@@ -884,6 +885,14 @@ $$
 ## 1310. XOR Queries of a Subarray
 
 类比为区间和的问题：可以使用前缀异或数组求解
+
+## 1337. The K Weakest Rows in a Matrix
+
+简单题，完成统计后找出数组前 k 小的数：
+
+- 二分查找 0 的位置
+- 使用堆完成，堆化时间复杂度 $O(n)$
+- 使用快速选择得到前 k 小的数，时间复杂度 $O(n)$
 
 ## 1418. Display Table of Food Orders in a Restaurant
 
