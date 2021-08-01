@@ -2264,6 +2264,11 @@ coast, coarse, shore:
 - coarse adj. 粗糙的，粗劣的，粗俗的
 - shore n. 岸滨，国家 v. 支撑
 
+inability, disability:
+
+- inability n. 无能，无力
+- disability n. 残疾，障碍
+
 ## 易混淆词组
 
 look 的一系列词组：
