@@ -1915,10 +1915,12 @@ suite, suit:
 - suit v. 适合 n. 诉讼，恳求，套装
 - suite n. 套间，套房，套组
 
-blend, bleed:
+blend, bleed, breed, bread:
 
 - blend v. 混合 n. 混合物
 - bleed v. 榨取（钱财），流血
+- breed n. 种类 v. 繁殖
+- bread n. 生计，面包
 
 texture, textile:
 
@@ -2216,11 +2218,6 @@ genuine, genius:
 - genuine adj. 名副其实的，真诚的
 - genius n. 天才
 
-bleed, breed:
-
-- bleed v. 榨取（钱财），流血
-- breed n. 种类 v. 繁殖
-
 wrinkle, wink:
 
 - wrinkle n&v. （起）皱纹
@@ -2268,6 +2265,11 @@ inability, disability:
 
 - inability n. 无能，无力
 - disability n. 残疾，障碍
+
+regard, regret:
+
+- regard prep. 关于
+- regret n&v. 后悔，悲叹
 
 ## 易混淆词组
 
