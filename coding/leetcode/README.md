@@ -119,6 +119,7 @@
 - [930. Binary Subarrays With Sum](#930-binary-subarrays-with-sum)
 - [938. Range Sum of BST](#938-range-sum-of-bst)
 - [981. Time Based Key-Value Store](#981-time-based-key-value-store)
+- [987. Vertical Order Traversal of a Binary Tree](#987-vertical-order-traversal-of-a-binary-tree)
 - [993. Cousins in Binary Tree](#993-cousins-in-binary-tree)
 - [1006. Clumsy Factorial](#1006-clumsy-factorial)
 - [1011. Capacity To Ship Packages Within D Days](#1011-capacity-to-ship-packages-within-d-days)
@@ -808,6 +809,10 @@ if uglyNums[i] == uglyNums[p] { p++ }
 
 - 注意题目要求找到不大于特定时间戳的最大时间戳对应的键值对，而标准库模板为满足给定函数情况的最小下标
 - 使用时间戳大于给定时间戳的函数求下标，然后减 1，需要注意边界
+
+## 987. Vertical Order Traversal of a Binary Tree
+
+中等题，纵向顺序遍历，遍历结果可能和节点的键值相关，需要记录信息再进行排序，不能直接遍历得到结果
 
 ## 993. Cousins in Binary Tree
 
