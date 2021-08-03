@@ -1305,10 +1305,13 @@ scorn, scold, scout:
 - scold v. 责骂，训斥
 - scout n. 侦查员，侦察机，童子军 v. 搜索，侦察
 
-lame, cripple:
+cripple, lame, limb, limp, lamp:
 
 - cripple n. 跛子，伤残人 v. 严重削弱，使残疾
 - lame adj. 没有说服力的，站不住脚的，跛脚的
+- limb n. 枝，肢 v. 肢解
+- limp v&n. 蹒跚 adj. 柔软的，无力的
+- lamp n. 灯
 
 luggage, lodge:
 
@@ -1498,9 +1501,10 @@ inhibit, inhabit:
 - inhibit v. 阻止，抑制
 - inhabit v. 居住
 
-conscience, conscientious:
+conscience, conscious, conscientious:
 
 - conscience n. 良心
+- conscious adj. 有意识的，自觉的
 - conscientious adj. 认真的，勤恳的，小心的
 
 feminine, masculine:
@@ -2158,11 +2162,6 @@ injury, jury:
 - injury n. 伤害
 - jury n. 陪审团，评委会
 
-limb, limp:
-
-- limb n. 枝，肢 v. 肢解
-- limp v&n. 蹒跚 adj. 柔软的，无力的
-
 pork, poke:
 
 - poke v. 刺，捅
@@ -2270,6 +2269,27 @@ regard, regret:
 
 - regard prep. 关于
 - regret n&v. 后悔，悲叹
+
+cling, fling:
+
+- cling v. (to) 黏住，依附，坚持
+- fling v. 丢扔 n. 放纵，风流韵事
+
+nursery, nurse:
+
+- nursery n. 育儿室，托儿所
+- nurse v. 护料 n. 护士，保姆
+
+sauce, saucer:
+
+- sauce n. 酱汁
+- saucer n. 茶托，碟子
+
+steward, straw, shrewd:
+
+- steward n. 服务员，乘务员，管家
+- straw n. 稻草，习惯
+- shrewd adj. 精明的，机灵的
 
 ## 易混淆词组
 
