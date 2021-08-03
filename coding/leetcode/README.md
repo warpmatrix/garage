@@ -9,7 +9,7 @@
 <!-- TODO: 以后再补吧，lay 了 -->
 可以留意的一些题目：28、87、160、213、240、264、338、421、456、518、525、783、1473、1486、1310、1787
 
-- 思维训练的题：149、168、483、810、1787、面试题 17.10
+- 思维训练的题：149、168、483、581、810、1787、面试题 17.10
 
 题目 tag：
 
@@ -95,6 +95,7 @@
 - [525. Contiguous Array](#525-contiguous-array)
 - [554. Brick Wall](#554-brick-wall)
 - [560. Subarray Sum Equals K](#560-subarray-sum-equals-k)
+- [581. Shortest Unsorted Continuous Subarray](#581-shortest-unsorted-continuous-subarray)
 - [633. Sum of Square Numbers](#633-sum-of-square-numbers)
 - [645. Set Mismatch](#645-set-mismatch)
 - [664. Strange Printer](#664-strange-printer)
@@ -644,6 +645,12 @@ if uglyNums[i] == uglyNums[p] { p++ }
 一维前缀和 + 哈希表（判定所需要的前缀和出现的次数）
 
 - 哈希表用于加速检索元素的有无
+
+## 581. Shortest Unsorted Continuous Subarray
+
+求数组排序后，和原数组不同的区间长度
+
+- 使用双指针：求两端升序数组的边界，满足相应的单调性
 
 ## 633. Sum of Square Numbers
 
