@@ -96,6 +96,7 @@
 - [554. Brick Wall](#554-brick-wall)
 - [560. Subarray Sum Equals K](#560-subarray-sum-equals-k)
 - [581. Shortest Unsorted Continuous Subarray](#581-shortest-unsorted-continuous-subarray)
+- [611. Valid Triangle Number](#611-valid-triangle-number)
 - [633. Sum of Square Numbers](#633-sum-of-square-numbers)
 - [645. Set Mismatch](#645-set-mismatch)
 - [664. Strange Printer](#664-strange-printer)
@@ -651,6 +652,12 @@ if uglyNums[i] == uglyNums[p] { p++ }
 求数组排序后，和原数组不同的区间长度
 
 - 使用双指针：求两端升序数组的边界，满足相应的单调性
+
+## 611. Valid Triangle Number
+
+给定边集，求能够组成三角形的个数：遍历一条边求满足三角形条件的区间
+
+- 思考问题的时候可以将相同长度的边合在一起思考，但是编码的时候会涉及组合数、前缀和等十分不方便处理
 
 ## 633. Sum of Square Numbers
 
