@@ -812,10 +812,11 @@ disease, disaster:
 - disease n. 疾病，不健全，弊端
 - disaster n. 灾难
 
-pine, pie:
+pine, pie, pint:
 
 - pine n. 松（树） v. 难过，憔悴，思念
 - pie n. 馅饼
+- pint n. 品脱
 
 rug, blanket, carpet:
 
@@ -2290,6 +2291,16 @@ steward, straw, shrewd:
 - steward n. 服务员，乘务员，管家
 - straw n. 稻草，习惯
 - shrewd adj. 精明的，机灵的
+
+valley, village:
+
+- valley n. 山谷，流域
+- village n. 村庄，乡村
+
+arch, acre:
+
+- arch n. 拱门 v. 拱起，变成弓形
+- acre n. 大量，英亩
 
 ## 易混淆词组
 
