@@ -18,6 +18,20 @@
 - FA (Full Adder)
 - CLA (Carry Lookahead Adder)
 - BCLA (Block Carry Lookahead Adder) 成组先行进位电路
+- RAM (Random Access Memory)
+- ROM (Read Only Memory)
+- DRAM (Dynamic Random Access Memory)
+- SRAM (Static Random Access Memory)
+- MROM (Mask Read Only Memory)
+- PROM (Programable Read Only Memory)
+- EPROM (Erasable Programable Read Only Memory)
+- SSD (Solid State Drive)
+- MM (Main Memory)
+- RAND (RANDom)
+- FIFO (First In First Out)
+- LRU (Least Recently Used)
+- LFU (Least Frequently Used)
+- TLB (Translation Lookaside Buffer) 转译后备缓冲区，快表
 
 ## 容易混淆的概念
 
@@ -33,3 +47,8 @@
 - 机器字长：直接处理的二进制数据的位数
 - 指令字长：指令中二进制代码的位数
 - 存储字长：存储单元中二进制代码的位数
+
+## 疑惑问题
+
+- 芯片中片选端有两位的原因？（便于扩展？方便粗粒度和细粒度的两级管理？）
+- 一个 TLB 对应一个进程？只有一个 TLB（失效问题）？
