@@ -690,9 +690,10 @@ summon, solemn:
 - summon v. 召唤，传唤
 - solemn adj. 庄严的，郑重的
 
-urban, urgent, agent:
+urban, rural, urgent, agent:
 
 - urban adj. 城市的
+- rural adj. 乡村的
 - urgent adj. 紧急的
 - agent n. 中介，代理人，原动力
 
@@ -1342,8 +1343,10 @@ saddle, harness:
 - saddle n. 鞍，座 v. 承担任务
 - harness n. 马具，背带，保护带 v. 治理，利用，上挽具
 
-intensive, potential:
+tense, tentative, intensive, potential:
 
+- tense n. 时态 adj. 紧张的，紧绷的 v. 拉紧
+- tentative adj. 试探性的，初步的，犹豫不决的
 - intensive adj. 加强的，深入的，集约的，集中的
 - protential adj. 潜在的
 
@@ -2301,6 +2304,16 @@ arch, acre:
 
 - arch n. 拱门 v. 拱起，变成弓形
 - acre n. 大量，英亩
+
+cable, capsule:
+
+- cable n. 缆绳 n&v. （发）电报
+- capsule n. 胶囊，太空舱
+
+nominate, denominate:
+
+- nominate v. 提名，任命
+- denominate v. 把..称为
 
 ## 易混淆词组
 
