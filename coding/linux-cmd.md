@@ -67,7 +67,11 @@ ifconfig // 配置网络接口
 
 ```shell
 # -d 发送 POST 请求的数据体，-X 指定方法
-curl -d 'key1=value1&key2=value2' -X Post
+curl <url> -d 'key1=value1&key2=value2' -X Post
+# -b 设置 cookie 信息
+curl <url> -b 'key=val'
+# -G 指定 get 方法，--data-urlencode 使用 url 传递参数
+curl -G <url> --data-urlencode 'key=val'
 ```
 
 ## ssh
