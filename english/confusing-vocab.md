@@ -1831,7 +1831,7 @@ mechanism, mechanic, mechanical, mechinery:
 deposit, dispose:
 
 - deposit n. 存款，订金，押金，矿藏，沉淀物 v. 沉淀，付押金，储蓄
-- dispose v. 处理，清除，排列，倾向于
+- dispose v. 排列，倾向于，处理，清除
 
 live, living:
 
@@ -1923,12 +1923,13 @@ suite, suit:
 - suit v. 适合 n. 诉讼，恳求，套装
 - suite n. 套间，套房，套组
 
-blend, bleed, breed, bread:
+blend, bleed, breed, bread, breast:
 
 - blend v. 混合 n. 混合物
 - bleed v. 榨取（钱财），流血
 - breed n. 种类 v. 繁殖
 - bread n. 生计，面包
+- breast n. 胸部，乳房
 
 texture, textile:
 
@@ -2314,6 +2315,16 @@ nominate, denominate:
 
 - nominate v. 提名，任命
 - denominate v. 把..称为
+
+pride, prize:
+
+- pride n&v. 自尊，自豪，骄傲
+- prize v. 珍视 adj. 一流的 n. 奖
+
+bulletin, builtin:
+
+- bulletin n. 公告，简报
+- builtin adj. 嵌入的 n. 内置
 
 ## 易混淆词组
 
