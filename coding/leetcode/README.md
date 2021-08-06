@@ -112,6 +112,7 @@
 - [802. Find Eventual Safe States](#802-find-eventual-safe-states)
 - [810. Chalkboard XOR Game](#810-chalkboard-xor-game)
 - [815. Bus Routes](#815-bus-routes)
+- [847. Shortest Path Visiting All Nodes](#847-shortest-path-visiting-all-nodes)
 - [852. Peak Index in a Mountain Array](#852-peak-index-in-a-mountain-array)
 - [863. All Nodes Distance K in Binary Tree](#863-all-nodes-distance-k-in-binary-tree)
 - [872. Leaf-Similar Trees](#872-leaf-similar-trees)
@@ -759,6 +760,10 @@ if uglyNums[i] == uglyNums[p] { p++ }
   - 考虑存储节点和路线的对应信息，记录路径和路径之间是否相连
   - 使用路线信息进行枚举
   - 使用点进行枚举，需要对最大数据规模的样例进行特判
+
+## 847. Shortest Path Visiting All Nodes
+
+中等题，广度优先搜索，利用一个整数记录当前节点以及状态压缩记录遍历过的节点
 
 ## 852. Peak Index in a Mountain Array
 
