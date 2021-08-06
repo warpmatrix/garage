@@ -32,6 +32,7 @@
 - LRU (Least Recently Used)
 - LFU (Least Frequently Used)
 - TLB (Translation Lookaside Buffer) 转译后备缓冲区，快表
+- PTR (Page Table Register) 页表寄存器
 
 ## 容易混淆的概念
 
