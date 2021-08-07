@@ -648,10 +648,11 @@ stuck, stab, poke:
 - stab 刺戳，锐物穿透
 - poke 刺，捅
 
-violet, violent:
+violet, violent, velvet:
 
 - violet n&adj. 紫罗兰，紫罗兰色
 - violent adj. 暴力的，猛烈的
+- velvet n. 天鹅绒，丝绒
 
 furry, ferry, fur:
 
@@ -893,6 +894,11 @@ ballet, ballot, bullet:
 - ballot v&n. 不记名投票
 - bullet n. 子弹
 
+poll, ballot:
+
+- poll v&n. 投票，民意检测，政治大选
+- ballot v&n. 不记名投票
+
 helmet, comet:
 
 - helmet n. 头盔
@@ -942,9 +948,10 @@ embryo, embassy:
 - embryo n. 胚，胚芽，事物的初期
 - embassy n. 大使馆，使馆官员
 
-repertoire, reservoir:
+repertoire, reptile, reservoir:
 
 - repertoire n. 节目，技能
+- reptile n. 爬行动物
 - reservoir n. 水库，储藏，汇集
 
 worship, workshop:
@@ -2325,6 +2332,26 @@ bulletin, builtin:
 
 - bulletin n. 公告，简报
 - builtin adj. 嵌入的 n. 内置
+
+archer, anchor:
+
+- archer n. 弓箭手
+- anchor n. 主播，锚 v. 主持，固定，扎根，抛锚
+
+cruel, crucial:
+
+- cruel adj. 残酷的
+- crucial adj. 关键性的
+
+bounce, bound:
+
+- bounce n&v. 弹起，弹跳
+- bound adj. 肯定的，受约束 v. 划界，正在前往 n. 界限 v&n. 蹦跳
+
+contain, control:
+
+- contain v. 控制，抑制，容纳，包含
+- control v&n. 控制，克制 n. 操纵装置
 
 ## 易混淆词组
 
