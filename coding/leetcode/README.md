@@ -9,7 +9,7 @@
 <!-- TODO: 以后再补吧，lay 了 -->
 可以留意的一些题目：28、87、160、213、240、264、338、421、456、518、525、783、1473、1486、1310、1787
 
-- 思维训练的题：149、168、483、581、810、1787、面试题 17.10
+- 思维训练的题：149、168、457、483、581、810、1787、面试题 17.10
 
 题目 tag：
 
@@ -84,6 +84,7 @@
 - [421. Maximum XOR of Two Numbers in an Array](#421-maximum-xor-of-two-numbers-in-an-array)
 - [451. Sort Characters By Frequency](#451-sort-characters-by-frequency)
 - [456. 132 Pattern](#456-132-pattern)
+- [457. Circular Array Loop](#457-circular-array-loop)
 - [461. Hamming Distance](#461-hamming-distance)
 - [474. Ones and Zeroes](#474-ones-and-zeroes)
 - [477. Total Hamming Distance](#477-total-hamming-distance)
@@ -577,6 +578,14 @@ if uglyNums[i] == uglyNums[p] { p++ }
 - 枚举 3：维护左区间最小值，维护右区间次小值，时间复杂度 $O(n\log n)$
 - 枚举 1：从右向左枚举，对于每一个右区间最大值 3，取区间次小值作为 2，使用单调递减栈维护右区间的可能最大值，时间复杂度 $O(n)$
 - 枚举 2：取左区间的尽可能小值作为 1，尽可能大值作为 3，其中 `&1 ( &3`
+
+## 457. Circular Array Loop
+
+中等题，本质判断图中成环是否符号一致并且成环的距离应大于 1
+
+- 每个节点出度为 1，必定成环
+- 可以使用快慢指针判断，leetcode 141
+- 也可以作两次标记，记录是当前路径访问的节点还是之前的路径访问过的节点，时间复杂度 $O(n)$
 
 ## 461. Hamming Distance
 
