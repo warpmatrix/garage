@@ -133,6 +133,7 @@
 - [1049. Last Stone Weight II](#1049-last-stone-weight-ii)
 - [1074. Number of Submatrices That Sum to Target](#1074-number-of-submatrices-that-sum-to-target)
 - [1104. Path In Zigzag Labelled Binary Tree](#1104-path-in-zigzag-labelled-binary-tree)
+- [1137. N-th Tribonacci Number](#1137-n-th-tribonacci-number)
 - [1143. Longest Common Subsequence](#1143-longest-common-subsequence)
 - [1190. Reverse Substrings Between Each Pair of Parentheses](#1190-reverse-substrings-between-each-pair-of-parentheses)
 - [1239. Maximum Length of a Concatenated String with Unique Characters](#1239-maximum-length-of-a-concatenated-string-with-unique-characters)
@@ -897,6 +898,16 @@ $N - 3 \approx \frac{(N-4)*(N-5)}{N-6}$
 简单题，经过奇偶反转的二叉树节点定位问题
 
 - 利用二叉树的父节点和子节点的位置关系，在需要反转的位置上进行转换
+
+## 1137. N-th Tribonacci Number
+
+3-斐波拉契数列：简单模拟
+
+- 可以使用矩阵运算，使用 $\log n$ 的时间复杂度解决：$\begin{bmatrix}
+  0 & 1 & 0 \\
+  0 & 0 & 1 \\
+  1 & 1 & 1
+\end{bmatrix}$
 
 ## 1143. Longest Common Subsequence
 
