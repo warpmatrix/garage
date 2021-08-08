@@ -728,10 +728,16 @@ shatter, scatter:
 - shatter v. 破碎
 - scatter v. 撒，分散
 
-overturn, overthrow:
+overturn, overthrow, overtake:
 
 - overturn v. 倾覆，撤销
 - overthrow v. 推翻，颠覆
+- overtake v. 超过，取代，意外碰上
+
+overtake, takeover:
+
+- overtake v. 超过，取代，意外碰上
+- takeover n. 收购，接管
 
 furious, indignant, irritate:
 
@@ -970,10 +976,11 @@ ambiguous, arbitrary:
 - ambiguous adj. 模糊的
 - arbitrary adj. 任意的
 
-burden, bury:
+burden, bury, burn:
 
 - burden n&v. 负担
 - bury v. 埋葬
+- burn v. 点燃，燃烧 v&n. 烧伤
 
 conventional, convenient, controversial:
 
@@ -1255,10 +1262,11 @@ halloween, hollow:
 - halloween n. 万圣节前夜
 - hollow adj. 空的，沉闷的，虚伪的，变为空洞 n. 洼地，洞，穴
 
-avenue, revenue:
+avenue, revenue, revenge:
 
 - avenue n. 大街，林荫道，途径
 - revenue n. 收入，财政收入
+- revenge v&n. 复仇
 
 routine, route:
 
@@ -1362,12 +1370,14 @@ fundamental, essential:
 - fundamental n. 基本原则，基本原理 adj. 基础的，基本的
 - essential adj. 基本的，本质的，必要的 n. 要素，必需品
 
-sweat, wheet, sweater, sweet:
+weep, wheet, sweat, sweater, sweet, sweep:
 
-- sweat v. 出汗 n. 汗
+- weep v&n. 哭泣
 - wheat n. 小麦
+- sweat v. 出汗 n. 汗
 - sweater n. 毛衣
 - sweet adj. 芳香的，亲切的，悦耳的，甜的 n. 芳香，乐趣，糖果，宝贝
+- sweep v&n. 扫，挥动
 
 puppet, puppy:
 
@@ -2352,6 +2362,32 @@ contain, control:
 
 - contain v. 控制，抑制，容纳，包含
 - control v&n. 控制，克制 n. 操纵装置
+
+candle, candy:
+
+- candle n. 蜡烛
+- candy n. 糖果
+
+gut, gulf:
+
+- gut n. 内脏 adj. 本能的 v. 毁坏内部，取出内脏
+- gulf n. 海湾，鸿沟
+
+oval, oral, verbal:
+
+- oval adj&n. 椭圆（的）
+- oral adj. 口语的
+- verbal adj. 口头的，动词的，言语的
+
+mill, milk:
+
+- mill n. 工厂 v&n. 研磨
+- milk v&n. （挤）奶
+
+dam, damn:
+
+- dam n. 大坝 v. 筑坝
+- damn v. 谴责，使..失败 adj&adv. 十足的 int. 该死
 
 ## 易混淆词组
 
