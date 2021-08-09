@@ -33,6 +33,9 @@
 - LFU (Least Frequently Used)
 - TLB (Translation Lookaside Buffer) 转译后备缓冲区，快表
 - PTR (Page Table Register) 页表寄存器
+- EA (Effective Address)
+- SP (Stack Pointer)
+- LIFO (Last In First Out)
 
 ## 容易混淆的概念
 
@@ -53,3 +56,6 @@
 
 - 芯片中片选端有两位的原因？（便于扩展？方便粗粒度和细粒度的两级管理？）
 - 一个 TLB 对应一个进程？只有一个 TLB（失效问题）？
+- `goto` 语句违背了局部性原理？
+- 对应用程序员而言虚拟存储器是透明的（指的是内存？）
+- 段号是否需要存储
