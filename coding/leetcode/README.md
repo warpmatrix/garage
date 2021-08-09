@@ -72,6 +72,7 @@
 - [278. First Bad Version](#278-first-bad-version)
 - [279. Perfect Squares](#279-perfect-squares)
 - [297. Serialize and Deserialize Binary Tree](#297-serialize-and-deserialize-binary-tree)
+- [313. Super Ugly Number](#313-super-ugly-number)
 - [331. Verify Preorder Serialization of a Binary Tree](#331-verify-preorder-serialization-of-a-binary-tree)
 - [338. Counting Bits](#338-counting-bits)
 - [341. Flatten Nested List Iterator](#341-flatten-nested-list-iterator)
@@ -492,6 +493,12 @@ if uglyNums[i] == uglyNums[p] { p++ }
 
 - 序列化：考虑对二叉树进行先序遍历
   - 一个 int 转成四个 byte，nil 考虑转为在区间以外的数字？
+
+## 313. Super Ugly Number
+
+简单题，新的丑数由先前计算的丑数延申得到，类似的题目：
+
+- [264. Ugly Number II](#264-ugly-number-ii)
 
 ## 331. Verify Preorder Serialization of a Binary Tree
 
