@@ -36,6 +36,12 @@
 - EA (Effective Address)
 - SP (Stack Pointer)
 - LIFO (Last In First Out)
+- CM (Control Memory)
+- CMAR (Control Memory Address Register) 微地址寄存器
+- CIR, $\mu$IR (Control Instruction Register) 微指令寄存器
+- RAW (Read After Write) 写后读
+- WAR (Write After Read) 读后写
+- WAW (Write After Write) 写后写
 
 ## 容易混淆的概念
 
