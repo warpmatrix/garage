@@ -82,6 +82,7 @@
 - [377. Combination Sum IV](#377-combination-sum-iv)
 - [401. Binary Watch](#401-binary-watch)
 - [403. Frog Jump](#403-frog-jump)
+- [413. Arithmetic Slices](#413-arithmetic-slices)
 - [421. Maximum XOR of Two Numbers in an Array](#421-maximum-xor-of-two-numbers-in-an-array)
 - [451. Sort Characters By Frequency](#451-sort-characters-by-frequency)
 - [456. 132 Pattern](#456-132-pattern)
@@ -564,6 +565,13 @@ if uglyNums[i] == uglyNums[p] { p++ }
 - $speed < t$、$loc(t) > t$
 
 由于只是沿一个方向前进，可以考虑对数组进行差分，相邻数据可以求和合并，使得新数组相邻数据大小相差 1，开头数据为 1。
+
+## 413. Arithmetic Slices
+
+简单题，得到数组中等差序列的子数组个数
+
+- 统计差分相等的个数，再使用求和公式即可
+- 等价写法 `ret += ++cnt`
 
 ## 421. Maximum XOR of Two Numbers in an Array
 
