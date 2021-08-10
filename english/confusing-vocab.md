@@ -1038,10 +1038,11 @@ towel, tower:
 - towel n. 毛巾 v. 用毛巾擦
 - tower n. 高塔 v. 高于
 
-ethnic, ethical:
+ethnic, ethic, ethical:
 
 - ethnic adj. 民族的，部落的
-- ethical adj. 伦理的，道德的
+- ethic n. 伦理道德 adj. 伦理道德的
+- ethical adj. 伦理的，合乎道德的，处方的
 
 designate, dominate:
 
@@ -1059,10 +1060,11 @@ railroad, railway:
 - railroad v. 迫使，捏造，铁路运输 n. 铁路，铁路公司
 - railway n. 铁路
 
-faint, faith:
+faint, faith, saint:
 
 - faith n. 信仰，信心
 - faint adj. 微弱的 adj&n&v. 眩晕（的）
+- saint n. 圣人，圣徒
 
 obvious, oblivious:
 
@@ -2388,6 +2390,46 @@ dam, damn:
 
 - dam n. 大坝 v. 筑坝
 - damn v. 谴责，使..失败 adj&adv. 十足的 int. 该死
+
+razor, radar:
+
+- razor n. 剃刀
+- radar n. 雷达
+
+passerby, bypass:
+
+- passerby n. 行人，路人
+- bypass n. 旁路 v. 绕过
+
+witness, wit:
+
+- witness n&v. 目击（者），证明
+- wit n. 才智，风趣
+
+graceful, gracious:
+
+- graceful adj. 高雅的
+- gracious adj. 有礼貌的，仁慈的 int. 表惊讶，天哪
+
+carriage, cottage:
+
+- carriage n. 仪态举止，运费，移动托架，马车，车厢
+- cottage n. 小屋，屋舍
+
+mould, module:
+
+- mould n. 模具，性格，霉菌 v. 浇铸，塑造
+- module n. 航天器舱，模块
+
+brass, bronze:
+
+- brass n. 黄铜，铜管乐器
+- bronze n. 青铜（色）（制品）
+
+ivory, irony:
+
+- ivory n&adj. 象牙，乳白色（的）
+- irony n. 讽刺，反话，讽刺的事 adj. 铁的
 
 ## 易混淆词组
 
