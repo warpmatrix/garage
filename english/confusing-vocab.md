@@ -1044,10 +1044,12 @@ ethnic, ethic, ethical:
 - ethic n. 伦理道德 adj. 伦理道德的
 - ethical adj. 伦理的，合乎道德的，处方的
 
-designate, dominate:
+designate, denominate, dominate, nominate:
 
 - designate v. 指派，命名，表明
+- denominate v. 把..称为，取名
 - dominate v. 支配，统治，占据优势
+- nominate v. 提名，任命
 
 explicit, exploit, explore:
 
@@ -1102,10 +1104,13 @@ impair, impact, compact:
 - impair v. 损伤，削弱，减少
 - compact v&adj. （使）紧凑，袖珍（的） n. 协议，契约
 
-gasp, grasp:
+gasp, gaze, grasp, graze, scrape:
 
 - gasp v&n. 气喘，喘息
+- gaze v&n. 凝视
 - grasp v&n. 抓紧，理解
+- graze v. 吃草，放牧 v&n. 擦伤
+- scrape v&n. 刮伤，擦伤 v. 勉强获得
 
 catholic, cathedral:
 
@@ -1118,12 +1123,13 @@ physician, surgeon, physicist:
 - surgeon n. 外科医生
 - physicist n. 物理学家
 
-sketch, stretch, snatch, scratch, scrape:
+sketch, stretch, snatch, scratch, scrap, scrape:
 
 - sketch n. 草图，梗概 n&v. 素描，概述
 - stretch v&n. 伸展，拉长 n. 一段时间，一片
 - snatch v&n. 抢夺，攫取
 - scratch v&n. 搔，挠
+- scrap n&adj. 零碎（的），废弃（物/的） n. 打架，少量 v. 拆解，废弃，取消，吵架
 - scrape v&n. 擦伤 v. 勉强获得
 
 receipt, reception, recipient:
@@ -1132,11 +1138,12 @@ receipt, reception, recipient:
 - reception n. 接待，招待会
 - recipient adj. 接受的 n. 接收者，容器
 
-sneeze, queeze， creak:
+sneeze, queeze, creak, sniff:
 
 - sneeze v&n. 喷嚏
 - squeeze v&n. 挤，榨取，握（手），拮据
 - creak v&n. 嘎吱作响
+- sniff v. 闻，轻视，嗤之以鼻
 
 warp, wrap:
 
@@ -2221,11 +2228,6 @@ esteem, estimate:
 - esteem n&v. 尊重
 - estimate v&n. 估计，评价
 
-graze, gaze:
-
-- graze v. 吃草，放牧 v&n. 擦伤
-- gaze v&n. 凝视
-
 preposition, propsition:
 
 - preposition n. 介词
@@ -2330,11 +2332,6 @@ cable, capsule:
 - cable n. 缆绳 n&v. （发）电报
 - capsule n. 胶囊，太空舱
 
-nominate, denominate:
-
-- nominate v. 提名，任命
-- denominate v. 把..称为
-
 pride, prize:
 
 - pride n&v. 自尊，自豪，骄傲
@@ -2391,10 +2388,11 @@ dam, damn:
 - dam n. 大坝 v. 筑坝
 - damn v. 谴责，使..失败 adj&adv. 十足的 int. 该死
 
-razor, radar:
+razor, radar, laser:
 
 - razor n. 剃刀
 - radar n. 雷达
+- laser n. 激光
 
 passerby, bypass:
 
@@ -2430,6 +2428,16 @@ ivory, irony:
 
 - ivory n&adj. 象牙，乳白色（的）
 - irony n. 讽刺，反话，讽刺的事 adj. 铁的
+
+gym, gum:
+
+- gym n. 健身房，体育馆
+- gum n. 牙龈，树胶，口香糖 v. 用胶粘
+
+kidnap, kidney:
+
+- kidnap v. 绑架，诱拐
+- kidney n. 肾脏
 
 ## 易混淆词组
 
