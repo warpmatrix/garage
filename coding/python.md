@@ -7,6 +7,14 @@ def func(var: int) -> int:
     return var
 ```
 
+python 的列表操作：
+
+- `len([1, 2, 3])` 得到列表长度
+- `[1, 2] + [3, 4]` 列表拼接
+- `[1, 2] * 4` 列表重复
+- `3 in [1, 2, 3]` 检查元素是否在列表中
+- `enumerate` 和 `in` 遍历列表
+
 `enumerate` 相当于 range，用于遍历支持迭代的对象
 
 ```py

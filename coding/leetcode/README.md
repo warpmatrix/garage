@@ -94,6 +94,7 @@
 - [483. Smallest Good Base](#483-smallest-good-base)
 - [494. Target Sum](#494-target-sum)
 - [503. Next Greater Element II](#503-next-greater-element-ii)
+- [516. Longest Palindromic Subsequence](#516-longest-palindromic-subsequence)
 - [518. Coin Change 2](#518-coin-change-2)
 - [523. Continuous Subarray Sum](#523-continuous-subarray-sum)
 - [525. Contiguous Array](#525-contiguous-array)
@@ -650,6 +651,13 @@ if uglyNums[i] == uglyNums[p] { p++ }
 ## 503. Next Greater Element II
 
 单调栈维护序列的单调性，两个循环实现循环队列的需求，也可以在第一个循环增加循环长度下标取模实现
+
+## 516. Longest Palindromic Subsequence
+
+简单题，求最长的回文子序列：动态规划
+
+- 首尾相等：`dp[idx][offset] = 2 + dp[idx+1][offset]`
+- 首尾不等：`dp[idx][offset] = max(dp[idx][offset-1], dp[idx+1][offset-1])`
 
 ## 518. Coin Change 2
 
