@@ -2439,6 +2439,11 @@ kidnap, kidney:
 - kidnap v. 绑架，诱拐
 - kidney n. 肾脏
 
+hub, hut:
+
+- hub n. 中心，木片
+- hut n. 小屋，棚屋
+
 ## 易混淆词组
 
 look 的一系列词组：
