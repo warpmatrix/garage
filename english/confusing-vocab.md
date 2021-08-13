@@ -108,11 +108,12 @@ immediate, intermediate:
 - immediate adj. 立即的
 - intermediate adj. 中间的
 
-imitate, intimate, intimidate:
+imitate, intimate, intimidate, stimulate:
 
 - imitate v. 模仿
 - intimate v. 透露 n. 密友 adj. 亲密的
 - intimidate v. 恐吓，威胁
+- stimulate v. 刺激，鼓舞
 
 amuse, entertain, divert:
 
@@ -362,8 +363,9 @@ abolish, polish:
 - abolish v. 废除，取消
 - polish v. 磨亮，修改 n. 上蜡
 
-threat, throat:
+thread, threat, throat:
 
+- thread n. 线，思路，螺纹 v. 穿过
 - threat n. 威胁
 - throat n. 喉咙
 
@@ -448,11 +450,6 @@ abundant, abandon:
 
 - abundant adj. 丰富的
 - abandon v&n. 放弃，抛弃
-
-channel, tunnel:
-
-- channel n. 频道，渠道 v. 传送
-- tunnel v&n. （开）隧道
 
 lid, lip, sip, rip, dip:
 
@@ -900,8 +897,9 @@ ballet, ballot, bullet:
 - ballot v&n. 不记名投票
 - bullet n. 子弹
 
-poll, ballot:
+pool, poll, ballot:
 
+- pool v&n. 共用（物） n. 水池，一滩
 - poll v&n. 投票，民意检测，政治大选
 - ballot v&n. 不记名投票
 
@@ -988,10 +986,12 @@ conventional, convenient, controversial:
 - convenient adj. 方便的，实用的
 - controversial adj. 有争议的
 
-canal, canoe:
+canoe, canal, channel, tunnel:
 
-- canal n. 运河，渠，管道
 - canoe n. 独木舟 v. 划独木舟
+- canal n. 运河，渠，管道
+- channel v. 引导，集中，传送 n. 途径，频道，渠道
+- tunnel v&n. （开）隧道
 
 clip, chip:
 
@@ -2163,10 +2163,11 @@ preserve, reserve:
 - preserve n. 保护区，专门领域，加工食品 v. 腌制，保护，维持
 - reserve n. 矜持，谨慎，自然保护区，储备 v. 预订，保留
 
-insulate, insult:
+insulate, insult, assault:
 
 - insulate v. 隔离，孤立，使..隔绝
 - insult v&n. 辱骂
+- assault n&v. 袭击
 
 articulate, speculate:
 
@@ -2409,10 +2410,11 @@ graceful, gracious:
 - graceful adj. 高雅的
 - gracious adj. 有礼貌的，仁慈的 int. 表惊讶，天哪
 
-carriage, cottage:
+carriage, cottage, cabbage:
 
 - carriage n. 仪态举止，运费，移动托架，马车，车厢
 - cottage n. 小屋，屋舍
+- cabbage n. 卷心菜
 
 mould, module:
 
@@ -2443,6 +2445,39 @@ hub, hut:
 
 - hub n. 中心，木片
 - hut n. 小屋，棚屋
+
+sack, sake:
+
+- sack n. 麻袋 n&v. 解雇，洗劫
+- sake n. 缘故，目的，利益，日本清酒
+
+soar, stern, rear:
+
+- soar v. 猛增，高飞，耸立，升空
+- rear n&adj. 后部 n. 臀部 v. 饲养，抚养
+- stern adj. 严厉的，严峻的 n. 船尾
+
+curse, cruise:
+
+- curse v&n. 咒骂 n. 祸害
+- cruise v&n. 航游 v. 巡行 n. 游弋
+- course n. 过程，做法，路线，菜式，课程
+
+strain, restrain, constrain:
+
+- strain v. 竭力，受到压力 n. 类型，旋转，张力，压力 v&n. 拉伤，扭伤
+- constrain 约束，强迫
+- restrain v. 控制，抑制
+
+squirrel, quarrel:
+
+- squirrel n. 松鼠
+- quarrel n&v. 争吵，分歧 v. 挑剔
+
+flourish, nourish:
+
+- flourish v&adj. 茂盛，繁荣 v&n. 挥舞
+- nourish v. 滋养，养育
 
 ## 易混淆词组
 
