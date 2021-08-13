@@ -43,6 +43,11 @@
 - WAR (Write After Read) 读后写
 - WAW (Write After Write) 写后写
 - DMA (Direct Memory Access)
+- VRAM (Video Random Access Memory)
+- RAID (Redunant Array of Inexpensive Disks)
+- INTR (INTerrupt Register)
+- IF (Interrupt Flag)
+- NMI (Non Maskable Interrupt)
 
 ## 容易混淆的概念
 
@@ -63,6 +68,16 @@
 
 - 数据通路：数据通过数据总线连接形成的数据传输路径
 - 数据总线：数据传输的媒介
+
+接口 (interface)、端口 (port)：
+
+- 端口：接口电路中可以进行读写的寄存器
+- 接口：若干端口加上对应的控制逻辑
+
+保存断点、保存现场：
+
+- 保存断点：保存原程序的 PC 和 PSWR 的内容
+- 保存现场：将（中断/子）程序使用到的寄存器的信息保存到栈中
 
 ## 疑惑问题
 
