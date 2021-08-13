@@ -64,6 +64,7 @@
 - [220. Contains Duplicate III](#220-contains-duplicate-iii)
 - [224 & 227. Basic Calculator](#224--227-basic-calculator)
 - [231. Power of Two](#231-power-of-two)
+- [233. Number of Digit One](#233-number-of-digit-one)
 - [240. Search a 2D Matrix II](#240-search-a-2d-matrix-ii)
 - [263. Ugly Number](#263-ugly-number)
 - [264. Ugly Number II](#264-ugly-number-ii)
@@ -445,6 +446,15 @@ dfs，可以统计数字出现次数，减少递归深度；也可以使用 bool
 判断最低位的 1 是否是最高位的 1 -> 将最低位的 1 修改位 0 后数字是否为 0
 
 - 需要注意处理非正数的情况
+
+## 233. Number of Digit One
+
+求 0-n 中 1 出现的次数：注意题目给定的数字是十进制数，小学奥数题
+
+- 数据范围是 $10^9$，计算机算力通常是 $10^7/s$，需要使用 $O(\log n)$ 的方法：按照位数枚举
+- 每一个位置上 1 的数量分别由高位（凑整的 1）和低位（不能凑整的 1）决定
+  - 高位：第 $i$ 位 1 出现的连续出现的次数与周期之比为 $10^i / 10^{i+1}$
+  - 低位：分权大于 1，等于 1，小于 1 三种情况讨论
 
 ## 240. Search a 2D Matrix II
 
