@@ -31,3 +31,5 @@ python 里面的哈希表：字典 `dict`
 ```py
 m = defaultdict(int)
 ```
+
+python 逻辑运算中，与和或的关键字：`and` 和 `or`
