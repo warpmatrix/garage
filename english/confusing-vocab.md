@@ -731,8 +731,9 @@ overturn, overthrow, overtake:
 - overthrow v. 推翻，颠覆
 - overtake v. 超过，取代，意外碰上
 
-overtake, takeover:
+overcome, overtake, takeover:
 
+- overcome v. 克服，压倒
 - overtake v. 超过，取代，意外碰上
 - takeover n. 收购，接管
 
@@ -2338,8 +2339,9 @@ pride, prize:
 - pride n&v. 自尊，自豪，骄傲
 - prize v. 珍视 adj. 一流的 n. 奖
 
-bulletin, builtin:
+bullet, bulletin, builtin:
 
+- bullet n. 子弹，枪弹
 - bulletin n. 公告，简报
 - builtin adj. 嵌入的 n. 内置
 
@@ -2348,10 +2350,13 @@ archer, anchor:
 - archer n. 弓箭手
 - anchor n. 主播，锚 v. 主持，固定，扎根，抛锚
 
-cruel, crucial:
+cruel, crucial, curse, cruise, course:
 
 - cruel adj. 残酷的
 - crucial adj. 关键性的
+- curse v&n. 咒骂 n. 祸害
+- cruise v&n. 航游 v. 巡行 n. 游弋
+- course n. 过程，做法，路线，菜式，课程
 
 bounce, bound:
 
@@ -2457,12 +2462,6 @@ soar, stern, rear:
 - rear n&adj. 后部 n. 臀部 v. 饲养，抚养
 - stern adj. 严厉的，严峻的 n. 船尾
 
-curse, cruise:
-
-- curse v&n. 咒骂 n. 祸害
-- cruise v&n. 航游 v. 巡行 n. 游弋
-- course n. 过程，做法，路线，菜式，课程
-
 strain, restrain, constrain:
 
 - strain v. 竭力，受到压力 n. 类型，旋转，张力，压力 v&n. 拉伤，扭伤
@@ -2478,6 +2477,21 @@ flourish, nourish:
 
 - flourish v&adj. 茂盛，繁荣 v&n. 挥舞
 - nourish v. 滋养，养育
+
+journey, journal:
+
+- journey n&v. 旅行
+- journal n. 期刊，杂志，日志
+
+spare, sparse:
+
+- spare v. 抽出时间 adj. 空闲的，多余的 n. 备用品
+- sparse adj. 稀疏的
+
+knife, knit:
+
+- knife n&v. 刀（砍）
+- knit v&n. 编织（的衣物） v. 紧密结合，皱眉，愈合
 
 ## 易混淆词组
 
