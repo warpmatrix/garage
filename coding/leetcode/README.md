@@ -101,6 +101,7 @@
 - [525. Contiguous Array](#525-contiguous-array)
 - [554. Brick Wall](#554-brick-wall)
 - [560. Subarray Sum Equals K](#560-subarray-sum-equals-k)
+- [576. Out of Boundary Paths](#576-out-of-boundary-paths)
 - [581. Shortest Unsorted Continuous Subarray](#581-shortest-unsorted-continuous-subarray)
 - [611. Valid Triangle Number](#611-valid-triangle-number)
 - [633. Sum of Square Numbers](#633-sum-of-square-numbers)
@@ -699,6 +700,10 @@ if uglyNums[i] == uglyNums[p] { p++ }
 一维前缀和 + 哈希表（判定所需要的前缀和出现的次数）
 
 - 哈希表用于加速检索元素的有无
+
+## 576. Out of Boundary Paths
+
+中等题，计算路径数量：动态规划，时间复杂度 $O(move \times row \times col)$，空间复杂度 $O(row \times col)$
 
 ## 581. Shortest Unsorted Continuous Subarray
 
