@@ -27,6 +27,7 @@
   - [预定义](#预定义)
   - [隐式转换的优先级](#隐式转换的优先级)
   - [`while` 的两种汇编方式](#while-的两种汇编方式)
+  - [浮点数内存布局和表示范围的探索](#浮点数内存布局和表示范围的探索)
 - [C plusplus篇](#c-plusplus篇)
   - [引用的用法](#引用的用法)
   - [在函数中传递函数形参](#在函数中传递函数形参)
@@ -35,6 +36,7 @@
   - [delete不方便之处](#delete不方便之处)
   - [c++函数引用](#c函数引用)
   - [c++ 的变长数组](#c-的变长数组)
+- [生成可执行文件的过程](#生成可执行文件的过程)
 
 ## C语言篇
 
@@ -422,6 +424,36 @@ test: if (cond) goto loop;
 done:
 ```
 
+### 浮点数内存布局和表示范围的探索
+
+```c
+#include <stdint.h>
+#include <stdio.h>
+
+void showBytes(uint8_t *addr, size_t size) {
+    for (int i = 0; i < size; i++) {
+        printf("%p %02x\n", addr + i, addr[i]);
+    }
+}
+
+int main(int argc, char const *argv[]) {
+    float num = 0;
+    num = 1 / num;
+    printf("%e\n", num * 0.0);
+    printf("%f\n", num * 0.0);
+    showBytes((uint8_t *)&num, sizeof(num));
+
+    uint8_t *ptr = (uint8_t *)(&num);
+    *ptr = 0xff;
+    // ptr[1] = 0xff;
+
+    showBytes((uint8_t *)&num, sizeof(num));
+    printf("%e\n", num);
+    printf("%f\n", num);
+    return 0;
+}
+```
+
 ## C plusplus篇
 
 ### 引用的用法
@@ -561,3 +593,10 @@ int main(int argc, char const *argv[]) {
     return 0;
 }
 ```
+
+## 生成可执行文件的过程
+
+1. 预处理：`-E` 宏替换、头文件展开，生成 `.i` 文件
+2. 编译：`-S` 汇编语言文件，生成 `.s` 文件
+3. 汇编：`-c` 二进制文件，生成 `.o` 文件
+4. 链接：`-o` 可执行文件

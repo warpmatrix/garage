@@ -99,6 +99,7 @@
 - [518. Coin Change 2](#518-coin-change-2)
 - [523. Continuous Subarray Sum](#523-continuous-subarray-sum)
 - [525. Contiguous Array](#525-contiguous-array)
+- [526. Beautiful Arrangement](#526-beautiful-arrangement)
 - [554. Brick Wall](#554-brick-wall)
 - [560. Subarray Sum Equals K](#560-subarray-sum-equals-k)
 - [576. Out of Boundary Paths](#576-out-of-boundary-paths)
@@ -690,6 +691,12 @@ if uglyNums[i] == uglyNums[p] { p++ }
 ## 525. Contiguous Array
 
 将 [0, 1] 映射到 [-1, 1]，使用前缀和统计 0 和 1 出现的次数。前缀和相同意味着区间内 0 和 1 的个数相等。使用哈希维护区间最大值和最小值，返回区间的最大值。
+
+## 526. Beautiful Arrangement
+
+中等题，求满足一定条件的排列：动态规划
+
+- 观察数据范围考虑做题方向，状态压缩使用二进制枚举状态，依次数字可以放置的所有位置
 
 ## 554. Brick Wall
 
