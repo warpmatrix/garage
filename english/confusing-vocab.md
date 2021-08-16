@@ -2493,6 +2493,31 @@ knife, knit:
 - knife n&v. 刀（砍）
 - knit v&n. 编织（的衣物） v. 紧密结合，皱眉，愈合
 
+accent, dialect:
+
+- accent v&n. 重读，重音 n. 口音，腔调
+- dialect n. 方言，土语
+
+tomb, comb:
+
+- tomb n. 坟墓
+- comb v. 搜查，梳理 n. 肉冠，梳子
+
+undergo, undertake:
+
+- undergo v. 历经，遭受
+- undertake v. 承诺，承担，着手，从事
+
+apartment, department:
+
+- apartment n. 公寓，房间
+- department n. 部，系
+
+thorn, throne:
+
+- thorn n. 刺，荆棘，带刺灌木
+- throne n. 王座，王权
+
 ## 易混淆词组
 
 look 的一系列词组：
