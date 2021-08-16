@@ -48,6 +48,14 @@
 - INTR (INTerrupt Register)
 - IF (Interrupt Flag)
 - NMI (Non Maskable Interrupt)
+- FCFS (First Come First Served)
+- SSTC (Shortest Seek Time First)
+- SCAN 扫描算法
+- C-SCAN (Circular SCAN)
+- FCB (File Control Block)
+- MFD (Master File Directory)
+- UFD (User File Directory)
+- ACL (Access Control List)
 
 ## 容易混淆的概念
 
