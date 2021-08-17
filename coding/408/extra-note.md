@@ -56,6 +56,12 @@
 - MFD (Master File Directory)
 - UFD (User File Directory)
 - ACL (Access Control List)
+- SPOOL (Simultaneous Peripheral Operation On-Line)
+- DCT (Device Control Table)
+- COCT (COntroller Control Table)
+- CHCT (CHannel Control Table)
+- SDT (System Device Table)
+- LUT (Logical Unit Table)
 
 ## 容易混淆的概念
 
