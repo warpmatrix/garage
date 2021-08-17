@@ -33,4 +33,9 @@ python 里面的哈希表：字典 `dict`
 m = defaultdict(int)
 ```
 
-python 逻辑运算中，与和或的关键字：`and` 和 `or`
+python 的逻辑运算
+
+- 与和或的关键字：`and` 和 `or`
+- 真和假的关键字需要大写：`True`、`False`
+  - 被当成内置常量，首字母大写
+- else if 在 python 中使用关键字 `elif`

@@ -100,6 +100,7 @@
 - [523. Continuous Subarray Sum](#523-continuous-subarray-sum)
 - [525. Contiguous Array](#525-contiguous-array)
 - [526. Beautiful Arrangement](#526-beautiful-arrangement)
+- [551. Student Attendance Record I](#551-student-attendance-record-i)
 - [554. Brick Wall](#554-brick-wall)
 - [560. Subarray Sum Equals K](#560-subarray-sum-equals-k)
 - [576. Out of Boundary Paths](#576-out-of-boundary-paths)
@@ -697,6 +698,10 @@ if uglyNums[i] == uglyNums[p] { p++ }
 中等题，求满足一定条件的排列：动态规划
 
 - 观察数据范围考虑做题方向，状态压缩使用二进制枚举状态，依次数字可以放置的所有位置
+
+## 551. Student Attendance Record I
+
+简单题，模拟
 
 ## 554. Brick Wall
 
