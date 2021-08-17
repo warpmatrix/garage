@@ -1099,11 +1099,12 @@ somewhat, somehow, somewhere, sometime:
 - sometime adj&adv. 过去（的/地）
 - sometimes adv. 有时
 
-impair, impact, compact:
+impair, impact, compact, compass:
 
 - impact v&n. 影响，冲击
 - impair v. 损伤，削弱，减少
 - compact v&adj. （使）紧凑，袖珍（的） n. 协议，契约
+- compass n. 指南针，罗盘，界限，圆规
 
 gasp, gaze, grasp, graze, scrape:
 
@@ -1225,10 +1226,11 @@ drift, draft, shaft:
 - draft n. 草稿，汇票，征兵 v. 起草，征募
 - shaft v. 蒙骗，欺骗 n. 垂直通道，通风井，轴杆，一束光
 
-leisure, luxury:
+leisure, luxury, lure:
 
 - leisure n. 休闲
 - luxury n. 奢华，奢侈品
+- lure v&n. 诱惑 n. 魅力，诱饵
 
 porcelain, protein:
 
@@ -2123,8 +2125,9 @@ restrict, strict:
 - restrict v. 限制，约束
 - strict adj. 完全的，严谨的，严格的
 
-lumber, timber:
+chamber, lumber, timber:
 
+- chamber n. 房间，会议厅，议院，腔
 - lumber v. 缓慢移动，使..担负 n. 木材，木料
 - timber n. 木材，原木
 
@@ -2517,6 +2520,34 @@ thorn, throne:
 
 - thorn n. 刺，荆棘，带刺灌木
 - throne n. 王座，王权
+
+shutter, shuttle:
+
+- shuttle n. 往返列车，梭子，航天飞机 v. 往返
+- shutter n. 百叶窗，快门
+
+peak, peek, peel:
+
+- peak adj. 最大值的 v. 到达高峰 n. 顶峰
+- peek v&n. 偷看，看一眼
+- peel v. 削皮，剥落 n. 外皮
+
+knot, knob, knock:
+
+- knob n. 把手，旋钮，小块
+- knot n. 结，结疤，群簇，节 v. 打结
+- knock v&n. 敲打，撞击
+
+refute, refuge, refuse:
+
+- refute v. 驳斥
+- refuge n. 避难所，庇护
+- refuse n. 垃圾 v. 拒绝
+
+pest, priest:
+
+- pest n. 害虫
+- priest n. 神父，牧师
 
 ## 易混淆词组
 
