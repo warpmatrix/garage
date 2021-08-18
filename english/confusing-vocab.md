@@ -438,10 +438,11 @@ guide, guild, guilt, glide:
 - guilt n. 内疚，罪行
 - glide v&n. 滑行
 
-force, compel, oblige, constrain:
+enforce, force, compel, oblige, constrain:
 
+- enforce v. 强制执行
 - force （使用胁迫手段）强迫
-- comple （自己、人、势力、规则）强迫
+- compel （自己、人、势力、规则）强迫
 - oblige （法律、义务）强迫
 - constrain 约束，强迫
 - force > compel > oblige > constrain
@@ -948,10 +949,11 @@ brisk, crisp:
 - brisk adj. 轻快的，兴隆的，凉爽的，干脆利索的
 - crisp adj. 催的，易碎的，简明扼要的，清爽的
 
-embryo, embassy:
+embassy, embrace, embryo:
 
-- embryo n. 胚，胚芽，事物的初期
 - embassy n. 大使馆，使馆官员
+- embrace v&n. 拥抱，接受，信奉，包含
+- embryo n. 胚，胚芽，事物的初期
 
 repertoire, reptile, reservoir:
 
@@ -1091,13 +1093,15 @@ reception, deception:
 - reception n. 接待，招待会
 - deception n. 欺诈，骗局
 
-somewhat, somehow, somewhere, sometime:
+somewhat, somehow, somewhere, sometime, sometimes, someone, somebody:
 
 - somewhat adv. 稍微，有点
 - somehow adv. 以某种方式，不知怎么地
 - somewhere adv. 大概，在某处
 - sometime adj&adv. 过去（的/地）
 - sometimes adv. 有时
+- someone pron. 有人
+- somebody n. 重要人物 pron. 某人
 
 impair, impact, compact, compass:
 
@@ -1106,10 +1110,11 @@ impair, impact, compact, compass:
 - compact v&adj. （使）紧凑，袖珍（的） n. 协议，契约
 - compass n. 指南针，罗盘，界限，圆规
 
-gasp, gaze, grasp, graze, scrape:
+gasp, gaze, grape, grasp, graze, scrape:
 
 - gasp v&n. 气喘，喘息
 - gaze v&n. 凝视
+- grape n. 葡萄
 - grasp v&n. 抓紧，理解
 - graze v. 吃草，放牧 v&n. 擦伤
 - scrape v&n. 刮伤，擦伤 v. 勉强获得
@@ -1125,7 +1130,7 @@ physician, surgeon, physicist:
 - surgeon n. 外科医生
 - physicist n. 物理学家
 
-sketch, stretch, snatch, scratch, scrap, scrape:
+sketch, stretch, snatch, scratch, scrap, scrape, scramble:
 
 - sketch n. 草图，梗概 n&v. 素描，概述
 - stretch v&n. 伸展，拉长 n. 一段时间，一片
@@ -1133,6 +1138,7 @@ sketch, stretch, snatch, scratch, scrap, scrape:
 - scratch v&n. 搔，挠
 - scrap n&adj. 零碎（的），废弃（物/的） n. 打架，少量 v. 拆解，废弃，取消，吵架
 - scrape v&n. 擦伤 v. 勉强获得
+- scramble v&n. 攀爬，争夺 v. 扰乱
 
 receipt, reception, recipient:
 
@@ -1264,10 +1270,12 @@ garage, garbage, garment:
 - garbage n. 无用的资料，废话，垃圾
 - garment n. 一件衣服
 
-nuisance, nuance:
+nuisance, nuance, nourish, flourish:
 
 - nuisance n. 讨厌的人，麻烦事，妨碍行为
 - nuance n. 细微差别
+- nourish v. 滋养，养育
+- flourish v&adj. 茂盛，繁荣 v&n. 挥舞
 
 halloween, hollow:
 
@@ -1444,8 +1452,9 @@ bacterium, bureaucrat:
   - bacteria pl. 细菌
 - bureaucrat n. 官僚
 
-cemetery, ceremony:
+cement, cemetery, ceremony:
 
+- cement v. 停滞不前，粘合，巩固 n. 水泥，胶结材料
 - cemetery n. 墓地
 - ceremony n. 典礼，礼节
 
@@ -1624,12 +1633,15 @@ degenerate, deteriorate:
 - degenerate v&n&adj. 退化，恶化，堕落（的，者）
 - deteriorate v. 恶化，变坏
 
-curb, deter, inhibit, restrain:
+curb, deter, inhibit, restrain, refrain, constrict, constrain:
 
 - curb v. 制止，抑制 n. 路边，场外证券交易公司
 - deter v. 组织，制止，使踌躇
 - inhibit v. 阻止，抑制
 - restrain v. 抑制，控制
+- refrain v. 节制，避免，制止 n. 叠句
+- constrict v. 压缩，束紧
+- constrain v. 约束，束缚
 
 corrode, erode:
 
@@ -2476,11 +2488,6 @@ squirrel, quarrel:
 - squirrel n. 松鼠
 - quarrel n&v. 争吵，分歧 v. 挑剔
 
-flourish, nourish:
-
-- flourish v&adj. 茂盛，繁荣 v&n. 挥舞
-- nourish v. 滋养，养育
-
 journey, journal:
 
 - journey n&v. 旅行
@@ -2548,6 +2555,21 @@ pest, priest:
 
 - pest n. 害虫
 - priest n. 神父，牧师
+
+trial, trifle:
+
+- trial n. 审讯，惹麻烦的人/物 v&n. 试验
+- trifle n. 琐事，少量 v. 轻视
+
+crab, grab:
+
+- crab n. 螃蟹，蟹肉
+- grab v&n. 攫取
+
+guarantee, grand:
+
+- guarantee v&n. 保证（书），担保
+- grand adj. 傲慢的，高龄的，重大的，宏大的，豪华的
 
 ## 易混淆词组
 
