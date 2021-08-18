@@ -101,6 +101,7 @@
 - [525. Contiguous Array](#525-contiguous-array)
 - [526. Beautiful Arrangement](#526-beautiful-arrangement)
 - [551. Student Attendance Record I](#551-student-attendance-record-i)
+- [552. Student Attendance Record II](#552-student-attendance-record-ii)
 - [554. Brick Wall](#554-brick-wall)
 - [560. Subarray Sum Equals K](#560-subarray-sum-equals-k)
 - [576. Out of Boundary Paths](#576-out-of-boundary-paths)
@@ -702,6 +703,15 @@ if uglyNums[i] == uglyNums[p] { p++ }
 ## 551. Student Attendance Record I
 
 简单题，模拟
+
+## 552. Student Attendance Record II
+
+中等题，在 [551. Student Attendance Record I](#551-student-attendance-record-i) 的规则下，给定长度求复合条件的情况数：
+
+- 动态规划，分成几种情况进行讨论：
+  - 'A' 已经出现过、没有出现过、'L' 在最近出现的次数，共 6 种情况
+  - 编写代码进行递推时分 3 种情况：A, L, P
+- 通过上面的递推式，可以使用矩阵快速幂进行加速
 
 ## 554. Brick Wall
 

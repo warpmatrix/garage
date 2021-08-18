@@ -23,6 +23,12 @@ for idx, elem in enumerate([1, 2, 3]):
     print(idx, elem)
 ```
 
+python 的列表推导式：
+
+- `[<expr> for <var> in <list>]`
+- `[<expr> for <var> in <list> [if <cond>]]`
+- `[<expr> [if <cond> else <expr>] for <var> in <list>]`
+
 python 里面的哈希表：字典 `dict`
 
 - 键值不在字典里报错
