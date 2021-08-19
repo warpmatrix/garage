@@ -78,6 +78,7 @@
 - [338. Counting Bits](#338-counting-bits)
 - [341. Flatten Nested List Iterator](#341-flatten-nested-list-iterator)
 - [342. Power of Four](#342-power-of-four)
+- [345. Reverse Vowels of a String](#345-reverse-vowels-of-a-string)
 - [354. Russian Doll Envelopes](#354-russian-doll-envelopes)
 - [374. Guess Number Higher or Lower](#374-guess-number-higher-or-lower)
 - [377. Combination Sum IV](#377-combination-sum-iv)
@@ -543,6 +544,10 @@ if uglyNums[i] == uglyNums[p] { p++ }
 - 或者在判断 2 的幂的基础上，使用取模运算进行判断
   - $(4^n) \% 3 = 1$
   - $(2 \times 4^n) \% 3 = 2$
+
+## 345. Reverse Vowels of a String
+
+简单题，将字符串的特定字符进行反转：双指针 $O(n)$ 实现
 
 ## 354. Russian Doll Envelopes
 

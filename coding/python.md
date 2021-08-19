@@ -7,6 +7,11 @@ def func(var: int) -> int:
     return var
 ```
 
+python 的字符串是不可修改的，单个字符也被视作一个字符串：
+
+- 修改某个字符需要转化为列表：`s = list(s)`
+- 最后将列表转回字符串：`"".join(s)`
+
 python 的列表操作：
 
 - `len([1, 2, 3])` 得到列表长度
