@@ -2436,8 +2436,9 @@ carriage, cottage, cabbage:
 - cottage n. 小屋，屋舍
 - cabbage n. 卷心菜
 
-mould, module:
+cast, mould, module:
 
+- cast v. 铸造，使怀疑，投以视线 n. 演员表，铸件 v&n. 投掷
 - mould n. 模具，性格，霉菌 v. 浇铸，塑造
 - module n. 航天器舱，模块
 
@@ -2451,10 +2452,11 @@ ivory, irony:
 - ivory n&adj. 象牙，乳白色（的）
 - irony n. 讽刺，反话，讽刺的事 adj. 铁的
 
-gym, gum:
+gym, gum, gun:
 
 - gym n. 健身房，体育馆
 - gum n. 牙龈，树胶，口香糖 v. 用胶粘
+- gun n. 枪炮
 
 kidnap, kidney:
 
@@ -2570,6 +2572,21 @@ guarantee, grand:
 
 - guarantee v&n. 保证（书），担保
 - grand adj. 傲慢的，高龄的，重大的，宏大的，豪华的
+
+weave, heave:
+
+- weave v. 编织
+- heave v&n. 扔，举，拖 v. 呕吐 n. 起伏
+
+birth, labor:
+
+- birth n. 出生，分娩，出身，根源
+- labor n. 分娩，阵痛 v. 努力 v&n. 劳动 n. 劳工
+
+fit, pop:
+
+- fit n. 突发 v. 安装，适应 adj&v. 适合（的）
+- pop v. 突然出现 v&n. 砰 n. 流行音乐 adj. 流行的
 
 ## 易混淆词组
 
