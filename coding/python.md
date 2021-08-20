@@ -20,6 +20,9 @@ python 的列表操作：
 - `3 in [1, 2, 3]` 检查元素是否在列表中
 - `enumerate` 和 `in` 遍历列表
 - `[] for _ in range(3)` 区别列表重复创建了新的数组空间
+- `l.reverse()` 反转整个列表，没有返回值
+  - 切片使用值传递，使用切片翻转不能影响原列表
+  - 翻转部分子列表需要使用内置函数 `reversed`：`l[i:i+c] = reversed(l[i:i+c])`
 
 `enumerate` 相当于 range，用于遍历支持迭代的对象
 
