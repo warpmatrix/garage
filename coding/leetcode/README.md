@@ -86,6 +86,7 @@
 - [403. Frog Jump](#403-frog-jump)
 - [413. Arithmetic Slices](#413-arithmetic-slices)
 - [421. Maximum XOR of Two Numbers in an Array](#421-maximum-xor-of-two-numbers-in-an-array)
+- [443. String Compression](#443-string-compression)
 - [446. Arithmetic Slices II - Subsequence](#446-arithmetic-slices-ii---subsequence)
 - [451. Sort Characters By Frequency](#451-sort-characters-by-frequency)
 - [456. 132 Pattern](#456-132-pattern)
@@ -604,6 +605,13 @@ if uglyNums[i] == uglyNums[p] { p++ }
 
 - 可以使用哈希表，保存数组中的元素前 $k$ 位是什么数
 - 可以使用字典树，保存数组中的元素对应前 $k$ 位的数字
+
+## 443. String Compression
+
+简单题，字符串原位压缩：使用双指针复用字符串的内存空间
+
+- 创建字符串处理，空间复杂度 $O(\log n)$
+- 倒转数字处理，空间复杂度 $O(1)$
 
 ## 446. Arithmetic Slices II - Subsequence
 
