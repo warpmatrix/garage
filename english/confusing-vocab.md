@@ -108,12 +108,13 @@ immediate, intermediate:
 - immediate adj. 立即的
 - intermediate adj. 中间的
 
-imitate, intimate, intimidate, stimulate:
+imitate, intimate, intimidate, stimulate, simulate:
 
 - imitate v. 模仿
 - intimate v. 透露 n. 密友 adj. 亲密的
 - intimidate v. 恐吓，威胁
 - stimulate v. 刺激，鼓舞
+- simulate v. 假装，冒充，模仿
 
 amuse, entertain, divert:
 
@@ -183,10 +184,11 @@ behave, behalf:
 - behave v. 行为
 - behalf n. 代表，利益，方面
 
-respond, correspond:
+respond, correspond, correspondent:
 
 - respond vi. (to)回应
-- correspond vi. 一致，通信
+- correspond vi. 一致，通信，类似于
+- correspondent n. 记者，通讯员
 
 agree, accord, coincide, conform, correspond:
 
@@ -1288,8 +1290,9 @@ avenue, revenue, revenge:
 - revenue n. 收入，财政收入
 - revenge v&n. 复仇
 
-routine, route:
+road, routine, route:
 
+- road n. 路，道路
 - routine adj. 常规的，例行的 n. 常规，惯例
 - route n. 路线，途径，常规线路 v. 按线路发送
 
@@ -1342,12 +1345,13 @@ scorn, scold, scout:
 - scold v. 责骂，训斥
 - scout n. 侦查员，侦察机，童子军 v. 搜索，侦察
 
-cripple, lame, limb, limp, lamp:
+cripple, lame, limb, limp, lamb, lamp:
 
 - cripple n. 跛子，伤残人 v. 严重削弱，使残疾
 - lame adj. 没有说服力的，站不住脚的，跛脚的
 - limb n. 枝，肢 v. 肢解
 - limp v&n. 蹒跚 adj. 柔软的，无力的
+- lamb n. 羔羊
 - lamp n. 灯
 
 luggage, lodge:
@@ -2473,9 +2477,13 @@ sack, sake:
 - sack n. 麻袋 n&v. 解雇，洗劫
 - sake n. 缘故，目的，利益，日本清酒
 
-soar, stern, rear:
+soar, sore:
 
 - soar v. 猛增，高飞，耸立，升空
+- sore adj. 疼痛的，恼火的 n. 痛处，疮口
+
+rear, stern:
+
 - rear n&adj. 后部 n. 臀部 v. 饲养，抚养
 - stern adj. 严厉的，严峻的 n. 船尾
 
@@ -2587,6 +2595,48 @@ fit, pop:
 
 - fit n. 突发 v. 安装，适应 adj&v. 适合（的）
 - pop v. 突然出现 v&n. 砰 n. 流行音乐 adj. 流行的
+
+want, need:
+
+- need n. 贫困 v. 缺少 n&v. 需要 aux.v. 必须
+- want n. 不足，需要的东西 v. 缺乏，想要
+
+beach, bench, breach:
+
+- beach n. 沙滩
+- bench n. 长椅
+- breach v. 违背 v&n. 打破 n. 缺口
+
+isle, aisle:
+
+- isle n. 小岛
+- aisle n. 过道，通道
+
+rubber, robber:
+
+- rubber n&adj. 橡胶，橡皮
+- robber n. 强盗，盗贼
+
+seminar, semester:
+
+- seminar n. 研究班，研讨会
+- semester n. 学期
+
+galaxy, gallery:
+
+- galaxy n. 一群（杰出人物），银河系，星系
+- gallery n. 楼座，旁听席，画廊，长廊
+
+fly, flight, pilot:
+
+- fly v. 驾驶，空运，飞行 n. 苍蝇
+- flight n. 逃避，飞行，航班，楼梯的一段
+- pilot v&adj. 试用（的） v. 驾驶，引航 n. 飞行员
+
+abroad, spread:
+
+- abroad adv. 在传播，在国外
+- spread v. 散布，涂 n. 幅度，范围 v&n. 传播
 
 ## 易混淆词组
 

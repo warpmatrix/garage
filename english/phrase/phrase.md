@@ -149,3 +149,4 @@
 - crack a whip 甩响鞭
 - be dying for 渴望
 - fullfill the contract 履行合同
+- undertake a post 担任职位
