@@ -62,6 +62,12 @@
 - CHCT (CHannel Control Table)
 - SDT (System Device Table)
 - LUT (Logical Unit Table)
+- PCB (Process Control Block)
+- TCB (Thread Control Block)
+- ULT (User Level Thread)
+- KLT (Kernel Level Thread)
+- SJF (Shortest Job First)
+- SPF (Shortest Process First)
 
 ## 容易混淆的概念
 
@@ -100,3 +106,6 @@
 - `goto` 语句违背了局部性原理？
 - 对应用程序员而言虚拟存储器是透明的（指的是内存？）
 - 段号是否需要存储
+- 进程映像和进程之间的区别
+- 同一个服务程序被不同的用户调用，被创建为不同的进程？
+- 多对一模型的用处
