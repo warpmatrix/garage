@@ -2638,6 +2638,23 @@ abroad, spread:
 - abroad adv. 在传播，在国外
 - spread v. 散布，涂 n. 幅度，范围 v&n. 传播
 
+glacier, glance, glare:
+
+- glacier n. 冰河，冰川
+- glance v&n. 瞥一眼
+- glare v&n. （发出）强光，怒视
+
+brow, brown:
+
+- brow n. 眉毛，山脊
+- brown n&adj. 棕色（的）
+
+prominent, imminent, eminent:
+
+- prominent adj. 重要的，著名的
+- imminent adj. 即将发生的，临近的
+- eminent adj. 杰出的
+
 ## 易混淆词组
 
 look 的一系列词组：
