@@ -161,6 +161,7 @@
 - [1583. Count Unhappy Friends](#1583-count-unhappy-friends)
 - [1600. Throne Inheritance](#1600-throne-inheritance)
 - [1603. Design Parking System](#1603-design-parking-system)
+- [1646. Get Maximum in Generated Array](#1646-get-maximum-in-generated-array)
 - [1707. Maximum XOR With an Element From Array](#1707-maximum-xor-with-an-element-from-array)
 - [1711. Count Good Meals](#1711-count-good-meals)
 - [1713. Minimum Operations to Make a Subsequence](#1713-minimum-operations-to-make-a-subsequence)
@@ -1096,6 +1097,10 @@ $$
 ## 1603. Design Parking System
 
 简单模拟
+
+## 1646. Get Maximum in Generated Array
+
+简单题，模拟
 
 ## 1707. Maximum XOR With an Element From Array
 
