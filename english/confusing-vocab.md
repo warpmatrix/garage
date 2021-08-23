@@ -2655,6 +2655,31 @@ prominent, imminent, eminent:
 - imminent adj. 即将发生的，临近的
 - eminent adj. 杰出的
 
+liquid, liquor:
+
+- liquor n. 酒，烈性酒
+- liquid adj. 清澈的，流畅的 n&adj. 液体（的）
+
+beam, bundle:
+
+- beam n&v. 笑容，（发）光束 n. 横梁 v. 播送
+- bundle n. 捆，束 v. 收集，归拢，塞入
+
+rack, rock:
+
+- rack n. 挂架，搁架 v. 折磨，使努力，使紧张
+- rock v. 摇动 n. 摇滚乐，岩石
+
+bruise, cruise:
+
+- cruise v&n. 航游 v. 巡行 n. 游弋
+- bruise n. 淤青，伤痕 v. 挫伤
+
+hazard, wizard:
+
+- hazard n. 危险，危害 v. 大胆猜测，冒险
+- wizard n. 向导程序，奇才，男巫 adj. 男巫的，巫术的
+
 ## 易混淆词组
 
 look 的一系列词组：
