@@ -122,6 +122,7 @@
 - [773. Sliding Puzzle](#773-sliding-puzzle)
 - [781. Rabbits in Forest](#781-rabbits-in-forest)
 - [783. Minimum Distance Between BST Nodes](#783-minimum-distance-between-bst-nodes)
+- [787. Cheapest Flights Within K Stops](#787-cheapest-flights-within-k-stops)
 - [802. Find Eventual Safe States](#802-find-eventual-safe-states)
 - [810. Chalkboard XOR Game](#810-chalkboard-xor-game)
 - [815. Bus Routes](#815-bus-routes)
@@ -830,6 +831,10 @@ if uglyNums[i] == uglyNums[p] { p++ }
 - 实现过程：实现中序遍历、中序遍历完成相邻元素的比较（分开实现，各司其职），特别是用栈实现的方法
 - 使用值域以外的值区分第一次遍历
 - 使用栈完成中序遍历
+
+## 787. Cheapest Flights Within K Stops
+
+简单中等题，动态规划：复用空间
 
 ## 802. Find Eventual Safe States
 
