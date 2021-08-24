@@ -575,6 +575,7 @@ invade, intrude:
 facility, faculty, fault:
 
 - facility n. 设备，天赋，便利条件
+  - facilitate v. 促进，使便利
 - faculty n. 教师，天赋，学院
 - fault n. 错误 v. 指责
 
@@ -633,6 +634,7 @@ vein, vain, rein:
 scarce, scare, sacred:
 
 - scarce adj. 缺乏的
+  - scarcely adv. 几乎不，决不，刚刚就
 - scare adj. 害怕的
 - sacred adj. 神圣的，庄严的
 
@@ -879,10 +881,12 @@ relative, relation, relationship:
 - relation n. 关系，亲戚
 - relationship n. 关系，关联
 
-purple, pupil, purse:
+pupil, puppet, puppy, purple, purse:
 
-- purple adj&n. 紫色
 - pupil n. 瞳孔，小学生
+- puppet n. 木偶，傀儡
+- puppy n. 傲慢青年，小狗
+- purple adj&n. 紫色
 - purse n. 钱包，小提包
 
 toil, toss:
@@ -1112,13 +1116,14 @@ impair, impact, compact, compass:
 - compact v&adj. （使）紧凑，袖珍（的） n. 协议，契约
 - compass n. 指南针，罗盘，界限，圆规
 
-gasp, gaze, grape, grasp, graze, scrape:
+gasp, gaze, grape, grasp, graze, grip, scrape:
 
 - gasp v&n. 气喘，喘息
 - gaze v&n. 凝视
 - grape n. 葡萄
 - grasp v&n. 抓紧，理解
 - graze v. 吃草，放牧 v&n. 擦伤
+- grip v&n. 抓紧 v. 引起注意 n. 理解，控制
 - scrape v&n. 刮伤，擦伤 v. 勉强获得
 
 catholic, cathedral:
@@ -1175,11 +1180,12 @@ trip, trap:
 - trip v. 绊倒 n. 旅行
 - trap v&n. 陷阱，（陷入）困境
 
-crew, crow, chew:
+crew, crow, chew, screw:
 
 - crew n. 全体员工，工作人员 v. 当船员
 - crow n. 乌鸦 v&n. 啼叫
 - chew v&n. 咀嚼 v. 回味，思量
+- screw n. 螺丝 v. 拧紧，螺钉固定
 
 migrate, emigrate:
 
@@ -1403,21 +1409,17 @@ weep, wheet, sweat, sweater, sweet, sweep:
 - sweet adj. 芳香的，亲切的，悦耳的，甜的 n. 芳香，乐趣，糖果，宝贝
 - sweep v&n. 扫，挥动
 
-puppet, puppy:
-
-- puppet n. 木偶，傀儡
-- puppy n. 傲慢青年，小狗
-
 linen, liner, linear:
 
 - linen n. 亚麻布
 - liner n. 邮轮，班机，衬里
 - linear adj. 线性的，长度的
 
-possess, process:
+possess, process, progress:
 
 - possess v. 拥有，支配，控制
 - process v. 前进，加工，处理，审核 n. 过程，进程，工序
+- progress v&n. 进步，发展
 
 fantasy, fascinate:
 
@@ -1751,11 +1753,6 @@ tangle, tangible:
 
 - tangle v. 缠结，乱作一团，争执 n. 混乱，纠纷
 - tangible adj. 可触摸的，有形的，切实的 n. 有形资产
-
-progress, process:
-
-- progress v&n. 进步，发展
-- process n. 过程，流程 v. 加工，审核，前进
 
 plunge, prune, plough:
 
@@ -2286,10 +2283,12 @@ vase, vast, vest, verse:
 - vest v. 赠予 n. 背心，马甲
 - verse n. 诗，诗句
 
-swollen, swallow:
+swell, swarm, swollen, swallow:
 
-- swollen adj. 浮夸的，激动的，肿胀的
 - swallow v&n. 吞咽，吞并 n. 燕子
+- swarm n. 蜂群，一大群 v. 云集，成群飞行
+- swell v&n. 膨胀，增大，起伏 adj. 极好的
+- swollen adj. 浮夸的，激动的，肿胀的
 
 steal, steel:
 
@@ -2576,10 +2575,11 @@ crab, grab:
 - crab n. 螃蟹，蟹肉
 - grab v&n. 攫取
 
-guarantee, grand:
+guarantee, grand, grant:
 
 - guarantee v&n. 保证（书），担保
 - grand adj. 傲慢的，高龄的，重大的，宏大的，豪华的
+- grant n. 补助 v. 授予，承认
 
 weave, heave:
 
@@ -2591,8 +2591,9 @@ birth, labor:
 - birth n. 出生，分娩，出身，根源
 - labor n. 分娩，阵痛 v. 努力 v&n. 劳动 n. 劳工
 
-fit, pop:
+fix, fit, pop:
 
+- fix n. 困境 v. 整理，安排，固定，修理
 - fit n. 突发 v. 安装，适应 adj&v. 适合（的）
 - pop v. 突然出现 v&n. 砰 n. 流行音乐 adj. 流行的
 
@@ -2665,10 +2666,12 @@ beam, bundle:
 - beam n&v. 笑容，（发）光束 n. 横梁 v. 播送
 - bundle n. 捆，束 v. 收集，归拢，塞入
 
-rack, rock:
+rack, rock, racket, bracket:
 
 - rack n. 挂架，搁架 v. 折磨，使努力，使紧张
 - rock v. 摇动 n. 摇滚乐，岩石
+- racket n. 球拍，喧闹，诈骗
+- bracket n. 支架，方括号，范围 v. 归为一类
 
 bruise, cruise:
 
@@ -2679,6 +2682,65 @@ hazard, wizard:
 
 - hazard n. 危险，危害 v. 大胆猜测，冒险
 - wizard n. 向导程序，奇才，男巫 adj. 男巫的，巫术的
+
+dumb, dump:
+
+- dumb adj. 哑的，沉默的，愚钝的
+- dump v. 倾卸，抛售 n. 垃圾场
+
+moral, mortal:
+
+- moral n&adj. 道德（的），伦理（的） n. 寓意
+- mortal adj. 终有一死的，致命的，不共戴天的 n. 凡人
+
+cottage, hut, lodge, shed:
+
+- cottage n. 小屋，屋舍
+- hut n. 小屋，棚屋
+- lodge n. 乡间小屋，旅舍，传达室 v. 暂住，租住
+- shed v. 脱落，摆脱，散发 n. 棚屋
+
+saw, say:
+
+- saw v&n. 锯 n. 格言
+- say n. 发言权，意见 v. 比如说，表明，说
+
+radius, radian, radiate, radiation, radical:
+
+- radius n. 半径，桡骨
+- radian n. 弧度
+- radiate v. 辐射，线路，显示，散播
+- radiation n. 辐射
+- radical adj. 彻底的，激进的 n. 激进分子
+
+graze, herd, meadow, pasture:
+
+- graze v. 吃草，放牧 v&n. 擦伤
+- herd n. 兽群，人群，芸芸众生 v. 放牧，赶在一起
+- meadow n. 草地，牧场
+- pasture n. 牧场，牧草地
+
+cellar, collar, neck:
+
+- cellar n. 地窖，酒窖
+- collar n. 衣领，领圈
+- neck n. 领口，领圈，脖颈
+
+spoon, sponge:
+
+- spoon n. 调羹 v. 用匙舀
+- sponge n. 海绵 v. 擦拭
+
+stool, stoop:
+
+- stool n. （无靠背的）凳子
+- stoop v&n. 驼背 v. 堕落 n. 小门廊
+
+stick, sting, stitch:
+
+- stick v. 坚持，粘贴，戳 n. 手杖，棍，呆头呆脑的人
+- sting v&n. 激怒，剧痛，叮，刺
+- stitch v. 缝 n. 针脚，针
 
 ## 易混淆词组
 
@@ -2744,10 +2806,11 @@ back 的词组：
 - back off 后退，放弃
 - back down 放弃，让步
 
-go by/through:
+go by/through/over:
 
 - go by 遵循，依据，经过，（时间）流逝
 - go through 通过，批准，经历，检查
+- go over 复习，检查，重做
 
 no more than, not more than:
 
