@@ -90,3 +90,9 @@ curl -G <url> --data-urlencode 'key=val'
 
 - `-X` 参数可以使用桌面应用
 - ssh 可以直接接指令来执行
+
+## vim
+
+vim 中使用 `verbose set` 可以查看具体设定，如：
+
+- `verbose set` 查看文件类型
