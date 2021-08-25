@@ -538,11 +538,6 @@ trumpet, triumph:
 - trumpet n. 喇叭，小号 v. 鼓吹
 - triumph v&n. 胜利，成功 n. 喜悦
 
-friction, fiction:
-
-- friction n. 不和，摩擦
-- fiction n. 小说，虚构
-
 nap, snap, doze:
 
 - nap v&n. 小睡
@@ -579,10 +574,11 @@ facility, faculty, fault:
 - faculty n. 教师，天赋，学院
 - fault n. 错误 v. 指责
 
-snack, snake:
+snack, snake, sneak:
 
 - snack n. 小吃
 - snake n. 蛇
+- sneak v. 偷溜，偷偷地做
 
 pant, pants:
 
@@ -1109,14 +1105,15 @@ somewhat, somehow, somewhere, sometime, sometimes, someone, somebody:
 - someone pron. 有人
 - somebody n. 重要人物 pron. 某人
 
-impair, impact, compact, compass:
+impact, impair, impart, compact, compass:
 
 - impact v&n. 影响，冲击
 - impair v. 损伤，削弱，减少
+- impart v. 传授，透露，赋予
 - compact v&adj. （使）紧凑，袖珍（的） n. 协议，契约
 - compass n. 指南针，罗盘，界限，圆规
 
-gasp, gaze, grape, grasp, graze, grip, scrape:
+gasp, gaze, grape, grasp, graze, grip, grope, scrape:
 
 - gasp v&n. 气喘，喘息
 - gaze v&n. 凝视
@@ -1124,6 +1121,7 @@ gasp, gaze, grape, grasp, graze, grip, scrape:
 - grasp v&n. 抓紧，理解
 - graze v. 吃草，放牧 v&n. 擦伤
 - grip v&n. 抓紧 v. 引起注意 n. 理解，控制
+- grope v. 摸索，搜索 n. 猥亵，摸
 - scrape v&n. 刮伤，擦伤 v. 勉强获得
 
 catholic, cathedral:
@@ -1370,9 +1368,10 @@ blouse, bruise:
 - blouse n. 女衬衫，短上衣，罩衫
 - bruise n. 淤青，伤痕 v. 挫伤
 
-sheer, shear:
+sheer, sheep, shear:
 
 - sheer adj. 完全的，纯粹的（强调） adj&adv. 陡峭 v. 偏航
+- sheep n. 受人摆布的人，绵羊
 - shear v. 剪切，折断 n. 大剪刀
 
 jet, wrench, wrest, wreck, crack:
@@ -1702,9 +1701,10 @@ dean, deem, redeem:
 - deem v. 认为，相信
 - redeem v. 挽回，补救，救赎，兑换，履行
 
-precedent, paradigm, plagiarism:
+precedent, predecessor, paradigm, plagiarism:
 
 - precedent n. 先例，范例，惯例
+- predecessor n. 前任，前辈，前身
 - paradigm n. 典范，范例，示例
 - plagiarism n. 剽窃（物），抄袭（物）
 
@@ -1754,11 +1754,11 @@ tangle, tangible:
 - tangle v. 缠结，乱作一团，争执 n. 混乱，纠纷
 - tangible adj. 可触摸的，有形的，切实的 n. 有形资产
 
-plunge, prune, plough:
+plough, plunge, prune:
 
+- plough v&n. 犁 v. 耕
 - plunge v. 猛冲，骤降，陷入，插入
 - prune v. 删除，修建 n. 傻瓜，深红色，李子干
-- plough v&n. 犁 v. 耕
 
 bid, bill:
 
@@ -2165,10 +2165,11 @@ prospective, perspective:
 - prospective adj. 预期的，即将发生的
 - perspective adj. 观点，远景，透视
 
-preceding, proceeding:
+preceding, proceeding, processing:
 
 - preceding adj. 在先的
 - proceeding adj. 学报，会议录，行动
+- processing v. 起诉，加工，处理
 
 ventilate, versatile:
 
@@ -2283,10 +2284,11 @@ vase, vast, vest, verse:
 - vest v. 赠予 n. 背心，马甲
 - verse n. 诗，诗句
 
-swell, swarm, swollen, swallow:
+swell, swarm, swamp, swollen, swallow:
 
 - swallow v&n. 吞咽，吞并 n. 燕子
 - swarm n. 蜂群，一大群 v. 云集，成群飞行
+- swamp v. 不堪承受，淹没，掩盖 n. 沼泽地
 - swell v&n. 膨胀，增大，起伏 adj. 极好的
 - swollen adj. 浮夸的，激动的，肿胀的
 
@@ -2560,10 +2562,11 @@ refute, refuge, refuse:
 - refuge n. 避难所，庇护
 - refuse n. 垃圾 v. 拒绝
 
-pest, priest:
+pest, priest, preach:
 
 - pest n. 害虫
 - priest n. 神父，牧师
+- preach v. 布道，鼓吹，宣传，说教
 
 trial, trifle:
 
@@ -2741,6 +2744,53 @@ stick, sting, stitch:
 - stick v. 坚持，粘贴，戳 n. 手杖，棍，呆头呆脑的人
 - sting v&n. 激怒，剧痛，叮，刺
 - stitch v. 缝 n. 针脚，针
+
+reckless, restless, ruleless, ruthless:
+
+- reckless adj. 鲁莽的
+- restless adj. 焦躁不安的，得不到休息的
+- ruleless adj. 无规则的，不受支配的
+- ruthless adj. 残酷无情的
+
+freight, fridge, fringe:
+
+- freight n. 货物，货运 v. 运送
+- fridge n. 冰箱，冷藏室
+- fringe n. 刘海，花边，边缘 v. 形成边缘
+
+coil, curb, curl, curve:
+
+- coil n. 卷，圈，线圈 v. 卷，盘绕
+- curb v. 制止，抑制 n. 路边，场外证券交易公司
+- curl v&n. 卷曲 v. 旋转
+- curve n. 曲线 v&n. 弯曲
+
+besiege, siege:
+
+- besiege v. 围攻，围住
+- siege n. 包围，围攻
+
+atom, particle:
+
+- atom n. 微量，微粒，原子
+- particle n. 粒子，小品词，语助词
+
+plaintiff, tariff:
+
+- plaintiff n. 原告
+- tariff n. 关税，税率，价目表
+
+vicinity, velocity:
+
+- vicinity n. 临近，附近
+- velocity n. 速度，速率
+
+outfit, outlet, outset, outskirts:
+
+- outfit n. 用具，机构 v. 配备
+- outlet n. 出路，排放口，经销店，专营店
+- outset n. 开始，终端
+- outskirts n. 市郊，边缘地带
 
 ## 易混淆词组
 
