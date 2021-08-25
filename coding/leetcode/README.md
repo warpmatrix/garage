@@ -123,6 +123,7 @@
 - [781. Rabbits in Forest](#781-rabbits-in-forest)
 - [783. Minimum Distance Between BST Nodes](#783-minimum-distance-between-bst-nodes)
 - [787. Cheapest Flights Within K Stops](#787-cheapest-flights-within-k-stops)
+- [797. All Paths From Source to Target](#797-all-paths-from-source-to-target)
 - [802. Find Eventual Safe States](#802-find-eventual-safe-states)
 - [810. Chalkboard XOR Game](#810-chalkboard-xor-game)
 - [815. Bus Routes](#815-bus-routes)
@@ -835,6 +836,10 @@ if uglyNums[i] == uglyNums[p] { p++ }
 ## 787. Cheapest Flights Within K Stops
 
 简单中等题，动态规划：复用空间
+
+## 797. All Paths From Source to Target
+
+简单题，得到从起点到终点的所有路径：深度优先搜索
 
 ## 802. Find Eventual Safe States
 

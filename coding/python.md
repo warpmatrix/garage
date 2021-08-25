@@ -27,6 +27,8 @@ python 的列表操作：
 - `l.reverse()` 反转整个列表，没有返回值
   - 切片使用值传递，使用切片翻转不能影响原列表
   - 翻转部分子列表需要使用内置函数 `reversed`：`l[i:i+c] = reversed(l[i:i+c])`
+- 末尾添加 `list.append(obj)`，插入数据 `list.insert(idx, obj)`
+- 删除特定位置元素 `del list[idx]`，删除一个匹配元素 `list.remove(obj)`
 
 `enumerate` 相当于 range，用于遍历支持迭代的对象
 
