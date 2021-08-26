@@ -574,9 +574,10 @@ facility, faculty, fault:
 - faculty n. 教师，天赋，学院
 - fault n. 错误 v. 指责
 
-snack, snake, sneak:
+snack, snail, snake, sneak:
 
 - snack n. 小吃
+- snail n. 蜗牛，行动缓慢的人
 - snake n. 蛇
 - sneak v. 偷溜，偷偷地做
 
@@ -760,9 +761,10 @@ typist, typewriter:
 - typist n. 打字员
 - typewriter n. 打字机
 
-denote, donate:
+denote, devote, donate:
 
-- denote v. 表示
+- denote v. 表示，意指
+- devote v. 奉献，致力于
 - donate v. 捐赠
 
 ready, forthcoming:
@@ -1145,11 +1147,12 @@ sketch, stretch, snatch, scratch, scrap, scrape, scramble:
 - scrape v&n. 擦伤 v. 勉强获得
 - scramble v&n. 攀爬，争夺 v. 扰乱
 
-receipt, reception, recipient:
+receipt, reception, recipient, reciprocal:
 
 - receipt n. 发票，收据，收入，受到
 - reception n. 接待，招待会
 - recipient adj. 接受的 n. 接收者，容器
+- reciprocal adj. 互相的，往复的，互利的
 
 sneeze, queeze, creak, sniff:
 
@@ -1195,10 +1198,11 @@ rate, vote:
 - rate n. 费用，进度，速度，比率 v. 估价，评级
 - vote v&n. 投票，选举，表决 v. 认为
 
-elapse, collapse:
+elapse, collapse, lapse:
 
 - collapse v. 坍塌，晕倒，崩溃，突然失败
 - elapse v. （时间）消逝
+- lapse n. 失误，丧失，下降 v. 失效，偏离 n&v. 流逝
 
 castle, cattle, kettle:
 
@@ -1445,9 +1449,10 @@ tan, tank:
 - tan v&n. 晒黑，（晒成）棕褐色（的皮肤） adj. 棕褐色的
 - tank n. 槽，坦克 v. 失败，倒闭，输比赛
 
-dissipate, discrepancy, dispatch:
+dissipate, discriminate, discrepancy, dispatch:
 
 - dissipate v. 消散，驱散，浪费，挥霍
+- discriminate v. 区别，歧视
 - discrepancy n. 差异，不一致，不符合
 - despatch (dispatch) v&n. 派遣，发送
 
@@ -1536,12 +1541,15 @@ merchandise, commodity:
 - merchandise n. 商品，货物
 - commodity n. 商品，日用品，有用之物
 
-parasite, pesticide, paradise, merchandise:
+merchandise, parade, parasite, pesticide, paradise, paradigm, plagiarism:
 
+- merchandise n. 商品，货物
+- parade v&n. 游行 n. 检阅
 - parasite n. 寄生虫
 - pesticide n. 杀虫剂，农药
 - paradise n. 天堂
-- merchandise n. 商品，货物
+- paradigm n. 典范，范例，示例
+- plagiarism n. 剽窃（物），抄袭（物）
 
 inhibit, inhabit:
 
@@ -1559,10 +1567,11 @@ feminine, masculine:
 - feminine adj. 女性的，娇柔的，阴性的
 - masculine adj. 男子气概的，男性的，阳性的
 
-coherent, cohesive:
+coherent, cohesive, inherent:
 
 - coherent adj. 连贯的，协调的，条理清楚的
 - cohesive adj. 凝聚的，紧密结合的
+- inherent adj. 固有的，内在的
 
 strife, strive, contrive, thrive:
 
@@ -1701,12 +1710,10 @@ dean, deem, redeem:
 - deem v. 认为，相信
 - redeem v. 挽回，补救，救赎，兑换，履行
 
-precedent, predecessor, paradigm, plagiarism:
+precedent, predecessor:
 
 - precedent n. 先例，范例，惯例
 - predecessor n. 前任，前辈，前身
-- paradigm n. 典范，范例，示例
-- plagiarism n. 剽窃（物），抄袭（物）
 
 deteriotate, superiority:
 
@@ -1738,9 +1745,10 @@ bolster, pickup:
 - bolster v. 改善，增强，支撑 n. 长枕
 - pickup n. 好转，接取，轻型货车
 
-interim, transition:
+interim, transient, transition:
 
 - interim n. 过渡时期 adj. 临时的，过渡的
+- transient adj. 短暂的，临时的，暂住的
 - transition n. 过渡，转变，变迁
 
 copy, replicate, duplicate:
@@ -1770,8 +1778,11 @@ corporation, cooperation:
 - corporation n. 公司，法人，市政委员会
 - cooperation n. 合作，配合
 
-monopoly, monetary:
+molecule, monopole, monopolize, monopoly, monetary:
 
+- molecule n. 分子
+- monopole n. 单极
+- monopolize v. 垄断
 - monopoly n. 垄断，垄断企业，专卖，专利权
 - monetary adj. 金融的，货币的
 
@@ -2267,8 +2278,10 @@ wrinkle, wink:
 - wrinkle n&v. （起）皱纹
 - wink v&n. 眨眼，闪烁
 
-pat, pad:
+lad, lap, pat, pad:
 
+- lad n. 男孩，小伙子
+- lap n. 大腿，一圈，一段 v. 舔食，拍打
 - pat adj. 适时的 v&n. 轻拍
 - pad n. 垫 v. 填塞，走
 
@@ -2284,11 +2297,14 @@ vase, vast, vest, verse:
 - vest v. 赠予 n. 背心，马甲
 - verse n. 诗，诗句
 
-swell, swarm, swamp, swollen, swallow:
+swarm, swamp:
 
-- swallow v&n. 吞咽，吞并 n. 燕子
 - swarm n. 蜂群，一大群 v. 云集，成群飞行
 - swamp v. 不堪承受，淹没，掩盖 n. 沼泽地
+
+swell, swollen, swallow:
+
+- swallow v&n. 吞咽，吞并 n. 燕子
 - swell v&n. 膨胀，增大，起伏 adj. 极好的
 - swollen adj. 浮夸的，激动的，肿胀的
 
@@ -2791,6 +2807,54 @@ outfit, outlet, outset, outskirts:
 - outlet n. 出路，排放口，经销店，专营店
 - outset n. 开始，终端
 - outskirts n. 市郊，边缘地带
+
+drastic, dramatic:
+
+- drastic adj. 急剧的，极端的，严厉的
+- dramatic adj. 巨大的，引人注目的，戏剧性的
+
+lease, least, lest:
+
+- lease n. 租约，租赁物 v. 租用
+- least adj&adv. 最少（的/地）
+- lest conj. 以免，唯恐
+
+giggle, grim, grin:
+
+- giggle v&n. 咯咯笑
+- grim adj. 严厉的，严酷的，阴沉的
+- grin v&n. 露齿笑
+
+enterprise, entrepreneur:
+
+- enterprise n. 事业，项目，事业心，企业
+- entrepreneur n. 企业家
+
+audit, audio:
+
+- audit n. 审计，查账 v. 审计，旁听，稽查
+- audio adj. 声音的，录音的
+
+quota, quote:
+
+- quota n. 配额，限额
+- quote n. 引文，报价，引号 v. 引用
+
+accessory, affiliate:
+
+- accessory n. 附件，装饰品，同谋 adj. 附属的
+- affiliate v. 隶属，附属 n. 附属机构，分公司
+
+pope, priest:
+
+- pope n. 天主教教皇，罗马教
+- priest n. 神父，牧师
+
+memorandum, minute, momentum:
+
+- memorandum n. 备忘录，简报
+- minute n. 备忘录，片刻，分钟 adj. 琐碎的 v. 记录，测试时间
+- momentum n. 推动力，动量，动力，冲力
 
 ## 易混淆词组
 

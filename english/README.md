@@ -120,9 +120,9 @@ hardly 倒装句
 - notwithstanding prep&adv. 尽管
 - henceforth adv. 今后
 - incidentally adv. 偶然地，顺带地
+- seemingly adv. 似乎，表面上
 - albeit conj. 虽然，即使
 - at length 最后，终于，详细地
 - in general 总之，通常，一般而言
 - by contrast 相比之下
 - owing to / due to 由于，因为
-- seemingly adv. 似乎，表面上
