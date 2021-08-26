@@ -133,6 +133,7 @@
 - [872. Leaf-Similar Trees](#872-leaf-similar-trees)
 - [877. Stone Game](#877-stone-game)
 - [879. Profitable Schemes](#879-profitable-schemes)
+- [881. Boats to Save People](#881-boats-to-save-people)
 - [897. Increasing Order Search Tree](#897-increasing-order-search-tree)
 - [909. Snakes and Ladders](#909-snakes-and-ladders)
 - [930. Binary Subarrays With Sum](#930-binary-subarrays-with-sum)
@@ -909,6 +910,10 @@ if uglyNums[i] == uglyNums[p] { p++ }
 
 - `dp[task][cost][goal] = dp[i-1][cost][goal] + dp[i-1][cost - cost[i]][max(0, goal - goal[i])]`
 - 注意上面的式子的种类数为成本正好为 cost 的情况，在一定的 cost 内，需要求 $\sum_c$`dp[n][c][goal]`
+
+## 881. Boats to Save People
+
+弱化的装箱问题，简单题，每个箱子只能装两个物品，使用双指针解决
 
 ## 897. Increasing Order Search Tree
 
