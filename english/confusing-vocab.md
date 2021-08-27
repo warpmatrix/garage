@@ -34,12 +34,15 @@ despise, despite, despair:
 - despite prep. 尽管
 - despair n&v. 绝望
 
-content, context, contempt, consent:
+content, context, contaminate, contemplate, contempt, culminate, consent:
 
-- content：n. 内容 v&adj. 满意
-- context：n. 上下文
-- contempt：v. 蔑视、轻视
-- consent：同意
+- content n. 内容 v&adj. 满意
+- context n. 上下文
+- contaminate v. 污染，玷污，毒害，腐蚀
+- contemplate v. 思量，考虑，注释，凝视
+- contempt v. 蔑视、轻视
+- consent v. 同意
+- culminate v. 告终，结束
 
 efficient, effect:
 
@@ -274,11 +277,12 @@ loyal, royal:
 - loyal adj. 忠心的
 - royal adj. 皇家的
 
-blanket, bracket, brace:
+blanket, bracket, brace, embrace:
 
 - blanket n. 毯子
 - bracket n. 支架，方括号，范围 v. 归为一类
 - brace n. 支架 v. 支撑，绷紧，防护
+- embrace v&n. 拥抱 v. 接受，包含 n. 接受，信奉
 
 via, visa:
 
@@ -291,8 +295,9 @@ converse, inverse, reverse:
 - inverse n. 倒数 adj. 相反的（数量上）
 - reverse v&n. 反转 v. 撤销 adj. 相反的（顺序上，方向上）
 
-ignorant, innocent:
+ignite, ignorant, innocent:
 
+- ignite v. 点燃，着火
 - ignorant adj. 无知的
 - innocent adj. 无辜的
 
@@ -350,9 +355,10 @@ surround, surrender, render:
 - surrender v. 屈服，放弃
 - render v. 使得，提供，导致，翻译
 
-physiology, psychology:
+physiology, psychiatry, psychology:
 
 - physiology n. 生理，生理学
+- psychiatry n. 精神病学，精神疗法
 - psychology n. 心理，心理学
 
 vegetation, vegetarian:
@@ -470,9 +476,10 @@ trim, rim, fringe, verge, edge:
 - verge n. 广阔空间的边界
 - edge n. （窄）边缘
 
-stride, stripe, strive, strap, strip, stroke, strike:
+stride, strife, stripe, strive, strap, strip, stroke, strike:
 
 - stride n. 步伐 v. 大步走
+- strife n. 冲突，斗争
 - stripe n. 条纹，种类
 - strive v. 努力
 - strap n. 带，皮带 v. 用带子扣住，包扎
@@ -909,10 +916,11 @@ pool, poll, ballot:
 - poll v&n. 投票，民意检测，政治大选
 - ballot v&n. 不记名投票
 
-helmet, comet:
+helmet, comet, outlet:
 
 - helmet n. 头盔
 - comet n. 彗星
+- outlet n. 出路，排放口，经销店，专营店
 
 verbal, verbose:
 
@@ -1362,10 +1370,11 @@ cripple, lame, limb, limp, lamb, lamp:
 - lamb n. 羔羊
 - lamp n. 灯
 
-luggage, lodge:
+luggage, lodge, lottery:
 
 - luggage n. 行李
 - lodge n. 乡间小屋，旅舍，传达室 v. 暂住，租住
+- lottery n. 彩票抽奖，碰运气的事
 
 blouse, bruise:
 
@@ -1505,21 +1514,16 @@ augment, argument:
 - augment v. 增加，扩大
 - argument n. 争论
 
-incidence, incident:
+incidence, incident, incidentally:
 
 - incidence n. 发生（率）
 - incident n. 事件
+- incidentally adv. 偶然地，顺带地
 
 fabricate, fluctuate:
 
 - fabricate v. 捏造，编造，建造
 - fluctuate v. 波动
-
-contemplate, contaminate, culminate:
-
-- contemplate v. 思量，考虑，注释，凝视
-- contaminate v. 污染，玷污，毒害，腐蚀
-- culminate v. 告终，结束
 
 provoke, evoke:
 
@@ -1573,9 +1577,8 @@ coherent, cohesive, inherent:
 - cohesive adj. 凝聚的，紧密结合的
 - inherent adj. 固有的，内在的
 
-strife, strive, contrive, thrive:
+strive, contrive, thrive:
 
-- strife n. 冲突，斗争
 - strive v. 努力，奋斗
 - contrive v. 策划，谋划，设法做到
 - thrive v. 繁荣
@@ -1585,13 +1588,15 @@ massacre, slaughter:
 - massacre n. 大屠杀，惨败 v. 屠杀，使惨败
 - slaughter v&n. 屠杀
 
-homogeneous, hypothesis:
+homogeneous, hygiene, hypothesis:
 
 - homogeneous adj. 同种类的，同性质的
+- hygiene n. 卫生，卫生学，保健法
 - hypothesis n. 假说，假设，前提
 
-plague, pledge:
+hedge, plague, pledge:
 
+- hedge n. 篱笆，防护措施 v. 避免正面答复，保护，围住
 - plague n. 瘟疫，灾害，苦恼 v. 折磨，使苦恼
 - pledge n. 誓约，保证 v. 发誓，保证
 
@@ -1699,9 +1704,10 @@ wary, discreet, discrete:
 - discreet adj. 谨慎的，考虑周到的
 - discrete adj. 离散的，不相关的，分离的
 
-chorus, orchard:
+chorus, chronic, orchard:
 
 - chorus n. 合唱团 v. 合唱
+- chronic adj. 慢性的，长期的，严重的，积重难改的
 - orchard n. 果园
 
 dean, deem, redeem:
@@ -1757,10 +1763,11 @@ copy, replicate, duplicate:
 - replicate v. 复制，复现，同步（可以进行调整）
 - duplicate v. 复制，重复（冗余）
 
-tangle, tangible:
+tangible, tangle, tango:
 
-- tangle v. 缠结，乱作一团，争执 n. 混乱，纠纷
 - tangible adj. 可触摸的，有形的，切实的 n. 有形资产
+- tangle v. 缠结，乱作一团，争执 n. 混乱，纠纷
+- tango n. 探戈
 
 plough, plunge, prune:
 
@@ -2796,9 +2803,10 @@ plaintiff, tariff:
 - plaintiff n. 原告
 - tariff n. 关税，税率，价目表
 
-vicinity, velocity:
+vicinity, vicious, velocity:
 
 - vicinity n. 临近，附近
+- vicious adj. 恶毒的
 - velocity n. 速度，速率
 
 outfit, outlet, outset, outskirts:
@@ -2855,6 +2863,22 @@ memorandum, minute, momentum:
 - memorandum n. 备忘录，简报
 - minute n. 备忘录，片刻，分钟 adj. 琐碎的 v. 记录，测试时间
 - momentum n. 推动力，动量，动力，冲力
+
+filter, permeate:
+
+- filter v. 渗透，慢慢传开，过滤，筛选 n. 过滤器
+- permeate v. 弥漫，散布，渗透
+
+relic, relief, relish:
+
+- relic n. 遗迹，废墟，纪念品
+- relief n. 接替，调剂，救济，宽慰，解脱，缓解
+- relish v. 喜欢 n. 乐趣，调味品 v&n. 享受
+
+charter, franchise:
+
+- charter n. 宪章，契约，许可证 v. 包租，给予..特权
+- franchise n. 特许权，选举权 v. 授予特权
 
 ## 易混淆词组
 
