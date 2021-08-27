@@ -72,6 +72,7 @@
 - [275. H-Index II](#275-h-index-ii)
 - [278. First Bad Version](#278-first-bad-version)
 - [279. Perfect Squares](#279-perfect-squares)
+- [295. Find Median from Data Stream](#295-find-median-from-data-stream)
 - [297. Serialize and Deserialize Binary Tree](#297-serialize-and-deserialize-binary-tree)
 - [313. Super Ugly Number](#313-super-ugly-number)
 - [331. Verify Preorder Serialization of a Binary Tree](#331-verify-preorder-serialization-of-a-binary-tree)
@@ -511,6 +512,13 @@ if uglyNums[i] == uglyNums[p] { p++ }
 - 数学定理的求解方式（四平方和定理）：每一个整数至多被四个正整数的平方和表示
   - 当 $n = 4^k(8m + 7)$ 时，$n$ 只能表示为四个正整数的平方和
   - 特判答案为 1 或答案为 2 的情况
+
+## 295. Find Median from Data Stream
+
+维护数据流的中位数：
+
+- 使用两个堆分别维护一半的数字
+- 使用有序集合作为自动排序的数组，直接获得中间的（两个）数字
 
 ## 297. Serialize and Deserialize Binary Tree
 

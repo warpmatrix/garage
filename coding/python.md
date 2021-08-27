@@ -9,6 +9,13 @@ def func(var: int) -> int:
 
 python 的整数范围没有限制，maxint 可以用无穷大浮点数代替：`float("inf")`
 
+python 的逻辑运算
+
+- 与和或的关键字：`and` 和 `or`
+- 真和假的关键字需要大写：`True`、`False`
+  - 被当成内置常量，首字母大写
+- else if 在 python 中使用关键字 `elif`
+
 python 的字符串是不可修改的，单个字符也被视作一个字符串：
 
 - 修改某个字符需要转化为列表：`s = list(s)`
@@ -47,15 +54,15 @@ python 里面的哈希表：字典 `dict`
 
 - 键值不在字典里报错
 - `defaultdict`：不存在的键值，提供一个默认的字段
-  - 接受工厂函数作为参数
+  - 接受类型或工厂函数作为参数：`m = defaultdict(int)`
 
-```py
-m = defaultdict(int)
-```
+python 的堆：标准库模块 [heapq](https://docs.python.org/3/library/heapq.html)
 
-python 的逻辑运算
+- `heapq.heappush(heap, item)`, `heapq.heappop(heap)`
+- heapq 实现的是小顶堆，使用大顶堆需要取相反数
+- 判空操作：`if not heap:`
+  - 区分 `heap is None`，`None` 表示空（类型），不是同一个类型
 
-- 与和或的关键字：`and` 和 `or`
-- 真和假的关键字需要大写：`True`、`False`
-  - 被当成内置常量，首字母大写
-- else if 在 python 中使用关键字 `elif`
+python 中的有序数组 `sortedList`：
+
+- `from sortedcontainers import SortedList`
