@@ -160,6 +160,7 @@
 - [1442. Count Triplets That Can Form Two Arrays of Equal XOR](#1442-count-triplets-that-can-form-two-arrays-of-equal-xor)
 - [1449. Form Largest Integer With Digits That Add up to Target](#1449-form-largest-integer-with-digits-that-add-up-to-target)
 - [1473. Paint House III](#1473-paint-house-iii)
+- [1480. Running Sum of 1d Array](#1480-running-sum-of-1d-array)
 - [1482. Minimum Number of Days to Make m Bouquets](#1482-minimum-number-of-days-to-make-m-bouquets)
 - [1486. XOR Operation in an Array](#1486-xor-operation-in-an-array)
 - [1583. Count Unhappy Friends](#1583-count-unhappy-friends)
@@ -1093,6 +1094,10 @@ $$
 
 - 可以使用滚动数组节省空间
 <!-- TODO: 更高级的做法，日后再看看 -->
+
+## 1480. Running Sum of 1d Array
+
+简单题，原地计算前缀和
 
 ## 1482. Minimum Number of Days to Make m Bouquets
 
