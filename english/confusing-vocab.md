@@ -14,10 +14,12 @@ resist, persist, persevere, preserve:
 - persist v. 坚持
 - persevere v. 坚持
 
-emit, elite:
+eject, elicit, elite, emit:
 
-- emit v. 发射
+- eject v. 驱逐，派出，喷射
+- elicit v. 引出，探出，诱出
 - elite n. 精英
+- emit v. 发射
 
 qualify, quantify, quality, quantity, qualitative, quantitative:
 
@@ -1610,8 +1612,9 @@ rumor, tumour:
 - rumor n&v. 谣言
 - tumour (tumor) n. 肿瘤，肿块
 
-aggregate, aggressive:
+aggravate, aggregate, aggressive:
 
+- aggravate v. 加剧，激怒
 - aggregate n&v&adj. 总数（的）
 - aggressive adj. 有进取心的，侵略的，声势浩大的
 
@@ -2704,8 +2707,9 @@ bruise, cruise:
 - cruise v&n. 航游 v. 巡行 n. 游弋
 - bruise n. 淤青，伤痕 v. 挫伤
 
-hazard, wizard:
+bizarre, hazard, wizard:
 
+- bizarre adj. 奇形怪状的，怪诞的
 - hazard n. 危险，危害 v. 大胆猜测，冒险
 - wizard n. 向导程序，奇才，男巫 adj. 男巫的，巫术的
 
@@ -2803,11 +2807,12 @@ plaintiff, tariff:
 - plaintiff n. 原告
 - tariff n. 关税，税率，价目表
 
-vicinity, vicious, velocity:
+vanity, velocity, vicinity, vicious:
 
+- vanity n. 虚荣心，自负，渺小，无所谓
+- velocity n. 速度，速率
 - vicinity n. 临近，附近
 - vicious adj. 恶毒的
-- velocity n. 速度，速率
 
 outfit, outlet, outset, outskirts:
 
@@ -2879,6 +2884,36 @@ charter, franchise:
 
 - charter n. 宪章，契约，许可证 v. 包租，给予..特权
 - franchise n. 特许权，选举权 v. 授予特权
+
+antenna, arena:
+
+- antenna n. 触角，触须，天线
+- arena n. 竞技场，舞台
+
+brief, brevity:
+
+- brevity n. 简洁，短暂，短促
+- brief adj. 简短的，短暂的 n. 简报，概要 v. 简单介绍
+
+latent, lateral:
+
+- latent adj. 潜在的，不易察觉的
+- lateral adj. 侧面的，横向的
+
+deter, cater:
+
+- deter v. 组织，制止，使踌躇
+- cater v. 迎合，满足需求，提供服务
+
+discreet, discretion:
+
+- discreet adj. 谨慎的，考虑周到的
+- discretion n. 谨慎，自行决定的自由
+
+equal, euqity:
+
+- equal adj. 平等的，同样的 v. 等于 n. （可比/相等）的东西
+- equity n. 公平，公正，普通股，衡平法
 
 ## 易混淆词组
 
