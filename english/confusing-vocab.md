@@ -1562,11 +1562,11 @@ inhibit, inhabit:
 - inhibit v. 阻止，抑制
 - inhabit v. 居住
 
-conscience, conscious, conscientious:
+conscience, conscientious, conscious:
 
 - conscience n. 良心
-- conscious adj. 有意识的，自觉的
 - conscientious adj. 认真的，勤恳的，小心的
+- conscious adj. 有意识的，自觉的
 
 feminine, masculine:
 
@@ -1590,9 +1590,10 @@ massacre, slaughter:
 - massacre n. 大屠杀，惨败 v. 屠杀，使惨败
 - slaughter v&n. 屠杀
 
-homogeneous, hygiene, hypothesis:
+homogeneous, hydrogen, hygiene, hypothesis:
 
 - homogeneous adj. 同种类的，同性质的
+- hydrogen n. 氢，氢气
 - hygiene n. 卫生，卫生学，保健法
 - hypothesis n. 假说，假设，前提
 
@@ -2914,6 +2915,21 @@ equal, euqity:
 
 - equal adj. 平等的，同样的 v. 等于 n. （可比/相等）的东西
 - equity n. 公平，公正，普通股，衡平法
+
+protocol, tobacco:
+
+- protocol n. 协议，草案，礼仪
+- tobacco n. 烟草
+
+skeleton, skeptical:
+
+- skeleton n. 骨骼，框架，概要
+- skeptical adj. 怀疑的
+
+gadget, badge:
+
+- badge n. 徽章，标记，象征
+- gadget n. 小玩意，小配件，小器具
 
 ## 易混淆词组
 
