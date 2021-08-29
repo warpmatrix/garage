@@ -164,6 +164,7 @@
 - [1482. Minimum Number of Days to Make m Bouquets](#1482-minimum-number-of-days-to-make-m-bouquets)
 - [1486. XOR Operation in an Array](#1486-xor-operation-in-an-array)
 - [1583. Count Unhappy Friends](#1583-count-unhappy-friends)
+- [1588. Sum of All Odd Length Subarrays](#1588-sum-of-all-odd-length-subarrays)
 - [1600. Throne Inheritance](#1600-throne-inheritance)
 - [1603. Design Parking System](#1603-design-parking-system)
 - [1646. Get Maximum in Generated Array](#1646-get-maximum-in-generated-array)
@@ -1117,6 +1118,12 @@ $$
 ## 1583. Count Unhappy Friends
 
 简单模拟，使用哈希（顺序数组）记录配对信息和优先度信息
+
+## 1588. Sum of All Odd Length Subarrays
+
+中等题，考察元素在长度为奇数的子串中出现的次数
+
+- 分成左右两端和两种情况考虑：奇+1+奇，偶+1+偶
 
 ## 1600. Throne Inheritance
 
