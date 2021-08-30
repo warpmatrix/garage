@@ -103,6 +103,7 @@
 - [523. Continuous Subarray Sum](#523-continuous-subarray-sum)
 - [525. Contiguous Array](#525-contiguous-array)
 - [526. Beautiful Arrangement](#526-beautiful-arrangement)
+- [528. Random Pick with Weight](#528-random-pick-with-weight)
 - [541. Reverse String II](#541-reverse-string-ii)
 - [551. Student Attendance Record I](#551-student-attendance-record-i)
 - [552. Student Attendance Record II](#552-student-attendance-record-ii)
@@ -727,6 +728,10 @@ if uglyNums[i] == uglyNums[p] { p++ }
 中等题，求满足一定条件的排列：动态规划
 
 - 观察数据范围考虑做题方向，状态压缩使用二进制枚举状态，依次数字可以放置的所有位置
+
+## 528. Random Pick with Weight
+
+简单题，使用权重进行随机选择：前缀和 + 二分搜索
 
 ## 541. Reverse String II
 

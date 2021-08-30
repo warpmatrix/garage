@@ -66,3 +66,7 @@ python 的堆：标准库模块 [heapq](https://docs.python.org/3/library/heapq.
 python 中的有序数组 `sortedList`：
 
 - `from sortedcontainers import SortedList`
+
+python 中的二分搜索模块：`bisect`
+
+- `bisect_left`, `bisect_right`
