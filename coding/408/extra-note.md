@@ -68,6 +68,7 @@
 - KLT (Kernel Level Thread)
 - SJF (Shortest Job First)
 - SPF (Shortest Process First)
+- WPL (Weighted Path Length)
 
 ## 容易混淆的概念
 
