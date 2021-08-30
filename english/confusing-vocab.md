@@ -1547,7 +1547,7 @@ merchandise, commodity:
 - merchandise n. 商品，货物
 - commodity n. 商品，日用品，有用之物
 
-merchandise, parade, parasite, pesticide, paradise, paradigm, plagiarism:
+merchandise, parade, parasite, pesticide, paradise, paradigm:
 
 - merchandise n. 商品，货物
 - parade v&n. 游行 n. 检阅
@@ -1555,7 +1555,6 @@ merchandise, parade, parasite, pesticide, paradise, paradigm, plagiarism:
 - pesticide n. 杀虫剂，农药
 - paradise n. 天堂
 - paradigm n. 典范，范例，示例
-- plagiarism n. 剽窃（物），抄袭（物）
 
 inhibit, inhabit:
 
@@ -1597,10 +1596,11 @@ homogeneous, hydrogen, hygiene, hypothesis:
 - hygiene n. 卫生，卫生学，保健法
 - hypothesis n. 假说，假设，前提
 
-hedge, plague, pledge:
+hedge, plague, plagiarism, pledge:
 
 - hedge n. 篱笆，防护措施 v. 避免正面答复，保护，围住
 - plague n. 瘟疫，灾害，苦恼 v. 折磨，使苦恼
+- plagiarism n. 剽窃（物），抄袭（物）
 - pledge n. 誓约，保证 v. 发誓，保证
 
 feminine, famine:
@@ -1750,9 +1750,10 @@ imminent, remnant:
 - imminent adj. 即将发生的，临近的
 - remnant n. 剩余物，零料，遗迹 adj. 剩余的，残留的
 
-bolster, pickup:
+bolster, foster, pickup:
 
 - bolster v. 改善，增强，支撑 n. 长枕
+- foster v. 促进，收养，培养，鼓励 adj. 收养的
 - pickup n. 好转，接取，轻型货车
 
 interim, transient, transition:
@@ -2571,11 +2572,13 @@ shutter, shuttle:
 - shuttle n. 往返列车，梭子，航天飞机 v. 往返
 - shutter n. 百叶窗，快门
 
-peak, peek, peel:
+peak, peek, peel, peep, peer:
 
 - peak adj. 最大值的 v. 到达高峰 n. 顶峰
 - peek v&n. 偷看，看一眼
 - peel v. 削皮，剥落 n. 外皮
+- peep v&n. 偷窥 v. 隐现 n. 嘟嘟声，吱吱声
+- peer v. 仔细看 n. 贵族，同龄人，同地位的人
 
 knot, knob, knock:
 
@@ -2833,11 +2836,12 @@ lease, least, lest:
 - least adj&adv. 最少（的/地）
 - lest conj. 以免，唯恐
 
-giggle, grim, grin:
+giggle, grim, grin, grip:
 
 - giggle v&n. 咯咯笑
 - grim adj. 严厉的，严酷的，阴沉的
 - grin v&n. 露齿笑
+- grip v&n. 抓紧 v. 引起注意 n. 理解，控制
 
 enterprise, entrepreneur:
 
@@ -2891,8 +2895,9 @@ antenna, arena:
 - antenna n. 触角，触须，天线
 - arena n. 竞技场，舞台
 
-brief, brevity:
+bravery, brief, brevity:
 
+- bravery n. 勇气
 - brevity n. 简洁，短暂，短促
 - brief adj. 简短的，短暂的 n. 简报，概要 v. 简单介绍
 
