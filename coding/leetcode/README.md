@@ -7,7 +7,7 @@
 - 说不定带薪上洗手间就可以思路就出来了
 
 <!-- TODO: 以后再补吧，lay 了 -->
-可以留意的一些题目：28、87、160、213、240、264、338、421、456、518、525、783、1473、1486、1310、1787
+可以留意的一些题目：28、87、160、213、240、264、338、421、456、518、525、783、1109、1473、1486、1310、1787
 
 - 思维训练的题：149、168、457、483、581、810、1787、面试题 17.10
 
@@ -150,6 +150,7 @@
 - [1049. Last Stone Weight II](#1049-last-stone-weight-ii)
 - [1074. Number of Submatrices That Sum to Target](#1074-number-of-submatrices-that-sum-to-target)
 - [1104. Path In Zigzag Labelled Binary Tree](#1104-path-in-zigzag-labelled-binary-tree)
+- [1109. Corporate Flight Bookings](#1109-corporate-flight-bookings)
 - [1137. N-th Tribonacci Number](#1137-n-th-tribonacci-number)
 - [1143. Longest Common Subsequence](#1143-longest-common-subsequence)
 - [1190. Reverse Substrings Between Each Pair of Parentheses](#1190-reverse-substrings-between-each-pair-of-parentheses)
@@ -1015,6 +1016,13 @@ $N - 3 \approx \frac{(N-4)*(N-5)}{N-6}$
 简单题，经过奇偶反转的二叉树节点定位问题
 
 - 利用二叉树的父节点和子节点的位置关系，在需要反转的位置上进行转换
+
+## 1109. Corporate Flight Bookings
+
+中等题，给定线段和求值：
+
+- 线段问题可以使用线段树解决
+- 线段和的问题可以简化使用差分的方式解决
 
 ## 1137. N-th Tribonacci Number
 
