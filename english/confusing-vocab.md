@@ -1357,8 +1357,9 @@ engage, emerge, emergency:
 - emerge v. 浮现，暴露，兴起，幸存，摆脱
 - emergency n. 紧急
 
-scorn, scold, scout:
+escort, scorn, scold, scout:
 
+- escort v. 护送，护卫 n. 护送者，护卫者
 - scorn v&n. 蔑视
 - scold v. 责骂，训斥
 - scout n. 侦查员，侦察机，童子军 v. 搜索，侦察
@@ -1893,8 +1894,11 @@ mechanism, mechanic, mechanical, mechinery:
 - mechanism n. 机构，方法，途径，机制，机械装置
 - mechinery n. 机器，机制
 
-deposit, dispose:
+deplete, deplore, deploy, deposit, dispose:
 
+- deplete v. 耗尽，枯竭，消耗
+- deplore v. 强烈反对，公开谴责
+- deploy v. 部署
 - deposit n. 存款，订金，押金，矿藏，沉淀物 v. 沉淀，付押金，储蓄
 - dispose v. 排列，倾向于，处理，清除
 
