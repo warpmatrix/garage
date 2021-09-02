@@ -69,6 +69,12 @@
 - SJF (Shortest Job First)
 - SPF (Shortest Process First)
 - WPL (Weighted Path Length)
+- BFS (Breadth First Search)
+- DFS (Depth First Search)
+- MST (Minimum Spanning Tree)
+- AOV (Activity On Vertex network)
+- AOE (Activity On Edge network)
+- ASL (Average Search Length)
 
 ## 容易混淆的概念
 
