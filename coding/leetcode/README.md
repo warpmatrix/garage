@@ -189,6 +189,7 @@
 - [1877. Minimize Maximum Pair Sum in Array](#1877-minimize-maximum-pair-sum-in-array)
 - [1893. Check if All the Integers in a Range Are Covered](#1893-check-if-all-the-integers-in-a-range-are-covered)
 - [剑指 Offer 15. 二进制中1的个数](#剑指-offer-15-二进制中1的个数)
+- [剑指 Offer 22. 链表中倒数第k个节点](#剑指-offer-22-链表中倒数第k个节点)
 - [剑指 Offer 37. 序列化二叉树](#剑指-offer-37-序列化二叉树)
 - [剑指 Offer 38. 字符串的排列](#剑指-offer-38-字符串的排列)
 - [剑指 Offer 42. 连续子数组的最大和](#剑指-offer-42-连续子数组的最大和)
@@ -1276,6 +1277,10 @@ ref: [1011](#1011-capacity-to-ship-packages-within-d-days) 给定顺序进行规
 
 - [461. Hamming Distance](#461-hamming-distance)
 - [477. Total Hamming Distance](#477-total-hamming-distance)
+
+## 剑指 Offer 22. 链表中倒数第k个节点
+
+简单题：使用双指针可以只遍历一次
 
 ## 剑指 Offer 37. 序列化二叉树
 
