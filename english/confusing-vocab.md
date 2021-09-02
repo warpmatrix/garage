@@ -2715,6 +2715,11 @@ bruise, cruise:
 - cruise v&n. 航游 v. 巡行 n. 游弋
 - bruise n. 淤青，伤痕 v. 挫伤
 
+barren, bizarre:
+
+- barren adj. 荒芜的，不育的，无效的
+- bizarre adj. 奇形怪状的，怪诞的
+
 bizarre, hazard, wizard:
 
 - bizarre adj. 奇形怪状的，怪诞的
@@ -2939,6 +2944,12 @@ gadget, badge:
 
 - badge n. 徽章，标记，象征
 - gadget n. 小玩意，小配件，小器具
+
+weird, weld, wield:
+
+- weird adj. 古怪的，怪诞的
+- weld v. 焊接 n. 焊点
+- wield v. 挥舞，运用
 
 ## 易混淆词组
 
