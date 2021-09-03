@@ -1928,8 +1928,10 @@ principal, principle:
 - principal n. 校长，资金，主角 adj. 最重要的
 - principle n. 原则，信条
 
-howl, owl:
+haul, hover, howl, owl:
 
+- haul v. 拖，拉
+- hover v. 盘旋，逗留，彷徨
 - howl v&n. 嚎叫
 - owl n. 猫头鹰
 
@@ -2676,9 +2678,10 @@ abroad, spread:
 - abroad adv. 在传播，在国外
 - spread v. 散布，涂 n. 幅度，范围 v&n. 传播
 
-glacier, glance, glare:
+glacier, glamor, glance, glare:
 
 - glacier n. 冰河，冰川
+- glamor n. 魅力，魔法 v. 迷惑
 - glance v&n. 瞥一眼
 - glare v&n. （发出）强光，怒视
 
