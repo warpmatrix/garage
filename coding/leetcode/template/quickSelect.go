@@ -18,7 +18,7 @@ func findKth(nums []int, k int) int {
             nums[rIdx], nums[lIdx] = nums[lIdx], nums[rIdx]
         }
     }
-    // jump out of loop, the nums[lIdx] doesn't jedge yet, there are two cases:
+    // jump out of loop, the nums[lIdx] doesn't judge yet, there are two cases:
     // 1. nums[lIdx] < pivot  2. nums[lIdx] >= pivot
     if nums[lIdx] < pivot { lIdx++ }
     nums[lIdx], nums[len(nums) - 1] = nums[len(nums) - 1], nums[lIdx]
