@@ -188,6 +188,7 @@
 - [1846. Maximum Element After Decreasing and Rearranging](#1846-maximum-element-after-decreasing-and-rearranging)
 - [1877. Minimize Maximum Pair Sum in Array](#1877-minimize-maximum-pair-sum-in-array)
 - [1893. Check if All the Integers in a Range Are Covered](#1893-check-if-all-the-integers-in-a-range-are-covered)
+- [剑指 Offer 10- I. 斐波那契数列](#剑指-offer-10--i-斐波那契数列)
 - [剑指 Offer 15. 二进制中1的个数](#剑指-offer-15-二进制中1的个数)
 - [剑指 Offer 22. 链表中倒数第k个节点](#剑指-offer-22-链表中倒数第k个节点)
 - [剑指 Offer 37. 序列化二叉树](#剑指-offer-37-序列化二叉树)
@@ -1044,12 +1045,10 @@ $N - 3 \approx \frac{(N-4)*(N-5)}{N-6}$
 
 经典动态规划
 
-$$
-dp[i][j] = \begin{cases}
+$$dp[i][j] = \begin{cases}
   dp[i - 1][j - 1] + 1, & text1[i] == text2[j] \\
   max(dp[i - 1][j], dp[i][j - 1]), & text1[i] != text2[j] \\
-\end{cases}
-$$
+\end{cases}$$
 
 ## 1190. Reverse Substrings Between Each Pair of Parentheses
 
@@ -1270,6 +1269,10 @@ ref: [1011](#1011-capacity-to-ship-packages-within-d-days) 给定顺序进行规
 - 使用贪心的方法，对线段进行排序，更新左端点，时间复杂度 $O(n \log n)$
 - 差分的思想，记录覆盖的信息，使用前缀和可以得到覆盖的数量，时间复杂度 $O(n + l)$
 - 线段树的做法
+
+## 剑指 Offer 10- I. 斐波那契数列
+
+简单模拟
 
 ## 剑指 Offer 15. 二进制中1的个数
 
