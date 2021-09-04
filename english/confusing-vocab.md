@@ -1609,9 +1609,10 @@ feminine, famine:
 - feminine adj. 女性的，娇柔的，阴性的
 - famine n. 饥荒
 
-rumor, tumour:
+humour (humor), rumour (rumor), tumour (tumor):
 
-- rumor n&v. 谣言
+- humour (humor) v. 迁就，满足 n. 幽默，诙谐
+- rumour (rumor) n&v. 谣言
 - tumour (tumor) n. 肿瘤，肿块
 
 aggravate, aggregate, aggressive:
@@ -2953,6 +2954,16 @@ weird, weld, wield:
 - weird adj. 古怪的，怪诞的
 - weld v. 焊接 n. 焊点
 - wield v. 挥舞，运用
+
+accustomed, custom:
+
+- accustomed adj. (to) 习惯的，通常的
+- custom adj. 定制的 n. 风俗，习惯，光顾
+
+admiration, aspiration:
+
+- admiration n. 钦佩，羡慕
+- aspiration n. 志向，抱负，强烈愿望
 
 ## 易混淆词组
 
