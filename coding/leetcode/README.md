@@ -94,6 +94,7 @@
 - [456. 132 Pattern](#456-132-pattern)
 - [457. Circular Array Loop](#457-circular-array-loop)
 - [461. Hamming Distance](#461-hamming-distance)
+- [470. Implement Rand10() Using Rand7()](#470-implement-rand10-using-rand7)
 - [474. Ones and Zeroes](#474-ones-and-zeroes)
 - [477. Total Hamming Distance](#477-total-hamming-distance)
 - [483. Smallest Good Base](#483-smallest-good-base)
@@ -668,6 +669,10 @@ if uglyNums[i] == uglyNums[p] { p++ }
 异或得到不同的位为 1，再计算海明权重
 
 - go 中海明距离可以使用 `bits.OnesCount` 函数
+
+## 470. Implement Rand10() Using Rand7()
+
+可以从熵的角度进行考虑，多次调用提供更高的熵；设置一定的拒绝域，使得和 `rand10()` 的熵保持一致
 
 ## 474. Ones and Zeroes
 
