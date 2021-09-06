@@ -152,3 +152,4 @@
 - undertake a post 担任职位
 - at the direction of the president 奉总统之命
 - the next of kin 直系亲属
+- cut both ways 有利有弊

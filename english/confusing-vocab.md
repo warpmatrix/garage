@@ -2965,6 +2965,11 @@ admiration, aspiration:
 - admiration n. 钦佩，羡慕
 - aspiration n. 志向，抱负，强烈愿望
 
+allot, alloy:
+
+- allot v. 分配，分派
+- alloy n. 合金 v. 铸成合金
+
 ## 易混淆词组
 
 look 的一系列词组：
