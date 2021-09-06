@@ -75,6 +75,21 @@
 - AOV (Activity On Vertex network)
 - AOE (Activity On Edge network)
 - ASL (Average Search Length)
+- WAN (Wide Area Network)
+- MAN (Metropolitan Area Network)
+- LAN (Local Area Network)
+- PAN (Personal Area Network)
+- WPAN (Wireless Personal Area Network)
+- RTT (Round-Trip Time)
+- SDU (Service Data Unit)
+- PCI (Protocol Control Infomation)
+- PDU (Protocol Data Unit)
+- SAP (Service Access Point)
+- DTE (Data Terminal Equipment)
+- DTE (Data Communication Equipment)
+- TCP (Transmission Control Protocol)
+- UDP (User Datagram Protocol)
+- IP (Internet Protocol)
 
 ## 容易混淆的概念
 
