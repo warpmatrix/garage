@@ -120,6 +120,7 @@
 - [671. Second Minimum Node In a Binary Tree](#671-second-minimum-node-in-a-binary-tree)
 - [690. Employee Importance](#690-employee-importance)
 - [692. Top K Frequent Words](#692-top-k-frequent-words)
+- [704. Binary Search](#704-binary-search)
 - [726. Number of Atoms](#726-number-of-atoms)
 - [740. Delete and Earn](#740-delete-and-earn)
 - [752. Open the Lock](#752-open-the-lock)
@@ -821,6 +822,10 @@ if uglyNums[i] == uglyNums[p] { p++ }
 
 - 哈希统计单词次数，排序或者堆排序得到前 k 个频率最高的单词
 - go 中需要自己实现堆排序，直接使用排序可能写起来比较方便
+
+## 704. Binary Search
+
+二分搜索，大多数的语言库可以直接调用
 
 ## 726. Number of Atoms
 
