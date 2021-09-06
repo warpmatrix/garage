@@ -153,3 +153,4 @@
 - at the direction of the president 奉总统之命
 - the next of kin 直系亲属
 - cut both ways 有利有弊
+- by way of 为了，意为

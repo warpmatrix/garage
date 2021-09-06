@@ -871,11 +871,12 @@ counter, retort, resort, distort:
 - resort v&n. 诉诸 n. 常去之地
 - distort v. 扭曲，变形
 
-reliance, alliance, allegiance:
+reliance, alliance, allegiance, allegation:
 
 - reliance n. 依靠，依赖
 - alliance n. 联盟，同盟
 - allegiance n. 忠诚
+- allegation n. 陈述，宣称，指控
 
 micro-, macro-:
 
@@ -2969,6 +2970,16 @@ allot, alloy:
 
 - allot v. 分配，分派
 - alloy n. 合金 v. 铸成合金
+
+dependence, dependency:
+
+- dependence n. 依靠，信赖
+- dependency n. 属国，从属（物）
+
+demonstration, demoralization:
+
+- demonstration n. 证明，实物演示，示范，游行，表示
+- demoralization n. 堕落，士气沮丧，道德颓废
 
 ## 易混淆词组
 
