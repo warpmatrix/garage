@@ -154,3 +154,4 @@
 - the next of kin 直系亲属
 - cut both ways 有利有弊
 - by way of 为了，意为
+- be guilty of 犯了..错

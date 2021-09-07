@@ -229,10 +229,11 @@ in a way, in the way, on the way:
 - in the way 挡道，阻碍
 - on the way 在路上
 
-monument, momentum:
+monument, momentum, momentary:
 
-- monument n. 纪念碑
+- monument n. 纪念碑，纪念馆，历史遗迹
 - momentum n. 推动力，动量
+- momentary adj. 瞬息的，片刻的
 
 grain, gain:
 
@@ -1642,11 +1643,12 @@ furnace, menace, commence:
 - menace n. 威胁，烦人的（人，物） v. 威胁
 - commence v. 开始，获得学位
 
-demographic, domestic, democratic, dormitory:
+diplomatic, democratic, demographic, domestic, dormitory:
 
+- diplomatic adj. 外交的，有策略的
+- democratic adj. 民主的，民主精神的
 - demographic adj. 人口统计（学）的
-- domestic adj. 国内的
-- democratic adj. 民主的
+- domestic adj. 国内的，家庭的，操持家庭的
 - dormitory n. 宿舍
 
 aerial, aviation:
@@ -2304,11 +2306,6 @@ lad, lap, pat, pad:
 - lap n. 大腿，一圈，一段 v. 舔食，拍打
 - pat adj. 适时的 v&n. 轻拍
 - pad n. 垫 v. 填塞，走
-
-diplomatic, domestic:
-
-- diplomatic adj. 外交的，有策略的
-- domestic adj. 国内的，家庭的，操持家庭的
 
 vase, vast, vest, verse:
 
@@ -2971,15 +2968,21 @@ allot, alloy:
 - allot v. 分配，分派
 - alloy n. 合金 v. 铸成合金
 
-dependence, dependency:
+dependence, dependency, diplomacy:
 
 - dependence n. 依靠，信赖
 - dependency n. 属国，从属（物）
+- diplomacy n. 外交，外交手腕
 
 demonstration, demoralization:
 
 - demonstration n. 证明，实物演示，示范，游行，表示
 - demoralization n. 堕落，士气沮丧，道德颓废
+
+militant, military:
+
+- militant adj. 好战的，激进的 n. 激进分子，好战性
+- military adj. 军事的，军队的 n. 军队力量
 
 ## 易混淆词组
 
