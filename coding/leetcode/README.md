@@ -157,6 +157,7 @@
 - [1137. N-th Tribonacci Number](#1137-n-th-tribonacci-number)
 - [1143. Longest Common Subsequence](#1143-longest-common-subsequence)
 - [1190. Reverse Substrings Between Each Pair of Parentheses](#1190-reverse-substrings-between-each-pair-of-parentheses)
+- [1221. Split a String in Balanced Strings](#1221-split-a-string-in-balanced-strings)
 - [1239. Maximum Length of a Concatenated String with Unique Characters](#1239-maximum-length-of-a-concatenated-string-with-unique-characters)
 - [1269. Number of Ways to Stay in the Same Place After Some Steps](#1269-number-of-ways-to-stay-in-the-same-place-after-some-steps)
 - [1310. XOR Queries of a Subarray](#1310-xor-queries-of-a-subarray)
@@ -1063,6 +1064,10 @@ $$dp[i][j] = \begin{cases}
 ## 1190. Reverse Substrings Between Each Pair of Parentheses
 
 遇到括号，逆序遍历，注意括号可能是嵌套的也可能是非嵌套的（题目给的样例是特地的吧 orz...
+
+## 1221. Split a String in Balanced Strings
+
+简单题，整个串是一个 balanced strings，贪心选择长度最短的 balanced strings
 
 ## 1239. Maximum Length of a Concatenated String with Unique Characters
 
