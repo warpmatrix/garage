@@ -99,6 +99,7 @@
 - [477. Total Hamming Distance](#477-total-hamming-distance)
 - [483. Smallest Good Base](#483-smallest-good-base)
 - [494. Target Sum](#494-target-sum)
+- [502. IPO](#502-ipo)
 - [503. Next Greater Element II](#503-next-greater-element-ii)
 - [516. Longest Palindromic Subsequence](#516-longest-palindromic-subsequence)
 - [518. Coin Change 2](#518-coin-change-2)
@@ -706,6 +707,10 @@ if uglyNums[i] == uglyNums[p] { p++ }
   dp[i - 1][j], & j < nums[i] \\
   dp[i - 1][j] + dp[i - 1][j - nums[i]], & j \geq nums[i] \\
 \end{cases}$
+
+## 502. IPO
+
+中等题，银行家算法。使用堆动态维护可以选择的项目，快速得到可执行的最大利润项目。
 
 ## 503. Next Greater Element II
 
