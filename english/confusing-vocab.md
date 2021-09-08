@@ -331,7 +331,7 @@ enclosure, closure:
 
 hostility, hospitality, hostage:
 
-- hostility n. 敌意
+- hostility n. 敌意，抵制，交战
 - hospitality n. 好客
 - hostage n. 人质
 
@@ -3033,10 +3033,11 @@ boast 的词组：
 - boast about 自夸，吹嘘
 - boast of 吹牛，自夸
 
-attribute, contribute:
+attribute, contribute, tribute:
 
 - attribute to 将..归功于
 - contribute to 捐献，投稿，有助于
+- tribute n. 称赞，颂词，贡品，礼物
 
 submit, subject:
 

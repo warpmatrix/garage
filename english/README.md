@@ -99,6 +99,7 @@
 - place a high value on 重视
 - a resume is enclosed with the letter 一份随信附上的简历
 - all stripes = all walks of life 各行各业的人
+- comparatively speaking 相较而言
 
 hardly 倒装句
 
