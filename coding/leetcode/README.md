@@ -32,6 +32,7 @@
 - [54 & 59. Spiral Matrix](#54--59-spiral-matrix)
 - [61. Rotate List](#61-rotate-list)
 - [65. Valid Number](#65-valid-number)
+- [68. Text Justification](#68-text-justification)
 - [74. Search a 2D Matrix](#74-search-a-2d-matrix)
 - [80. Remove Duplicates from Sorted Array II](#80-remove-duplicates-from-sorted-array-ii)
 - [81. Search in Rotated Sorted Array II](#81-search-in-rotated-sorted-array-ii)
@@ -265,6 +266,10 @@
 
 - go 的正则表达式的性能也太拉了吧，编译器就不能顺便优化一波？
 - 实际过程可能需要自己构造自动状态机
+
+## 68. Text Justification
+
+中等题，偏工程的题目
 
 ## 74. Search a 2D Matrix
 
