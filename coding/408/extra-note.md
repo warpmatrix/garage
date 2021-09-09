@@ -90,6 +90,10 @@
 - TCP (Transmission Control Protocol)
 - UDP (User Datagram Protocol)
 - IP (Internet Protocol)
+- PCM (Pulse Code Modulation)
+- RZ (Return Zero code)
+- NRZ (Non Return Zero code)
+- NRZI (Non Return Zero Inverse code)
 
 ## 容易混淆的概念
 
