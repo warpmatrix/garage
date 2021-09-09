@@ -155,3 +155,5 @@
 - cut both ways 有利有弊
 - by way of 为了，意为
 - be guilty of 犯了..错
+- the inexorable march of progress 势不可挡的进程
+- take .. off 休息..（时间）假期

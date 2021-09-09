@@ -2984,6 +2984,46 @@ militant, military:
 - militant adj. 好战的，激进的 n. 激进分子，好战性
 - military adj. 军事的，军队的 n. 军队力量
 
+escalate, escape:
+
+- escalate v. 升级，加剧，上升，扩大
+- escape v&n. 逃跑，避开
+
+enforce, enhance, reinforce:
+
+- enforce v. 强制执行，强迫
+- enhance v. 增强，提高
+- reinforce v. 增强，增援
+
+compel, expel, impel, repel:
+
+- compel v. 强迫
+- expel v. 开出，驱逐，排出
+- impel v. 推动，激励
+- repel v. 击退，驱逐，排斥，使..厌恶
+
+patent, pattern, patient:
+
+- patent n. 专利 adj. 专利的 v. 获得专利
+- pattern n. 图案，模式，范例，榜样 v. 构成图案，形成模式
+- patient adj. 耐心的，能忍耐的 n. 病人
+
+inhuman, humanized:
+
+- inhuman adj. 残忍的，野蛮的，无人性的
+- humanized adj. 人性化的
+
+genius, genuine, ingenuity:
+
+- genius n. 天才
+- genuine adj. 名副其实的，真诚的
+- ingenuity n. 聪明才智，独创力，心灵手巧
+
+rite, ritual:
+
+- rite n. 仪式，典礼，习俗
+- ritual n. 典礼，仪式，例行公事，老规矩 adj. 仪式的，例行的
+
 ## 易混淆词组
 
 look 的一系列词组：

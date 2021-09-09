@@ -110,6 +110,7 @@ hardly 倒装句
 - adj. 极其的：supreme, ultimate, exceeding
 - adj. 巨大的：enormous, drmatic, whopping, gigantic, fearsome, immense
 - adv. 惊人地：alarmingly
+- adv. 不可避免地：inevitably
 
 连接词与副词：
 
