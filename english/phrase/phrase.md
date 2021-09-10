@@ -157,3 +157,4 @@
 - be guilty of 犯了..错
 - the inexorable march of progress 势不可挡的进程
 - take .. off 休息..（时间）假期
+- alone the lines of 类似，大概，齐平

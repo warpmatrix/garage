@@ -1405,12 +1405,15 @@ saddle, harness:
 - saddle n. 鞍，座 v. 承担任务
 - harness n. 马具，背带，保护带 v. 治理，利用，上挽具
 
-tense, tentative, intensive, potential:
+intend, intent, intense, intensive, potential, tense, tentative:
 
-- tense n. 时态 adj. 紧张的，紧绷的 v. 拉紧
-- tentative adj. 试探性的，初步的，犹豫不决的
+- intend v. 企图，打算
+- intent adj. 专心的，急切的，坚决的 n. 意图，目的，含义
+- intense adj. 强烈的，热情的，紧张的，集中的
 - intensive adj. 加强的，深入的，集约的，集中的
 - protential adj. 潜在的
+- tense n. 时态 adj. 紧张的，紧绷的 v. 拉紧
+- tentative adj. 试探性的，初步的，犹豫不决的
 
 fundamental, essential:
 
@@ -2485,10 +2488,13 @@ brass, bronze:
 - brass n. 黄铜，铜管乐器
 - bronze n. 青铜（色）（制品）
 
-ivory, irony:
+ion, iron, irony, ivory:
 
-- ivory n&adj. 象牙，乳白色（的）
+- ion n. 离子
+- iron v. 烫熨 n. 熨斗，烙铁，铁
+- ironic adj. 讽刺的，反话的
 - irony n. 讽刺，反话，讽刺的事 adj. 铁的
+- ivory n&adj. 象牙，乳白色（的）
 
 gym, gum, gun:
 
@@ -3023,6 +3029,16 @@ rite, ritual:
 
 - rite n. 仪式，典礼，习俗
 - ritual n. 典礼，仪式，例行公事，老规矩 adj. 仪式的，例行的
+
+intuitive, institutional:
+
+- intuitive adj. 直觉的
+- institutional adj. 制度的，学会的
+
+vinegar, vulgar:
+
+- vinegar n. 醋
+- vulgar adj. 粗俗的，本土的，通俗的，普通的
 
 ## 易混淆词组
 
