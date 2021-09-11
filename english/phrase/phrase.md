@@ -158,3 +158,4 @@
 - the inexorable march of progress 势不可挡的进程
 - take .. off 休息..（时间）假期
 - alone the lines of 类似，大概，齐平
+- in the truest sense 名副其实，真正的

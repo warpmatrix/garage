@@ -1415,6 +1415,11 @@ intend, intent, intense, intensive, potential, tense, tentative:
 - tense n. 时态 adj. 紧张的，紧绷的 v. 拉紧
 - tentative adj. 试探性的，初步的，犹豫不决的
 
+intently, intentionally:
+
+- intently adv. 专心地，心无旁骛地
+- intentionally adv. 故意地，有意地
+
 fundamental, essential:
 
 - fundamental n. 基本原则，基本原理 adj. 基础的，基本的
@@ -1429,11 +1434,12 @@ weep, wheet, sweat, sweater, sweet, sweep:
 - sweet adj. 芳香的，亲切的，悦耳的，甜的 n. 芳香，乐趣，糖果，宝贝
 - sweep v&n. 扫，挥动
 
-linen, liner, linear:
+linear, linen, liner, lining:
 
+- linear adj. 线性的，长度的
 - linen n. 亚麻布
 - liner n. 邮轮，班机，衬里
-- linear adj. 线性的，长度的
+- lining n. 衬里
 
 possess, process, progress:
 
@@ -1898,6 +1904,7 @@ mechanism, mechanic, mechanical, mechinery:
 
 - mechanic n. 机修工，力学，运作方式
 - mechanical adj. 机械的，呆板的
+- mechanistic adj. 机械（论/学）的
 - mechanism n. 机构，方法，途径，机制，机械装置
 - mechinery n. 机器，机制
 
@@ -3039,6 +3046,11 @@ vinegar, vulgar:
 
 - vinegar n. 醋
 - vulgar adj. 粗俗的，本土的，通俗的，普通的
+
+infringe, impinge:
+
+- infringe v. 侵犯，破坏，侵害
+- impinge v. 侵犯，影响
 
 ## 易混淆词组
 
