@@ -33,9 +33,11 @@
   - [在函数中传递函数形参](#在函数中传递函数形参)
   - [名字空间的使用方法 & 关键字 `enum`](#名字空间的使用方法--关键字-enum)
   - [构造函数初始化列表](#构造函数初始化列表)
-  - [delete不方便之处](#delete不方便之处)
+  - [delete 每次调用删除整块内存](#delete-每次调用删除整块内存)
   - [c++函数引用](#c函数引用)
   - [c++ 的变长数组](#c-的变长数组)
+  - [尾置返回类型 (c++11)](#尾置返回类型-c11)
+  - [`typeid` 获取类型信息](#typeid-获取类型信息)
 - [生成可执行文件的过程](#生成可执行文件的过程)
 
 ## C语言篇
@@ -56,7 +58,7 @@ int main(int argc, char const *argv[]) {
 
 ### c的字符串操作
 
-c中大多数自带的字符串操作都自带 ```'\0'```。
+c中大多数自带的字符串操作都自带 `'\0'`。
 
 例外：strncpy（若没有复制到 ```'\0```，则不会带上空字符）
 
@@ -547,7 +549,7 @@ Date::Date(int year, int month, int day)
     :year(year), month(month), day(day) {}
 ```
 
-### delete不方便之处
+### delete 每次调用删除整块内存
 
 ```cpp
 int main(int argc, char const *argv[]) {
@@ -591,6 +593,55 @@ int main(int argc, char const *argv[]) {
         (*arr)[i] = i;
     fun<rows, cols>(arr);
     return 0;
+}
+```
+
+### 尾置返回类型 (c++11)
+
+通过关键字 `auto` 和 `->` 尾置返回类型 (trailing return types)：类似 golang
+
+- 提高可读性，使用模板时可以进行类型推导
+
+```cpp
+template <typename X, typename Y>
+auto f(X x, Y y) -> decltype(x + y) {
+    return x + y + 1.5;
+}
+
+// template <typename X, typename Y>
+// decltype(*(X*)0 + *(Y*)0) f(X x, Y y) {
+//     return x + y + 1.5;
+// }
+```
+
+没有类型推断的情况下，只能手动推导具体的模板类型，或者使用 auto?
+
+```cpp
+template<typename X, typename Y, typename Z>
+Z f(X x, Y y) {
+    return Z(x + y);
+}
+
+// template <typename X, typename Y>
+// auto f(X x, Y y) {
+//     return x + y;
+// }
+```
+
+### `typeid` 获取类型信息
+
+头文件 `<typeinfo>`，`typeid` 是一个运算符类似于 `sizeof`，除了模板和引用在编译时进行推导
+
+- 可以对类型名称、常量、变量、模板变量进行推导
+- 存在方法 `name` 输出类型名称，不同编译器可能不一样
+
+```cpp
+template <typename X, typename Y, typename Z>
+Z f(X x, Y y) {
+    Z z = Z(x + y + 1.5);
+    std::cout << (typeid(int) == typeid(1)) << '\n';
+    std::cout << typeid(x).name() << ' ' << typeid(y).name() << ' ' << typeid(z).name() << '\n';
+    return z;
 }
 ```
 
