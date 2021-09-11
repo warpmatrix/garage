@@ -115,6 +115,7 @@
 - [560. Subarray Sum Equals K](#560-subarray-sum-equals-k)
 - [576. Out of Boundary Paths](#576-out-of-boundary-paths)
 - [581. Shortest Unsorted Continuous Subarray](#581-shortest-unsorted-continuous-subarray)
+- [600. Non-negative Integers without Consecutive Ones](#600-non-negative-integers-without-consecutive-ones)
 - [611. Valid Triangle Number](#611-valid-triangle-number)
 - [633. Sum of Square Numbers](#633-sum-of-square-numbers)
 - [645. Set Mismatch](#645-set-mismatch)
@@ -795,6 +796,13 @@ if uglyNums[i] == uglyNums[p] { p++ }
 求数组排序后，和原数组不同的区间长度
 
 - 使用双指针：求两端升序数组的边界，满足相应的单调性
+
+## 600. Non-negative Integers without Consecutive Ones
+
+中等题，动态规划：
+
+- 斐波拉契数列得到不连续为 1 序列的数量，从高位往低位尽可能填 1
+- 填 1 后后一位必须为 0，最大整数有连续为 1 的情况可以提前退出
 
 ## 611. Valid Triangle Number
 
