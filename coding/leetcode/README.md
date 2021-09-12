@@ -121,6 +121,7 @@
 - [645. Set Mismatch](#645-set-mismatch)
 - [664. Strange Printer](#664-strange-printer)
 - [671. Second Minimum Node In a Binary Tree](#671-second-minimum-node-in-a-binary-tree)
+- [678. Valid Parenthesis String](#678-valid-parenthesis-string)
 - [690. Employee Importance](#690-employee-importance)
 - [692. Top K Frequent Words](#692-top-k-frequent-words)
 - [704. Binary Search](#704-binary-search)
@@ -833,6 +834,13 @@ if uglyNums[i] == uglyNums[p] { p++ }
 ## 671. Second Minimum Node In a Binary Tree
 
 简单题，寻找类似小顶堆的二叉树的第二小节点，直接遍历适当剪枝
+
+## 678. Valid Parenthesis String
+
+带有通配符的括号匹配问题。简单题，可以使用整数记录栈的情况
+
+- 由于 `*` 的匹配和括号的位置相关，匹配为右括号必须在左括号的右边
+- 因此 `*` 需要使用两个变量记录两种匹配情况的信息
 
 ## 690. Employee Importance
 
