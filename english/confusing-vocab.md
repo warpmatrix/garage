@@ -3052,6 +3052,11 @@ infringe, impinge:
 - infringe v. 侵犯，破坏，侵害
 - impinge v. 侵犯，影响
 
+mutate, mute:
+
+- mutate v. 变化，突变，改变
+- mute adj. 缄默的，哑的 n. 哑巴，弱音器 v. 减弱声音，消音，减弱
+
 ## 易混淆词组
 
 look 的一系列词组：
