@@ -3057,6 +3057,11 @@ mutate, mute:
 - mutate v. 变化，突变，改变
 - mute adj. 缄默的，哑的 n. 哑巴，弱音器 v. 减弱声音，消音，减弱
 
+gloom, groom:
+
+- gloom n. 忧郁，昏暗 v. 变黑，沮丧
+- groom v. 整饰，训练，照顾，打扮 n. 新郎，马夫，男仆
+
 ## 易混淆词组
 
 look 的一系列词组：
