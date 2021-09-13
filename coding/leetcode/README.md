@@ -91,6 +91,7 @@
 - [421. Maximum XOR of Two Numbers in an Array](#421-maximum-xor-of-two-numbers-in-an-array)
 - [443. String Compression](#443-string-compression)
 - [446. Arithmetic Slices II - Subsequence](#446-arithmetic-slices-ii---subsequence)
+- [447. Number of Boomerangs](#447-number-of-boomerangs)
 - [451. Sort Characters By Frequency](#451-sort-characters-by-frequency)
 - [456. 132 Pattern](#456-132-pattern)
 - [457. Circular Array Loop](#457-circular-array-loop)
@@ -653,6 +654,10 @@ if uglyNums[i] == uglyNums[p] { p++ }
 类似于 [413. Arithmetic Slices](#413-arithmetic-slices) 的第二种思想：每增加一个元素，增加当前公差相同的个数加 1
 
 - 动态规划：`dp[i][d] += dp[j][d] + 1`
+
+## 447. Number of Boomerangs
+
+双重循环算距离，哈希加速
 
 ## 451. Sort Characters By Frequency
 
