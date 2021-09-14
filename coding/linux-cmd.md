@@ -55,6 +55,8 @@ iwconfig // 配置无线网络接口
 ifconfig // 配置网络接口
 ```
 
+记录 sudoer 信息的文件：`/etc/sudoers`
+
 ## gdb
 
 执行 gdb 的脚本文件：可以在 gdb 环境下执行 `source <file>`，也可以在 shell 环境下执行 `gdb -x <file>`
