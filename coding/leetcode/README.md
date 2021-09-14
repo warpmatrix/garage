@@ -106,6 +106,7 @@
 - [516. Longest Palindromic Subsequence](#516-longest-palindromic-subsequence)
 - [518. Coin Change 2](#518-coin-change-2)
 - [523. Continuous Subarray Sum](#523-continuous-subarray-sum)
+- [524. Longest Word in Dictionary through Deleting](#524-longest-word-in-dictionary-through-deleting)
 - [525. Contiguous Array](#525-contiguous-array)
 - [526. Beautiful Arrangement](#526-beautiful-arrangement)
 - [528. Random Pick with Weight](#528-random-pick-with-weight)
@@ -751,6 +752,12 @@ if uglyNums[i] == uglyNums[p] { p++ }
 - 区间问题转化为前缀和的余数问题
 - 并且使用线性表或者哈希表记录之前是否存在余数为 $k_1$ 的情况
   - k 较大时使用线性表消耗的空间较大
+
+## 524. Longest Word in Dictionary through Deleting
+
+在字符串中找到多个匹配字符串中最长的一个，双指针进行求解
+
+- <!-- TODO: -->可以进一步使用动态规划进行优化
 
 ## 525. Contiguous Array
 
