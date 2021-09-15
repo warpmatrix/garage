@@ -51,6 +51,7 @@
 - [150. Evaluate Reverse Polish Notation](#150-evaluate-reverse-polish-notation)
 - [153 & 154. Find Minimum in Rotated Sorted Array](#153--154-find-minimum-in-rotated-sorted-array)
 - [160. Intersection of Two Linked Lists](#160-intersection-of-two-linked-lists)
+- [162. Find Peak Element](#162-find-peak-element)
 - [165. Compare Version Numbers](#165-compare-version-numbers)
 - [168. Excel Sheet Column Title](#168-excel-sheet-column-title)
 - [171. Excel Sheet Column Number](#171-excel-sheet-column-number)
@@ -396,6 +397,10 @@ dfs，可以统计数字出现次数，减少递归深度；也可以使用 bool
 
 - 两个指针将两个链表的路都走一次可以确保两个指针最终会走到一起
 - 共同节点或 `null`
+
+## 162. Find Peak Element
+
+简单题，使用二分搜索局部判断是否为峰值
 
 ## 165. Compare Version Numbers
 
