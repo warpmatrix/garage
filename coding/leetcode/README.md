@@ -61,6 +61,7 @@
 - [191. Number of 1 Bits](#191-number-of-1-bits)
 - [203. Remove Linked List Elements](#203-remove-linked-list-elements)
 - [208. Implement Trie (Prefix Tree)](#208-implement-trie-prefix-tree)
+- [212. Word Search II](#212-word-search-ii)
 - [213. House Robber II](#213-house-robber-ii)
 - [215. Kth Largest Element in an Array](#215-kth-largest-element-in-an-array)
 - [218. The Skyline Problem](#218-the-skyline-problem)
@@ -447,6 +448,10 @@ dfs，可以统计数字出现次数，减少递归深度；也可以使用 bool
 优化：使用循环表示递归，本题没有必要使用递归
 
 - 发现自己非递归实现树的算法是一个弱项
+
+## 212. Word Search II
+
+字典树 + 搜索，实现在二维矩阵中检索单词
 
 ## 213. House Robber II
 

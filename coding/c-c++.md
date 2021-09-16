@@ -38,6 +38,7 @@
   - [c++ 的变长数组](#c-的变长数组)
   - [尾置返回类型 (c++11)](#尾置返回类型-c11)
   - [`typeid` 获取类型信息](#typeid-获取类型信息)
+  - [lambda 函数实现递归](#lambda-函数实现递归)
 - [生成可执行文件的过程](#生成可执行文件的过程)
 
 ## C语言篇
@@ -642,6 +643,14 @@ Z f(X x, Y y) {
     std::cout << (typeid(int) == typeid(1)) << '\n';
     std::cout << typeid(x).name() << ' ' << typeid(y).name() << ' ' << typeid(z).name() << '\n';
     return z;
+}
+```
+
+### lambda 函数实现递归
+
+```cpp
+auto f = [&](auto &&self, int n) -> {
+    self(self, n - 1);
 }
 ```
 
