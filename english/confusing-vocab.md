@@ -943,10 +943,11 @@ aboard, abroad:
 - board n. 委员会，黑板 v. 搭伙，上（船飞机）
 - broad adj. 辽阔的，广泛的
 
-paddle, pedal:
+paddle, pedal, petal:
 
 - paddle n. 桨 v. 用桨划
 - pedal n. 踏板 v. 踩踏板，骑自行车
+- petal n. 花瓣
 
 council, counsel, committee, commission:
 
