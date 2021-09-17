@@ -28,6 +28,7 @@
 - [28. Implement strStr()](#28-implement-strstr)
 - [31. Next Permutation](#31-next-permutation)
 - [34. Find First and Last Position of Element in Sorted Array](#34-find-first-and-last-position-of-element-in-sorted-array)
+- [36. Valid Sudoku](#36-valid-sudoku)
 - [53. Maximum Subarray](#53-maximum-subarray)
 - [54 & 59. Spiral Matrix](#54--59-spiral-matrix)
 - [61. Rotate List](#61-rotate-list)
@@ -250,6 +251,10 @@
 ## 34. Find First and Last Position of Element in Sorted Array
 
 简单题，在数组中找到目标数字出现的区间，使用二分
+
+## 36. Valid Sudoku
+
+简单模拟
 
 ## 53. Maximum Subarray
 
