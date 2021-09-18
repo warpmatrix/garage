@@ -53,6 +53,15 @@ whatis // 查看命令用途
 sudo update-alternatives --config editor
 iwconfig // 配置无线网络接口
 ifconfig // 配置网络接口
+
+// 查看文件的 inode 信息
+stat <file>
+// 查看磁盘的的使用情况 (disk free)
+df
+// 查看文件的 inode 编号
+ls -i <file>
+// dump file extx filesystem information
+dumpe2fs <device>
 ```
 
 记录 sudoer 信息的文件：`/etc/sudoers`
