@@ -3063,6 +3063,11 @@ gloom, groom:
 - gloom n. 忧郁，昏暗 v. 变黑，沮丧
 - groom v. 整饰，训练，照顾，打扮 n. 新郎，马夫，男仆
 
+mandate, mundane:
+
+- mandate n&v. 授权，托管 n. 法令，命令
+- mundane adj. 现世的，世俗的，平凡的
+
 ## 易混淆词组
 
 look 的一系列词组：
