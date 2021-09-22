@@ -130,6 +130,7 @@
 - [690. Employee Importance](#690-employee-importance)
 - [692. Top K Frequent Words](#692-top-k-frequent-words)
 - [704. Binary Search](#704-binary-search)
+- [725. Split Linked List in Parts](#725-split-linked-list-in-parts)
 - [726. Number of Atoms](#726-number-of-atoms)
 - [740. Delete and Earn](#740-delete-and-earn)
 - [752. Open the Lock](#752-open-the-lock)
@@ -881,6 +882,10 @@ if uglyNums[i] == uglyNums[p] { p++ }
 ## 704. Binary Search
 
 二分搜索，大多数的语言库可以直接调用
+
+## 725. Split Linked List in Parts
+
+简单题，遍历链表
 
 ## 726. Number of Atoms
 
