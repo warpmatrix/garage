@@ -15,12 +15,6 @@
 
 ![GFM](imgs/GFM.jpg)
 
-## Linux 服务器
-
-`nohup command > myout.file 2>&1 &`
-
-不挂起后台执行指令，并且将标准输出和错误输出进行重定向
-
 ## Docker
 
 Docker 主要解决环境配置问题，它是一种虚拟化技术，对进程进行隔离，被隔离的进程**独立于宿主操作系统**和其它隔离的进程。docker 基于 go 进行开发。
