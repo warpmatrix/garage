@@ -25,6 +25,7 @@
   - [`malloc` 与 `free` 的行为定义](#malloc-与-free-的行为定义)
   - [全局变量初始化](#全局变量初始化)
   - [预定义](#预定义)
+  - [隐式转换优先级](#隐式转换优先级)
 - [C plusplus篇](#c-plusplus篇)
   - [引用的用法](#引用的用法)
   - [在函数中传递函数形参](#在函数中传递函数形参)
@@ -33,6 +34,7 @@
   - [delete不方便之处](#delete不方便之处)
   - [c++函数引用](#c函数引用)
   - [c++ 的变长数组](#c-的变长数组)
+  - [STL sort](#stl-sort)
 
 ## C语言篇
 
@@ -382,6 +384,24 @@ const int num = 12;
 - `__func__`
 - `__FILE__`
 - `__LINE__`
+- `__DATE__`
+- `__TIME__`
+- `__STDC__`
+
+### 隐式转换优先级
+
+隐式转换：优先转换为无符号数字
+
+```c
+#include <stdio.h>
+
+int main(int argc, char const *argv[]) {
+    if (-1 > 0u) {
+        printf("surprise\n");
+    }
+    return 0;
+}
+```
 
 ## C plusplus篇
 
@@ -522,3 +542,7 @@ int main(int argc, char const *argv[]) {
     return 0;
 }
 ```
+
+### STL sort
+
+`std::sort` 封装了快排，不是一个稳定的排序，保证稳定性需要使用 `std::stable_sort`
