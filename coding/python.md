@@ -1,27 +1,30 @@
+<!-- omit in toc -->
 # Python3 的一些语法
 
-函数参数和返回值的类型声明：
+<!-- omit in toc -->
+## Table of Contents
 
-```py
-def func(var: int) -> int:
-    return var
-```
+- [1. 类型和运算](#1-类型和运算)
+- [2. 库相关](#2-库相关)
+- [3. 其它](#3-其它)
+
+## 1. 类型和运算
 
 python 的整数范围没有限制，maxint 可以用无穷大浮点数代替：`float("inf")`
 
-python 的逻辑运算
+逻辑运算：
 
 - 与和或的关键字：`and` 和 `or`
 - 真和假的关键字需要大写：`True`、`False`
   - 被当成内置常量，首字母大写
 - else if 在 python 中使用关键字 `elif`
 
-python 的字符串是不可修改的，单个字符也被视作一个字符串：
+字符串：是不可修改的，单个字符也被视作一个字符串
 
 - 修改某个字符需要转化为列表：`s = list(s)`
 - 最后将列表转回字符串：`"".join(s)`
 
-python 的列表操作：
+列表操作：
 
 - `num1, num2, ..., numn = arr` 可以直接获取列表对应元素
   - 常见于 pair 数组组成的二维矩阵，使用 `for key, val in pairArr` 进行遍历
@@ -44,29 +47,55 @@ for idx, elem in enumerate([1, 2, 3]):
     print(idx, elem)
 ```
 
-python 的列表推导式：
+推导式：
 
-- `[<expr> for <var> in <list>]`
-- `[<expr> for <var> in <list> [if <cond>]]`
-- `[<expr> [if <cond> else <expr>] for <var> in <list>]`
+- `<expr> for <var> in <list>`
+- `<expr> for <var> in <list> [if <cond>]`
+- `<expr> [if <cond> else <expr>] for <var> in <list>`
+- 不同类型的推导式：
+  - 列表推导式：使用 `[]` 包围
+  - 集合推导式：使用 `{}` 包围，增加去重功能
+  - 字典推导式：使用 `{}` 包围，键和值使用 `:` 隔开，不同的键值使用 `,` 隔开
+  - 生成器：使用 `()` 包围
 
-python 里面的哈希表：字典 `dict`
+生成器：
 
+- 调用 `next` 一次产生一个元素，没有元素抛出异常
+- 函数调用直接写函数名不需再写 `()`
+- 函数中通过 `yield` 作为生成器生成数据
+  - 运行到 `yield` 返回结果暂停运行
+- 通过 `iterator = iter(iterable)` 生成迭代器
+  - 判断可迭代：`isinstance(obj, Iterable)`
+
+哈希表：字典 `dict`
+
+- 键必须唯一且不可变（字符串、数字），值可以为任意类型
 - 键值不在字典里报错
 - `defaultdict`：不存在的键值，提供一个默认的字段
   - 接受类型或工厂函数作为参数：`m = defaultdict(int)`
 
-python 的堆：标准库模块 [heapq](https://docs.python.org/3/library/heapq.html)
+## 2. 库相关
+
+堆：标准库模块 [heapq](https://docs.python.org/3/library/heapq.html)
 
 - `heapq.heappush(heap, item)`, `heapq.heappop(heap)`
 - heapq 实现的是小顶堆，使用大顶堆需要取相反数
 - 判空操作：`if not heap:`
   - 区分 `heap is None`，`None` 表示空（类型），不是同一个类型
 
-python 中的有序数组 `sortedList`：
+有序数组 `sortedList`：
 
 - `from sortedcontainers import SortedList`
 
-python 中的二分搜索模块：`bisect`
+二分搜索模块：`bisect`
 
 - `bisect_left`, `bisect_right`
+
+## 3. 其它
+
+函数参数和返回值的类型声明：
+
+```py
+def func(var: int) -> int:
+    return var
+```
