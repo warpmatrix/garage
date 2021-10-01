@@ -3068,6 +3068,32 @@ mandate, mundane:
 - mandate n&v. 授权，托管 n. 法令，命令
 - mundane adj. 现世的，世俗的，平凡的
 
+involuntary, reluctant:
+
+- involutary adj. 不自觉的
+- reluctant adj. 不情愿的
+
+asteroid, aristocratic:
+
+- aristocratic adj. 贵族的，贵族政治的
+- asteroid n. 小行星，海盘车
+
+misplace, mistrust:
+
+- misplace v. 放错，忘记放哪，错误信任
+- mistrust v&n. 不信任，怀疑
+
+poach, potash, pottery:
+
+- poach v. 水煮，偷窃，偷猎，剽窃，踏成浆
+- potash n. 碳酸钾，草碱
+- pottery n. 陶器（厂），陶土，制陶术
+
+majesty, majestic:
+
+- majesty n. 陛下
+- majestic adj. 宏伟的，庄严的
+
 ## 易混淆词组
 
 look 的一系列词组：

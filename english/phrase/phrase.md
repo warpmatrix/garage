@@ -161,3 +161,4 @@
 - in the truest sense 名副其实，真正的
 - knock off 收工，下班，减少
 - introductory style 客套
+- wind up 最终
