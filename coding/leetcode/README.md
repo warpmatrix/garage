@@ -90,6 +90,7 @@
 - [377. Combination Sum IV](#377-combination-sum-iv)
 - [401. Binary Watch](#401-binary-watch)
 - [403. Frog Jump](#403-frog-jump)
+- [405. Convert a Number to Hexadecimal](#405-convert-a-number-to-hexadecimal)
 - [413. Arithmetic Slices](#413-arithmetic-slices)
 - [421. Maximum XOR of Two Numbers in an Array](#421-maximum-xor-of-two-numbers-in-an-array)
 - [430. Flatten a Multilevel Doubly Linked List](#430-flatten-a-multilevel-doubly-linked-list)
@@ -643,6 +644,10 @@ if uglyNums[i] == uglyNums[p] { p++ }
 - $speed < t$、$loc(t) > t$
 
 由于只是沿一个方向前进，可以考虑对数组进行差分，相邻数据可以求和合并，使得新数组相邻数据大小相差 1，开头数据为 1。
+
+## 405. Convert a Number to Hexadecimal
+
+简单题，位运算（辗转相除法）
 
 ## 413. Arithmetic Slices
 
