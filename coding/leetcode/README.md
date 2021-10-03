@@ -54,6 +54,7 @@
 - [160. Intersection of Two Linked Lists](#160-intersection-of-two-linked-lists)
 - [162. Find Peak Element](#162-find-peak-element)
 - [165. Compare Version Numbers](#165-compare-version-numbers)
+- [166. Fraction to Recurring Decimal](#166-fraction-to-recurring-decimal)
 - [168. Excel Sheet Column Title](#168-excel-sheet-column-title)
 - [171. Excel Sheet Column Number](#171-excel-sheet-column-number)
 - [173. Binary Search Tree Iterator](#173-binary-search-tree-iterator)
@@ -414,6 +415,10 @@ dfs，可以统计数字出现次数，减少递归深度；也可以使用 bool
 ## 165. Compare Version Numbers
 
 简单题模拟
+
+## 166. Fraction to Recurring Decimal
+
+简单模拟，需要注意整除，正负等情况
 
 ## 168. Excel Sheet Column Title
 

@@ -74,6 +74,11 @@ for idx, elem in enumerate([1, 2, 3]):
 - `defaultdict`：不存在的键值，提供一个默认的字段
   - 接受类型或工厂函数作为参数：`m = defaultdict(int)`
 
+无序集合：
+
+- 使用 `{}` 包围，空集合声明使用 `set()`
+- 使用面向对象得方法增加元素或删除元素
+
 ## 2. 库相关
 
 堆：标准库模块 [heapq](https://docs.python.org/3/library/heapq.html)
