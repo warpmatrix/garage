@@ -95,6 +95,7 @@
 - [413. Arithmetic Slices](#413-arithmetic-slices)
 - [421. Maximum XOR of Two Numbers in an Array](#421-maximum-xor-of-two-numbers-in-an-array)
 - [430. Flatten a Multilevel Doubly Linked List](#430-flatten-a-multilevel-doubly-linked-list)
+- [434. Number of Segments in a String](#434-number-of-segments-in-a-string)
 - [443. String Compression](#443-string-compression)
 - [446. Arithmetic Slices II - Subsequence](#446-arithmetic-slices-ii---subsequence)
 - [447. Number of Boomerangs](#447-number-of-boomerangs)
@@ -673,6 +674,10 @@ if uglyNums[i] == uglyNums[p] { p++ }
 ## 430. Flatten a Multilevel Doubly Linked List
 
 简单题，使用栈记录信息进行遍历
+
+## 434. Number of Segments in a String
+
+简单模拟，可以使用内置函数 `split`，注意空字符串不可以作为 segment
 
 ## 443. String Compression
 
