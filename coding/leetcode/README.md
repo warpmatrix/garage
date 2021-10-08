@@ -59,6 +59,7 @@
 - [171. Excel Sheet Column Number](#171-excel-sheet-column-number)
 - [173. Binary Search Tree Iterator](#173-binary-search-tree-iterator)
 - [179. Largest Number](#179-largest-number)
+- [187. Repeated DNA Sequences](#187-repeated-dna-sequences)
 - [190. Reverse Bits](#190-reverse-bits)
 - [191. Number of 1 Bits](#191-number-of-1-bits)
 - [203. Remove Linked List Elements](#203-remove-linked-list-elements)
@@ -442,6 +443,12 @@ dfs，可以统计数字出现次数，减少递归深度；也可以使用 bool
 ## 179. Largest Number
 
 拼接数最大，使用两个 segment 进行拼接比较，算法课已经做过一次了 orz
+
+## 187. Repeated DNA Sequences
+
+简单模拟，哈希记录子串计数信息
+
+- 可以使用状态压缩，使用一个 20 位整数表示子串信息
 
 ## 190. Reverse Bits
 
