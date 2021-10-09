@@ -87,6 +87,7 @@
 - [341. Flatten Nested List Iterator](#341-flatten-nested-list-iterator)
 - [342. Power of Four](#342-power-of-four)
 - [345. Reverse Vowels of a String](#345-reverse-vowels-of-a-string)
+- [352. Data Stream as Disjoint Intervals](#352-data-stream-as-disjoint-intervals)
 - [354. Russian Doll Envelopes](#354-russian-doll-envelopes)
 - [374. Guess Number Higher or Lower](#374-guess-number-higher-or-lower)
 - [377. Combination Sum IV](#377-combination-sum-iv)
@@ -618,6 +619,10 @@ if uglyNums[i] == uglyNums[p] { p++ }
 ## 345. Reverse Vowels of a String
 
 简单题，将字符串的特定字符进行反转：双指针 $O(n)$ 实现
+
+## 352. Data Stream as Disjoint Intervals
+
+中等简单题，考点数据结构，有序映射的应用
 
 ## 354. Russian Doll Envelopes
 

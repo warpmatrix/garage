@@ -6,6 +6,8 @@
 
 - [1. 类型和运算](#1-类型和运算)
 - [2. 库相关](#2-库相关)
+  - [2.1. 官方标准库](#21-官方标准库)
+  - [2.2. sortedcontainers](#22-sortedcontainers)
 - [3. 其它](#3-其它)
 
 ## 1. 类型和运算
@@ -81,6 +83,10 @@ for idx, elem in enumerate([1, 2, 3]):
 
 ## 2. 库相关
 
+### 2.1. 官方标准库
+
+[标准库文档](https://docs.python.org/3/library/index.html)
+
 堆：标准库模块 [heapq](https://docs.python.org/3/library/heapq.html)
 
 - `heapq.heappush(heap, item)`, `heapq.heappop(heap)`
@@ -88,15 +94,25 @@ for idx, elem in enumerate([1, 2, 3]):
 - 判空操作：`if not heap:`
   - 区分 `heap is None`，`None` 表示空（类型），不是同一个类型
 
-有序数组 `sortedList`：
-
-- `from sortedcontainers import SortedList`
-
 二分搜索模块：`bisect`
 
 - `bisect_left`, `bisect_right`
 
+### 2.2. sortedcontainers
+
+一个 Apache2 授权的排序集合库，[github 地址](https://github.com/grantjenks/python-sortedcontainers)、[官网地址](http://www.grantjenks.com/docs/sortedcontainers/#)
+
+有序数组 `sortedList`：
+
+- `from sortedcontainers import SortedList`
+
+[有序映射 `SortedDict`](http://www.grantjenks.com/docs/sortedcontainers/sorteddict.html)：
+
+- `from sortedcontainers import SortedDict`
+
 ## 3. 其它
+
+python 变量对于数组进行引用传递，一个变量的操作可能导致另一个变量的改变
 
 函数参数和返回值的类型声明：
 
