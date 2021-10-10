@@ -98,6 +98,7 @@
 - [421. Maximum XOR of Two Numbers in an Array](#421-maximum-xor-of-two-numbers-in-an-array)
 - [430. Flatten a Multilevel Doubly Linked List](#430-flatten-a-multilevel-doubly-linked-list)
 - [434. Number of Segments in a String](#434-number-of-segments-in-a-string)
+- [441. Arranging Coins](#441-arranging-coins)
 - [443. String Compression](#443-string-compression)
 - [446. Arithmetic Slices II - Subsequence](#446-arithmetic-slices-ii---subsequence)
 - [447. Number of Boomerangs](#447-number-of-boomerangs)
@@ -690,6 +691,10 @@ if uglyNums[i] == uglyNums[p] { p++ }
 ## 434. Number of Segments in a String
 
 简单模拟，可以使用内置函数 `split`，注意空字符串不可以作为 segment
+
+## 441. Arranging Coins
+
+简单题，$O(1)$ 计算
 
 ## 443. String Compression
 
