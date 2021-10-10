@@ -501,8 +501,9 @@ passive, pessimistic:
 - passive adj. 消极的 n. 被动语态
 - pessimistic adj. 悲观的
 
-phrase, phase:
+parse, phrase, phase:
 
+- parse v. 作语法分析，作句法分析
 - phrase n. 短语，词组 v. 表达
 - phase n. 阶段 v. 分阶段实行
 
@@ -972,9 +973,10 @@ embassy, embrace, embryo:
 - embrace v&n. 拥抱，接受，信奉，包含
 - embryo n. 胚，胚芽，事物的初期
 
-repertoire, reptile, reservoir:
+repertoire, reportorial, reptile, reservoir:
 
 - repertoire n. 节目，技能
+- reportorial adj. 报告者的，采访记者的
 - reptile n. 爬行动物
 - reservoir n. 水库，储藏，汇集
 
@@ -1653,11 +1655,12 @@ furnace, menace, commence:
 - menace n. 威胁，烦人的（人，物） v. 威胁
 - commence v. 开始，获得学位
 
-diplomatic, democratic, demographic, domestic, dormitory:
+diplomatic, democratic, demographic, demoralize, domestic, dormitory:
 
 - diplomatic adj. 外交的，有策略的
 - democratic adj. 民主的，民主精神的
 - demographic adj. 人口统计（学）的
+- demoralize v. 堕落，士气低落
 - domestic adj. 国内的，家庭的，操持家庭的
 - dormitory n. 宿舍
 
@@ -2988,8 +2991,9 @@ dependence, dependency, diplomacy:
 - dependency n. 属国，从属（物）
 - diplomacy n. 外交，外交手腕
 
-demonstration, demoralization:
+democracy, demonstration, demoralization:
 
+- democracy n. 民主（精神/政体）
 - demonstration n. 证明，实物演示，示范，游行，表示
 - demoralization n. 堕落，士气沮丧，道德颓废
 
@@ -3093,6 +3097,16 @@ majesty, majestic:
 
 - majesty n. 陛下
 - majestic adj. 宏伟的，庄严的
+
+tablet, tabular:
+
+- tablet n. 药片
+- tabular adj. 表格的
+
+incite, recite:
+
+- incite v. 煽动，鼓动
+- recite v. 背诵
 
 ## 易混淆词组
 

@@ -162,3 +162,4 @@
 - knock off 收工，下班，减少
 - introductory style 客套
 - wind up 最终
+- akin to 类似于
