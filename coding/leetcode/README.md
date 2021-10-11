@@ -75,6 +75,7 @@
 - [240. Search a 2D Matrix II](#240-search-a-2d-matrix-ii)
 - [263. Ugly Number](#263-ugly-number)
 - [264. Ugly Number II](#264-ugly-number-ii)
+- [273. Integer to English Words](#273-integer-to-english-words)
 - [274. H-Index](#274-h-index)
 - [275. H-Index II](#275-h-index-ii)
 - [278. First Bad Version](#278-first-bad-version)
@@ -544,6 +545,10 @@ p2, p3, p5 := 0, 0, 0
 uglyNums[i] = min(uglyNums[p2]*2, uglyNums[p3]*3, uglyNums[p5]*5)
 if uglyNums[i] == uglyNums[p] { p++ }
 ```
+
+## 273. Integer to English Words
+
+简单语法分析题目，每三位进行分节
 
 ## 274. H-Index
 
