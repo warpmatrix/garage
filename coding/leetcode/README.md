@@ -26,6 +26,7 @@
 - [26. Remove Duplicates from Sorted Array](#26-remove-duplicates-from-sorted-array)
 - [27. Remove Element](#27-remove-element)
 - [28. Implement strStr()](#28-implement-strstr)
+- [29. Divide Two Integers](#29-divide-two-integers)
 - [31. Next Permutation](#31-next-permutation)
 - [34. Find First and Last Position of Element in Sorted Array](#34-find-first-and-last-position-of-element-in-sorted-array)
 - [36. Valid Sudoku](#36-valid-sudoku)
@@ -249,6 +250,10 @@
 ## 28. Implement strStr()
 
 实现 KMP 算法，本质上求子串中前缀和后缀的公共子串长度
+
+## 29. Divide Two Integers
+
+中等题，求除法的商，可以使用移位或者使用递归完成
 
 ## 31. Next Permutation
 
