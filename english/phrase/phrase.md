@@ -163,3 +163,6 @@
 - introductory style 客套
 - wind up 最终
 - akin to 类似于
+- be made the scapegoat for sb. 成为..的替罪羊
+- err on the side of severity 失之过严
+- come at a price 需要付出代价
