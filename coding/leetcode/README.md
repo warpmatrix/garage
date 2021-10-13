@@ -96,6 +96,7 @@
 - [401. Binary Watch](#401-binary-watch)
 - [403. Frog Jump](#403-frog-jump)
 - [405. Convert a Number to Hexadecimal](#405-convert-a-number-to-hexadecimal)
+- [412. Fizz Buzz](#412-fizz-buzz)
 - [413. Arithmetic Slices](#413-arithmetic-slices)
 - [421. Maximum XOR of Two Numbers in an Array](#421-maximum-xor-of-two-numbers-in-an-array)
 - [430. Flatten a Multilevel Doubly Linked List](#430-flatten-a-multilevel-doubly-linked-list)
@@ -677,6 +678,10 @@ if uglyNums[i] == uglyNums[p] { p++ }
 ## 405. Convert a Number to Hexadecimal
 
 简单题，位运算（辗转相除法）
+
+## 412. Fizz Buzz
+
+简单模拟，[背后的起源](https://blog.codinghorror.com/why-cant-programmers-program/)
 
 ## 413. Arithmetic Slices
 
