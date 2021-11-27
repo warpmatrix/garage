@@ -22,3 +22,12 @@ java 多个文件的编译：
 - `@<file>` 可以使用文件内容指代编译源文件列表
 
 java 的源文件名字和类名保持一致
+
+java 的 Stream：
+
+- 流式风格的编程，方便进行并行、延迟执行、短路等操作
+- 提供 `foreach` 的 vistor 的内部迭代模式访问，无需显式在集合外部迭代
+- 创建流：`array.stream()`
+- `forEach`、`map`、`filter`、`limit`、`sorted`、`collect`、`summaryStatistics`
+
+java 中的 lambda 函数：`() -> {}`
