@@ -3108,6 +3108,16 @@ incite, recite:
 - incite v. 煽动，鼓动
 - recite v. 背诵
 
+simultaneously, instantaneously:
+
+- simultaneously adv. 同时地
+- instantaneously adv. 即刻
+
+solar, polar:
+
+- solar adj. 太阳的，太阳能的
+- polar adj. 极地的，磁极的，截然对立的
+
 ## 易混淆词组
 
 look 的一系列词组：

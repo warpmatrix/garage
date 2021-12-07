@@ -166,3 +166,7 @@
 - be made the scapegoat for sb. 成为..的替罪羊
 - err on the side of severity 失之过严
 - come at a price 需要付出代价
+- de facto standard 事实上的标准
+- on par with 与 .. 有相同水平
+- orders of magnitude 数量级
+- ad hoc 特别地，专门地
