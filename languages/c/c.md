@@ -1,51 +1,36 @@
 <!-- omit in toc -->
-# c 和 c++ 的一些冷门易忘的点
+# c 的一些冷门易忘的知识点
 
 <!-- omit in toc -->
-## Content of Table
+## Table of Contents
 
-- [C语言篇](#c语言篇)
-  - [scanf()读到回车结束输入](#scanf读到回车结束输入)
-  - [c的字符串操作](#c的字符串操作)
-  - [c中的布尔类型 (C99)](#c中的布尔类型-c99)
-  - ['\r'的作用](#r的作用)
-  - [表示浮点数的方法](#表示浮点数的方法)
-  - [关于序列点](#关于序列点)
-  - [函数原型和函数签名](#函数原型和函数签名)
-  - [数组的初始化](#数组的初始化)
-  - [数组与指针](#数组与指针)
-  - [c 的多维变长数组 (C99)](#c-的多维变长数组-c99)
-  - [关于 typedef](#关于-typedef)
-  - [复合字面量](#复合字面量)
-  - [关闭缓冲区和取消回显](#关闭缓冲区和取消回显)
-  - [调用子程序](#调用子程序)
-  - [定义二进制数](#定义二进制数)
-  - [位字段](#位字段)
-  - [linux-fork 函数](#linux-fork-函数)
-  - [`malloc` 与 `free` 的行为定义](#malloc-与-free-的行为定义)
-  - [全局变量初始化](#全局变量初始化)
-  - [预定义](#预定义)
-  - [隐式转换优先级](#隐式转换优先级)
-  - [`while` 的两种汇编方式](#while-的两种汇编方式)
-  - [浮点数内存布局和表示范围的探索](#浮点数内存布局和表示范围的探索)
-  - [获得系统变量](#获得系统变量)
-- [C plusplus篇](#c-plusplus篇)
-  - [引用的用法](#引用的用法)
-  - [在函数中传递函数形参](#在函数中传递函数形参)
-  - [名字空间的使用方法 & 关键字 `enum`](#名字空间的使用方法--关键字-enum)
-  - [构造函数初始化列表](#构造函数初始化列表)
-  - [delete 每次调用删除整块内存](#delete-每次调用删除整块内存)
-  - [c++函数引用](#c函数引用)
-  - [c++ 的变长数组](#c-的变长数组)
-  - [STL sort](#stl-sort)
-  - [尾置返回类型 (c++11)](#尾置返回类型-c11)
-  - [`typeid` 获取类型信息](#typeid-获取类型信息)
-  - [lambda 函数实现递归](#lambda-函数实现递归)
+- [scanf()读到回车结束输入](#scanf读到回车结束输入)
+- [c的字符串操作](#c的字符串操作)
+- [c中的布尔类型 (C99)](#c中的布尔类型-c99)
+- ['\\r'的作用](#r的作用)
+- [表示浮点数的方法](#表示浮点数的方法)
+- [关于序列点](#关于序列点)
+- [函数原型和函数签名](#函数原型和函数签名)
+- [数组的初始化](#数组的初始化)
+- [数组与指针](#数组与指针)
+- [c 的多维变长数组 (C99)](#c-的多维变长数组-c99)
+- [关于 typedef](#关于-typedef)
+- [复合字面量](#复合字面量)
+- [关闭缓冲区和取消回显](#关闭缓冲区和取消回显)
+- [调用子程序](#调用子程序)
+- [定义二进制数](#定义二进制数)
+- [位字段](#位字段)
+- [linux-fork 函数](#linux-fork-函数)
+- [`malloc` 与 `free` 的行为定义](#malloc-与-free-的行为定义)
+- [全局变量初始化](#全局变量初始化)
+- [预定义](#预定义)
+- [隐式转换优先级](#隐式转换优先级)
+- [`while` 的两种汇编方式](#while-的两种汇编方式)
+- [浮点数内存布局和表示范围的探索](#浮点数内存布局和表示范围的探索)
+- [获得系统变量](#获得系统变量)
 - [编译运行过程](#编译运行过程)
 
-## C语言篇
-
-### scanf()读到回车结束输入
+## scanf()读到回车结束输入
 
 ```c
 #include <stdio.h>
@@ -59,13 +44,13 @@ int main(int argc, char const *argv[]) {
 }
 ```
 
-### c的字符串操作
+## c的字符串操作
 
 c中大多数自带的字符串操作都自带 `'\0'`。
 
 例外：strncpy（若没有复制到 ```'\0```，则不会带上空字符）
 
-### c中的布尔类型 (C99)
+## c中的布尔类型 (C99)
 
 ```c
 #include <stdio.h>
@@ -88,7 +73,7 @@ int main(int argc, char const *argv[]) {
 }
 ```
 
-### '\r'的作用
+## '\r'的作用
 
 ```c
 #include <stdio.h>
@@ -100,13 +85,13 @@ int main(int argc, char const *argv[]) {
 }
 ```
 
-### 表示浮点数的方法
+## 表示浮点数的方法
 
 1. 固定小数点形式：e.g. ```123.4```
 2. 指数形式：e.g. ```1.234e2```
 3. 十六进制数和2的幂形式：e.g. ```0x1.ap1```
 
-### 关于序列点
+## 关于序列点
 
 用于区分语句，所有的副作用都在下一个序列点之前发生。
 
@@ -117,7 +102,7 @@ int main(int argc, char const *argv[]) {
 3. ```&&```
 4. ```||```
 
-### 函数原型和函数签名
+## 函数原型和函数签名
 
 - 函数原型可在函数内声明，但定义一定要在函数外。
 - 函数签名指函数的参数和返回值。
@@ -136,7 +121,7 @@ void fun() {
 }
 ```
 
-### 数组的初始化
+## 数组的初始化
 
 若不对数组进行初始化，则数组内存储 junk value；若进行初始化（可以部分初始化），则剩下未初始化的元素被初始化为 0。
 
@@ -172,7 +157,7 @@ int main(int argc, char const *argv[]) {
 
 另，**变长数组不能被初始化**。
 
-### 数组与指针
+## 数组与指针
 
 指针与数组是不同的东西。例，```sizeof ptr``` 不能读取数组的大小，数组的地址没有 ```++``` 运算符。
 
@@ -207,7 +192,7 @@ int main(int argc, char const *argv[]) {
 
 另外，可以在 ```for``` 循环中使用头尾指针遍历数组。
 
-### c 的多维变长数组 (C99)
+## c 的多维变长数组 (C99)
 
 c 在函数传参的过程中，可以直接传递多维变长数组。这一点与 c++ 不同。函数声明可以用 * 代替数组的长度变量。同样要强调，传递参数后数组的首地址退化为指针。
 
@@ -232,7 +217,7 @@ void fun(int rows, int cols, int ptr[][cols]) {
 }
 ```
 
-### 关于 typedef
+## 关于 typedef
 
 ```c
 #include <stdio.h>
@@ -248,7 +233,7 @@ int main(int argc, char const *argv[]) {
 }
 ```
 
-### 复合字面量
+## 复合字面量
 
 复合字面量可以创建一个匿名数组，供临时使用。
 
@@ -270,7 +255,7 @@ int main(int argc, char const *argv[]) {
 }
 ```
 
-### 关闭缓冲区和取消回显
+## 关闭缓冲区和取消回显
 
 ```c
 system("stty -icanon");
@@ -279,11 +264,11 @@ system("stty echo");
 system("stty icanon");
 ```
 
-### 调用子程序
+## 调用子程序
 
 使用 system 函数，可以调用其它应用程序。（windows 下？）
 
-### 定义二进制数
+## 定义二进制数
 
 ```c
 #include <stdio.h>
@@ -295,7 +280,7 @@ int main(int argc, char const *argv[]) {
 }
 ```
 
-### 位字段
+## 位字段
 
 ```c
 #include <limits.h>
@@ -332,7 +317,7 @@ char *itobs(int num, char *ps) {
 }
 ```
 
-### linux-fork 函数
+## linux-fork 函数
 
 ```c
 #include <pthread.h>
@@ -367,14 +352,14 @@ void *runner(void *param) {
 }
 ```
 
-### `malloc` 与 `free` 的行为定义
+## `malloc` 与 `free` 的行为定义
 
 - 针对 `malloc` 无法申请内存的 `NULL` 情况，`free` 无行为
   - 写 `NULL` 操作导致 seg fault
 - `free` 接受的指针和 `malloc` 获得的内存指针必须相同，否则产生 RE
 - 避免动态内存遗漏回收
 
-### 全局变量初始化
+## 全局变量初始化
 
 全局变量默认零值初始化，对全局变量进行初始化只能使用常量，哪怕是常量变量也不行
 
@@ -384,7 +369,7 @@ const int num = 12;
 // int copy = num;
 ```
 
-### 预定义
+## 预定义
 
 输出对应的名称，通常用于 debug 等环境
 
@@ -395,7 +380,7 @@ const int num = 12;
 - `__TIME__`：显示编译的时间
 - `__STDC__`：要求遵循标准 C 的标志
 
-### 隐式转换优先级
+## 隐式转换优先级
 
 隐式转换：优先转换为无符号数字
 
@@ -428,7 +413,7 @@ for (unsigned i = cnt - 1; i < cnt; i--) {
 // normal exit
 ```
 
-### `while` 的两种汇编方式
+## `while` 的两种汇编方式
 
 ```c
     goto test;
@@ -443,7 +428,7 @@ test: if (cond) goto loop;
 done:
 ```
 
-### 浮点数内存布局和表示范围的探索
+## 浮点数内存布局和表示范围的探索
 
 ```c
 #include <stdint.h>
@@ -473,7 +458,7 @@ int main(int argc, char const *argv[]) {
 }
 ```
 
-### 获得系统变量
+## 获得系统变量
 
 ```c
 #include <stdlib.h>
@@ -489,207 +474,6 @@ int main() {
 ```sh
 export CLASSPATH=abc
 ./test
-```
-
-## C plusplus篇
-
-### 引用的用法
-
-```cpp
-#include <iostream>
-
-int &min(int &num1, int &num2) {
-    return num1 < num2 ? num1 : num2;
-}
-
-int main(int argc, char const *argv[]) {
-    int num1 = 2, num2 = 4;
-    int &lesser = min(num1, num2);
-    // int &lesser = num1 < num2 ? num1 : num2;
-    lesser++;
-    std::cout << num1 << num2 << '\n';
-    return 0;
-}
-```
-
-也可以嵌套使用条件运算符。
-
-```c
-#include <stdio.h>
-
-int main(int argc, char const *argv[]) {
-    int num1 = 4, num2 = 2, num3 = 1;
-    int &min = (num1 < num2) ? (num1 < num3 ? num1 : num3)
-                             : (num2 < num3 ? num2 : num3);
-    printf("%d\n", min);
-    return 0;
-}
-```
-
-### 在函数中传递函数形参
-
-```cpp
-// Program Designing Lesson/Double Linked List
-list &list::remove_if(bool (*condition)(listPointer p) ) {
-    listPointer p = head;
-    for(int i=0; i<_size; i++) {
-        if(condition(p) ) {
-            erase(i);
-            i--;
-        }
-        p = p->next;
-    }
-}
-```
-
-### 名字空间的使用方法 & 关键字 `enum`
-
-```cpp
-// Program Designing Lesson/Alipay System 1 user
-namespace alipay {
-namespace Gender {
-    enum Gender { Female = 0, Male = 1, Unknown = 2 };
-}
-class User {
-public:
-    User() {
-      this->gender = Gender::Unknown;
-    }
-    Gender::Gender getGender(void);
-    bool setGender(Gender::Gender gender);
-private:
-    Gender::Gender gender;
-}
-}
-namespace alipay {
-Gender::Gender User::getGender(void) {
-    return gender;
-}
-bool User::setGender(Gender::Gender gender){
-    this->gender = gender;
-    return true;
-}
-}
-```
-
-### 构造函数初始化列表
-
-```cpp
-// Program Designing Lesson/The Date class(version 3)
-class Date {
-public:
-    Date(int year=0, int month=0, int day=0);
-};
-Date::Date(int year, int month, int day)
-    :year(year), month(month), day(day) {}
-```
-
-### delete 每次调用删除整块内存
-
-```cpp
-int main(int argc, char const *argv[]) {
-    int *arr = new int[10];
-    delete (arr+9);
-    delete []arr;
-    //false, 2 allocs, 3 frees
-    return 0;
-}
-```
-
-### c++函数引用
-
-```cpp
-// Program Designing Lesson/FunctionTemplate(eden)
-inline bool myCmp(const int & a, const int & b) {
-    return a > b;
-}
-
-bool (&fun) (const int &a, const int &b) = myCmp;
-```
-
-### c++ 的变长数组
-
-c++ 中不能直接传递变长多维数组，只能通过函数模板传递非类型参数。
-
-```cpp
-#include <iostream>
-
-template<int rows, int cols>
-void fun(int (&ptr)[rows][cols]) {
-    for (size_t i = 0; i < rows*cols; i++)
-        std::cout << (*ptr)[i] << ' ';
-    std::cout << '\n';
-}
-
-int main(int argc, char const *argv[]) {
-    const int rows = 2, cols = 3;
-    int arr[rows][cols];
-    for (size_t i = 0; i < rows * cols; i++)
-        (*arr)[i] = i;
-    fun<rows, cols>(arr);
-    return 0;
-}
-```
-
-### STL sort
-
-`std::sort` 封装了快排，不是一个稳定的排序，保证稳定性需要使用 `std::stable_sort`
-
-### 尾置返回类型 (c++11)
-
-通过关键字 `auto` 和 `->` 尾置返回类型 (trailing return types)：类似 golang
-
-- 提高可读性，使用模板时可以进行类型推导
-
-```cpp
-template <typename X, typename Y>
-auto f(X x, Y y) -> decltype(x + y) {
-    return x + y + 1.5;
-}
-
-// template <typename X, typename Y>
-// decltype(*(X*)0 + *(Y*)0) f(X x, Y y) {
-//     return x + y + 1.5;
-// }
-```
-
-没有类型推断的情况下，只能手动推导具体的模板类型，或者使用 auto?
-
-```cpp
-template<typename X, typename Y, typename Z>
-Z f(X x, Y y) {
-    return Z(x + y);
-}
-
-// template <typename X, typename Y>
-// auto f(X x, Y y) {
-//     return x + y;
-// }
-```
-
-### `typeid` 获取类型信息
-
-头文件 `<typeinfo>`，`typeid` 是一个运算符类似于 `sizeof`，除了模板和引用在编译时进行推导
-
-- 可以对类型名称、常量、变量、模板变量进行推导
-- 存在方法 `name` 输出类型名称，不同编译器可能不一样
-
-```cpp
-template <typename X, typename Y, typename Z>
-Z f(X x, Y y) {
-    Z z = Z(x + y + 1.5);
-    std::cout << (typeid(int) == typeid(1)) << '\n';
-    std::cout << typeid(x).name() << ' ' << typeid(y).name() << ' ' << typeid(z).name() << '\n';
-    return z;
-}
-```
-
-### lambda 函数实现递归
-
-```cpp
-auto f = [&](auto &&self, int n) -> {
-    self(self, n - 1);
-}
 ```
 
 ## 编译运行过程
