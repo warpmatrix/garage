@@ -114,9 +114,18 @@ for idx, elem in enumerate([1, 2, 3]):
 
 python 变量对于数组进行引用传递，一个变量的操作可能导致另一个变量的改变
 
-函数参数和返回值的类型声明：
+### 类型注释
+
+在函数中进行参数和返回值的类型声明：
 
 ```py
 def func(var: int) -> int:
     return var
 ```
+
+- 容器类型：python 里面的容器类型包括 `list, dict, tuple`，在 `python3.9+` 的版本可以直接使用内置的容器完成声明
+  - 在 `python3.8-` 的版本使用容器类型需要导入 `typing` 模块：`from typing import List, Dict, Tuple`
+- 函数声明：`Callable[[<args-type>], <ret-type>]`，需要导入 `typing` 模块
+- 类型别名：使用自定义的类型名称
+  - 与原始类型等价的声明方式：`<typename> = <type-expression>`
+  - 创建新子类的声明方式：`<typename> = NewType('<typename>', <type-expression>)`
