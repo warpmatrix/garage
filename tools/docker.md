@@ -25,3 +25,11 @@ docker-compose 后台执行 bash 需要加入 `tty` 和 `stdin_true` 字段
 ## 镜像的操作方法
 
 `ctrl P + ctrl Q` detach 容器而不删除容器
+
+## docker 构建镜像的优化方式
+
+[docker 的多阶段构建](https://blog.csdn.net/Michaelwubo/article/details/91872076)
+
+- copy --from 甚至可以从其他镜像复制文件到构建的镜像当中
+
+[构建 alpine 镜像以及相应的优化 (go, java, python, rust)](https://cloud.tencent.com/developer/article/1632733)

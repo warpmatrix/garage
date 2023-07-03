@@ -486,3 +486,5 @@ export CLASSPATH=abc
 4. 链接：`-o` 可执行文件
 
 [动态库的链接](https://www.cnblogs.com/dpf-learn/p/6202432.html)
+
+可以使用 `bear` 等工具生成 ide 所需的编译指令文件 `compile_commands.json`

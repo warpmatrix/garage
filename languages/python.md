@@ -8,7 +8,10 @@
 - [2. 库相关](#2-库相关)
   - [2.1. 官方标准库](#21-官方标准库)
   - [2.2. sortedcontainers](#22-sortedcontainers)
-- [3. 其它](#3-其它)
+- [3. 开发相关](#3-开发相关)
+  - [3.1. 类型注释](#31-类型注释)
+  - [3.2. 依赖管理](#32-依赖管理)
+  - [3.3. 命令行解析](#33-命令行解析)
 
 ## 1. 类型和运算
 
@@ -110,11 +113,11 @@ for idx, elem in enumerate([1, 2, 3]):
 
 - `from sortedcontainers import SortedDict`
 
-## 3. 其它
+## 3. 开发相关
 
 python 变量对于数组进行引用传递，一个变量的操作可能导致另一个变量的改变
 
-### 类型注释
+### 3.1. 类型注释
 
 在函数中进行参数和返回值的类型声明：
 
@@ -129,3 +132,24 @@ def func(var: int) -> int:
 - 类型别名：使用自定义的类型名称
   - 与原始类型等价的声明方式：`<typename> = <type-expression>`
   - 创建新子类的声明方式：`<typename> = NewType('<typename>', <type-expression>)`
+
+### 3.2. 依赖管理
+
+导出依赖：`pipreqs . --encoding utf-8`
+
+安装依赖：`pip install -r requestment.txt`
+
+### 3.3. 命令行解析
+
+使用 `argparse` 模块，示例代码如下：
+
+```python
+import argparse
+
+parser = argparse.ArgumentParser(description='Demo program')
+parser.add_argument('--port', type=int, default=10086, help='port of DataNode')
+args = parser.parse_args()
+
+print(args.ip)
+print(args.port)
+```
