@@ -36,3 +36,5 @@ go 中的 `log` 标准库，只提供三种默认的 log 方式：
 - 删除调试符号：`go build -ldflags "-s -w"`
 - 对函数设置断点时，要加上包名如：`b main.main`
 - 一些参考博客：[使用 gdb 对 go 进行调试](https://www.cnblogs.com/wongbingming/p/13063629.html)
+
+[impl-func.go](./impl-func.go)
