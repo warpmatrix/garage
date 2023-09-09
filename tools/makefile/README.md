@@ -22,3 +22,9 @@ space := $(nullstring) #end
 delim := :
 env := $(subst $(space),$(delim),$(vars))
 ```
+
+makefile 默认使用 `/bin/sh` 作为执行指令的 shell
+
+- 可以通过修改 `SHELL` 变量来修改默认 shell，如 `make all SHELL=$(which zsh)`
+- 上述执行指令不会引入用户空间的环境变量，如果需要在用户空间下执行指令可以在 `makefile` 中使用 `$(shell <cmd>)`
+- 或者通过 `$$<VAR>` 查看用户空间下的环境变量
