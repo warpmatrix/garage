@@ -29,6 +29,7 @@
 - [浮点数内存布局和表示范围的探索](#浮点数内存布局和表示范围的探索)
 - [获得系统变量](#获得系统变量)
 - [编译运行过程](#编译运行过程)
+- [系统调用](#系统调用)
 
 ## scanf()读到回车结束输入
 
@@ -488,3 +489,7 @@ export CLASSPATH=abc
 [动态库的链接](https://www.cnblogs.com/dpf-learn/p/6202432.html)
 
 可以使用 `bear` 等工具生成 ide 所需的编译指令文件 `compile_commands.json`
+
+## 系统调用
+
+linux 的系统调用可以通过 `man syscall` 和 `man syscalls` 查看，并且在程序中也可以进行调用。简单示例：[syscall](./syscall.c)
