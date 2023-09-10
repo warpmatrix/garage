@@ -37,4 +37,8 @@ go 中的 `log` 标准库，只提供三种默认的 log 方式：
 - 对函数设置断点时，要加上包名如：`b main.main`
 - 一些参考博客：[使用 gdb 对 go 进行调试](https://www.cnblogs.com/wongbingming/p/13063629.html)
 
-[impl-func.go](./impl-func.go)
+检查 golang 中的变量是否实现某一方法，可以使用 `interface` 进行检查。示例：[impl-func.go](./impl-func.go)
+
+golang 中的枚举通过 `iota` 和 `const` 实现，而且没有直接的方式进行 `forrange` 遍历。示例：[enum.go](./enum.go)
+
+golang 使用匿名字段模拟继承的实现，在具体的使用中可以使用类型名称进行访问。示例：[inherit.go](./inherit.go)

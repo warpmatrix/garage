@@ -10,7 +10,7 @@ func (t test) Name() string {
 	return t.name
 }
 
-func main() {
+func impl_func() {
 	t := test{name: "test-name"}
 	var i interface{} = t
 	n := i.(interface {

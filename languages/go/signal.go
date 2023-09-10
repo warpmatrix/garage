@@ -6,7 +6,7 @@ import (
 	"syscall"
 )
 
-func main() {
+func signal_demo() {
 	interrupt := make(chan os.Signal, 1)
 	signal.Notify(interrupt, syscall.SIGINT)
 	<-interrupt
