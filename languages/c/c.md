@@ -30,6 +30,8 @@
 - [获得系统变量](#获得系统变量)
 - [编译运行过程](#编译运行过程)
 - [系统调用](#系统调用)
+- [`glibc` 的调试](#glibc-的调试)
+- [查看库版本](#查看库版本)
 
 ## scanf()读到回车结束输入
 
@@ -490,6 +492,34 @@ export CLASSPATH=abc
 
 可以使用 `bear` 等工具生成 ide 所需的编译指令文件 `compile_commands.json`
 
+`cmake` 也可以通过参数 `-DCMAKE_EXPORT_COMPILE_COMMANDS=YES` 导出 `compile_commands.json`
+
 ## 系统调用
 
-linux 的系统调用可以通过 `man syscall` 和 `man syscalls` 查看，并且在程序中也可以进行调用。简单示例：[syscall](./syscall.c)
+- 通过 `man syscall` 和 `man syscalls` 可以查看 linux 的系统调用
+- 通过 `man 7 signal` 可以查看 linux 的信号
+- 并且在程序中也可以进行调用。简单示例：[syscall](./syscall.c)
+
+## `glibc` 的调试
+
+源代码的下载：[glibc homepage](https://www.gnu.org/software/libc/sources.html)
+
+```bash
+cd /usr/src/
+git clone https://sourceware.org/git/glibc.git
+```
+
+content of `~/.gdbinit`:
+
+```gdb
+directory /usr/src/glibc
+```
+
+正常情况下，`gdb` 能够递归查找 `directory` 的内容，否则需要[结合 `find` 指令和 `-d` 参数](https://stackoverflow.com/questions/1103161/searching-for-source-directories-in-gdb)
+
+## 查看库版本
+
+```bash
+ldd <executable>
+/path/to/lib
+```
