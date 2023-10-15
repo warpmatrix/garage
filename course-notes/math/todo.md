@@ -22,7 +22,7 @@
   - 矩阵右乘可以看作对**列向量的线性组合**
     - 可以看作对行空间的基向量进行变换后对行向量进行批处理
 - [x] $\operatorname{cov}(X, Y) = E(XY) - E(X)E(Y)$
-  - $E[(EX + \Delta X)(EY + \Delta Y) - E(X)E(Y) = E(\Delta X \Delta Y)$
+  - $E\left[(EX + \Delta X)(EY + \Delta Y)\right] - E(X)E(Y) = E(\Delta X \Delta Y)$
   - $\operatorname{cov}(X, Y) = E[(X - EX)(Y - EY)] = E(\Delta X \Delta Y)$
 
 ## future
