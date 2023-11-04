@@ -5,15 +5,22 @@
 ## Table of Contents
 
 - [1. 类型和运算](#1-类型和运算)
+  - [1.1. 基本类型](#11-基本类型)
+  - [1.2. 容器类型](#12-容器类型)
 - [2. 库相关](#2-库相关)
   - [2.1. 官方标准库](#21-官方标准库)
   - [2.2. sortedcontainers](#22-sortedcontainers)
+  - [2.3. 命令应用构建](#23-命令应用构建)
+  - [2.4. 抽象基类](#24-抽象基类)
+  - [2.5. 变量序列化和反序列化](#25-变量序列化和反序列化)
 - [3. 开发相关](#3-开发相关)
   - [3.1. 类型注释](#31-类型注释)
   - [3.2. 依赖管理](#32-依赖管理)
-  - [3.3. 命令行解析](#33-命令行解析)
+  - [3.3. `import` 机制](#33-import-机制)
 
 ## 1. 类型和运算
+
+### 1.1. 基本类型
 
 python 的整数范围没有限制，maxint 可以用无穷大浮点数代替：`float("inf")`
 
@@ -28,6 +35,8 @@ python 的整数范围没有限制，maxint 可以用无穷大浮点数代替：
 
 - 修改某个字符需要转化为列表：`s = list(s)`
 - 最后将列表转回字符串：`"".join(s)`
+
+### 1.2. 容器类型
 
 列表操作：
 
@@ -78,6 +87,7 @@ for idx, elem in enumerate([1, 2, 3]):
 - 键值不在字典里报错
 - `defaultdict`：不存在的键值，提供一个默认的字段
   - 接受类型或工厂函数作为参数：`m = defaultdict(int)`
+- 可以使用 `items()` 方法枚举字典的键值对
 
 无序集合：
 
@@ -113,6 +123,22 @@ for idx, elem in enumerate([1, 2, 3]):
 
 - `from sortedcontainers import SortedDict`
 
+### 2.3. 命令应用构建
+
+构建命令行应用：[`typer`](https://github.com/tiangolo/typer) 库通过装饰器修饰。
+
+命令行参数解析：使用 `argparse` 模块，一个简单的 [demo](./argparse-demo.py)。
+
+终端美化：`Rich` 终端应用提供富文本格式。
+
+### 2.4. 抽象基类
+
+`abc` 库
+
+### 2.5. 变量序列化和反序列化
+
+`pickle` 库实现变量对象序列化和反序列化
+
 ## 3. 开发相关
 
 python 变量对于数组进行引用传递，一个变量的操作可能导致另一个变量的改变
@@ -139,17 +165,8 @@ def func(var: int) -> int:
 
 安装依赖：`pip install -r requestment.txt`
 
-### 3.3. 命令行解析
+### 3.3. `import` 机制
 
-使用 `argparse` 模块，示例代码如下：
+开发过程中需要避免入口函数所在目录的文件和标准库重名。
 
-```python
-import argparse
-
-parser = argparse.ArgumentParser(description='Demo program')
-parser.add_argument('--port', type=int, default=10086, help='port of DataNode')
-args = parser.parse_args()
-
-print(args.ip)
-print(args.port)
-```
+`import` 的过程中，与标准库中的模块相比，当前目录的模块优先级更高。
