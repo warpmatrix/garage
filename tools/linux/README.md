@@ -2,6 +2,7 @@
 
 - [服务器管理](#服务器管理)
 - [常用软件的命令](#常用软件的命令)
+  - [update-alternatives](#update-alternatives)
   - [bash](#bash)
   - [gdb](#gdb)
   - [curl](#curl)
@@ -17,6 +18,14 @@
 
 ## 常用软件的命令
 
+### update-alternatives
+
+ubuntu 可以通过 `update-alternatives` 来管理软件的版本，如：通过以下指令可以指定 cuda 版本
+
+```bash
+sudo update-alternatives --config cuda
+```
+
 ### bash
 
 ```bash
@@ -26,6 +35,7 @@ chromium # 打开 chromium 浏览器
 netease-cloud-music # 打开网易云音乐
 
 ln -s src_addr link_addr # 创建文件夹快捷方式
+xev # 查看按键的信息
 showkey -a # 输出按键的 ascii 码
 nautilus # 打开文件浏览器
 xrandr -o <left/right/inverted/normal> # 旋转屏幕
