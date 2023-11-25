@@ -4,36 +4,42 @@
 <!-- omit in toc -->
 ## Table of Contents
 
-- [scanf()读到回车结束输入](#scanf读到回车结束输入)
-- [c的字符串操作](#c的字符串操作)
-- [c中的布尔类型 (C99)](#c中的布尔类型-c99)
-- ['\\r'的作用](#r的作用)
-- [表示浮点数的方法](#表示浮点数的方法)
-- [关于序列点](#关于序列点)
-- [函数原型和函数签名](#函数原型和函数签名)
-- [数组的初始化](#数组的初始化)
-- [数组与指针](#数组与指针)
-- [c 的多维变长数组 (C99)](#c-的多维变长数组-c99)
-- [关于 typedef](#关于-typedef)
-- [复合字面量](#复合字面量)
-- [关闭缓冲区和取消回显](#关闭缓冲区和取消回显)
-- [调用子程序](#调用子程序)
-- [定义二进制数](#定义二进制数)
-- [位字段](#位字段)
-- [linux-fork 函数](#linux-fork-函数)
-- [`malloc` 与 `free` 的行为定义](#malloc-与-free-的行为定义)
-- [全局变量初始化](#全局变量初始化)
-- [预定义](#预定义)
-- [隐式转换优先级](#隐式转换优先级)
-- [`while` 的两种汇编方式](#while-的两种汇编方式)
-- [浮点数内存布局和表示范围的探索](#浮点数内存布局和表示范围的探索)
-- [获得系统变量](#获得系统变量)
-- [编译运行过程](#编译运行过程)
-- [系统调用](#系统调用)
-- [`glibc` 的调试](#glibc-的调试)
-- [查看库版本](#查看库版本)
+- [语言机制](#语言机制)
+  - [`scanf` 读到回车结束输入](#scanf-读到回车结束输入)
+  - [c的字符串操作](#c的字符串操作)
+  - [c中的布尔类型 (C99)](#c中的布尔类型-c99)
+  - ['\\r'的作用](#r的作用)
+  - [表示浮点数的方法](#表示浮点数的方法)
+  - [关于序列点](#关于序列点)
+  - [函数原型和函数签名](#函数原型和函数签名)
+  - [数组的初始化](#数组的初始化)
+  - [数组与指针](#数组与指针)
+  - [c 的多维变长数组 (C99)](#c-的多维变长数组-c99)
+  - [关于 typedef](#关于-typedef)
+  - [复合字面量](#复合字面量)
+  - [关闭缓冲区和取消回显](#关闭缓冲区和取消回显)
+  - [调用子程序](#调用子程序)
+  - [定义二进制数](#定义二进制数)
+  - [位字段](#位字段)
+  - [linux-fork 函数](#linux-fork-函数)
+  - [`malloc` 与 `free` 的行为定义](#malloc-与-free-的行为定义)
+  - [全局变量初始化](#全局变量初始化)
+  - [预定义](#预定义)
+  - [隐式转换优先级](#隐式转换优先级)
+  - [`while` 的两种汇编方式](#while-的两种汇编方式)
+  - [浮点数内存布局和表示范围的探索](#浮点数内存布局和表示范围的探索)
+  - [获得系统变量](#获得系统变量)
+- [linux 与 c](#linux-与-c)
+  - [编译运行过程](#编译运行过程)
+  - [链接器的使用](#链接器的使用)
+  - [跨架构运行二进制代码](#跨架构运行二进制代码)
+  - [系统调用](#系统调用)
+  - [`glibc` 的调试](#glibc-的调试)
+  - [查看库版本](#查看库版本)
 
-## scanf()读到回车结束输入
+## 语言机制
+
+### `scanf` 读到回车结束输入
 
 ```c
 #include <stdio.h>
@@ -47,13 +53,13 @@ int main(int argc, char const *argv[]) {
 }
 ```
 
-## c的字符串操作
+### c的字符串操作
 
 c中大多数自带的字符串操作都自带 `'\0'`。
 
 例外：strncpy（若没有复制到 ```'\0```，则不会带上空字符）
 
-## c中的布尔类型 (C99)
+### c中的布尔类型 (C99)
 
 ```c
 #include <stdio.h>
@@ -65,7 +71,7 @@ int main(int argc, char const *argv[]) {
 }
 ```
 
-在里```<stdbool.h>```，将 ```bool``` 作为 ```_Bool``` 的别名，并且可以使用 ```true``` 和 ```false```。
+在里`<stdbool.h>`，将 `bool` 作为 `_Bool` 的别名，并且可以使用 `true` 和 `false`。
 
 ```c
 #include <stdbool.h>
@@ -76,7 +82,7 @@ int main(int argc, char const *argv[]) {
 }
 ```
 
-## '\r'的作用
+### '\r'的作用
 
 ```c
 #include <stdio.h>
@@ -88,13 +94,13 @@ int main(int argc, char const *argv[]) {
 }
 ```
 
-## 表示浮点数的方法
+### 表示浮点数的方法
 
 1. 固定小数点形式：e.g. ```123.4```
 2. 指数形式：e.g. ```1.234e2```
 3. 十六进制数和2的幂形式：e.g. ```0x1.ap1```
 
-## 关于序列点
+### 关于序列点
 
 用于区分语句，所有的副作用都在下一个序列点之前发生。
 
@@ -105,7 +111,7 @@ int main(int argc, char const *argv[]) {
 3. ```&&```
 4. ```||```
 
-## 函数原型和函数签名
+### 函数原型和函数签名
 
 - 函数原型可在函数内声明，但定义一定要在函数外。
 - 函数签名指函数的参数和返回值。
@@ -124,7 +130,7 @@ void fun() {
 }
 ```
 
-## 数组的初始化
+### 数组的初始化
 
 若不对数组进行初始化，则数组内存储 junk value；若进行初始化（可以部分初始化），则剩下未初始化的元素被初始化为 0。
 
@@ -160,7 +166,7 @@ int main(int argc, char const *argv[]) {
 
 另，**变长数组不能被初始化**。
 
-## 数组与指针
+### 数组与指针
 
 指针与数组是不同的东西。例，```sizeof ptr``` 不能读取数组的大小，数组的地址没有 ```++``` 运算符。
 
@@ -195,7 +201,7 @@ int main(int argc, char const *argv[]) {
 
 另外，可以在 ```for``` 循环中使用头尾指针遍历数组。
 
-## c 的多维变长数组 (C99)
+### c 的多维变长数组 (C99)
 
 c 在函数传参的过程中，可以直接传递多维变长数组。这一点与 c++ 不同。函数声明可以用 * 代替数组的长度变量。同样要强调，传递参数后数组的首地址退化为指针。
 
@@ -220,7 +226,7 @@ void fun(int rows, int cols, int ptr[][cols]) {
 }
 ```
 
-## 关于 typedef
+### 关于 typedef
 
 ```c
 #include <stdio.h>
@@ -236,7 +242,7 @@ int main(int argc, char const *argv[]) {
 }
 ```
 
-## 复合字面量
+### 复合字面量
 
 复合字面量可以创建一个匿名数组，供临时使用。
 
@@ -258,7 +264,7 @@ int main(int argc, char const *argv[]) {
 }
 ```
 
-## 关闭缓冲区和取消回显
+### 关闭缓冲区和取消回显
 
 ```c
 system("stty -icanon");
@@ -267,11 +273,11 @@ system("stty echo");
 system("stty icanon");
 ```
 
-## 调用子程序
+### 调用子程序
 
 使用 system 函数，可以调用其它应用程序。（windows 下？）
 
-## 定义二进制数
+### 定义二进制数
 
 ```c
 #include <stdio.h>
@@ -283,7 +289,7 @@ int main(int argc, char const *argv[]) {
 }
 ```
 
-## 位字段
+### 位字段
 
 ```c
 #include <limits.h>
@@ -320,7 +326,7 @@ char *itobs(int num, char *ps) {
 }
 ```
 
-## linux-fork 函数
+### linux-fork 函数
 
 ```c
 #include <pthread.h>
@@ -355,14 +361,14 @@ void *runner(void *param) {
 }
 ```
 
-## `malloc` 与 `free` 的行为定义
+### `malloc` 与 `free` 的行为定义
 
 - 针对 `malloc` 无法申请内存的 `NULL` 情况，`free` 无行为
   - 写 `NULL` 操作导致 seg fault
 - `free` 接受的指针和 `malloc` 获得的内存指针必须相同，否则产生 RE
 - 避免动态内存遗漏回收
 
-## 全局变量初始化
+### 全局变量初始化
 
 全局变量默认零值初始化，对全局变量进行初始化只能使用常量，哪怕是常量变量也不行
 
@@ -372,7 +378,7 @@ const int num = 12;
 // int copy = num;
 ```
 
-## 预定义
+### 预定义
 
 输出对应的名称，通常用于 debug 等环境
 
@@ -383,7 +389,7 @@ const int num = 12;
 - `__TIME__`：显示编译的时间
 - `__STDC__`：要求遵循标准 C 的标志
 
-## 隐式转换优先级
+### 隐式转换优先级
 
 隐式转换：优先转换为无符号数字
 
@@ -416,7 +422,7 @@ for (unsigned i = cnt - 1; i < cnt; i--) {
 // normal exit
 ```
 
-## `while` 的两种汇编方式
+### `while` 的两种汇编方式
 
 ```c
     goto test;
@@ -431,7 +437,7 @@ test: if (cond) goto loop;
 done:
 ```
 
-## 浮点数内存布局和表示范围的探索
+### 浮点数内存布局和表示范围的探索
 
 ```c
 #include <stdint.h>
@@ -461,7 +467,7 @@ int main(int argc, char const *argv[]) {
 }
 ```
 
-## 获得系统变量
+### 获得系统变量
 
 ```c
 #include <stdlib.h>
@@ -479,7 +485,9 @@ export CLASSPATH=abc
 ./test
 ```
 
-## 编译运行过程
+## linux 与 c
+
+### 编译运行过程
 
 生成可执行文件的过程：
 
@@ -494,13 +502,25 @@ export CLASSPATH=abc
 
 `cmake` 也可以通过参数 `-DCMAKE_EXPORT_COMPILE_COMMANDS=YES` 导出 `compile_commands.json`
 
-## 系统调用
+### 链接器的使用
+
+链接器 `ld` 可以通过 `-T` 参数自定义链接脚本，从而指定链接时的重定向地址定义可执行文件的内存布局
+
+通过 `ld --verbose` 可以查看默认的链接脚本
+
+### 跨架构运行二进制代码
+
+如果需要跨平台运行二进制代码，可以使用 `qemu` 模拟器
+
+如 `mips` 架构下的 `qemu-mips`（可以通过 `apt install qemu-user` 安装）
+
+### 系统调用
 
 - 通过 `man syscall` 和 `man syscalls` 可以查看 linux 的系统调用
 - 通过 `man 7 signal` 可以查看 linux 的信号
 - 并且在程序中也可以进行调用。简单示例：[syscall](./syscall.c)
 
-## `glibc` 的调试
+### `glibc` 的调试
 
 源代码的下载：[glibc homepage](https://www.gnu.org/software/libc/sources.html)
 
@@ -517,7 +537,7 @@ directory /usr/src/glibc
 
 正常情况下，`gdb` 能够递归查找 `directory` 的内容，否则需要[结合 `find` 指令和 `-d` 参数](https://stackoverflow.com/questions/1103161/searching-for-source-directories-in-gdb)
 
-## 查看库版本
+### 查看库版本
 
 ```bash
 ldd <executable>
