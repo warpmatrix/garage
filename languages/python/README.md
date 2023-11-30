@@ -18,6 +18,7 @@
   - [3.2. 依赖管理](#32-依赖管理)
   - [3.3. `import` 机制](#33-import-机制)
   - [3.4. pdb 调试](#34-pdb-调试)
+  - [3.5. 多线程编程](#35-多线程编程)
 
 ## 1. 类型和运算
 
@@ -172,8 +173,14 @@ def func(var: int) -> int:
 
 `import` 的过程中，与标准库中的模块相比，当前目录的模块优先级更高。
 
+python 存在两种运行方式，因此 `import` 也有[不同的讨论](https://zhuanlan.zhihu.com/p/63143493)：
+
 ### 3.4. pdb 调试
 
 python 可以通过 [pdb](https://docs.python.org/3/library/pdb.html) 进行调试
 
 - 并且 `.pdbrc` 可以实现与 `.gdbinit` 相同的功能
+
+### 3.5. 多线程编程
+
+多线程编程实例：[multi-threads.py](./multi-threads.py)
