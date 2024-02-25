@@ -8,6 +8,7 @@
   - [curl](#curl)
   - [ssh](#ssh)
   - [vim](#vim)
+  - [apt](#apt)
 
 ## 服务器管理
 
@@ -131,3 +132,7 @@ curl --resolve addr:ip:port url # 模拟 DNS 服务器将 url 中的地址解析
 vim 中使用 `verbose set` 可以查看具体设定，如：
 
 - `verbose set` 查看文件类型
+
+### apt
+
+apt 卸载本地的 deb 包，需要通过 `dpkg -l` 查询安装的包名 ([ref](https://devimalplanet.com/how-to-uninstall-deb-packages-linux))
