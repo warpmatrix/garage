@@ -9,3 +9,4 @@ cmd = f"nsys start --session={result}"
 cmd_args = cmd.split(" ")
 subprocess.run(cmd_args)
 time.sleep(1)
+assert False, "assert should be True"
