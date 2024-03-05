@@ -15,7 +15,9 @@
 - 部署 quark 时如果使用的是 proxmox 需要开启嵌套虚拟化的支持 ([ref](https://zhuanlan.zhihu.com/p/593472919))
 - proxmox 虚拟机的扩容：[逻辑卷组的操作](https://einverne.github.io/post/2020/11/extend-proxmox-system-partition-and-pve-file-system.html)、[已有分区的扩展](https://cloud.tencent.com/developer/beta/article/1671893)、[扩容文件系统](https://blog.csdn.net/youjin/article/details/79137203)
 - jetson 创建容器所使用的[镜像文档](https://catalog.ngc.nvidia.com/orgs/nvidia/containers/l4t-pytorch)、查看 L4T 使用的指令 `jtop`
-- linux 开机自启动：可以利用 crontab 中的 `@reboot`
+- linux 开机自启动：可以利用 crontab 中的 `@reboot`，也可以使用 `systemctl` 或 `service` 管理服务程序
+- [systemctl](https://www.techtarget.com/searchnetworking/tip/20-systemctl-commands-for-system-and-service-management) 的用法：system management, service management, sending signals, check system start time
+- [systemctl v.s. service](https://www.makeuseof.com/service-vs-systemctl-in-linux/)
 
 ## 常用软件的命令
 
