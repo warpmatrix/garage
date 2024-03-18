@@ -12,3 +12,12 @@ material:
 ## cuda gdb
 
 Initialization File: `.cuda-gdbinit`
+
+## cuda execution details
+
+- [cuda programming guide](https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html)
+- [cuda best practices](https://docs.nvidia.com/cuda/cuda-c-best-practices-guide/index.html)
+- [tail effect](https://developer.nvidia.com/blog/cuda-pro-tip-minimize-the-tail-effect/)
+- [stream priority](https://forums.developer.nvidia.com/t/questions-of-cuda-stream-priority/250343/4)
+
+related paper: Paella: Low-latency Model Serving with Software-defined GPU Scheduling
