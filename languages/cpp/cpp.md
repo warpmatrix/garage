@@ -249,4 +249,6 @@ auto f = [&](auto &&self, int n) -> {
 
 ## cpp 的多值返回 - [Structured Bindings](./structured_bindings.cpp)
 
+在 c++17 之前使用 `std::tie` 接收多值返回，c++17 之后可以直接使用结构化绑定 (structured bindings)。不过一般情况下，为了保证代码的可读性还是尽量声明结构体比较合适。
+
 ref: [C++17 结构化绑定(Structured Bindings)初探](https://zhuanlan.zhihu.com/p/139140185)、[c++函数返回多值](https://www.zhihu.com/question/57540006)
