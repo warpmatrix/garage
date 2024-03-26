@@ -467,6 +467,15 @@ int main(int argc, char const *argv[]) {
 }
 ```
 
+### `assert` 的使用
+
+使用断言捕捉不应该发生的非法情况（非法情况需要与错误情况区别开）
+
+- assert 的缺点：频繁的调用会极大的影响程序的性能，增加额外的开销。
+- `#include` 的语句之前插入 `#define NDEBUG` 来禁用 `assert` 调用
+- 每个 `assert` 检查一个条件，以直观判断失败条件
+- `assert` 语句中不应引入副作用
+
 ### 获得系统变量
 
 ```c
