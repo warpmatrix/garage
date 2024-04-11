@@ -1,4 +1,4 @@
-# tricky skill
+# Tricky Skill
 
 异或操作：
 
