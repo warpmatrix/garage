@@ -1,6 +1,50 @@
-# Tricky Skill
+# Cheatsheet
 
-异或操作：
+<!-- omit in toc -->
+## Table of Contents
+
+- [Standard Library](#standard-library)
+  - [Split Operation](#split-operation)
+  - [Binary Search](#binary-search)
+- [Tricky Skill](#tricky-skill)
+  - [XOR Operation](#xor-operation)
+  - [Bit Operation in State Compression](#bit-operation-in-state-compression)
+  - [Range Problem](#range-problem)
+
+## Standard Library
+
+### Split Operation
+
+char array 的 split 操作：
+
+```c
+pos = strchr(start_pos, target_ch);
+pos = strstr(start_pos, target_str);
+```
+
+string 的 split 操作：
+
+```cpp
+pos = string.find(target, start_pos, count)
+sub_string = string.substr(pos, count)
+start_pos = pos + target.size()
+```
+
+### Binary Search
+
+```cpp
+bool found = std::binary_search(iter_begin, iter_end, value, cmp);
+// find the first elem larger then value in cmp func
+iter = std::upper_bound(iter_begin, iter_end, value, cmp);
+// find the last elem not larger then value in cmp func
+iter = std::lower_bound(iter_begin, iter_end, value, cmp);
+// find the range of specific value
+std::pair<iter, iter> rng = std::equal_range(iter_begin, iter_end, value, cmp);
+```
+
+## Tricky Skill
+
+### XOR Operation
 
 - 连续数字异或的性质：$4i \oplus (4i+1) \oplus (4i+2) \oplus (4i+3) = 0$
   - 通过上面的性质可以得到连续正整数进行异或的结果：$\operatorname{xor}(x) = \begin{cases}
@@ -15,7 +59,7 @@
   - 出现两次，异或结果为 0
   - 出现 n 次，相加得到的结果为 n 的倍数
 
-位操作（状态压缩）：
+### Bit Operation in State Compression
 
 - `x = x & (x−1)`，将 x 最低位的 1 变成 0
 - 遍历子集的方法：
@@ -33,6 +77,8 @@
       y := i ^ 1 << x
   }
   ```
+
+### Range Problem
 
 关于区间的问题，多以前缀的方向进行考虑；并且区间问题多可以使用哈希表进行加速，降低时间复杂度
 
