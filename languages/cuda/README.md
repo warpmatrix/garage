@@ -19,5 +19,11 @@ Initialization File: `.cuda-gdbinit`
 - [cuda best practices](https://docs.nvidia.com/cuda/cuda-c-best-practices-guide/index.html)
 - [tail effect](https://developer.nvidia.com/blog/cuda-pro-tip-minimize-the-tail-effect/)
 - [stream priority](https://forums.developer.nvidia.com/t/questions-of-cuda-stream-priority/250343/4)
+- [Multiple Instance GPU - MIG](https://docs.nvidia.com/datacenter/tesla/mig-user-guide/index.html)
 
 related paper: Paella: Low-latency Model Serving with Software-defined GPU Scheduling
+
+## Profile
+
+- [nvbandwidth](https://github.com/NVIDIA/nvbandwidth)
+  - also corresponds to the output of `nvidia-smi topo -m` commands
