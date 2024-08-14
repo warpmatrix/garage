@@ -119,6 +119,8 @@ for idx, elem in enumerate([1, 2, 3]):
 
 - `bisect_left`, `bisect_right`
 
+官方日志库格式：https://docs.python.org/3/library/logging.html#logrecord-attributes
+
 ### 2.2. sortedcontainers
 
 一个 Apache2 授权的排序集合库，[github 地址](https://github.com/grantjenks/python-sortedcontainers)、[官网地址](http://www.grantjenks.com/docs/sortedcontainers/#)
