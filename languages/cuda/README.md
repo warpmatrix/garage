@@ -14,6 +14,12 @@ cuda 编程中的硬件概念：SM、warp、SP
 - block 中的 thread 以 warp 为单位分配执行
 - active thread 一个 SM 同时处理的 thread 数量
 
+gpu 中的 hbm 读写操作共用带宽，单一操作最高可以达到 spec 中提及的带宽速度
+
+- [nsight-compute 不支持在 MPS 中使用](https://docs.nvidia.com/nsight-compute/ReleaseNotes/index.html#known-issues)，出现大量 nan 的情况
+
+> Profiling with enabled multi-process service (MPS) can result in undefined behavior.
+
 ## cuda gdb
 
 Initialization File: `.cuda-gdbinit`
