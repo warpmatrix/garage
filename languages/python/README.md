@@ -196,3 +196,8 @@ python 可以通过 [pdb](https://docs.python.org/3/library/pdb.html) 进行调�
 ### 3.5. 多线程编程
 
 多线程编程实例：[multi-threads.py](./multi-threads.py)
+
+### 3.6. 程序构建与分发
+
+- [setuptools](https://setuptools.pypa.io/en/latest/index.html)
+- [pip install](https://pip.pypa.io/en/stable/cli/pip_install/)
