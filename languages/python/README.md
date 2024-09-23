@@ -20,6 +20,7 @@
   - [3.3. `import` 机制](#33-import-机制)
   - [3.4. pdb 调试](#34-pdb-调试)
   - [3.5. 多线程编程](#35-多线程编程)
+  - [3.6. 程序构建与分发](#36-程序构建与分发)
 
 ## 1. 类型和运算
 
@@ -172,6 +173,7 @@ def func(var: int) -> int:
 - 类型别名：使用自定义的类型名称
   - 与原始类型等价的声明方式：`<typename> = <type-expression>`
   - 创建新子类的声明方式：`<typename> = NewType('<typename>', <type-expression>)`
+- [function overloading](https://adamj.eu/tech/2021/05/29/python-type-hints-how-to-use-overload/)
 
 ### 3.2. 依赖管理
 
