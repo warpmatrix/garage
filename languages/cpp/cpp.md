@@ -19,6 +19,7 @@
 - [lambda 函数实现递归](#lambda-函数实现递归)
 - [cpp 的多值返回 - Structured Bindings](#cpp-的多值返回---structured-bindings)
 - [字面量中的数字分隔符 (c++14)](#字面量中的数字分隔符-c14)
+- [类成员函数指针](#类成员函数指针)
 
 ## 引用的用法
 
@@ -265,3 +266,7 @@ int dec = 123'456;
 int hex = 0x7C00'7FFF;
 float f = 123.456'789;
 ```
+
+## 类成员函数指针
+
+ref: [类成员函数指针](https://www.runoob.com/w3cnote/cpp-func-pointer.html)
