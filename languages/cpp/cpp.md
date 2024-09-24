@@ -18,6 +18,8 @@
 - [`typeid` 获取类型信息](#typeid-获取类型信息)
 - [lambda 函数实现递归](#lambda-函数实现递归)
 - [cpp 的多值返回 - Structured Bindings](#cpp-的多值返回---structured-bindings)
+- [字面量中的数字分隔符 (c++14)](#字面量中的数字分隔符-c14)
+- [类成员函数指针](#类成员函数指针)
 
 ## 引用的用法
 
@@ -249,4 +251,22 @@ auto f = [&](auto &&self, int n) -> {
 
 ## cpp 的多值返回 - [Structured Bindings](./structured_bindings.cpp)
 
+在 c++17 之前使用 `std::tie` 接收多值返回，c++17 之后可以直接使用结构化绑定 (structured bindings)。不过一般情况下，为了保证代码的可读性还是尽量声明结构体比较合适。
+
 ref: [C++17 结构化绑定(Structured Bindings)初探](https://zhuanlan.zhihu.com/p/139140185)、[c++函数返回多值](https://www.zhihu.com/question/57540006)
+
+## 字面量中的数字分隔符 (c++14)
+
+c++14 中引入了数字分隔符可以使用在整数（包含其他进制）、浮点数：
+
+```cpp
+int bin = 0b1001'1101;
+int oct = 0123'456;
+int dec = 123'456;
+int hex = 0x7C00'7FFF;
+float f = 123.456'789;
+```
+
+## 类成员函数指针
+
+ref: [类成员函数指针](https://www.runoob.com/w3cnote/cpp-func-pointer.html)
