@@ -1,6 +1,7 @@
 # Linux
 
 - [服务器管理](#服务器管理)
+- [字体安装](#字体安装)
 - [常用软件的命令](#常用软件的命令)
   - [update-alternatives](#update-alternatives)
   - [bash](#bash)
@@ -15,6 +16,12 @@
 - proxmox 虚拟机的扩容：[逻辑卷组的操作](https://einverne.github.io/post/2020/11/extend-proxmox-system-partition-and-pve-file-system.html)、[已有分区的扩展](https://cloud.tencent.com/developer/beta/article/1671893)、[扩容文件系统](https://blog.csdn.net/youjin/article/details/79137203)
 - jetson 创建容器所使用的[镜像文档](https://catalog.ngc.nvidia.com/orgs/nvidia/containers/l4t-pytorch)、查看 L4T 使用的指令 `jtop`
 - linux 开机自启动：可以利用 crontab 中的 `@reboot`
+
+## 字体安装
+
+- [ubuntu 可用字体](https://help.ubuntu.com/community/Fonts)
+- 字体查询：`fc-list`
+  - 查询中文字体：`fc-list :lang=zh-cn`
 
 ## 常用软件的命令
 

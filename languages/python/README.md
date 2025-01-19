@@ -21,6 +21,7 @@
   - [3.4. pdb 调试](#34-pdb-调试)
   - [3.5. 多线程编程](#35-多线程编程)
   - [3.6. 程序构建与分发](#36-程序构建与分发)
+  - [3.7. `argparser` 的使用](#37-argparser-的使用)
 
 ## 1. 类型和运算
 
@@ -203,3 +204,8 @@ python 可以通过 [pdb](https://docs.python.org/3/library/pdb.html) 进行调�
 
 - [setuptools](https://setuptools.pypa.io/en/latest/index.html)
 - [pip install](https://pip.pypa.io/en/stable/cli/pip_install/)
+
+### 3.7. `argparser` 的使用
+
+- [最小 demo](./argparse-demo.py)
+- args 中传入 list：`nargs='+'` ([ref](https://stackoverflow.com/questions/15753701/how-can-i-pass-a-list-as-a-command-line-argument-with-argparse))
