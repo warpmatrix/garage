@@ -14,8 +14,10 @@
 
 - 部署 quark 时如果使用的是 proxmox 需要开启嵌套虚拟化的支持 ([ref](https://zhuanlan.zhihu.com/p/593472919))
 - proxmox 虚拟机的扩容：[逻辑卷组的操作](https://einverne.github.io/post/2020/11/extend-proxmox-system-partition-and-pve-file-system.html)、[已有分区的扩展](https://cloud.tencent.com/developer/beta/article/1671893)、[扩容文件系统](https://blog.csdn.net/youjin/article/details/79137203)
+  - [逻辑卷、物理卷的介绍与操作](https://www.tecmint.com/extend-and-reduce-lvms-in-linux/)
 - jetson 创建容器所使用的[镜像文档](https://catalog.ngc.nvidia.com/orgs/nvidia/containers/l4t-pytorch)、查看 L4T 使用的指令 `jtop`
 - linux 开机自启动：可以利用 crontab 中的 `@reboot`
+- [chsh 报错 `PAM: Authentication failure`](https://askubuntu.com/questions/812420/chsh-always-asking-a-password-and-get-pam-authentication-failure)
 
 ## 字体安装
 
@@ -138,3 +140,4 @@ curl --resolve addr:ip:port url # 模拟 DNS 服务器将 url 中的地址解析
 vim 中使用 `verbose set` 可以查看具体设定，如：
 
 - `verbose set` 查看文件类型
+- [换行显示与换行替换](https://stackoverflow.com/questions/3852868/how-to-make-vim-show-m-and-substitute-it)
