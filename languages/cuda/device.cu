@@ -19,6 +19,10 @@ int main(int argc, char** argv) {
         printf(" Device name: %s\n", p.name);
         printf(" Memory Clock Rate (KHz): %d\n", p.memoryClockRate);
         printf(" Memory Bus Width (bits): %d\n", p.memoryBusWidth);
+        printf(" Device %d has compute capability %d.%d.\n",
+            device, deviceProp.major, deviceProp.minor);
+        printf(" Device %d support: concurrent kenel execution(%d), intra-device copy(%d)\n",
+            device, deviceProp.concurrentKernels, deviceProp.asyncEngineCount);
     }
 
     return 0;
