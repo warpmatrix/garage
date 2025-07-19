@@ -37,6 +37,7 @@
   - [`glibc` 的调试](#glibc-的调试)
   - [查看库版本](#查看库版本)
   - [获取符号对应的函数](#获取符号对应的函数)
+- [MPI](#mpi)
 
 ## 语言机制
 
@@ -549,3 +550,8 @@ ldd <executable>
 
 - [demangler](https://demangler.com/)
 - `nm` 可以用于查看二进制文件（.so 文件、可执行文件）的符号表
+
+## MPI
+
+- [compile: mpicc/mpic++](https://docs.open-mpi.org/en/v5.0.x/building-apps/quickstart.html)
+- [run: mpirun](https://docs.open-mpi.org/en/v5.0.x/launching-apps/quickstart.html#using-mpirun-to-launch-applications)
