@@ -52,7 +52,23 @@ import 所有内容直接使用：
 })
 ```
 
+=== 内容布局
+
+划分单个 column 的多列网格布局
+- 可用于两个图片并列排布的场景
+
+```typ
+#grid(columns: 2, gutter: 1em)[
+  ...
+][
+  ...
+]
+```
+
+另外，文字与图片混合布局，可以使用第三方库 `wrap-it`，见下方 @sec:third-lib
+
 === 常用的第三方库
+<sec:third-lib>
 
 checklist 的渲染:
 ```typ
