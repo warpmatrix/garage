@@ -65,7 +65,7 @@ Profile Example: [profile.cu](./profile.cu)
 Reference:
 
 - [Nsight System](https://docs.nvidia.com/nsight-systems/UserGuide/index.html)
-- [NVTX](https://github.com/NVIDIA/NVTX)
+- [NVTX](https://github.com/NVIDIA/NVTX)、[nvtx auto notation in python](https://nvtx.readthedocs.io/en/latest/auto.html)
 
 ### Third Library
 
