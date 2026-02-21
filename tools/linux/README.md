@@ -2,12 +2,15 @@
 
 - [服务器管理](#服务器管理)
 - [字体安装](#字体安装)
+- [CA 证书](#ca-证书)
+  - [Arch Linux](#arch-linux)
 - [常用软件的命令](#常用软件的命令)
   - [update-alternatives](#update-alternatives)
   - [bash](#bash)
   - [curl](#curl)
   - [ssh](#ssh)
   - [vim](#vim)
+  - [Other](#other)
 
 ## 服务器管理
 
@@ -18,30 +21,84 @@
 - linux 开机自启动：可以利用 crontab 中的 `@reboot`
 - [chsh 报错 `PAM: Authentication failure`](https://askubuntu.com/questions/812420/chsh-always-asking-a-password-and-get-pam-authentication-failure)
 
+记录 sudoer 信息的文件：`/etc/sudoers`
+
+- 编辑 sudoer 文件：`visudo`
+
 ## 字体安装
 
 - [ubuntu 可用字体](https://help.ubuntu.com/community/Fonts)
 - 字体查询：`fc-list`
   - 查询中文字体：`fc-list :lang=zh-cn`
 
+## CA 证书
+
+### Arch Linux
+
+[信任源管理（证书管理）](https://wiki.archlinux.org/title/Transport_Layer_Security#Trust_management)：
+
+- 列出已添加的信任源：`trust list`
+- 添加信任源：`trust anchor <certificate.crt>`
+- 删除信任源：`trust anchor --remove <crt-id>`
+
 ## 常用软件的命令
 
 ### update-alternatives
 
-ubuntu 可以通过 `update-alternatives` 来管理软件的版本，如：通过以下指令可以指定 cuda 版本
+ubuntu 可以通过 `update-alternatives` 来管理使用的软件和版本。如：可以指定 cuda 版本、默认编辑器等
 
 ```bash
 sudo update-alternatives --config cuda
+sudo update-alternatives --config editor
 ```
 
 ### bash
 
 ```bash
-code # 打开 vscode
-google-chrome # 打开 chrome 浏览器
-chromium # 打开 chromium 浏览器
-netease-cloud-music # 打开网易云音乐
+echo !# # 获得上一个命令名
+echo !$ # 获得上一个指令的最后一个参数
+echo !:n # 获得上一个指令的第 n 个参数
+!! # 执行上一条指令
+```
 
+### curl
+
+```shell
+# -d 发送 POST 请求的数据体，-X 指定方法
+curl url -d 'key1=value1&key2=value2' -X Post
+# -b 设置 cookie 信息
+curl url -b 'key=val'
+# -G 指定 get 方法，--data-urlencode 使用 url 传递参数
+curl -G url --data-urlencode 'key=val'
+curl --resolve addr:ip:port url # 模拟 DNS 服务器将 url 中的地址解析为 ip:port
+```
+
+### ssh
+
+远程连接：`ssh user@address`
+
+- 缺省 `user@` 的情况下，默认使用和本地相同用户名作为登陆的用户
+- `ssh-copy-id user@address` 设置免密登陆
+- `-X` 参数可以进行图形的转发
+- ssh 可以直接执行指令
+- 在 `~/.ssh/config` 中可以配置 ssh 的别名
+
+    ```sshconfig
+    Host <alias-name>
+        HostName <host-name>
+        User <user>
+    ```
+
+### vim
+
+vim 中使用 `verbose set` 可以查看具体设定，如：
+
+- `verbose set` 查看文件类型
+- [换行显示与换行替换](https://stackoverflow.com/questions/3852868/how-to-make-vim-show-m-and-substitute-it)
+
+### Other
+
+```bash
 ln -s src_addr link_addr # 创建文件夹快捷方式
 xev # 查看按键的信息
 showkey -a # 输出按键的 ascii 码
@@ -78,13 +135,7 @@ sudo chmod 4755 /usr/bin/<app-name>
 # -rwxr-xr-x -> -rwsr-xr-x
 sudo gpasswd -a <user> <group-name>
 
-echo !# # 获得上一个命令名
-echo !$ # 获得上一个指令的最后一个参数
-echo !:n # 获得上一个指令的第 n 个参数
-!! # 执行上一条指令
-
 whatis # 查看命令用途
-sudo update-alternatives --config editor # 设置默认的编辑器
 iwconfig # 配置无线网络接口
 ifconfig # 配置网络接口
 
@@ -96,39 +147,11 @@ ls -i <file> # 查看文件的 inode 编号
 dumpe2fs <device> # dump file extx filesystem information
 ```
 
-记录 sudoer 信息的文件：`/etc/sudoers`
+第三方软件：
 
-### curl
-
-```shell
-# -d 发送 POST 请求的数据体，-X 指定方法
-curl url -d 'key1=value1&key2=value2' -X Post
-# -b 设置 cookie 信息
-curl url -b 'key=val'
-# -G 指定 get 方法，--data-urlencode 使用 url 传递参数
-curl -G url --data-urlencode 'key=val'
-curl --resolve addr:ip:port url # 模拟 DNS 服务器将 url 中的地址解析为 ip:port
+```bash
+code # 打开 vscode
+google-chrome # 打开 chrome 浏览器
+chromium # 打开 chromium 浏览器
+netease-cloud-music # 打开网易云音乐
 ```
-
-### ssh
-
-远程连接：`ssh user@address`
-
-- 缺省 `user@` 的情况下，默认使用和本地相同用户名作为登陆的用户
-- `ssh-copy-id user@address` 设置免密登陆
-- `-X` 参数可以进行图形的转发
-- ssh 可以直接执行指令
-- 在 `~/.ssh/config` 中可以配置 ssh 的别名
-
-    ```sshconfig
-    Host <alias-name>
-        HostName <host-name>
-        User <user>
-    ```
-
-### vim
-
-vim 中使用 `verbose set` 可以查看具体设定，如：
-
-- `verbose set` 查看文件类型
-- [换行显示与换行替换](https://stackoverflow.com/questions/3852868/how-to-make-vim-show-m-and-substitute-it)
